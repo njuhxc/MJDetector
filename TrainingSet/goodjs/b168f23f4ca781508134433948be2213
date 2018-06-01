@@ -1,0 +1,1 @@
+setInterval(function () { $('html').css('padding', 0); }, 1000);

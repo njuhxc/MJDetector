@@ -1,0 +1,1 @@
+<script  type="text/javascript" language="JavaScript">        window.onload = function()        {            document.getElementById("infofenster").style.visibility = "visible";        };    

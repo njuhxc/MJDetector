@@ -1,0 +1,1 @@
+							$( "time.today" ).set_date() ;						

@@ -1,0 +1,1 @@
+//<![CDATA[var purl= location.href;var fb_href = purl.substring(0,purl.indexOf(".html")+5);var fbcm ='<div class="fb-comments" data-href="'+fb_href+'" data-num-posts="5" data-width="660"></div>';//]]>

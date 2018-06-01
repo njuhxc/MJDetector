@@ -1,0 +1,1 @@
+				// Refresh				if ( folha.information.page.type == "home" ) {					folha.refresh.interval = 5 ;					folha.refresh.start() ;				}				// Topo				$( "div.article-top_image" ).removeClass( "hide" ) ;				// AudioJs				$( "div.audio-player .audio" ).audio_player() ;				// Fix Newslist								folha.fix_newslist();				folha.share.init();							

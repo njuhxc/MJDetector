@@ -1,0 +1,1 @@
+document.write('<iframe width=276 height=580 src=http://adverse.persiangig.com/pgads/ads/CV/?'+Math.random()+' frameborder=0 scrolling=no></iframe>')

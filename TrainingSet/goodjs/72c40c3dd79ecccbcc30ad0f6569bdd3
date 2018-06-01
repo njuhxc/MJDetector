@@ -1,0 +1,1 @@
+commentForm = document.forms[i].comment.parentNode;		break;	}}var commentArea = commentForm.parentNode;var captchafrm = document.getElementById("zrx_captcha");commentArea.insertBefore(captchafrm, commentForm);commentArea.publicKey.size = commentArea.author.size;commentArea.publicKey.className = commentArea.author.className;

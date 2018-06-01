@@ -1,0 +1,1 @@
+<script  type="text/csq-def">        {"queue": "cfg-ready-queue", "raw": "\n            var imageOnDemand = require(\u0027ImageOnDemand\u0027);\n            imageOnDemand.initialize(1000, 200);\n        ", "modname": "ImageOnDemand", "type": "raw", "singleton": false}        

@@ -1,0 +1,1 @@
+	/* <![CDATA[ */		window.addEvent('domready', function() {			document.body.oncopy = function() {				//alert('Stop copying the copyrighted material!');				return false;			}		});	/* ]]> */

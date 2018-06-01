@@ -1,0 +1,1 @@
+ document.getElementById('jetpack-source_f_name').value = ''; 

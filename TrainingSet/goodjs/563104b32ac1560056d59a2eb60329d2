@@ -1,0 +1,1 @@
+ // <![CDATA[			var current_header_ic = false;			function shrinkHeaderIC(mode)			{				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";				current_header_ic = mode;			}		// ]]>

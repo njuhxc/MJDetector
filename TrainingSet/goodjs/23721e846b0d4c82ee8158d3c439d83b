@@ -1,0 +1,1 @@
+<script  type="text/javascript" language="JavaScript">var today = new Date();document.write(today.getFullYear());//

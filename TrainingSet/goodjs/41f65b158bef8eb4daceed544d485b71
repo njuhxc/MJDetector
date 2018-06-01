@@ -1,0 +1,1 @@
+ 	 NoScript.Style.Display = "none" 	 CanRunScript.Style.Display = "" 	 Img.Src = FileListArr(0) 	 Link.Href = LinkArr(0) 	 SetTimeout "ChangeImg", PlayImg_M,"VBScript" 	

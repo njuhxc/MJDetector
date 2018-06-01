@@ -1,0 +1,1 @@
+document.write('<style>.texthidden {display:none} </style>');

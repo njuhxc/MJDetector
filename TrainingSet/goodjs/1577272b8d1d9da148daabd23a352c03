@@ -1,0 +1,1 @@
+<script  type="text/Javascript">function expandcollapse (postid) {whichpost = document.getElementById(postid);if (whichpost.className=="shown") {whichpost.className="texthidden";}else {whichpost.className="shown";}}

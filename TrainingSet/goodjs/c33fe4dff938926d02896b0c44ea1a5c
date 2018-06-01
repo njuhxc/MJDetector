@@ -1,0 +1,1 @@
+<br />function clickclear(thisfield, defaulttext) {<br />if (thisfield.value == defaulttext) {<br />thisfield.value = "";<br />}<br />}<br />function clickrecall(thisfield, defaulttext) {<br />if (thisfield.value == "") {<br />thisfield.value = defaulttext;<br />}<br />}<br />

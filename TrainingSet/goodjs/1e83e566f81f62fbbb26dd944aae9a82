@@ -1,0 +1,1 @@
+document.getElementById("Link1").className="a1";
