@@ -1,0 +1,1277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<link href='https://www.blogger.com/static/v1/widgets/3957297643-widget_css_bundle.css' rel='stylesheet' type='text/css'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='http://thibaud60.blogspot.co.uk/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://thibaud60.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Le blog de Thibaud :-) - Atom" href="http://thibaud60.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Le blog de Thibaud :-) - RSS" href="http://thibaud60.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Le blog de Thibaud :-) - Atom" href="https://www.blogger.com/feeds/5339728292405481239/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/03063839278956085177" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://thibaud60.blogspot.com/" />
+<!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+<meta content='http://thibaud60.blogspot.com/' property='og:url'/>
+<meta content='Le blog de Thibaud :-)' property='og:title'/>
+<meta content='' property='og:description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Le blog de Thibaud :-)</title>
+<meta content='lWAjt8nSBzdKTJJqDzKTPugIDZa8aCN2dOysn7sh+P4=' name='verify-v1'/>
+<style id='page-skin-1' type='text/css'><!--
+/*
+* Blogger Template Style
+* Name:     TicTac (Blueberry)
+* Date:     1 March 2004
+* Updated by: Blogger Team
+*/
+/* Variable definitions
+====================
+<Variable name="textcolor" description="Text Color"
+type="color" default="#333">
+<Variable name="pagetitlecolor" description="Page Header Color"
+type="color" default="#FFF">
+<Variable name="datecolor" description="Date Header Color"
+type="color" default="#999999">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#993333">
+<Variable name="footercolor" description="Post Footer Color"
+type="color" default="#999">
+<Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#999">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#666">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#69c">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#666699">
+<Variable name="bodyfont" description="Text Font"
+type="font"
+default="normal normal 100% Verdana, sans-serif">
+<Variable name="pagetitlefont" description="Page Header Font"
+type="font" default="normal normal 100% 'Lucida Grande','Trebuchet MS'">
+<Variable name="titlefont" description="Post Title Font"
+type="font" default="normal bold 130% 'Lucida Grande','Trebuchet MS'">
+<Variable name="sidebarheaderfont" description="Sidebar Title Font"
+type="font" default="normal bold 130% 'Lucida Grande','Trebuchet MS'">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+/* ---( page defaults )--- */
+body {
+margin: 0;
+padding: 0;
+font-size: small;
+text-align: center;
+color: #333333;
+background: #e0e0e0;
+}
+blockquote {
+margin-top: 0;
+margin-right: 0;
+margin-bottom: 0;
+margin-left: 30px;
+padding-top: 10px;
+padding-right: 0;
+padding-bottom: 0;
+padding-left: 20px;
+font-size: 88%;
+line-height: 1.5em;
+color: #666;
+background: url(http://www.blogblog.com/tictac_blue/quotes.gif) no-repeat top left;
+}
+blockquote p {
+margin-top: 0;
+}
+abbr, acronym {
+cursor: help;
+font-style: normal;
+border-bottom: 1px dotted;
+}
+code {
+color: #996666;
+}
+hr {
+display: none;
+}
+img {
+border: none;
+}
+/* unordered list style */
+ul {
+list-style: none;
+margin-left: 10px;
+padding: 0;
+}
+li {
+list-style: none;
+padding-left: 14px;
+margin-bottom: 3px;
+background: url(http://www.blogblog.com/tictac_blue/tictac_blue.gif) no-repeat left 6px;
+}
+/* links */
+a:link {
+color: #6699cc;
+}
+a:visited {
+color: #666699;
+}
+a:hover {
+color: #5B739C;
+}
+a:active {
+color: #5B739C;
+text-decoration: none;
+}
+/* ---( layout structure )---*/
+#outer-wrapper {
+width: 847px;
+margin: 0px auto 0;
+text-align: left;
+font: normal normal 100% Verdana, sans-serif;
+background: url(http://www.blogblog.com/tictac_blue/tile_left.gif) repeat-y;
+}
+#content-wrapper {
+margin-left: 42px; /* to avoid the border image */
+width: 763px;
+}
+#main {
+float: left;
+width: 460px;
+margin-top: 20px;
+margin-right: 0;
+margin-bottom: 0;
+margin-left: 0;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: 0;
+padding-left: 1em;
+line-height: 1.5em;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#sidebar {
+float: right;
+width: 259px;
+padding-top: 20px;
+padding-right: 0px;
+padding-bottom: 0;
+padding-left: 0;
+font-size: 85%;
+line-height: 1.4em;
+color: #999999;
+background: url(http://www.blogblog.com/tictac_blue/sidebar_bg.gif) no-repeat left top;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+/* ---( header and site name )--- */
+#header-wrapper {
+margin: 0;
+padding: 0;
+font: normal normal 100% 'Lucida Grande','Trebuchet MS';
+background: #e0e0e0 url(http://www.blogblog.com/tictac_blue/top_div_blue_left.gif) no-repeat left top;
+}
+#header {
+margin: 0;
+padding-top: 25px;
+padding-right: 60px;
+padding-bottom: 35px;
+padding-left: 160px;
+color: #FFFFFF;
+background: url(http://www.blogblog.com/tictac_blue/top_h1.gif) no-repeat bottom left;
+}
+#header h1 {
+font-size: 200%;
+text-shadow: #4F73B6 2px 2px 2px;
+}
+#header h1 a {
+text-decoration: none;
+color: #FFFFFF;
+}
+#header h1 a:hover {
+color: #eee;
+}
+/* ---( main column )--- */
+h2.date-header {
+margin-top: 0;
+padding-left: 14px;
+font-size: 90%;
+color: #999999;
+background: url(http://www.blogblog.com/tictac_blue/date_icon_blue.gif) no-repeat left 50%;
+}
+.post h3 {
+margin-top: 0;
+font: normal bold 130% 'Lucida Grande','Trebuchet MS';
+letter-spacing: -1px;
+color: #993333;
+}
+.post {
+margin-top: 0;
+margin-right: 0;
+margin-bottom: 1.5em;
+margin-left: 0;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: 1.5em;
+padding-left: 14px;
+border-bottom: 1px solid #ddd;
+}
+.post h3 a,
+.post h3 a:visited {
+color: #993333;
+text-decoration: none;
+}
+.post-footer {
+margin: 0;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: 0;
+padding-left: 14px;
+font-size: 88%;
+color: #999999;
+background: url(http://www.blogblog.com/tictac_blue/tictac_grey.gif) no-repeat left 8px;
+}
+.post img, table.tr-caption-container {
+padding: 6px;
+border-top: 1px solid #ddd;
+border-left: 1px solid #ddd;
+border-bottom: 1px solid #c0c0c0;
+border-right: 1px solid #c0c0c0;
+}
+.tr-caption-container img {
+border: none;
+padding: 0;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+/* comment styles */
+#comments {
+padding: 10px 10px 0px 10px;
+font-size: 85%;
+line-height: 1.5em;
+color: #666;
+background: #eee url(http://www.blogblog.com/tictac_blue/comments_curve.gif) no-repeat top left;
+}
+#comments h4 {
+margin-top: 20px;
+margin-right: 0;
+margin-bottom: 15px;
+margin-left: 0;
+padding-top: 8px;
+padding-right: 0;
+padding-bottom: 0;
+padding-left: 40px;
+font-family: "Lucida Grande", "Trebuchet MS";
+font-size: 130%;
+color: #666;
+background: url(http://www.blogblog.com/tictac_blue/bubbles.gif) no-repeat 10px 0;
+height: 29px !important; /* for most browsers */
+height /**/:37px; /* for IE5/Win */
+}
+#comments ul {
+margin-left: 0;
+}
+#comments li {
+background: none;
+padding-left: 0;
+}
+.comment-body {
+padding-top: 0;
+padding-right: 10px;
+padding-bottom: 0;
+padding-left: 25px;
+background: url(http://www.blogblog.com/tictac_blue/tictac_blue.gif) no-repeat 10px 5px;
+}
+.comment-body p {
+margin-bottom: 0;
+}
+.comment-author {
+margin-top: 4px;
+margin-right: 0;
+margin-bottom: 0;
+margin-left: 0;
+padding-top: 0;
+padding-right: 10px;
+padding-bottom: 0;
+padding-left: 60px;
+color: #999;
+background: url(http://www.blogblog.com/tictac_blue/comment_arrow_blue.gif) no-repeat 44px 2px;
+}
+.comment-footer {
+border-bottom: 1px solid #ddd;
+padding-bottom: 1em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+/* ---( sidebar )--- */
+.sidebar h2 {
+margin-top: 0;
+margin-right: 0;
+margin-bottom: 0;
+margin-left: 0;
+padding-top: 25px;
+padding-right: 0;
+padding-bottom: 0;
+padding-left: 40px;
+font: normal bold 130% 'Lucida Grande','Trebuchet MS';
+color: #666666;
+height: 32px;
+background: url(http://www.blogblog.com/tictac_blue/sidebar_icon.gif) no-repeat 10px 15px;
+height: 32px !important; /* for most browsers */
+height /**/:57px; /* for IE5/Win */
+}
+.sidebar .widget {
+margin: 0;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: 10px;
+padding-left: 10px;
+border-bottom: 1px solid #ddd;
+}
+.sidebar li {
+background: url(http://www.blogblog.com/tictac_blue/tictac_blue.gif) no-repeat left 5px;
+}
+.profile-textblock {
+clear: both;
+margin-left: 0;
+}
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+border: 1px solid #ddd;
+padding: 4px;
+}
+/* ---( footer )--- */
+.clear { /* to fix IE6 padding-top issue */
+clear: both;
+}
+#footer-wrapper {
+margin: 0;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: 9px;
+padding-left: 0;
+font-size: 85%;
+color: #ddd;
+background: url(http://www.blogblog.com/tictac_blue/bottom_sill.gif) no-repeat bottom left;
+}
+#footer {
+margin: 0;
+padding-top: 20px;
+padding-right: 320px;
+padding-bottom: 20px;
+padding-left: 95px;
+background: url(http://www.blogblog.com/tictac_blue/bottom_sash_left.gif) no-repeat top left;
+}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #outer-wrapper,
+body#layout #main,
+body#layout #sidebar {
+padding-top: 0;
+margin-top: 0;
+}
+body#layout #outer-wrapper,
+body#layout #content-wrapper {
+width: 740px;
+}
+body#layout #sidebar {
+margin-right: 0;
+margin-bottom: 1em;
+}
+body#layout #header,
+body#layout #footer,
+body#layout #main {
+padding: 0;
+}
+body#layout #content-wrapper {
+margin: 0px;
+}
+.dp-highlighter
+{
+font-family: "Consolas", "Monaco", "Courier New", Courier, monospace;
+font-size: 12px;
+background-color: #E7E5DC;
+width: 99%;
+overflow: auto;
+margin: 18px 0 18px 0 !important;
+padding-top: 1px; /* adds a little border on top when controls are hidden */
+}
+/* clear styles */
+.dp-highlighter ol,
+.dp-highlighter ol li,
+.dp-highlighter ol li span
+{
+margin: 0;
+padding: 0;
+border: none;
+}
+.dp-highlighter a,
+.dp-highlighter a:hover
+{
+background: none;
+border: none;
+padding: 0;
+margin: 0;
+}
+.dp-highlighter .bar
+{
+padding-left: 45px;
+}
+.dp-highlighter.collapsed .bar,
+.dp-highlighter.nogutter .bar
+{
+padding-left: 0px;
+}
+.dp-highlighter ol
+{
+list-style: decimal; /* for ie */
+background-color: #fff;
+margin: 0px 0px 1px 45px !important; /* 1px bottom margin seems to fix occasional Firefox scrolling */
+padding: 0px;
+color: #5C5C5C;
+}
+.dp-highlighter.nogutter ol,
+.dp-highlighter.nogutter ol li
+{
+list-style: none !important;
+margin-left: 0px !important;
+}
+.dp-highlighter ol li,
+.dp-highlighter .columns div
+{
+list-style: decimal-leading-zero; /* better look for others, override cascade from OL */
+list-style-position: outside !important;
+border-left: 3px solid #6CE26C;
+background-color: #F8F8F8;
+color: #5C5C5C;
+padding: 0 3px 0 10px !important;
+margin: 0 !important;
+line-height: 14px;
+}
+.dp-highlighter.nogutter ol li,
+.dp-highlighter.nogutter .columns div
+{
+border: 0;
+}
+.dp-highlighter .columns
+{
+background-color: #F8F8F8;
+color: gray;
+overflow: hidden;
+width: 100%;
+}
+.dp-highlighter .columns div
+{
+padding-bottom: 5px;
+}
+.dp-highlighter ol li.alt
+{
+background-color: #FFF;
+color: inherit;
+}
+.dp-highlighter ol li span
+{
+color: black;
+background-color: inherit;
+}
+/* Adjust some properties when collapsed */
+.dp-highlighter.collapsed ol
+{
+margin: 0px;
+}
+.dp-highlighter.collapsed ol li
+{
+display: none;
+}
+/* Additional modifications when in print-view */
+.dp-highlighter.printing
+{
+border: none;
+}
+.dp-highlighter.printing .tools
+{
+display: none !important;
+}
+.dp-highlighter.printing li
+{
+display: list-item !important;
+}
+/* Styles for the tools */
+.dp-highlighter .tools
+{
+padding: 3px 8px 3px 10px;
+font: 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
+color: silver;
+background-color: #f8f8f8;
+padding-bottom: 10px;
+border-left: 3px solid #6CE26C;
+}
+.dp-highlighter.nogutter .tools
+{
+border-left: 0;
+}
+.dp-highlighter.collapsed .tools
+{
+border-bottom: 0;
+}
+.dp-highlighter .tools a
+{
+font-size: 9px;
+color: #a0a0a0;
+background-color: inherit;
+text-decoration: none;
+margin-right: 10px;
+}
+.dp-highlighter .tools a:hover
+{
+color: red;
+background-color: inherit;
+text-decoration: underline;
+}
+/* About dialog styles */
+.dp-about { background-color: #fff; color: #333; margin: 0px; padding: 0px; }
+.dp-about table { width: 100%; height: 100%; font-size: 11px; font-family: Tahoma, Verdana, Arial, sans-serif !important; }
+.dp-about td { padding: 10px; vertical-align: top; }
+.dp-about .copy { border-bottom: 1px solid #ACA899; height: 95%; }
+.dp-about .title { color: red; background-color: inherit; font-weight: bold; }
+.dp-about .para { margin: 0 0 4px 0; }
+.dp-about .footer { background-color: #ECEADB; color: #333; border-top: 1px solid #fff; text-align: right; }
+.dp-about .close { font-size: 11px; font-family: Tahoma, Verdana, Arial, sans-serif !important; background-color: #ECEADB; color: #333; width: 60px; height: 22px; }
+/* Language specific styles */
+.dp-highlighter .comment, .dp-highlighter .comments { color: #008200; background-color: inherit; }
+.dp-highlighter .string { color: blue; background-color: inherit; }
+.dp-highlighter .keyword { color: #069; font-weight: bold; background-color: inherit; }
+.dp-highlighter .preprocessor { color: gray; background-color: inherit; }
+
+--></style>
+<script language='javascript' src='http://syntaxhighlighter.googlecode.com/svn/trunk/Scripts/shCore.js'></script>
+<script language='javascript' src='http://syntaxhighlighter.googlecode.com/svn/trunk/Scripts/shBrushCSharp.js'></script>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5339728292405481239&amp;zx=22d33c62-ad6b-41d5-839a-f445f4a32300' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5339728292405481239&amp;zx=22d33c62-ad6b-41d5-839a-f445f4a32300' rel='stylesheet'/></noscript>
+</head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d5339728292405481239\x26blogName\x3dLe+blog+de+Thibaud+:-)\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://thibaud60.blogspot.com/search\x26blogLocale\x3dfr\x26v\x3d2\x26homepageUrl\x3dhttp://thibaud60.blogspot.com/\x26vt\x3d4119195840226833575',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' data-version='1' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+Le blog de Thibaud :-)
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>
+</span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol no-items section' id='crosscol'></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>dimanche 2 janvier 2011</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='2037931111871651441'></a>
+<h3 class='post-title entry-title'>
+<a href='http://thibaud60.blogspot.co.uk/2011/01/sosdll-object-address-and-visual-studio.html'>SOS.DLL, object Address and Visual Studio debugger</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content'>
+<h3>Introduction</h3>  <p>When we search leak memory in our application, we use SOS.dll in Windbg.exe or Visual studio IDE.</p>  <p>This tool is very very usefull but it is not easy to walk accross the references tree of object.</p>  <p>Visual Studio is more powerfull to do that. &#8220;Quick watch window&#8221; for example with its property explorator is perfect.</p>  <p>but &#8220;sos command&#8217;s&#8221; returns only addresses of objects &#8230;</p>  <h3>Evaluate an object in VS from GCHandle address</h3>  <p>!GCRoot give often this type of informations : </p>  <p>!GCRoot -nostacks 00c58918    <br />DOMAIN(0015DF20):HANDLE(Strong):<font color="#ff0000"><strong>3011f8</strong></font>:Root:00c21b30(System.Threading.Thread)-&gt;     <br />00c272b4(System.Object[][])-&gt;     <br />00c272c8(System.Object[])-&gt;     <br />00d0b0fc(System.Object[])-&gt;     <br />00d0b0dc(System.EventHandler)-&gt;     <br />... </p>  <p>If you evaluate this in VS debugger : </p>  <p><em>System.Runtime.InteropServices.GCHandle.FromIntPtr(new IntPtr(<strong><font color="#ff0000">0x3011f8</font></strong>)).Target</em> </p>  <p>You found the instance of System.Threading.Thread (address 00c21b30) !!</p>  <h3>Find address object in Quick watch windows &#8230;</h3>  <p>It is possible to fix the memory area of an object with System.Runtime.InteropServices.GCHandle object. When you create a GCHandle on a object with GCHandleType.<b><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Runtime.InteropServices.GCHandleType/Pinned">Pinned</a></b> option. GCHandle.AddrOfPinnedObject() return the memory location of it !</p>  <p>BUT it is possible to use internal method to give the current address of object even if this object is not pinned </p>  <p>If you evaluate this, in &#8220;Quick Watch window&#8221; of VS, or in &#8220;Immediat window&#8221; :</p>  <p><em>? string.Format(&quot;{0:x}&quot;,int.Parse(System.Runtime.InteropServices.GCHandle.InternalAddrOfPinnedObject(System.Runtime.InteropServices.GCHandle.Alloc(<strong><font color="#ff0000">myObjectSomeWhere</font></strong>).GetHandleValue()).ToString())-4)</em></p>  <p>The result give the same address of <strong><font color="#ff0000">myObjectSomeWhere</font></strong> in&#160; SOS commands Like </p>  <ul>   <li>!DumpObj </li>    <li>!GCRoot </li>    <li>!DumpHeap </li> </ul>  <p>If you know where the object is in your application, you can find the address of it, and compare with SOS Commands results.</p>  <h3>Evaluate object in VS from directly address</h3>  <p>It would be very usefull to evaluate, for example, 00d0b0dc EventHandler instance in VS debugger !</p>  <p>BUT I did not found a tips to do this &#8230; directly, sorry &#8230; :-(</p>  <p>This reference <a title="http://stackoverflow.com/questions/3141428/conversion-from-void-to-object-in-c" href="http://stackoverflow.com/questions/3141428/conversion-from-void-to-object-in-c">http://stackoverflow.com/questions/3141428/conversion-from-void-to-object-in-c</a> asks the same question without answer &#8230;</p>  <p>If I would find it, I will be able to update this post !    <br /></p>  <h3>References</h3>  <ul>   <li>Memory explanations about .Net Value and reference types : <a href="http://www.codeproject.com/KB/cs/net_type_internals.aspx">http://www.codeproject.com/KB/cs/net_type_internals.aspx</a> </li>    <li>Explanations about GCHandle and differences between GCHandle.AddrOfPinnedObject et GCHandle.ToIntPtr : <a href="http://blogs.msdn.com/b/jmstall/archive/2006/10/09/gchandle_5f00_intptr.aspx">http://blogs.msdn.com/b/jmstall/archive/2006/10/09/gchandle_5f00_intptr.aspx</a> </li>    <li>SOS.DLL microsoft documentation : <a title="http://msdn.microsoft.com/fr-fr/library/bb190764.aspx" href="http://msdn.microsoft.com/fr-fr/library/bb190764.aspx">http://msdn.microsoft.com/fr-fr/library/bb190764.aspx</a> </li> </ul>  
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>Thibaud</span>
+</span>
+<span class='post-timestamp'>
+à
+<a class='timestamp-link' href='http://thibaud60.blogspot.co.uk/2011/01/sosdll-object-address-and-visual-studio.html' rel='bookmark' title='permanent link'><abbr class='published' title='2011-01-02T12:41:00-08:00'>12:41</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-296449223'>
+<a href='https://www.blogger.com/post-edit.g?blogID=5339728292405481239&postID=2037931111871651441&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://thibaud60.blogspot.co.uk/2011/01/sosdll-object-address-and-visual-studio.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>dimanche 17 octobre 2010</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='6717033204482542851'></a>
+<h3 class='post-title entry-title'>
+<a href='http://thibaud60.blogspot.co.uk/2010/10/fast-property-accessor-without-dynamic.html'>Fast Property Accessor without dynamic IL</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content'>
+<h3>Abstract</h3>  <p>I need to access property value on a object with Reflection API. It is very useful to create for example a generic Deep Clone API on POCO object.</p>  <p>BUT : </p>  <ul>   <li>Sometimes, Setter method of the object is not public. </li>    <li>I need the very very high performance to do it. </li>    <li>It seems the better way to do is Deletage.CreateDelegate method but it is important to use Invoke() method on it. DynamicMethod is very poor performance approach. </li>    <li>I don&#8217;t want use IL approach because it is too hard to develop and maintains. </li> </ul>  <p>I propose helper based PropertyInfo, which support the interface IPropertyAccessor. This interface has a method GetValue and SetValue.</p>  <h3>A solution</h3>  <p>I create a small helper to encapsulate a delegate in generic decorator that&#8217;s support my own IPropertyAccessor interface :</p>  <p>IPropertyAccessor Interface is simple :</p>  <p>&#160;&#160;&#160; public interface IPropertyAccessor    <br />&#160;&#160;&#160; {     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; PropertyInfo PropertyInfo { get; }     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; string Name { get; }     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; object GetValue(object source)     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; void SetValue(object source, object value);&#160; <br />&#160;&#160;&#160; } </p>  <p><strong>An example :</strong></p>  <p>// UneClasse : a simple class with an Int property PropertyA    <br />var c = new UneClasse();     <br />c.PropertyA= <font color="#ff0000">12345</font>;     <br />PropertyInfo piA = typeof(UneClasse).GetProperty(&quot;PropertyA&quot;);     <br />var paA = <font color="#ff0000">PropertyInfoHelper</font>.GetFastAccessor(piA);     <br />Assert.AreEqual(c.FieldA, <font color="#ff0000">12345</font>); // Ok !     <br />Assert.AreEqual(piA.GetValue(c, null), <font color="#ff0000">12345</font>); // Ok !     <br />Assert.AreEqual(paA.GetValue(c), <font color="#ff0000">12345</font>); // Ok !     <br />paA.SetValue(c, <font color="#0000ff">54321</font>);     <br />Assert.AreEqual(c.PropertyA, <font color="#0000ff">54321</font>); // Ok !     <br />Assert.AreEqual(piA.GetValue(c, null), <font color="#0000ff">54321</font>); // Ok !     <br />Assert.AreEqual(paA.GetValue(c), <font color="#0000ff">54321</font>); // Ok ! </p>  <h3>Performance </h3>  <p>Some tests show importants differences between differences approachs.</p>  <p>NB : all duration is done with 100 000 call on my computer.</p>  <table border="1" cellspacing="0" cellpadding="2" width="398"><tbody>     <tr>       <td valign="top" width="203">Direct call :</td>        <td valign="top" width="193">~4 ms.</td>     </tr>      <tr>       <td valign="top" width="205">PropertyInfo.SetValue on public setter</td>        <td valign="top" width="192">~300 ms.</td>     </tr>      <tr>       <td valign="top" width="206">PropertyInfo.SetValue on private setter</td>        <td valign="top" width="191">~1400 ms.</td>     </tr>      <tr>       <td valign="top" width="207">Stronged delegate on SetValue MethodInfo (Private or public)</td>        <td valign="top" width="190">~5 ms.</td>     </tr>      <tr>       <td valign="top" width="208">Delegate call with DynamicInvoke (Private or public)</td>        <td valign="top" width="190">~1500 ms.</td>     </tr>      <tr>       <td valign="top" width="208"><font color="#ff0000"><strong>IPropertyAccessor helper</strong></font></td>        <td valign="top" width="190"><font color="#ff0000"><strong>~9 ms.</strong></font></td>     </tr>   </tbody></table>  <ul>   <li>the better way, of course, is direct call : <strong>(4 ms)</strong> </li> </ul>  <p align="left"><em><font color="#0000ff">myInstance.PropertyA = 1234;</font></em></p>  <ul>   <li>Use SetValue method on PropertyInfo&#160; <strong>(282 ms)</strong> (Setter is public) </li> </ul>  <p>PropertyInfo piA = typeof(UneClasse).GetProperty(&quot;PropertyA&quot;);    <br />&#8230;     <br /><em><font color="#0000ff">piA.SetValue(myInstance, 1234, null);</font></em></p>  <ul>   <li>Use SetValue method on PropertyInfo&#160; <strong>(1391 ms)</strong> (Setter is <font color="#ff0000">private</font>) </li> </ul>  <ul>   <li>Use strong typed Delegate created with Delegate.CreateDelegate() : 4 ms !! (same of direct call and even if Setter is private) </li> </ul>  <p>var setMethodA = piA.GetSetMethod(true);    <br />var _setHandlerATyped = (SetValueHandler&lt;UneClasse,int&gt;)Delegate.CreateDelegate(typeof(SetValueHandler&lt;UneClasse,int&gt;),     <br />&#160;&#160;&#160; setMethodA);     <br />&#8230;     <br /><font color="#0000ff"><em>_setHandlerATyped.Invoke(myInstance, 1234)</em></font></p>  <ul>   <li>Use my helper : 9 ms !! </li> </ul>  <p>IPropertyAccessor paA = PropertyInfoHelper.GetFastAccessor(piA);    <br />&#8230;     <br /><em><font color="#0000ff">paA.SetValue(myInstance, 1234)</font></em></p>  <h3><strong>Compare &#8220;CreateDelegate&#8221; versus &#8220;dynamic IL&#8221;&#160; during intialisation process</strong></h3>  <p>in System.Web.dll, you can find an internal class &#8220;System.Web.Util.FastPropertyAccessor&#8221;.This class use Emit functions to generate dynamic assembly and dynamic code.</p>  <p>I compare this approach (with little reflection to acces internal members) with CreateDelegate approach in console application and 5000 Test class with One property.</p>  <p>The result is :</p>  <table border="1" cellspacing="0" cellpadding="2" width="400"><tbody>     <tr>       <td valign="top" width="115">&#160;</td>        <td valign="top" width="143">IL Approach (System.Web.Util          <br />.FastPropertyAccessor)</td>        <td valign="top" width="140">CreateDelegate Approach          <br />(IPropertyAccessor)</td>     </tr>      <tr>       <td valign="top" width="99">Duration</td>        <td valign="top" width="156">11920 ms.</td>        <td valign="top" width="143">1337 ms.</td>     </tr>      <tr>       <td valign="top" width="96">Memory delta</td>        <td valign="top" width="159">~32300 Ko</td>        <td valign="top" width="145">~6000 Ko</td>     </tr>   </tbody></table>  <p>&#160;</p>  <h3><strong>The code of the helper</strong></h3>  <pre class="csharp:nogutter:collapse" name="code">using System;<br />using System.Collections.Generic;<br />using System.Linq;<br />using System.Text;<br />using System.Reflection;<br /><br />namespace Tools.Reflection<br />{<br />    /// <summary><br />    /// Représentation d'une propriété pour accélerer de maniére considérable les écritures/lectures par reflection<br />    /// sur les propriétés d'un object<br />    /// </summary><br />    public interface IPropertyAccessor<br />    {<br />        /// <summary><br />        /// La propriété concernée<br />        /// </summary><br />        PropertyInfo PropertyInfo { get; }<br />        /// <summary><br />        /// Le nom de cette propriété<br />        /// </summary><br />        string Name { get; }<br />        /// <summary><br />        /// Récupération de la valeur de la propriété<br />        /// </summary><br />        /// <param name="source" />l'object concerné</param><br />        /// <returns>valeur de la propriété</returns><br />        object GetValue(object source);<br /><br />        /// <summary><br />        /// Mise en place d'une nouvelle valeur dans la propriété<br />        /// </summary><br />        /// <param name="source" />l'object concerné</param><br />        /// <param name="value" />la nouvelle valeur pour la propriété</param><br />        void SetValue(object source, object value);<br /><br />    }<br /><br />    /// <summary><br />    /// Classe helper pour obtenir l'accesseur sur une propriété donnée<br />    /// </summary><br />    public static class PropertyInfoHelper<br />    {<br />        private static Dictionary<propertyinfo ipropertyaccessor ,> _cache = new Dictionary<propertyinfo ipropertyaccessor ,>();<br />        /// <summary><br />        /// Obtention du helper pour acceder au getter/setter de la propriété<br />        /// </summary><br />        /// <param name="propertyInfo" /></param><br />        /// <returns></returns><br />        public static IPropertyAccessor GetFastAccessor(PropertyInfo propertyInfo)<br />        {<br />            IPropertyAccessor result;<br />            lock (_cache)<br />            {<br />                if (!_cache.TryGetValue(propertyInfo, out result))<br />                {<br />                    result = CreateAccessor(propertyInfo);<br />                    _cache.Add(propertyInfo, result); ;<br />                }<br />            }<br />            return result;<br />        }<br /><br />        /// <summary><br />        /// public pour les tests de performances<br />        /// </summary><br />        /// <param name="propertyInfo" /></param><br />        /// <returns></returns><br />        public static IPropertyAccessor CreateAccessor(PropertyInfo propertyInfo)<br />        {<br />            return (IPropertyAccessor)Activator.CreateInstance(<br />                        typeof(PropertyWrapper&lt;,&gt;).MakeGenericType<br />                           (propertyInfo.DeclaringType, propertyInfo.PropertyType), propertyInfo);<br />        }<br />    }<br /><br />    /// <summary><br />    /// Classe concrete implémentant IPropertyAccessor<br />    /// </summary><br />    /// <typeparam name="TObject"></typeparam><br />    /// <typeparam name="TProperty"></typeparam><br />    internal class PropertyWrapper<tobject  , tvalue> : IPropertyAccessor<br />    {<br />        private PropertyInfo _propertyInfo;<br /><br />        private Func<tobject  , tvalue> _getMethod;<br />        private Action<tobject  , tvalue> _setMethod;<br /><br />        /// <summary><br />        /// Constructeur public<br />        /// </summary><br />        /// <param name="propertyInfo" />la propriété à encapsulé</param><br />        public PropertyWrapper(PropertyInfo propertyInfo)<br />        {<br />            _propertyInfo = propertyInfo;<br /><br />            MethodInfo mGet = propertyInfo.GetGetMethod(true);<br />            MethodInfo mSet = propertyInfo.GetSetMethod(true);<br /><br />             // Rq : on peut par se biais acceder aussi aux accesseur privé<br />            //      tous les aspects liés à la sécurité est donc pris en charge par CreateDelegate<br />            //      et non à chaque appel à GetMethod/SetMethod<br /><br />            _getMethod = (Func<tobject  , tvalue>)Delegate.CreateDelegate<br />                    (typeof(Func<tobject  , tvalue>), mGet);<br />            _setMethod = (Action<tobject  , tvalue>)Delegate.CreateDelegate<br />                    (typeof(Action<tobject  , tvalue>), mSet);<br />        }<br /><br />        object IPropertyAccessor.GetValue(object source)<br />        {<br />            return _getMethod((TObject)source);<br />        }<br />        void IPropertyAccessor.SetValue(object source, object value)<br />        {<br />            _setMethod((TObject)source, (TValue)value);<br />        }<br /><br />        /// <summary><br />        /// Voir <see cref="IPropertyAccessor.Name" /><br />        /// </summary><br />        public string Name<br />        {<br />            get<br />            {<br />                return _propertyInfo.Name;<br />            }<br />        }<br /><br />        /// <summary><br />        /// Voir <see cref="IPropertyAccessor.PropertyInfo" /><br />        /// </summary><br />        public PropertyInfo PropertyInfo<br />        {<br />            get<br />            {<br />                return _propertyInfo;<br />            }<br />        }<br /><br />    }<br /><br />}</pre><br /><br /><h3>TODO List</h3><br /><br /><ul><br />  <li>test on real application : It is just a prototype ! </li><br /><br />  <li>improve with this[] property </li><br /></ul><br /><br /><h3>References</h3><br /><br /><ul><br />  <li>Discussion : <a title="http://stackoverflow.com/questions/724143/how-do-i-create-a-delegate-for-a-net-property" href="http://stackoverflow.com/questions/724143/how-do-i-create-a-delegate-for-a-net-property">http://stackoverflow.com/questions/724143/how-do-i-create-a-delegate-for-a-net-property</a> </li><br /><br />  <li>Discussion : <a title="http://stackoverflow.com/questions/1308642/delegate-createdelegate-without-prototype" href="http://stackoverflow.com/questions/1308642/delegate-createdelegate-without-prototype">http://stackoverflow.com/questions/1308642/delegate-createdelegate-without-prototype</a> </li><br /><br />  <li>Reference : <a title="http://msmvps.com/blogs/jon_skeet/archive/2008/08/09/making-reflection-fly-and-exploring-delegates.aspx" href="http://msmvps.com/blogs/jon_skeet/archive/2008/08/09/making-reflection-fly-and-exploring-delegates.aspx">http://msmvps.com/blogs/jon_skeet/archive/2008/08/09/making-reflection-fly-and-exploring-delegates.aspx</a> </li><br /></ul>  
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>Thibaud</span>
+</span>
+<span class='post-timestamp'>
+à
+<a class='timestamp-link' href='http://thibaud60.blogspot.co.uk/2010/10/fast-property-accessor-without-dynamic.html' rel='bookmark' title='permanent link'><abbr class='published' title='2010-10-17T03:09:00-07:00'>03:09</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-296449223'>
+<a href='https://www.blogger.com/post-edit.g?blogID=5339728292405481239&postID=6717033204482542851&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://thibaud60.blogspot.co.uk/2010/10/fast-property-accessor-without-dynamic.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>dimanche 21 février 2010</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5888583255660670063'></a>
+<h3 class='post-title entry-title'>
+<a href='http://thibaud60.blogspot.co.uk/2010/02/footer-on-wpf-datagrid-by-use-several.html'>Footer on WPF DataGrid: by use several synchronized datagrid</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content'>
+<h4>Introduction</h4>  <p>Last year, I <a href="http://thibaud60.blogspot.com/2008/11/new-version-of-datagrid-with-footer.html">proposed a version of WPF DataGrid with Footer</a>.</p>  <p>But this version can not apply on new WPF 4.0 Datagrid (because i was make too much changes in source code of the component) </p>  <p>With this new approach, I use several DataGrid in the same Window, and I synchronizes each one on : </p>  <ul>   <li>Scrolling event (horizontal and vertical)</li>    <li>Drag and drop column header</li>    <li>Change width of column on main DataGrid</li> </ul>  <p>Even if it is more complex to apply for each Data window (It is necessary to instanciate several DataGrid, set relatation between each one, etc.) , It seems pretty good because : </p>  <ul>   <li>It can apply on new version WPF 4.0 Datagrid</li>    <li>It can manage too the merge header of multiple column (cf demo)</li>    <li>It can use to do something like &#8220;Microsoft Excel&quot; to freeze some column or row in a global Data grid ! </li> </ul>  <h4>Screenshot of the demo :</h4>  <p><a href="http://lh4.ggpht.com/_dDsO1He2FKk/S4EcRoNUgFI/AAAAAAAAADc/uuBIK3-s2u0/s1600-h/ScreenShot2%5B6%5D.jpg"><img alt="ScreenShot2" border="0" height="389" src="http://lh5.ggpht.com/_dDsO1He2FKk/S4EcSSOOVSI/AAAAAAAAADg/alzwHe5bZas/ScreenShot2_thumb%5B4%5D.jpg?imgmax=800" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="ScreenShot2" width="445" /></a> </p>  <h4>Download</h4>  <p>Download v1.00 <a href="http://cid-7a1aaa8f8ef48b01.skydrive.live.com/self.aspx/.Public/Blogspot/Archives/2010/WpfDataGridSynchronized%5E_V1.00.zip">here</a></p>  <ul>   <li>WPF 3.5 version (on Visual Studio 2008) </li>    <li>WPF 4.0 version (on Visual Studio 2010 Beta) </li> </ul>  <h4>API :</h4>  <p>To do this, It is necessary to : </p>  <ul>   <li>Have the same number of column in each DataGrid (except if you merge header column with specific attached property) </li> </ul>  <p>&lt;tk:DataGrid.Columns&gt;   <br />&#160;&#160;&#160; &lt;tk:DataGridTextColumn local:<strong><font color="#ff0000">AssociatedDataGrid.ColumnSpan</font></strong>=&quot;2&quot;     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Binding=&quot;{Binding A}&quot;/&gt;</p>  <ul>   <li>I use attached Dependency Property to set the link between main grid and another grid </li> </ul>  <p>&lt;tk:DataGrid    <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Name=&quot;xMain&quot;     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Grid.Row=&quot;2&quot;     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Grid.Column=&quot;2&quot;     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; ItemsSource=&quot;{Binding DataSource}&quot;     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#ff0000">local:<strong>AssociatedDataGrid.Bottom</strong></font>=&quot;{Binding ElementName=xBottom}&quot;     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#ff0000">local:<strong>AssociatedDataGrid.Top</strong></font>=&quot;{Binding ElementName=xTop}&quot;     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#ff0000">local:<strong>AssociatedDataGrid.Right</strong></font>=&quot;{Binding ElementName=xRight}&quot;     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#ff0000">local:<strong>AssociatedDataGrid.Left</strong></font>=&quot;{Binding ElementName=xLeft}&quot;     <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; AutoGenerateColumns=&quot;False&quot;&gt;</p>  <ul>   <li>and it&#8217;s all ! </li> </ul>  <p>My demo is a demo &#8230; I think lot of thing is not finished by main idea is in it !</p>  <p>Best regards</p>  <p>Thibaud</p>  
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>Thibaud</span>
+</span>
+<span class='post-timestamp'>
+à
+<a class='timestamp-link' href='http://thibaud60.blogspot.co.uk/2010/02/footer-on-wpf-datagrid-by-use-several.html' rel='bookmark' title='permanent link'><abbr class='published' title='2010-02-21T03:43:00-08:00'>03:43</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-296449223'>
+<a href='https://www.blogger.com/post-edit.g?blogID=5339728292405481239&postID=5888583255660670063&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://thibaud60.blogspot.co.uk/2010/02/footer-on-wpf-datagrid-by-use-several.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>dimanche 29 novembre 2009</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='1039843007610427201'></a>
+<h3 class='post-title entry-title'>
+<a href='http://thibaud60.blogspot.co.uk/2009/11/collectionviewgetitemproperties-great.html'>CollectionView.GetItemProperties : Great and good differences between WPF 3.5 and 4.0</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content'>
+<h5>WPF 3.5 algorithm</h5> <p>In WPF 3.5, when you bind your own Collection to a wpf control, "WPF framework" needs define the list of all allowed properties of the items of the collection.  <p>To do this, "WPF Framework" tests if collection is a generic type, AND if the generic type contains only one sub-type : it is use to define the item type of collection, in other case, "WPF Framework" try to use the first item of the collection (if collection is not empty) <p>With Reflector, you can find a part of this algorithm in CollectionView.GetItemType() :</p><pre>internal <a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Type">Type</a> <b><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://PresentationFramework:3.0.0.0:31bf3856ad364e35/System.Windows.Data.CollectionView/GetItemType(Boolean):System.Type">GetItemType</a></b>(<a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Boolean">bool</a> useRepresentativeItem)<br />{<br />    <a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Type">Type</a> <b>type</b> = this.<a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://PresentationFramework:3.0.0.0:31bf3856ad364e35/System.Windows.Data.CollectionView/property:SourceCollection:System.Collections.IEnumerable">SourceCollection</a>.<a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Object/GetType():System.Type">GetType</a>();<br /><font color="#ff0000"><strong>    if (</strong></font><a><font color="#ff0000"><strong>type</strong></font></a><font color="#ff0000"><strong>.</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Type/property:IsGenericType:Boolean"><font color="#ff0000"><strong>IsGenericType</strong></font></a><font color="#ff0000"><strong>)<br />    {<br />        </strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Type"><font color="#ff0000"><strong>Type</strong></font></a><font color="#ff0000"><strong>[] genericArguments = </strong></font><a><font color="#ff0000"><strong>type</strong></font></a><font color="#ff0000"><strong>.</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Type/GetGenericArguments():System.Type%5b%5d"><font color="#ff0000"><strong>GetGenericArguments</strong></font></a><font color="#ff0000"><strong>();<br />        if (</strong></font><a><font color="#ff0000"><strong>genericArguments</strong></font></a><font color="#ff0000"><strong>.</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Array/property:Length:Int32"><font color="#ff0000"><strong>Length</strong></font></a><font color="#ff0000"><strong> == 1)<br />        {<br />            return </strong></font><a><font color="#ff0000"><strong>genericArguments</strong></font></a><font color="#ff0000"><strong>[0];<br />        }<br />    }</strong></font><br />    else if (<a>useRepresentativeItem</a>)<br />    {<br />        <a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Object">object</a> <b>representativeItem</b> = this.<a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://PresentationFramework:3.0.0.0:31bf3856ad364e35/System.Windows.Data.CollectionView/GetRepresentativeItem():Object">GetRepresentativeItem</a>();<br />        if (<a>representativeItem</a> != null)<br />        {<br />            return <a>representativeItem</a>.<a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:2.0.0.0:b77a5c561934e089/System.Object/GetType():System.Type">GetType</a>();<br />        }<br />    }<br />    return null;<br />}<br /></pre><br /><p>in WPF 4.0 beta 2, Algorithm is different !!!!</p><br /><h5>WPF 4.0 beta 2 algorithm</h5><br /><p>in WPF 4.0, framework test if original collection source support a generic IEnumerable type and If test is True, the type of this subtype of Generic IEnumerable !</p><br /><p>the code of this version is :</p><pre>internal <a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Type">Type</a> <b><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://PresentationFramework:4.0.0.0:31bf3856ad364e35/System.Windows.Data.CollectionView/GetItemType(Boolean):System.Type">GetItemType</a></b>(<a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Boolean">bool</a> useRepresentativeItem)<br />{<br /><font color="#ff0000"><strong>    foreach (</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Type"><font color="#ff0000"><strong>Type</strong></font></a><font color="#ff0000"><strong> type2 in this.</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://PresentationFramework:4.0.0.0:31bf3856ad364e35/System.Windows.Data.CollectionView/property:SourceCollection:System.Collections.IEnumerable"><font color="#ff0000"><strong>SourceCollection</strong></font></a><font color="#ff0000"><strong>.</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Object/GetType():System.Type"><font color="#ff0000"><strong>GetType</strong></font></a><font color="#ff0000"><strong>().</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Type/GetInterfaces():System.Type%5b%5d"><font color="#ff0000"><strong>GetInterfaces</strong></font></a><font color="#ff0000"><strong>())<br />    {<br />        if (</strong></font><a><font color="#ff0000"><strong>type2</strong></font></a><font color="#ff0000"><strong>.</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Reflection.MemberInfo/property:Name:String"><font color="#ff0000"><strong>Name</strong></font></a><font color="#ff0000"><strong> == </strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://PresentationFramework:4.0.0.0:31bf3856ad364e35/System.Windows.Data.CollectionView/IEnumerableT:String"><font color="#ff0000"><strong>IEnumerableT</strong></font></a><font color="#ff0000"><strong>)<br />        {<br />            </strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Type"><font color="#ff0000"><strong>Type</strong></font></a><font color="#ff0000"><strong>[] genericArguments = </strong></font><a><font color="#ff0000"><strong>type2</strong></font></a><font color="#ff0000"><strong>.</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Type/GetGenericArguments():System.Type%5b%5d"><font color="#ff0000"><strong>GetGenericArguments</strong></font></a><font color="#ff0000"><strong>();<br />            if (</strong></font><a><font color="#ff0000"><strong>genericArguments</strong></font></a><font color="#ff0000"><strong>.</strong></font><a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Array/property:Length:Int32"><font color="#ff0000"><strong>Length</strong></font></a><font color="#ff0000"><strong> == 1)<br />            {<br />                return </strong></font><a><font color="#ff0000"><strong>genericArguments</strong></font></a><font color="#ff0000"><strong>[0];<br />            }<br />        }<br />    }</strong></font><br />    if (<a>useRepresentativeItem</a>)<br />    {<br />        <a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Object">object</a> <b>representativeItem</b> = this.<a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://PresentationFramework:4.0.0.0:31bf3856ad364e35/System.Windows.Data.CollectionView/GetRepresentativeItem():Object">GetRepresentativeItem</a>();<br />        if (<a>representativeItem</a> != null)<br />        {<br />            return <a>representativeItem</a>.<a href="http://www.aisto.com/roeder/dotnet/Default.aspx?Target=code://mscorlib:4.0.0.0:b77a5c561934e089/System.Object/GetType():System.Type">GetType</a>();<br />        }<br />    }<br />    return null;<br />}<br /></pre><pre></pre><pre></pre><br /><h5>Consequences :</h5><br /><p>It is a very important change if you develop your own collection. With the new approach, It is possible now to create generic collection with more than one sub type ! </p><br /><p>for example, in MVVM architecture, it would be very nice to create a ViewModel of collection to enumerate ViewModel of item with a specific contraint</p><br /><p><strong>Exemple :</strong></p><br /><p>public class&nbsp; ViewModelCollectionBase&lt;TViewModel, TModel&gt; : IEnumerable&lt;TViewModel&gt;<br>where TViewModel : ViewModelBase&lt;TModel&gt;<br>{<br>&#8230;&nbsp;&nbsp; <br>}</p><br /><p>public class ViewModelBase&lt;TModel&gt; where TModel : class<br>{<br>&#8230;<br>}</p>  
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>Thibaud</span>
+</span>
+<span class='post-timestamp'>
+à
+<a class='timestamp-link' href='http://thibaud60.blogspot.co.uk/2009/11/collectionviewgetitemproperties-great.html' rel='bookmark' title='permanent link'><abbr class='published' title='2009-11-29T06:26:00-08:00'>06:26</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-296449223'>
+<a href='https://www.blogger.com/post-edit.g?blogID=5339728292405481239&postID=1039843007610427201&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://thibaud60.blogspot.co.uk/2009/11/collectionviewgetitemproperties-great.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>lundi 30 mars 2009</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='3403065822965090205'></a>
+<h3 class='post-title entry-title'>
+<a href='http://thibaud60.blogspot.co.uk/2009/03/event-static-on-viewmodel-in-mvvm.html'>Static event on ViewModel in MVVM : Helper that prevents Leak errors memory, and so more &#8230;</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content'>
+<h3>Abstract</h3>  <p>Use static public event properties on <strong>ViewModel</strong> class for :</p>  <ul>   <li>High level of API to mask the technical complexity of the problem </li>    <li>ensure communication between <strong>ViewModel</strong> and <strong>View part</strong> without leak memory AND with only one wired process on View part even if ViewModel contains lot of entities. </li>    <li>ensure communication between entities of <strong>ViewModel</strong> and ensure it in a graph of entities. </li>    <li>accept lot of quantity of <strong>ViewModel</strong> entities without overhead (memory or/and performance) </li>    <li>controls target&#8217;s type which is allowed to use on these events </li> </ul>  <h3>Introduction</h3>  <p>In MVVM architecture, I need create a graph of entities in ViewModel part with POCO objects. these entities must communicate with &#8230;</p>  <ul>   <li>another instances of ViewModem </li>    <li>View part of the MVVM architecture </li> </ul>  <p>&#8230; without direct dependency between Sender to the targets : ViewModel has not dependency on &quot;View Part&quot; AND sometimes, entities of ViewModel&#160; do not link directly all another entities of the model</p>  <p>A good technical approach to do this is used a static CLR Event on ViewModel class, static events are always accessibles even if ViewModel instance not yet exists</p>  <ul>   <li>from another ViewModel class </li>    <li>from &#8220;View part&#8220; of MVVM like a Window or UserControl. </li> </ul>  <p>BUT we need integrate these contraints :</p>  <ul>   <li>a Simple static CLR Event keeps a reference on target&#8217;s instance : Garbage collector will never free target&#8217;s instance if this target will not remove its handler in the static CLR event. </li>    <li>If static CLR event is used by a lot of quantity of ViewModel instance. The performance must stay high. </li>    <li>If we create more than one instance of the ViewModel graph and use only static CLR Event : Each Invoke of static event must reach only the <font color="#ff0000">&#8220;good&#8221; instances</font> of ViewModel (or View part) and not all referenced target. </li> </ul>  <p><font color="#ff0000">&#8220;Good&#8221; instances</font> seems only ViewModel entity that have relations with the invoker ViewModel OR View part that bind with ViewModel entity.</p>  <p>I proposed a main class : StaticEvent&lt;&gt; that can help us to do this !</p>  <h3>How can I use it ?</h3>  <p>Example of code to declare a new Event :</p>  <p><font color="#0000ff">private static</font> StaticEvent&lt;MyEventArgs&gt; _myEvent =&#160; <br />&#160; <font color="#0000ff">new</font>&#160; StaticEvent();     <br /><font color="#0000ff">public</font> <font color="#0000ff">static event</font> EventHandler&lt;MyEventArgs&gt; <strong>MyEvent</strong>     <br />{     <br />&#160; <font color="#0000ff">add</font>     <br />&#160; {     <br />&#160;&#160;&#160; _myEvent.Add(value);&#160; <br />&#160; }     <br />&#160; <font color="#0000ff">remove</font>     <br />&#160; {     <br />&#160;&#160;&#160; _myEvent.Remove(value);     <br />&#160; }     <br />} </p>  <p><font color="#0000ff">public static void</font> OnMyEvent(MyEventArgs e)     <br />{     <br />&#160; _myEvent.Invoke(e);     <br />}</p>  <p>When developper uses the event : he works with it like a classic event with += / &#8211;= operator. The internal implementation is masked.</p>  <h3>What can I wired on this type of Event ?</h3>  <p>StaticEvent&lt;&gt; generic class is a base class to implement another type of it. In Diagram class below, and the prototype, I used a ModelViewEvent&lt;&gt;.</p>  <p>This event accepts 3 types of EventHandler :</p>  <ul>   <li>EventHandler on a static method </li>    <li>EventHandler on an instance entity of ViewModel </li>    <li>EventHandler on an instance of FrameworkElement. </li> </ul>  <p>Entities of ViewModel must derivated from ViewModelBase&lt;&gt; class that implements required interface (IHandlersRepository)</p>  <h3>The sequence of calls during &#8220;Invoke process&#8221;</h3>  <p>The main concept is base on <a href="http://msdn.microsoft.com/en-us/library/system.windows.routedevent.aspx">RoutedEvent of WPF framework</a>. In the RoutedEvent design pattern : the &#8220;route&#8221; of calls is build BY the invoker ! </p>  <p>I was reproduce the same approach in StaticEvent class !</p>  <p>If the invoker is a ViewModel Entity (supports IHandlersRepository), StaticEvent asks the invoker (by IHandlersRepository.GetHandlers) and invoker must give zero, one or more EventHandlers which will be called by StaticEvent.</p>  <p>So, ViewModelBase class visits each its owners and combines all handlers found during this visit.</p>  <table border="0" cellspacing="0" cellpadding="2" width="400"><tbody>     <tr>       <td valign="top" width="200">         <p>&#160;</p>          <p>&#160;</p>          <p>For example, Demo application realize this sequence on an example graph </p>       </td>        <td valign="top" width="200"><a href="http://lh5.ggpht.com/_dDsO1He2FKk/SdJ6PWoBMGI/AAAAAAAAADU/Enade22WZDc/s1600-h/image%5B2%5D.png"><img alt="image" border="0" height="244" src="http://lh5.ggpht.com/_dDsO1He2FKk/SdJ6P1TDiAI/AAAAAAAAADY/_Om0ldxgy9M/image_thumb.png?imgmax=800" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" width="125" /></a> </td>     </tr>   </tbody></table>  <h3>Using the approach of the RoutedEvent model of WPF FrameworkElement solves &#8230;</h3>  <ul>   <li>Communicate between ViewModel instances </li>    <li>have good performance event with a huge quantity of entities </li> </ul>  <p>I will use this approach in a MVVM Framework to send message between ViewModel instances : Example : When an ViewModel entity will be validated, and if this ViewModel is owned by another : It would be very useful that the owner ViewModel instance can stop or not the validation process of its own Son ViewModel instances !</p>  <p>I use it for Filter event of my own ICollectionView instance, very useful in this case !</p>  <p>With this approach, each instance of ViewModel (that supports IHandlerRepository) keeps references of its own EventHandler. So even if you have 1 000 000 instances of ViewModel object and just ONE static event that uses by this instances : Each instance keep one and only one EventHandler ! and moreover, StaticEvent is not a strong reference (by EventHandler) on these 1 000 000 ViewModel objects :&#160; of course : it does not know these objects !!</p>  <h3>Prevent against Leak memory issues : Using Life event cycle of FrameworkElement </h3>  <p>Each FrameworkElement have Loaded, Unloaded and Initialize event. If you look inside the Demo, ViewEvent class creates an adapter on each FrameworkElement target. This adapter supports IHandlerRepository interface. This adapter is memorized by FrameworkElement instance (with an attached dependency property) and It uses these 3 events for accept or not a call process !</p>  <p>NB : WPF RoutedEvent mechanism used a roughly same approach to memorize EventHandlers (see System.Windows.UncommonField&lt;T&gt; internal class in WindowBase.dll and System.Windows.UIElement.AddHandler method :-)</p>  <h3>TODO List &#8230;</h3>  <ul>   <li>Invoke&#8217;s strategy like Bubble, Direct, Tunnel strategy of RoutedEvent. </li> </ul>  <h3>Class diagrams</h3>  <ul>   <li><strong>StaticEvent</strong> class hierarchy : <strong>StaticEvent</strong>&lt;&gt; is the most important class : It have a dependancy on <strong>IHandlersRepository</strong>       <ul>       <ul>         <li>by <strong>ProvideHandlersRepository</strong> method </li>          <li>if a handler&#8217;s target implements or not this interface (in Add(EventHandler) calls) </li>          <li>if a sender implements or not this interface (in Invoke calls) </li>       </ul>     </ul>   </li> </ul>  <p><a href="http://lh6.ggpht.com/_dDsO1He2FKk/SdFATR8_waI/AAAAAAAAADE/M1oZxE_48Ds/s1600-h/Framework%5B2%5D.png"><img alt="Framework" border="0" height="244" src="http://lh5.ggpht.com/_dDsO1He2FKk/SdFAT0pAyVI/AAAAAAAAADI/qP-T28wqYwE/Framework_thumb.png?imgmax=800" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="Framework" width="230" /></a> </p>  <ul>   <li><strong>ViewModel</strong> entity class hierarchy : Just a demo to use <strong>StaticEvent</strong> in <strong>ViewModel</strong> part of MVVM architecture : ViewModelEvent allows to wired a <strong>FrameworkElement</strong> instance without leak memory errors. It uses Loaded/UnLoaded event of FrameworkElement </li> </ul>  <p><a href="http://lh3.ggpht.com/_dDsO1He2FKk/SdFAUUOcZAI/AAAAAAAAADM/HTKrOTjYXkY/s1600-h/Framework.Window%5B2%5D.png"><img alt="Framework.Window" border="0" height="244" src="http://lh4.ggpht.com/_dDsO1He2FKk/SdFAUz_DPCI/AAAAAAAAADQ/rFGMCKHMgnY/Framework.Window_thumb.png?imgmax=800" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="Framework.Window" width="212" /></a> </p>  <h3>Download</h3>  <p><a href="http://cid-53ab3f68fbc307c8.skydrive.live.com/self.aspx/.Public/Blogspot/Archives/2009/StaticEvent%7C_v2.20.zip">Download v2.20</a> 03/29/2009</p>  <h3>References</h3>  <p>previous article : <a title="http://thibaud60.blogspot.com/2009/03/helper-to-create-weak-event-with-strong.html" href="http://thibaud60.blogspot.com/2009/03/helper-to-create-weak-event-with-strong.html">http://thibaud60.blogspot.com/2009/03/helper-to-create-weak-event-with-strong.html</a></p>  
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>Thibaud</span>
+</span>
+<span class='post-timestamp'>
+à
+<a class='timestamp-link' href='http://thibaud60.blogspot.co.uk/2009/03/event-static-on-viewmodel-in-mvvm.html' rel='bookmark' title='permanent link'><abbr class='published' title='2009-03-30T14:57:00-07:00'>14:57</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-296449223'>
+<a href='https://www.blogger.com/post-edit.g?blogID=5339728292405481239&postID=3403065822965090205&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://thibaud60.blogspot.co.uk/2009/03/event-static-on-viewmodel-in-mvvm.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>samedi 14 mars 2009</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='8547924598760187292'></a>
+<h3 class='post-title entry-title'>
+<a href='http://thibaud60.blogspot.co.uk/2009/03/helper-to-create-weak-event-with-strong.html'>Helper to create a weak event with strong typed signature</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content'>
+<h3>Introduction</h3>  <p>When you create an event like this</p>  <p><span style="font-family: courier new">public event EventHandler&lt;MyEventArgs&gt; MyEvent;</span></p>  <p>and you use it like this :</p>  <p><span style="font-family: courier new">{      <br />var receiver = new MyReceiverClass();       <br />this.MyEvent += receiver.ReceiveMethod;</span><span style="font-family: courier new">      <br /></span><span style="font-family: courier new">}</span></p>  <p>Receiver instance will be never cleaned in memory by Garbage Collector while &#8220;this&#8221; is referenced by any another object and, if &quot;this&quot; is Singleton object &#8230; receiver will be never free !!!! Even if receiver is not referenced somewhere &#8230; simply because it is referenced by the event of the Singleton :-( </p>  <p>.Net Framework provides us with some tools to avoid this problem. You can see e.g. this <a href="http://msdn.microsoft.com/en-us/library/aa970850.aspx">reference</a>. It is the WeakEvent patterns.</p>  <p>This pattern works fine but it is a little hard and complex to create an object which receives an event with out strong reference : we need to implement IWeakEventListener interface or/and use a WeakEventManager.</p>  <p>My helper approaches the problem in a different way:</p>  <ul>   <li>It is easy to use += / &#8211;= operator to wire/unwire event with <strong>exactly</strong> the same approach of that of a classical event </li>    <li>helper does not give a strong reference on receiver event </li>    <li>helper allows additionnal functions on FrameworkElement receivers:      <br />-&gt; an unloaded instance will not received event!       <br />-&gt; capacity to filter Execute calls when the event is wired on different receiver (not tested &#8230;) </li> </ul>  <h3>Example of usage</h3>  <h5>To declare an event, you need just this code :</h5>  <p><span style="font-family: courier new"><span style="color: #0000ff">private</span> UIWeakEventHandler&lt;MyEventArgs&gt; _myEvent;       <br /><span style="color: #0000ff">public</span> <span style="color: #0000ff">event</span> EventHandler&lt;MyEventArgs&gt; <span style="color: #ff0000"><strong>MyEvent</strong></span>       <br />{       <br /><span style="color: #0000ff">add</span>       <br />{       <br />_myEvent += value; // UIWeakEventHandler is created by += operator if necessary       <br />}       <br /><span style="color: #0000ff">remove</span>       <br />{       <br />_myEvent &#8211;= value;       <br />}       <br />} </span></p>  <p><span style="font-family: courier new"><span style="color: #0000ff">public</span> <span style="color: #0000ff">void</span> OnMyEvent(MyEventArgs e)       <br />{       <br /><span style="color: #0000ff">if</span> (_myEvent != <span style="color: #0000ff">null</span>)       <br /></span><span style="font-family: courier new">_myEvent.Invoke(e);      <br />}</span></p>  <p>and It&#8221;s All Folks :-)</p>  <p><strong><span style="color: #ff0000">MyEvent</span></strong> is a public event and supports classic += / &#8211;= operator so Visual Studio offers the traditionnal helper like auto-created-code when the developper press &quot;+=&quot; key sequence.</p>  <h3>Why do I want to use this?</h3>  <p>I need to create some events in my application on singleton instance and sometimes these events could be wired on WPF Window. When using a simple event, it is always necessary to wire on Loaded event of my Window and not forget to unwire event in Unloaded event of the same Window: when forgetting them will lead to some Leak memory error and it could take ages to find the origin of the problem. I hope this type of technical approach helps me!</p>  <h3>Download</h3>  <p><a href="http://thibaud60.site.voila.fr/Archives/2009/ModelRoutedEvent_V2.10.zip">Download v2.10</a> (29/03/2009)</p>  <p><a href="http://lh5.ggpht.com/_dDsO1He2FKk/Sc9dDtXjWGI/AAAAAAAAAC0/lw32CoMqe9E/s1600-h/image%5B3%5D.png"><img alt="image" border="0" height="244" src="http://lh4.ggpht.com/_dDsO1He2FKk/Sc9dET1PBRI/AAAAAAAAAC4/ZXCep2VyNcc/image_thumb%5B1%5D.png?imgmax=800" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" width="184" /></a> </p>  <ul>   <li>Complete refactoring ! I will create another post in fews days to explain all news functionnalities      <ul>       <li><strong>IHandlersRepository</strong> interface : new name of IModelViewEventSupports </li>     </ul>   </li> </ul>  <p><font color="#0000ff">public interface</font> IHandlersRepository     <br />{     <br />&#160;&#160;&#160; <font color="#0000ff">void</font> AddHandler(ModelRoutedEvent modelRoutedEvent, Delegate handler);     <br />&#160;&#160;&#160; <font color="#0000ff">void</font> RemoveHandler(ModelRoutedEvent modelRoutedEvent, Delegate handler);     <br />&#160;&#160;&#160; <font color="#0000ff">void</font> GetHandlers(ModelRoutedEvent modelRoutedEvent, object sender, EventArgs e, <font color="#0000ff">ref</font> List&lt;Delegate&gt; result);     <br />}</p>  <ul>   <ul>     <li>new <strong>RoutedPropertyChangedEvent</strong> and <strong>RoutedPropertyChangingEvent</strong> </li>      <li>Create <strong>FrameworkElementHandlersRepository</strong> class to optimize memory perfomance on FrameworkElement target (Same internal approach of RoutedEvent of .Net WPF framework) </li>      <li>Example with TreeView and Recursive ModelView entity </li>      <li>Include {<a href="http://thibaud60.blogspot.com/2009/02/convert-clr-method-to-icommand-with.html">MethodBinding</a>} approach in TreeView Example<a href="http://lh3.ggpht.com/_dDsO1He2FKk/Sc9dFIzrXLI/AAAAAAAAAC8/_pks9-j-gs8/s1600-h/image%5B6%5D.png"><img alt="image" border="0" height="244" src="http://lh6.ggpht.com/_dDsO1He2FKk/Sc9dFuucfvI/AAAAAAAAADA/MlbC2wr4hCY/image_thumb%5B2%5D.png?imgmax=800" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" width="234" /></a> </li>   </ul> </ul>  <p><a href="http://cid-53ab3f68fbc307c8.skydrive.live.com/self.aspx/.Public/Blogspot/Archives/2009/WeakEventHandler%7C_v1.20.zip">Download v1.20</a>&#160;</p>  <ul>   <li>new interface <strong>IStorableEventsObject</strong> / <strong>IModelViewEventSupports</strong> to implements a &#8220;routed event pattern&#8221;&#160; on ModelView object </li> </ul>  <p><a href="http://cid-53ab3f68fbc307c8.skydrive.live.com/self.aspx/.Public/Blogspot/Archives/2009/WeakEventHandler%7C_v1.10.zip">Download v1.10</a> </p>  <p><a href="http://lh5.ggpht.com/_dDsO1He2FKk/SbvyDWWgbBI/AAAAAAAAAB0/2ntfbOkkyAY/s1600-h/image%5B2%5D.png"><img alt="image" border="0" height="147" src="http://lh3.ggpht.com/_dDsO1He2FKk/SbvyD2J439I/AAAAAAAAACA/OPiChonknzE/image_thumb.png?imgmax=800" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" width="187" /></a> </p>  <ul>   <li>the main window can open secondary window via &#8220;New Windows&#8221; button </li>    <li>&#8220;Fire static event&#8221; calls a static event and changes a Label in secondary Windows </li>    <li>&#8220;Show counter&#8221; gives you the quantity of Window2 class instance </li>    <li>&#8220;GC.Collect&#8221; executes a memory collection &gt;&gt; Clic on &#8220;Show counter&#8221; to see the consequences of this collection </li> </ul>  <p>I never used this prototype in real application and so comments will be very welcomed :-)</p>  <p>Best regards</p>  <h3>Class Diagram</h3>  <p><a href="http://lh5.ggpht.com/_dDsO1He2FKk/Sb0PkHYnN4I/AAAAAAAAACM/HqdzbiKNjbA/s1600-h/WeakEventHandler%5B4%5D.png"><img alt="WeakEventHandler" border="0" height="372" src="http://lh5.ggpht.com/_dDsO1He2FKk/Sb0PlHRfVhI/AAAAAAAAACQ/YiJttWMFRVs/WeakEventHandler_thumb%5B1%5D.png?imgmax=800" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="WeakEventHandler" width="461" /></a> </p>  <h3>Todo list</h3>  <ul>   <li>I started to retro-analysis Routed event of WPF framework in order to understand the way is has been designed. For example, very good performances are certainly obtained by saving Event handler of a UIElement in the same UIElement (like Dependency proprerty mechanism): the static routed event instance is only an identifier of the event and does not memorises anything else.      <br />My own approach is different. I have a Weak-list of Event handler: when quantity of receiver instances is important (e.g. more than 10 000) &gt;&gt; will possibly result in having some performance problems during the invoking process.       <br />Routed approach will be possible only when invoker has a link with receiver. This link will be the Logical graph of user interface in &quot;Routed Event and UIElement invoker&quot;. <strong>&gt;&gt; you can find a prototype of this approach in v1.20 version of download        <br /></strong></li>    <li>I wish to interact between these static events and a graph of data object (ModelView part of Model - ModelView - View approach ) and when an instance of data object invokes a static event, My goal is that every ancestor (and only them) of this instance (in the graph) receives the event! <strong>&gt;&gt; you can find a prototype of this approach in v1.20 version of download</strong>       <br /></li> </ul>  <h3>References</h3>  <ul>   <li>WeakEvent pattern of microsoft framework : <a title="http://msdn.microsoft.com/en-us/library/aa970850.aspx" href="http://msdn.microsoft.com/en-us/library/aa970850.aspx">http://msdn.microsoft.com/en-us/library/aa970850.aspx</a> </li>    <li>Explanation of Event strong reference in this good article : <a title="http://blogs.msdn.com/greg_schechter/archive/2004/05/27/143605.aspx" href="http://blogs.msdn.com/greg_schechter/archive/2004/05/27/143605.aspx">http://blogs.msdn.com/greg_schechter/archive/2004/05/27/143605.aspx</a> </li>    <li>Roughly the same approach : <a title="http://pabich.eu/blog/archive/2008/05/29/weakevent---you-wish-it-was-here.aspx" href="http://pabich.eu/blog/archive/2008/05/29/weakevent---you-wish-it-was-here.aspx">http://pabich.eu/blog/archive/2008/05/29/weakevent---you-wish-it-was-here.aspx</a> and It&#8217;s contains very good ideas like : Multithreading aspects, Semantic (Add, Remove, Invoke better than my Add(Remove)WeakRefenceHandler/Execute) : theses ideas are integrated in v1.10 of download :-) </li> </ul>  
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>Thibaud</span>
+</span>
+<span class='post-timestamp'>
+à
+<a class='timestamp-link' href='http://thibaud60.blogspot.co.uk/2009/03/helper-to-create-weak-event-with-strong.html' rel='bookmark' title='permanent link'><abbr class='published' title='2009-03-14T11:06:00-07:00'>11:06</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-296449223'>
+<a href='https://www.blogger.com/post-edit.g?blogID=5339728292405481239&postID=8547924598760187292&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://thibaud60.blogspot.co.uk/2009/03/helper-to-create-weak-event-with-strong.html#links'>Liens vers cet article</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>dimanche 1 février 2009</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5964007476396116684'></a>
+<h3 class='post-title entry-title'>
+<a href='http://thibaud60.blogspot.co.uk/2009/02/convert-clr-method-to-icommand-with.html'>Convert &quot;CLR method&quot; to &quot;ICommand&quot; with just a XAML declaration</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content'>
+<strong><span style="font-size: 130%">Introduction</span></strong>   <p>When we develop an application in WPF, we want to separate</p>  <ul>   <li>UI in XAML stream </li>    <li>Data (in POCO object for example) </li>    <li>Links between UI and Data, interaction logic, etc. ... </li> </ul>  <p>for example, The <a href="http://msdn.microsoft.com/en-us/magazine/dd419663.aspx">Model/ModelView/View</a> approach try do this.</p>  <p>One of the technical problem of this type of architecture is &quot;How can i launch code from UI on ModelView ?&quot;</p>  <p>If I want to launch a simple public method on underneath ModelView by XAML Declaration. It is not very easy.</p>  <p><strong><em>MethodBinding</em></strong> approach illustrated in this application help you to do this just with declaration syntax, no more code is necessary</p>  <p><strong><em><span style="font-size: 78%">Thibaud Bouquely, France, February 2009.</span></em></strong></p>  <p><strong><span style="font-size: 130%">Demo</span></strong></p>  <p>Demo application is <a href="http://cid-53ab3f68fbc307c8.skydrive.live.com/self.aspx/.Public/Blogspot/Archives/2009/MethodCommand%7C_V1.00.zip">Downloaded here</a>.</p>  <p>in Demo tabItem, you can launch this window. It's illustrate different usage of MethodBinding XAML declaration.</p>  <p><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_dDsO1He2FKk/SYXVSIjFMjI/AAAAAAAAAAs/YRt9THyvJ7Y/s1600-h/Code.PNG"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5297875044180242994" src="http://1.bp.blogspot.com/_dDsO1He2FKk/SYXVSIjFMjI/AAAAAAAAAAs/YRt9THyvJ7Y/s320/Code.PNG" style="width: 320px; height: 266px; cursor: pointer" /></a> =&gt; <a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_dDsO1He2FKk/SYXRtRll55I/AAAAAAAAAAk/copfOFRRkl0/s1600-h/ScreenShot.PNG"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5297871112416651154" src="http://2.bp.blogspot.com/_dDsO1He2FKk/SYXRtRll55I/AAAAAAAAAAk/copfOFRRkl0/s320/ScreenShot.PNG" style="margin: 0pt 10px 10px 0pt; width: 290px; height: 320px; cursor: pointer" /></a>     <br /></p>  <p></p>  <p><strong><span style="font-size: 130%">Tutorial</span></strong></p>  <ul>   <li>Create an object with a public method : the method must has no parameter or just one only      <br />      <br /><strong><em>Example :</em></strong>public void MyMethod(); on MyObject class       <br /></li>    <li>Push this object in DataContext of yours WPF controls      <br />      <br /><strong><em>Example :</em></strong>in Window's constructor : this.DataContext = new MyObject();       <br /></li>    <li>Declare link between a button and the previous public Method      <br />      <br /><strong><em>Example :&lt;</em></strong>Button Command=&quot;{f:MethodBinding MyMethod}&quot; &gt;Clic on me       <br /></li>    <li>No more code :-)      <br />if you clic on the button, MyMethod() is launch on MyObject instance in DataContext of the button </li> </ul>  <p><strong><span style="font-size: 130%">Other functionality</span></strong></p>  <ul>   <li>If public target method has one parameter, CommandParameter on Button (or ICommandSource control) is too transfered </li>    <li>If Target object has a Read-only property named MyMethodCanExecute. It's return a boolean value, It used by MethodCommand to manage CanExecute aspect of ICommand system. (rq : target object must be a INotifyPropertyChanged or a DependencyObject/DependancyProperty to use correctly this fonctionnality) </li> </ul>  <p><strong><span style="font-size: 130%">TODO list :</span></strong></p>  <ul>   <li>Like BindingOperations static class of WPF, add Static method somewhere to create a MethodBinding by code </li>    <li>Improve the component ! I just try in this demos, not in real application </li> </ul>  
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Publié par
+<span class='fn'>Thibaud</span>
+</span>
+<span class='post-timestamp'>
+à
+<a class='timestamp-link' href='http://thibaud60.blogspot.co.uk/2009/02/convert-clr-method-to-icommand-with.html' rel='bookmark' title='permanent link'><abbr class='published' title='2009-02-01T09:04:00-08:00'>09:04</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-296449223'>
+<a href='https://www.blogger.com/post-edit.g?blogID=5339728292405481239&postID=5964007476396116684&from=pencil' title='Modifier l&#39;article'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://thibaud60.blogspot.co.uk/search?updated-max=2009-02-01T09:04:00-08:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Articles plus anciens'>Articles plus anciens</a>
+</span>
+<a class='home-link' href='http://thibaud60.blogspot.co.uk/'>Accueil</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Inscription à :
+<a class='feed-link' href='http://thibaud60.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Articles (Atom)</a>
+</div>
+</div>
+<script type='text/javascript'>
+    window.___gcfg = { 'lang': 'fr' };
+  </script>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
+<h2>Archives du blog</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2011/'>
+2011
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2011/01/'>
+janvier
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://thibaud60.blogspot.co.uk/2011/01/sosdll-object-address-and-visual-studio.html'>SOS.DLL, object Address and Visual Studio debugger...</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2010/'>
+2010
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2010/10/'>
+octobre
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2010/02/'>
+février
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2009/'>
+2009
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2009/11/'>
+novembre
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2009/03/'>
+mars
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2009/02/'>
+février
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2008/'>
+2008
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2008/11/'>
+novembre
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://thibaud60.blogspot.co.uk/2008/10/'>
+octobre
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5339728292405481239&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Modifier'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'>&#160;</div>
+</div>
+<!-- end content-wrapper -->
+<div id='footer-wrapper'>
+<div class='footer no-items section' id='footer'></div>
+</div>
+</div></div>
+<!-- end outer-wrapper -->
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+var pageTracker = _gat._getTracker("UA-5992665-1");
+pageTracker._trackPageview();
+</script>
+<script language='javascript'>
+// pour l'instant marche pas bien, j'ai des bullets sur chaque ligne du fait
+// du style css général ! il faut que trouve une astuce pour inhiber localement ce style.
+dp.SyntaxHighlighter.BloggerMode();
+dp.SyntaxHighlighter.HighlightAll('code');
+</script>
+<script src='https://apis.google.com/js/plusone.js' type='text/javascript'></script>
+<!--It is your responsibility to notify your visitors about cookies used on your blog. See http://www.blogger.com/go/cookiechoices for more details.-->
+<script defer='' src='/js/cookiechoices.js'></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function(event) {
+      window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
+          (window.cookieOptions && cookieOptions.msg) || 'This site uses cookies from Google to deliver its services, to personalize ads and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.',
+          (window.cookieOptions && cookieOptions.close) || 'Got it',
+          (window.cookieOptions && cookieOptions.learn) || 'Learn More',
+          (window.cookieOptions && cookieOptions.link) || 'https://www.blogger.com/go/blogspot-cookies');
+    });
+  </script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2227587253-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY5f5iisW7gw1Lh98Q8ks-1JSgUAQA:1520129637902';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d5339728292405481239','//thibaud60.blogspot.co.uk/','5339728292405481239');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '5339728292405481239', 'title': 'Le blog de Thibaud :-)', 'url': 'http://thibaud60.blogspot.co.uk/', 'canonicalUrl': 'http://thibaud60.blogspot.com/', 'homepageUrl': 'http://thibaud60.blogspot.co.uk/', 'searchUrl': 'http://thibaud60.blogspot.co.uk/search', 'canonicalHomepageUrl': 'http://thibaud60.blogspot.com/', 'blogspotFaviconUrl': 'http://thibaud60.blogspot.co.uk/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'fr', 'localeUnderscoreDelimited': 'fr', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Le blog de Thibaud :-) - Atom\x22 href\x3d\x22http://thibaud60.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Le blog de Thibaud :-) - RSS\x22 href\x3d\x22http://thibaud60.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Le blog de Thibaud :-) - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/5339728292405481239/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/03063839278956085177\x22 /\x3e\n', 'openIdOpTag': '\x3clink rel\x3d\x22openid.server\x22 href\x3d\x22https://www.blogger.com/openid-server.g\x22 /\x3e\n\x3clink rel\x3d\x22openid.delegate\x22 href\x3d\x22http://thibaud60.blogspot.com/\x22 /\x3e\n', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/cb66ba6d93d44a2b', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Obtenir le lien', 'key': 'link', 'shareMessage': 'Obtenir le lien', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Partager sur Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Partager sur Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Partager sur Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Partager sur Google+', 'target': 'googleplus'}, {'name': 'E-mail', 'key': 'email', 'shareMessage': 'E-mail', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27fr\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Lire la suite', 'pageType': 'index', 'pageName': '', 'pageTitle': 'Le blog de Thibaud :-)'}}, {'name': 'features', 'data': {'lazy_images': 'false', 'unsupported_browser_message': 'false', 'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Modifier', 'linkCopiedToClipboard': 'Lien copié dans le presse-papiers&#160;!', 'ok': 'OK', 'postLink': 'Publier le lien'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Personnaliser', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Le blog de Thibaud :-)', 'description': '', 'url': 'http://thibaud60.blogspot.co.uk/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'useNgc': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2074721660-lbx__fr.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Chargement\x26hellip;'}, 'displayModeFull'));
+</script>
+</body>
+</html>

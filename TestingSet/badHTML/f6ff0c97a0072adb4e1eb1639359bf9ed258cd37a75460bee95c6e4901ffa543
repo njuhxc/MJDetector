@@ -1,0 +1,1666 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<link href='https://www.blogger.com/static/v1/widgets/3957297643-widget_css_bundle.css' rel='stylesheet' type='text/css'/>
+<meta content='eUKa87OlRMKnQkSROokbpuFp8n2QNKhpz-g2xUGYC6k' name='google-site-verification'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='http://diamondjewelry88.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://diamondjewelry88.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="DISCOVER WHAT DIAMOND JEWELRY IS - Atom" href="http://diamondjewelry88.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="DISCOVER WHAT DIAMOND JEWELRY IS - RSS" href="http://diamondjewelry88.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="DISCOVER WHAT DIAMOND JEWELRY IS - Atom" href="https://www.blogger.com/feeds/8666263573881048546/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/02757352067126296647" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://diamondjewelry88.blogspot.com/" />
+<!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+<meta content='http://diamondjewelry88.blogspot.com/' property='og:url'/>
+<meta content='DISCOVER WHAT DIAMOND JEWELRY IS' property='og:title'/>
+<meta content='' property='og:description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>DISCOVER WHAT DIAMOND JEWELRY IS</title>
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Theme Name: BlueDiamond
+Theme URI: http://www.skinpress.com/bluediamond-wp-themebluediamond-wp-theme/
+Description: Download free high quality wordpress themes at <a href="http://www.skinpress.com/">Skinpress.com</a>.
+Version: 1.6
+Author: Skinpress.com
+Author URI: http://www.skinpress.com/
+Converted to blogger template by FalconHive.com
+Template Name: Blue Diamond
+Template URI: http://falconhive.com/2009/06/blue-diamond-blogger-template.html
+Version: 1.00
+Date: 11 June 2009
+Author URI: http://www.falconhive.com
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="textcolor" description="Text Color"
+type="color" default="#68737D">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#959589">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#fff">
+<Variable name="featuredheadercolor" description="Featured Header Color"
+type="color" default="#0076A3">
+<Variable name="featuredtitlecolor" description="Featured Title Color"
+type="color" default="#fff">
+<Variable name="featuredtextcolor" description="Featured Text Color"
+type="color" default="#839699">
+<Variable name="featuredlinkcolor" description="Featured Link Color"
+type="color" default="#959589">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#fff">
+<Variable name="postmetacolor" description="Post Meta Color"
+type="color" default="#005b7f">
+<Variable name="postmetalinkcolor" description="Post Meta Link Color"
+type="color" default="#959595">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#fff">
+<Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#66717A">
+<Variable name="sidebarlinkcolor" description="Sidebar Link Color"
+type="color" default="#66717A">
+<Variable name="footertextcolor" description="Footer Text Color"
+type="color" default="#fff">
+<Variable name="footerlinkcolor" description="Footer Link Color"
+type="color" default="#fff">
+<Variable name="commenttitlecolor" description="Comment Title Color"
+type="color" default="#fff">
+<Variable name="commentmetacolor" description="Comment Meta Color"
+type="color" default="#fff">
+<Variable name="commentmetalinkcolor" description="Comment Meta Link Color"
+type="color" default="#0066A9">
+<Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% Verdana, Geneva, sans-serif">
+<Variable name="headerfont" description="Sidebar Title Font"
+type="font"
+default="normal normal 150% Tahoma, Geneva, sans-serif">
+<Variable name="sidebartextfont" description="Sidebar Text Font"
+type="font"
+default="normal normal 100% Verdana, Geneva, sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font"
+type="font"
+default="italic normal 600% 'Times New Roman', Times, serif">
+<Variable name="posttitlefont" description="Post Title Font"
+type="font"
+default="italic normal 200% Georgia, 'Times New Roman', Times, serif">
+<Variable name="commentheaderfont" description="Comment Title Font"
+type="font"
+default="italic normal 200% Georgia, 'Times New Roman', Times, serif"Times New Roman", Times, serif">
+<Variable name="commentmetafont" description="Comment Meta Font"
+type="font"
+default="italic normal 115% Georgia, 'Times New Roman', Times, serif"Times New Roman", Times, serif">
+<Variable name="footerfont" description="Footer Font"
+type="font"
+default="normal normal 100% Verdana, Arial, Helvetica, sans-serif">
+<Variable name="startSide" description="Side where text starts in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="Side where text ends in blog language"
+type="automatic" default="right">
+*/
+/* Use this with templates/template-twocol.html */
+#navbar-iframe {
+height:0px;
+visibility:hidden;
+display:none;
+}
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+margin:0;
+padding:0;
+}
+ul{
+list-style:none;
+}
+a{
+color:#959589;
+text-decoration:none;
+}
+a:hover{
+text-decoration:underline;
+}
+a img{
+border:0;
+}
+.clear{
+clear:both;
+}
+html{
+background:#00182b url(http://4.bp.blogspot.com/_t47uhxwKFVM/SkLACJVLVTI/AAAAAAAAAMo/B3HM0mC7ivo/s1600/bgr_html.png) repeat-x;
+}
+body{
+margin:0px;
+padding:0px;
+font:x-small Verdana, Geneva, sans-serif;
+font-size/* */:/**/small;
+font-size: /**/small;
+color:#68737D;
+background:url(http://4.bp.blogspot.com/_t47uhxwKFVM/SkLACDhLD2I/AAAAAAAAAMw/3hIMsCO2iSU/s1600/bgr_main.png) no-repeat repeat-x bottom;
+}
+#page{
+width:1000px;
+margin:0px auto;
+}
+/* HEADER */
+#header{
+width:100%;
+height:100px;
+overflow:hidden;
+}
+#header #logo h1{
+color:#ffffff;
+font:italic normal 600% 'Times New Roman', Times, serif;
+letter-spacing:-6px;
+padding:3px 0 0 50px;
+float:left;
+}
+#header #logo h1 a{
+color:#fff;
+}
+#header #logo h1 a:hover{
+text-decoration:none;
+}
+#main_search{
+float:right;
+width:322px;
+height:100px;
+background:url(http://4.bp.blogspot.com/_t47uhxwKFVM/SkLACh7tJEI/AAAAAAAAAM4/VY_0vr22wVg/s1600/bgr_main_search.png) no-repeat;
+}
+#searchform_top{
+float:left;
+padding:35px 0 0 23px;
+}
+#searchform_top_text{
+width:200px;
+padding:6px 6px 7px 6px;
+color:#4b4b4b;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+float:left;
+border:0;
+margin:0 7px 0 0;
+background:#fff;
+}
+#gosearch{
+float:left;
+}
+/*board*/
+#board{
+width:100%;
+height:240px;
+overflow:hidden;
+background:url(http://3.bp.blogspot.com/_t47uhxwKFVM/SkLAArRsy1I/AAAAAAAAAMA/2cNDwTK3E7o/s1600/bgr_board.png) no-repeat;
+}
+#board_featured{
+float:left;
+width:595px;
+padding:20px 0 0 50px;
+}
+#board_twitter{
+float:left;
+padding:60px 0 0 50px;
+}
+#board_rss{
+float:left;
+padding:45px 0 0 0;
+}
+#board_featured .featured{
+color:#0076A3;
+font-size:23px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-weight:normal;
+background:url(http://4.bp.blogspot.com/_t47uhxwKFVM/SkLAAbwWAvI/AAAAAAAAALw/vyIiyMLPKYY/s1600/ico_line_featured.png) no-repeat left bottom;
+padding:0 0 8px 0;
+margin:0 0 8px 0;
+}
+#board_featured .feat{
+color:#ffffff;
+font-size:20px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-weight:normal;
+padding:0 0 8px 0;
+}
+#board_featured .feat a{
+color:#ffffff;
+}
+#board_featured p{
+color:#839699;
+font-size:13px;
+line-height:18px;
+margin:0 0 10px 0;
+}
+#board_featured p a{
+color:#959589;
+}
+#board_featured p.more a{
+background:url(http://2.bp.blogspot.com/_t47uhxwKFVM/SkK_-ZSMmOI/AAAAAAAAAKo/dmZl1r_YHJU/s1600/button_readmore.gif) no-repeat;
+display:block;
+width:77px;
+height:29px;
+text-indent:-9999px;
+}
+/* BODY */
+#body{
+width:100%;
+background:url(http://2.bp.blogspot.com/_t47uhxwKFVM/SkLAA0mOiFI/AAAAAAAAAMI/78j0fFvQfqA/s1600/bgr_body.png) repeat-y;
+overflow:hidden;
+}
+#body_top{
+width:100%;
+background:url(http://3.bp.blogspot.com/_t47uhxwKFVM/SkLABlp0UWI/AAAAAAAAAMY/z6ryNSiNd1A/s1600/bgr_body_top.png) no-repeat;
+}
+#body_end{
+width:100%;
+background:url(http://2.bp.blogspot.com/_t47uhxwKFVM/SkLABVt8AxI/AAAAAAAAAMQ/kgn8XJ42PYs/s1600/bgr_body_end.png) no-repeat left bottom;
+overflow:hidden;
+padding:0 0 48px 0;
+}
+#body_left{
+width:693px;
+float:left;
+}
+#body_right{
+width:307px;
+float:right;
+}
+/* left contact */
+#body_left_content{
+width:606px;
+margin:20px 0 0 61px;
+}
+.post{
+width:100%;
+margin:0 0 35px 0;
+}
+.post-top{
+width:100%;
+overflow:hidden;
+background:url(http://1.bp.blogspot.com/_t47uhxwKFVM/SkLAC_7FWFI/AAAAAAAAANI/q1g7DJs8idw/s1600/bgr_post_title.png) no-repeat left bottom;
+padding:0 0 10px 0;
+}
+.post-title{
+width:500px;
+float:left;
+margin:5px 0 5px 0;
+}
+.post-title h2{
+font:italic normal 200% Georgia, 'Times New Roman', Times, serif;
+color:#ffffff;
+font-weight:normal;
+}
+.post-title h2 a{
+color:#ffffff;
+}
+.post-top .postcomment{
+width:70px;
+height:43px;
+padding:10px 0 0 5px;
+color:#7d8f8c;
+text-align:center;
+font-weight:normal;
+font-size:25px;
+float:right;
+background:url(http://3.bp.blogspot.com/_t47uhxwKFVM/SkLAC6OrmKI/AAAAAAAAANA/3waodziq5d8/s1600/bgr_post_comment.png) no-repeat;
+font-family:Georgia, "Times New Roman", Times, serif;
+margin:0 0 6px 0;
+}
+.post-top .postmeta{
+font-weight:normal;
+color:#005b7f;
+font-size:11px;
+margin:20px 0 5px 0;
+}
+.post-top .postmeta a, .post-top .postmeta span{
+color:#959595;
+text-transform:capitalize;
+font-weight:bold;
+}
+.entry{
+line-height:20px;
+font:normal normal 100% Verdana, Geneva, sans-serif;
+margin:10px 0 0 0;
+}
+.entry .banner{
+text-align:center;
+padding:0 0 10px 0;
+}
+.entry .banner img{
+border:0;
+}
+.banner_left{
+float:left;
+padding:0 20px 10px 0;
+}
+.entry .banner_left img{
+border:0;
+}
+.entry img{
+border:1px solid #666;
+}
+.entry p{
+padding-bottom:15px;
+}
+.entry p a{
+color:#0088bb;
+text-decoration:underline;
+}
+.entry p a:hover{
+text-decoration:none;
+}
+.postmetadata{
+width:100%;
+overflow:hidden;
+}
+.postmetadata p{
+font-weight:bold;
+color:#0076a3;
+font-size:12px;
+}
+.postmetadata p a{
+color:#0076a3;
+text-decoration:underline;
+}
+.postmetadata p a:hover{
+text-decoration:none;
+}
+.post-page{
+padding:0 0 60px 0;
+}
+h2.page_title{
+font-size:29px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+color:#fff;
+font-weight:normal;
+background:url(http://1.bp.blogspot.com/_t47uhxwKFVM/SkLAC_7FWFI/AAAAAAAAANI/q1g7DJs8idw/s1600/bgr_post_title.png) no-repeat left bottom;
+padding:0 0 20px 5px;
+}
+.post-page .entry{
+}
+.post-page .entry a{
+color:#0088bb;
+text-decoration:underline;
+}
+.post-page .entry a:hover{
+text-decoration:none;
+}
+.entry strong{
+}
+.post-page .entry h1, .post-page .entry h2, .post-page .entry h3, .post-page .entry h4, .post-page .entry h5, .post-page .entry h6{
+color:#fff;
+display:block;
+font-weight:normal;
+}
+.post-page .entry h1{
+font-size:26px;
+padding:0 0 14px 0;
+}
+.post-page .entry h2{
+font-size:24px;
+padding:0 0 14px 0;
+}
+.post-page .entry h3{
+font-size:22px;
+padding:0 0 12px 0;
+}
+.post-page .entry h4{
+font-size:20px;
+padding:0 0 10px 0;
+}
+.post-page .entry h5{
+font-size:18px;
+padding:0 0 8px 0;
+}
+.post-page .entry h6{
+font-size:16px;
+padding:0 0 6px 0;
+}
+/* ADS */
+#sidebar_ads{
+width:100%;
+overflow:hidden;
+margin:29px 0px 0 2px;
+float:left;
+}
+#sidebar_ads div{
+float:left;
+padding:0 0 5px 5px;
+}
+#sidebar_ads div img{
+float:left;
+}
+/* Sidebar */
+#sidebar{
+width:245px;
+font:normal normal 100% Verdana, Geneva, sans-serif;
+color:#66717A;
+float:left;
+}
+.sidebars h2{
+font:normal normal 150% Tahoma, Geneva, sans-serif;
+color:#ffffff;
+margin: 0 0 0 15px;
+padding:11px 0 11px 32px;
+text-transform:uppercase;
+background:url(http://2.bp.blogspot.com/_t47uhxwKFVM/SkLADpP7jdI/AAAAAAAAANg/95OG3zaoD20/s320/bgr_sidebars_h2.gif) no-repeat left;
+}
+.sidebars ul li{
+background:url(http://3.bp.blogspot.com/_t47uhxwKFVM/SkLADJoeK4I/AAAAAAAAANQ/Gk-7ukuzBc8/s1600/bgr_sidebar_line.gif) repeat-x bottom;
+margin:0 0 0 18px;
+padding:10px 0 12px 0;
+font-weight:normal;
+font-size:13px;
+}
+.sidebars li a{
+color:#66717A;
+}
+#ArchiveList {
+margin:0 0 0 20px;
+}
+#ArchiveList ul li a{
+padding:0 0 5px 0;
+background:none;
+}
+#ArchiveList ul li {
+padding:0 0 5px 0;
+}
+/* FOOTER */
+#footer{
+width:100%;
+height:208px;
+background:url(http://3.bp.blogspot.com/_t47uhxwKFVM/SkLABqroRQI/AAAAAAAAAMg/lCRx7VjZp-M/s1600/bgr_footer.png) no-repeat;
+overflow:hidden;
+}
+#footer h2{
+color:#505e6d;
+font-size:70px;
+font-weight:normal;
+letter-spacing:-6px;
+padding:20px 0 0 53px;
+float:left;
+position:relative;
+font-family:"Times New Roman", Times, serif;
+font-style:italic;
+}
+#footer h2 a{
+color:#505e6d;
+}
+#footer h2 a:hover{
+text-decoration:none;
+}
+#footer_text{
+padding:50px 40px 0 0;
+float:right;
+text-align:right;
+}
+#footer_text p{
+color:#ffffff;
+font:normal normal 100% Verdana, Arial, Helvetica, sans-serif;
+padding:0 0 8px 0;
+}
+#footer_text a{
+color:#ffffff;
+text-decoration:underline;
+}
+#footer_text a:hover{
+text-decoration:none;
+}
+#footer_text .designed a{
+color:#ffffff;
+}
+/* Begin Images */
+p img {
+padding: 0;
+max-width: 100%;
+}
+/*	Using 'class="alignright"' on an image will (who would've
+thought?!) align the image to the right. And using 'class="centered',
+will of course center the image. This is much better than using
+align="center", being much more futureproof (and valid) */
+img.centered {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+img.alignright {
+padding: 4px;
+margin: 0 0 2px 7px;
+display: inline;
+}
+img.alignleft {
+padding: 4px;
+margin: 0 7px 2px 0;
+display: inline;
+}
+.alignright {
+float: right;
+}
+.alignleft {
+float: left
+}
+/* End Images */
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+cursor: help;
+}
+acronym, abbr {
+border-bottom: 1px dashed #999;
+}
+blockquote {
+margin: 15px 30px 10px 10px;
+padding-left: 24px;
+padding-bottom:7px;
+background:url(http://4.bp.blogspot.com/_t47uhxwKFVM/SkLAD4FExhI/AAAAAAAAANo/vohmFpwynv8/s1600/blockquote_bg.gif) repeat-y;
+}
+blockquote blockquote{
+background:url(http://4.bp.blogspot.com/_t47uhxwKFVM/SkK_-OOHo4I/AAAAAAAAAKY/RNndrie0XMM/s1600/blockquote_bg2.gif) repeat-y;
+}
+blockquote cite {
+margin: 5px 0 0;
+display: block;
+}
+.center {
+text-align: center;
+}
+hr {
+display: none;
+}
+a img {
+border: none;
+}
+.feed-links {
+margin: 10px 0 0 0;
+font-size: 13px;
+}
+.navigation {
+text-align: right;
+margin:10px auto 0 auto;
+width:97%;
+padding:10px;
+background:#0e2c3e;
+overflow:hidden;
+font-size:13px;
+color:#000;
+}
+#content_single .navigation {
+text-align: center;
+width:96%;
+padding:10px 0 10px 0;
+margin:30px 0 0 25px;
+}
+.navigation a{
+color:#87969f;
+font-size:13px;
+}
+/* End Various Tags & Classes*/
+/* Begin Lists
+Special stylized non-IE bullets
+Do not work in Internet Explorer, which merely default to normal bullets. */
+.entry ul {
+margin: 0 10px 15px 30px;
+list-style: none;
+padding:15px 15px 15px 20px;
+background:#001627;
+border:1px solid #082943;
+}
+.entry ul li {
+border-bottom:1px solid #263139;
+background:url(IMAGE-LINK-HERE/ico_entry.gif) no-repeat left 13px;
+padding:7px 0 7px 15px;
+}
+.entry ol {
+margin: 0 10px 15px 30px;
+padding:15px 15px 15px 40px;
+background:#001627;
+border:1px solid #082943;
+}
+.entry ol li {
+margin: 0;
+padding:7px 0 7px 0;
+border-bottom:1px solid #263139;
+}
+.postmetadata ul, .postmetadata li {
+display: inline;
+list-style-type: none;
+list-style-image: none;
+}
+ol li{
+list-style: decimal outside;
+}
+/* End Entry Lists */
+/* Begin Form Elements */
+#searchform {
+margin: 10px auto;
+padding: 5px 3px;
+text-align: center;
+}
+#sidebar #searchform #s {
+width: 108px;
+padding: 2px;
+}
+#sidebar #searchsubmit {
+padding: 1px;
+}
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+text-align:center;
+}
+select {
+width: 130px;
+}
+#commentform{
+width:400px;
+}
+#commentform input {
+width: 170px;
+padding: 2px;
+margin: 5px 5px 1px 0;
+}
+#commentform textarea {
+width: 350px;
+padding: 2px;
+}
+#commentform #submit {
+margin: 5px 0 0 0;
+padding:0;
+width:85px;
+height:35px;
+}
+/* End Form Elements */
+/* Begin Comments*/
+.comment-form {
+margin:25px 0px 0px 25px;
+max-width:600px !important;
+width:600px !important;
+}
+h4#comments{
+font:italic normal 200% Georgia, ;
+color:#ffffff;
+background:url(http://1.bp.blogspot.com/_t47uhxwKFVM/SkLAC_7FWFI/AAAAAAAAANI/q1g7DJs8idw/s1600/bgr_post_title.png) no-repeat left bottom;
+padding:0 0 20px 5px;
+margin:0 0 10px 25px;
+}
+h4#comment-post-message {
+font:italic normal 200% Georgia, ;
+color:#ffffff;
+background:url(http://1.bp.blogspot.com/_t47uhxwKFVM/SkLAC_7FWFI/AAAAAAAAANI/q1g7DJs8idw/s1600/bgr_post_title.png) no-repeat left bottom;
+margin:0 0 10px 0px;
+padding:0 0 20px 5px;
+}
+h4.backlinks {
+font:italic normal 200% Georgia, ;
+color:#ffffff;
+background:url(http://1.bp.blogspot.com/_t47uhxwKFVM/SkLAC_7FWFI/AAAAAAAAANI/q1g7DJs8idw/s1600/bgr_post_title.png) no-repeat left bottom;
+padding:0 0 20px 5px;
+margin:0 0 10px 25px;
+}
+.comment-link {
+margin: 0 0 25px 25px;
+font-size: 13px;
+}
+.alt {
+margin: 0;
+padding: 10px;
+}
+.commentlist {
+padding: 0;
+text-align: justify;
+margin:0 0 0 25px;
+}
+.commentlist .comment {
+margin: 15px 0 0 0;
+padding: 10px 15px 20px 15px;
+list-style: none;
+background:#001627;
+border:1px solid #00213b;
+}
+.commentlist .alt {
+background:#000f1b;
+}
+.commentlist .comment .comment {
+margin: 15px 15px 15px 15px;
+padding: 10px 15px 20px 15px;
+width:auto;
+}
+.commentlist p {
+margin: 10px 5px 10px 0;
+line-height:18px;
+}
+.commentmet_data{
+width:100%;
+overflow:hidden;
+}
+.commentmet_data td{
+vertical-align:top;
+text-align:left;
+}
+.commentmet_avatar{
+width:102px;
+padding:15px 0 0 0;
+}
+.commentmet_avatar img{
+border:2px solid #090000;
+}
+#commentform p {
+margin: 5px 0;
+}
+.commentmet_replay{
+width:100%;
+overflow:hidden;
+}
+.commentmet_replay a{
+float:right;
+display:block;
+text-indent:-9999px;
+text-transform:capitalize;
+background:url(http://2.bp.blogspot.com/_t47uhxwKFVM/SkK_-q3X2RI/AAAAAAAAAKw/DGteHFodnCE/s1600/button_replay.gif) no-repeat;
+width:90px;
+height:24px;
+}
+.nocomments {
+text-align: center;
+margin: 0;
+padding: 0;
+}
+.commentmetadata {
+margin: 0;
+display: block;
+padding:0 0 5px 0;
+color:#ffffff;
+font:italic normal 115% Georgia, ;
+text-transform:capitalize;
+}
+.commentmetadata a{
+color:#0066A9;
+font-weight:bold;
+}
+.commentmetadata span{
+color:#0066A9;
+font-weight:bold;
+}
+.commentmet_text{
+font: normal normal 100% Verdana, Geneva, sans-serif;
+color:#68737D;
+}
+#respond{
+margin:20px 0 0 25px;
+}
+h3#respond_title{
+font-size:29px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+color:#fff;
+font-weight:normal;
+background:url(http://1.bp.blogspot.com/_t47uhxwKFVM/SkLAC_7FWFI/AAAAAAAAANI/q1g7DJs8idw/s1600/bgr_post_title.png) no-repeat left bottom;
+padding:0 0 20px 5px;
+margin:0 0 20px 0;
+}
+#commentform{
+margin-left:25px;
+color:#808991;
+font-size:12px;
+width:90%;
+}
+#commentform small{
+position:relative;
+top:-1px;
+font-size:12px;
+}
+#cancel-comment-reply-link{
+font-size:12px;
+color:#808991;
+}
+#commentform a, #commentform small{
+color:#808991;
+}
+#commentform input{
+background:#00203a;
+border:2px solid #00203a;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+padding:4px;
+color:#ffffff;
+}
+#commentform textarea{
+background:#00203a;
+border:2px solid #00203a;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+padding:4px;
+margin:5px 0 0 0;
+color:#ffffff;
+overflow:auto;
+}
+#commentform input#submit{
+background:none;
+border:0px;
+}
+/* End Comments */
+a.blog-pager-newer-link {
+float: left;
+padding: 4px;
+margin: 2px;
+color:#879696;
+background:#0e2c3e;
+}
+a.blog-pager-older-link {
+float: right;
+padding: 4px;
+margin: 2px;
+color: #879696;
+background:#0e2c3e;
+}
+a.home-link {
+position:absolute;
+padding: 4px;
+margin: 2px;
+color: #879696;
+background:#0e2c3e;
+}
+#blog-pager{
+text-align:center
+}
+
+--></style>
+<script language='javascript'>
+function doClear(theText) {
+ if (theText.value == theText.defaultValue) {
+         theText.value = ''
+ }
+}
+</script>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8666263573881048546&amp;zx=7c4163b7-1116-404a-87d9-5203cb115166' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8666263573881048546&amp;zx=7c4163b7-1116-404a-87d9-5203cb115166' rel='stylesheet'/></noscript>
+</head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d8666263573881048546\x26blogName\x3dDISCOVER+WHAT+DIAMOND+JEWELRY+IS\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://diamondjewelry88.blogspot.com/search\x26blogLocale\x3din\x26v\x3d2\x26homepageUrl\x3dhttp://diamondjewelry88.blogspot.com/\x26vt\x3d5150123307887423761',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<!-- Page -->
+<div id='page'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<!-- Header -->
+<div id='header'>
+<div class='blogname section' id='blogname'><div class='widget Header' data-version='1' id='Header1'>
+<div id='logo'>
+<h1>
+DISCOVER WHAT DIAMOND JEWELRY IS
+</h1>
+</div>
+</div></div>
+<!-- Search -->
+<div id='main_search'>
+<form action='/search' id='searchform_top' method='get'>
+<div>
+<input id='searchform_top_text' name='q' onfocus='doClear(this)' type='text' value='Type your search here...'/>
+<input id='gosearch' src='http://1.bp.blogspot.com/_t47uhxwKFVM/SkK_-eID2nI/AAAAAAAAAKg/Bpt6QlZrnrQ/s1600/button_go.gif' type='image'/>
+</div>
+</form>
+</div>
+<!-- /Search -->
+</div>
+<!-- /Header-->
+<div id='board'>
+<div class='section' id='board_featured'><div class='widget HTML' data-version='1' id='HTML99'>
+<div class='featured'>Featured post</div>
+<div class='widget-content'>
+</div>
+</div><div class='widget HTML' data-version='1' id='HTML4'>
+<div class='widget-content'>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="600" height="85">
+    <param name="movie" value="http://www.readbud.com/images/728_90_banner.swf?clickTAG=http://www.readbud.com/?ref=4426416" />
+    <param name="quality" value="high" />
+    <param name="allowScriptAccess" value="always" />
+    <param name="wmode" value="transparent" />
+     <embed src="http://www.readbud.com/images/728_90_banner.swf?clickTAG=http://www.readbud.com/?ref=4426416"
+      quality="high"
+      type="application/x-shockwave-flash"
+      wmode="transparent"
+      width="728"
+      height="90"
+      pluginspage="http://www.macromedia.com/go/getflashplayer"
+      allowscriptaccess="always" />
+</embed></object>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=board_featured' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div id='board_twitter'><a href='http://twitter.com/TWITTER-ID-HERE' title='Rss'><img alt='Twitter' src='http://4.bp.blogspot.com/_t47uhxwKFVM/SkK__XZa5UI/AAAAAAAAALI/JZJHveGbEjY/s320/button_twitter.png'/></a>
+</div>
+<div id='board_rss'><a href='/feeds/posts/default' title='RSS'><img alt='RSS' src='http://1.bp.blogspot.com/_t47uhxwKFVM/SkK_-wGN0II/AAAAAAAAAK4/Mujdk90Tf94/s1600/button_rss.png'/></a>
+</div>
+</div>
+<!-- Body -->
+<div id='body'>
+<!-- Body_top -->
+<div id='body_top'>
+<div id='body_end'>
+<div id='body_left'>
+<div id='body_left_content'>
+<!-- Content -->
+<div class='narrowcolumn' id='content'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol no-items section' id='crosscol'></div>
+</div>
+<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!--Can't find substitution for tag [adStart]-->
+<div class='post hentry uncustomized-post-template'>
+<div class='post' id='post'>
+<a name='7975341896531366459'></a>
+<div class='post-top'>
+<div class='post-title'>
+<h2>
+<a href='http://diamondjewelry88.blogspot.com/2010/06/designer-jewelry-world-rockerz.html'>Designer Jewelry World ROCKERZ</a>
+</h2>
+<div class='postmeta'>
+
+      Posted by
+      <span class='fn'>DIAMOND JEWELRY</span>
+ |
+	   |
+	  
+
+      Posted on 21.48
+</div>
+</div>
+<div class='postcomment'>
+<a class='commentlink' href='http://diamondjewelry88.blogspot.com/2010/06/designer-jewelry-world-rockerz.html#comment-form' onclick=''>2</a>
+</div>
+</div>
+<div class='post-header-line-1'></div>
+<style>.fullpost{display:none;}</style>
+<div class='entry'>
+<h1 align="center" style="text-align: left;">Designer Jewelry World ROCKERZ</h1><div><br /></div><span class="Apple-style-span"   style="  color: rgb(104, 115, 125); font-family:Verdana, Geneva, sans-serif;font-size:13px;"><em><span style="  color: rgb(104, 115, 125); font-family:Verdana;font-size:10pt;">Executive Summary about</span></em><span class="apple-converted-space"><i><span style="  color: rgb(104, 115, 125); font-family:Verdana;font-size:10pt;"> </span></i></span><span class="apple-style-span"><i><span style="  color: rgb(104, 115, 125); font-family:Verdana;font-size:10pt;">Designer Jewelry World ROCKERZ By Kharisma</span></i></span></span><div><div><span class="apple-style-span"><i></i></span><span class="Apple-style-span"    style="font-family:Verdana;font-size:100%;color:#68737D;"><span class="Apple-style-span"  style="font-size:13px;"><i><br /></i></span></span><br /><div style="text-align: justify;">Jewellery worn by someone really determines the quality of the person's appearance. Therefore, you must be good at choosing accessories that you wear. Here are some designers whose work is trusted by the creation of the world celebrities. Let&#8217;s look together.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>JamieWolf</b></div></div><div><div style="text-align: justify;"><br /></div><img alt="" border="0" id="BLOGGER_PHOTO_ID_5487345312891182722" src="http://2.bp.blogspot.com/_h0uamIkTbYY/TCb3fSbInoI/AAAAAAAAAJc/tUDc9hO2Z0Q/s320/Designer+Jewelry+World+ROCKERZ1.jpg" style="text-align: justify;float: left; margin-top: 0px; margin-right: 10px; margin-bottom: 10px; margin-left: 0px; cursor: pointer; width: 160px; height: 160px; " /><div style="text-align: justify;"><br /></div></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div><div style="text-align: justify;">Jewelry designer Jamie Wolf, who claimed to love the jewelry a bit feminine with intricate patterns. Wolf believes that the feminine-smelling things will remain all-time behavior. Before becoming a jewelry designer for celebrities like <span class="apple-style-span"><span style="font-family:&quot;Times New Roman&quot;;mso-fareast-Times New Roman&quot;; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SAfont-family:&quot;;font-size:12.0pt;"><a href="http://diamondjewelry88.blogspot.com/2010/06/celebrity-birthstone-jewelry.html"><span class="Apple-style-span"  style="color:#3333FF;">Jessica Alba</span></a></span></span><span class="Apple-style-span"  style="color:#000099;">,</span> Jessica Biel, Penelope Cruz, and Hayden Panettiere, Wolf is a ballerina. If you are interested in his work, click jamiewolf.com</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Kwiat</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Halle Berry, Jennifer Hudson, Natalie Portman, and Hilary Swank proudly wearing artificial jewelry Kwiat while attending their important events. Established since 1907 ago Kwiat always complete range of jewelry collection with classy start of necklaces, rings, up accessories for the Adam. More information, click kwiat.com</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Ippolita</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">This young designer born in Florence, Italy. Ippolita like the tinkling of jewelry when worn. "The sound as beautiful shape." he said. Ippolita create a variety of jewelry with a beautiful asymmetrical forms and additional carving is unique in every design. He also adds a touch of diamonds and other <span style="font-family:&quot;Times New Roman&quot;; mso-fareast-Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SAfont-family:&quot;;font-size:12.0pt;"><a href="http://diamondjewelry88.blogspot.com/2010/03/diamond-jewelry.html"><span class="Apple-style-span"  style="color:#3333FF;">precious stones</span></a></span> when designing jewelry for Kate Hudson, Halle Berry and Jennifer Lopez. More information, click ippolita.com</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Lorraine Schwartz</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">"We're always working with the jewelry so much that its rays can be radiated out." Lorraine Schwartz jewelry comments about his work is peppered with diamonds and precious gems. Beyonce Knowles, Jennifer Lopez and Cate Blanchett is a loyal client Lorraine Schwartz.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>L Frank</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Frankfurt has successfully Liseanne stunning Demi Moore, Cindy Crawford, and Christine Taylor with her jewelry design. Liseanne works using materials such as jamrut, tourmaline, and pearls. He's stringing materials that he used to be adorned with sealami view as possible. "I do not like when the rocks are too dominating a jewel." he said. Complete information, click lfrankjewelry.com</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Cartier</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Since it opened a half century ago in the romantic city of Paris, Cartier arguably always produce works of high quality jewelry. <span style="font-family:&quot;Times New Roman&quot;; mso-fareast-Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SAfont-family:&quot;;font-size:12.0pt;"><a href="http://diamondjewelry88.blogspot.com/2010/03/contemporary-jewelry.html"><span class="Apple-style-span"  style="color:#3333FF;">Luxury gems</span></a></span> are strung together beautifully with diamonds enhance celebrities like Fergie, Debra Messing, and Halle Berry. Le Baiser du Dragon collection is made from a series of stones ruby, black onyx, and diamonds. Lately Cartier also worked with some world celebrities like Sarah Jessica Parker, Rihanna, and Usher in designing their Charity Love bracelet. Complete information, click cartier.com</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>House of Warisu</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Waris Ahluwalia, the designer, claimed highly influenced by romanticism and historical narratives that exist in Italy and India. Waris fell in love with Italy while filming Wes Anderson that took place in Rome some time ago. This causes the former actor, has decided to become <span style="font-family:&quot;Times New Roman&quot;; mso-fareast-Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SAfont-family:&quot;;font-size:12.0pt;"><a href="http://diamondjewelry88.blogspot.com/2010/03/jewelry-designers.html"><span class="Apple-style-span"  style="color:#3333FF;">jewelry designers</span></a></span>. Cate Blanchett, Lauren Hutton, and Chloe Sevigny are some celebrities who wear his work. More information, click houseofwaris.com</div></div></div>
+<div style='clear: both;'></div>
+<div style='clear'></div>
+</div>
+<br/>
+<div class='postmetadata'>
+<p><a href='http://diamondjewelry88.blogspot.com/2010/06/designer-jewelry-world-rockerz.html'>Continue Reading</a></p>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post hentry uncustomized-post-template'>
+<div class='post' id='post'>
+<a name='7334766215055311556'></a>
+<div class='post-top'>
+<div class='post-title'>
+<h2>
+<a href='http://diamondjewelry88.blogspot.com/2010/06/celebrity-birthstone-jewelry.html'>Celebrity Birthstone Jewelry</a>
+</h2>
+<div class='postmeta'>
+
+      Posted by
+      <span class='fn'>DIAMOND JEWELRY</span>
+ |
+	  
+	  Posted in
+        
+<a href='http://diamondjewelry88.blogspot.com/search/label/beautiful%20turquoise' rel='tag'>beautiful turquoise</a>,
+<a href='http://diamondjewelry88.blogspot.com/search/label/birthstone%20jewelry' rel='tag'>birthstone jewelry</a>,
+<a href='http://diamondjewelry88.blogspot.com/search/label/psychic%20powers' rel='tag'>psychic powers</a>,
+<a href='http://diamondjewelry88.blogspot.com/search/label/the%20pearl' rel='tag'>the pearl</a>
+ |
+	  
+
+      Posted on 04.38
+</div>
+</div>
+<div class='postcomment'>
+<a class='commentlink' href='http://diamondjewelry88.blogspot.com/2010/06/celebrity-birthstone-jewelry.html#comment-form' onclick=''>0</a>
+</div>
+</div>
+<div class='post-header-line-1'></div>
+<style>.fullpost{display:none;}</style>
+<div class='entry'>
+<h1>Celebrity Birthstone Jewelry</h1>  <p class="MsoNormal"><em><span style=" ;font-family:Verdana;font-size:10.0pt;color:#68737D;">Executive Summary about</span></em><span class="apple-converted-space"><i><span style=" ;font-family:Verdana;font-size:10.0pt;color:#68737D;"> </span></i></span><span class="apple-style-span"><i><span style="font-family:Verdana;font-size:10.0pt;color:#68737D;">Celebrity Birthstone Jewelry By Sher Matsen</span></i></span><span style="font-family:Verdana;font-size:7.5pt;color:black;"><o:p></o:p></span></p><p class="MsoNormal"><span class="apple-style-span"><i><span style="font-family:Verdana;font-size:10.0pt;color:#68737D;"><br /></span></i></span></p>  <p class="MsoNormal"><o:p> </o:p></p>  <img alt="" border="0" id="BLOGGER_PHOTO_ID_5485934421089953490" src="http://1.bp.blogspot.com/_h0uamIkTbYY/TCH0Sk4nptI/AAAAAAAAAIc/VuIgDIlaX2k/s320/birthstones+jewelry.jpg" style="float:left; margin:0 10px 10px 0;cursor:pointer; cursor:hand;width: 320px; height: 304px;" /><p class="MsoNormal"><o:p></o:p><span class="Apple-style-span"   style="  color: rgb(75, 75, 75); font-family:Verdana;font-size:13px;">It seems that birthstone jewelry isn't just for us normal folk, celebrities have been seen jumping on the birthstone jewelry wagon. They claim it has more of a personal touch than other jewelry.</span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">Most gems are steeped in mystery and are believed to have certain qualities such as healing properties or balancing properties. Some celebrities are very tuned to wearing <a href="file:///E:/INTERNET/jewelry/artikel/Diamond%20jewelry.doc">birthstone jewelry</a>. So lets have a look at which stars share your birthstone. Perhaps you can get some jewelry fashion ideas from them.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">January birthstone is the garnet which is believed to purify the blood. January birthday celebrities include Kate Moss, Alicia Keys, Rod Stewart and Faye Dunaway.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">February's birthstone is the amethyst which is believe to give the wearer tranquility. February celebrities include James Phelps, Clark Gable, and Drew Barrymore.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">March's birthstone is blue aquamarine which is believed to protect sailors at sea. March celebrities include Joan Crawford, Sarah Jessica Parker, and Liza Minnelli.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">April's birthstone is the diamond. Now what a perfect reason to own diamonds which are symbolic of everlasting love. April birthday celebrities include Doris Day, Betti Davis, Ashley Judd, Jerry Seinfeld, and Jessica Alba.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">May's birthstone is the emerald which is believed to give the wearer <a href="file:///E:/INTERNET/jewelry/artikel/amber%20jewelry.doc">psychic powers</a>. May birthday celebrities include Audrey Hepburn, Candice Bergen, Katherine Hepburn, and Clint Eastwood.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">June's birthstone is <a href="file:///E:/INTERNET/jewelry/artikel/pearl%20jewelry.doc">the pearl</a> which is believed to give the wearer pure thoughts. June celebrities include Marilyn Monroe, Angelina Jolie, Jenny Jones, Cole Porter, and Judy Garland.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">July's birthstone is the beautiful red ruby which is believed to enhance sexual prowess. July celebrities include Princess Di, Tom Hanks, Lizzie Borden, and Harrison Ford.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">August's birthstone is green peridot which is believed to remove nightmares. August celebrities include Macaulay Culkin,, <st1:place st="on"><st1:city st="on">Halle</st1:city>  <st1:state st="on">Berry</st1:state></st1:place>, Whitney Houston, and Martha Stewart.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">September's birthstone is the sapphire which is believed to give the wearer precognition powers. September birthday celebrities include Gwyneth Paltrow, Jesse James, and Buddy Holly.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">October's birthstone is the opal which is believed to keep the wearer pure. Celebrities include Julie Andrews, Neve Campbell, <st1:place st="on">Chevy Chase</st1:place>, and Suzanne Somers.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">November's birthstone is topaz which is believed to be a healing stone. October celebrities include Demi Moore, Stephanie Powers, and Patty Page.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">December's birthstone is the <a href="file:///E:/INTERNET/jewelry/artikel/Turquoise%20Jewelry.doc">beautiful turquoise</a> which is believed to protect from dangers. December celebrities include Britney Spears, Bette Milder, Susan Dey, and Patti Duke.<o:p></o:p></span></p>  <p><span style="font-family:Verdana;font-size:10.0pt;color:#4B4B4B;">So when it comes to your birthstone jewelry just follow the stars.<o:p></o:p></span></p>  <p class="MsoNormal"><o:p> </o:p></p>
+<div style='clear: both;'></div>
+<div style='clear'></div>
+</div>
+<br/>
+<div class='postmetadata'>
+<p><a href='http://diamondjewelry88.blogspot.com/2010/06/celebrity-birthstone-jewelry.html'>Continue Reading</a></p>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post hentry uncustomized-post-template'>
+<div class='post' id='post'>
+<a name='7861885432483014660'></a>
+<div class='post-top'>
+<div class='post-title'>
+<h2>
+<a href='http://diamondjewelry88.blogspot.com/2010/06/brad-pitt-angelina-jolie-jewelry-design.html'>Brad Pitt - Angelina Jolie Jewelry Design</a>
+</h2>
+<div class='postmeta'>
+
+      Posted by
+      <span class='fn'>DIAMOND JEWELRY</span>
+ |
+	   |
+	  
+
+      Posted on 00.38
+</div>
+</div>
+<div class='postcomment'>
+<a class='commentlink' href='http://diamondjewelry88.blogspot.com/2010/06/brad-pitt-angelina-jolie-jewelry-design.html#comment-form' onclick=''>1</a>
+</div>
+</div>
+<div class='post-header-line-1'></div>
+<style>.fullpost{display:none;}</style>
+<div class='entry'>
+<h1>Brad Pitt - Angelina Jolie Jewelry Design</h1><span class="Apple-style-span"   style="  color: rgb(104, 115, 125); font-family:Verdana, Geneva, sans-serif;font-size:13px;"><em><span style="  color: rgb(104, 115, 125); font-family:Verdana;font-size:10pt;">Executive Summary about Brad Pitt - Angelina Jolie Jewelry Design By Kharisma</span></em></span><br /><br /><br /><span style=" font-weight: normal;font-size:12pt;">Despite all the rumors that hit Brad Pitt and <span class="apple-style-span"><span style="font-family:&quot;Times New Roman&quot;;mso-fareast-Times New Roman&quot;; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SAfont-family:&quot;;font-size:12.0pt;"><a href="http://diamondjewelry88.blogspot.com/2010/06/celebrity-birthstone-jewelry.html"><span class="Apple-style-span"  style="color:#3333FF;">Angelina Jolie</span></a></span></span>, famous couples is also known by their generosity. Pitt and Jolie's charity work helping with designing jewelry for jewelry companies , Asprey. Results from the fruit of this work will be donated.<br /><br />Pitt and Jolie designing jewelry for the <span class="apple-style-span"><span style="font-family:&quot;Times New Roman&quot;;mso-fareast-Times New Roman&quot;; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SAfont-family:&quot;;font-size:12.0pt;"><a href="http://diamondjewelry88.blogspot.com/2010/03/inexpensive-jewelry.html"><span class="Apple-style-span"  style="color:#3333FF;">collection</span></a></span></span> of pairs whose results will be donated to the Education Partnership for Children of Conflict (EPCC). Jolie also served as co-founder of this charitable organization.<br /><br />This pair cufflink-shaped design made from <span class="apple-style-span"><span style="font-family:&quot;Times New Roman&quot;;mso-fareast-Times New Roman&quot;; mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language: AR-SAfont-family:&quot;;font-size:12.0pt;"><a href="http://diamondjewelry88.blogspot.com/2010/03/contemporary-jewelry.html"><span class="Apple-style-span"  style="color:#3333FF;">white gold snake</span></a></span></span> with black diamonds which are sold at a price of U.S. $ 10,000. According to People, a snake called a symbol of protective amulets, which bears her first child when pregnant Jolie.</span>
+<div style='clear: both;'></div>
+<div style='clear'></div>
+</div>
+<br/>
+<div class='postmetadata'>
+<p><a href='http://diamondjewelry88.blogspot.com/2010/06/brad-pitt-angelina-jolie-jewelry-design.html'>Continue Reading</a></p>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post hentry uncustomized-post-template'>
+<div class='post' id='post'>
+<a name='4468630723200240752'></a>
+<div class='post-top'>
+<div class='post-title'>
+<h2>
+<a href='http://diamondjewelry88.blogspot.com/2010/03/turquoise-jewelry.html'>TURQUOISE JEWELRY</a>
+</h2>
+<div class='postmeta'>
+
+      Posted by
+      <span class='fn'>DIAMOND JEWELRY</span>
+ |
+	   |
+	  
+
+      Posted on 07.29
+</div>
+</div>
+<div class='postcomment'>
+<a class='commentlink' href='http://diamondjewelry88.blogspot.com/2010/03/turquoise-jewelry.html#comment-form' onclick=''>2</a>
+</div>
+</div>
+<div class='post-header-line-1'></div>
+<style>.fullpost{display:none;}</style>
+<div class='entry'>
+<h1>Facts About Turquoise Jewelry Earrings You Should Know </h1>  <p class="MsoNormal"><em>Executive Summary about </em><i style="">Turquoise Jewelry By Pierre Smith</i></p><p class="MsoNormal"><i style=""><br /></i></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_h0uamIkTbYY/S8QldPvTGTI/AAAAAAAAAH8/HM1VZxsTZB8/s1600/turquoise+jewelry1.png"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5459529832651233586" src="http://2.bp.blogspot.com/_h0uamIkTbYY/S8QldPvTGTI/AAAAAAAAAH8/HM1VZxsTZB8/s320/turquoise+jewelry1.png" style="margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 247px; height: 185px;" /></a>Turquoise is essentially the most excellent form of opaque stone. It has the combination of green, blue, and yellow green color which makes it really appealing. The green color is in reality due to its aluminum content while the blue hue is because of its copper substance and whereas the yellow green hue is caused by the <span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA"><a href="http://diamondjewelry88.blogspot.com/2010/03/jewelry-findings.html">zinc's presence</a></span> in the stone. Another good characteristic of turquoise is its smooth texture which is due to the reasonable quantity of water that it contains. Thus, it is the prime choice of craftsmen when it comes to designing a piece of jewelry specifically turquoise jewelry earrings.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">These earrings do come in various styles. Most of them are actually derived from the customary patterns and themes of the aboriginal American Indian associations as well as from the modern motifs of people from the Southwestern part of <st1:country-region st="on"><st1:place st="on">America</st1:place></st1:country-region>. The earrings made based on these patterns or motifs are in fact incredibly enthralling and mystic making turquoise earrings very popular even in today's modern era. You can actually choose any style. Honestly speaking, natural <span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA"><a href="http://diamondjewelry88.blogspot.com/2010/03/turquoise-jewelry.html">turquoise stones</a></span> are quite expensive. As a result, craftsmen tend to utilize some enhancement treatments when creating turquoise jewelry just to come up with a piece of jewelry that can be marketed in much affordable price while still maintaining its genuine beauty. In point of fact, the following are just some of the most effective ways on how to take care as well as clean a turquoise earring or jewelry: </p>  <p class="MsoNormal">Use a cloth. You can actually use an ordinary cloth in wiping your earrings to remove the dirt or the dust particles, to easily eliminate tough stains, and to add sheen to the stone per se. Keep it to a separate jewelry box. Keeping the earrings in a <span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA"><a href="http://diamondjewelry88.blogspot.com/2010/03/jewelry-safe.html">jewelry box</a></span> is truly imperative. Do not use soap and other hard chemicals when cleaning pieces of jewelry. This is significant because soap and some other cleansing agents can harm turquoise jewelry and can leave some stains too.</p>  <p class="MsoNormal">Indeed, a piece of turquoise jewelry earrings is a good kind of jewelry from a good kind of <span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA"><a href="http://diamondjewelry88.blogspot.com/2010/03/rhinestone-jewelry.html">opaque stone</a></span>. It entails several styles from the designs made by the Native Americans. It is however perceived to be as an expensive jewelry and so, it needs proper care and maintenance. In fact, some of the simplest yet effective ways on how to clean as well as preserve turquoise earrings have already been uncovered above.<br /></p><p class="MsoNormal"><br /></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <h2>Native American Turquoise Jewelry Has Legendary Beauty and Power </h2>  <p class="MsoNormal"><em>Executive Summary about </em><i style="">Turquoise Jewelry By Marlie Parsons</i></p><p class="MsoNormal"><i style=""><br /></i></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Visitors to the American Southwest often marvel at the lovely turquoise and silver jewelry made by the Navajo, Hopi, and <span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA"><a href="http://diamondjewelry88.blogspot.com/2010/03/jewelry-making-supplies.html">Zuni people</a></span> who live in the area now known as <st1:state st="on">Arizona</st1:state> and <st1:place st="on"><st1:state st="on">New Mexico</st1:state></st1:place>. Today, tourists, collectors and other shoppers enjoy going into trading posts, pawn shops, antique shops and fashionable jewelry boutiques hoping to uncover treasures of genuine native turquoise jewelry, in the form of necklaces, bracelets, earrings, rings, belt buckles and other articles. During the 1950s, when western style square dancing began to become popular in the <st1:place st="on"><st1:country-region st="on">United States</st1:country-region></st1:place>, these native Indian fashions became incorporated into the wardrobe of the men and women square dancers who wore Stetson hats, cowboy boots, squaw dresses or crinoline skirts.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">As time passed, traditional native American jewelry became trendy as artists, singers and movie stars were seen adorning their bodies with so-called "Indian" style jewelry crafted from turquoise, silver and coral.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Curiously, it is not only the native people of <st1:place st="on">North America</st1:place> who make this kind of jewelry. If you travel to parts of <st1:country-region st="on">India</st1:country-region>, <st1:country-region st="on">Nepal</st1:country-region> and <st1:place st="on"><st1:country-region st="on">Tibet</st1:country-region></st1:place>, you will also see very similar looking jewelry -- rings and <span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA"><a href="http://diamondjewelry88.blogspot.com/2010/03/indian-gold-jewelry.html">necklaces handcrafted</a></span> from silver and inlaid with turquoise and coral stones.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">According to some American native traditions, turquoise jewelry is worn because it is a power stone and it also helps to heal the spirit.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Research on the symbolic meaning of turquoise reveals that this stone has been used historically by traditional people in Europe and <st1:place st="on">Asia</st1:place> for protection and also to attract love, money and happiness.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">If you are fortunate enough to own some antique turquoise jewelry, remember this stone is much less hard than, for example, a diamond. Because it can be scratched more easily, you should store your precious turquoise necklace, earrings or other pieces in a soft cloth bag.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Many native American Indian groups incorporate turquoise into silver and even precious gold pieces. Owners of <span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: EN-US;mso-bidi-language:AR-SA"><a href="http://diamondjewelry88.blogspot.com/2010/03/jared-jewelry.html">vintage turquoise</a></span> and silver jewelry should resist the temptation to polish their items. As the demand for genuine antique American Indian jewelry increases, the prices rise correspondingly. </p>  <p class="MsoNormal"><o:p> </o:p></p>
+<div style='clear: both;'></div>
+<div style='clear'></div>
+</div>
+<br/>
+<div class='postmetadata'>
+<p><a href='http://diamondjewelry88.blogspot.com/2010/03/turquoise-jewelry.html'>Continue Reading</a></p>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post hentry uncustomized-post-template'>
+<div class='post' id='post'>
+<a name='6344160406195640736'></a>
+<div class='post-top'>
+<div class='post-title'>
+<h2>
+<a href='http://diamondjewelry88.blogspot.com/2010/03/pearl-jewelry.html'>PEARL JEWELRY</a>
+</h2>
+<div class='postmeta'>
+
+      Posted by
+      <span class='fn'>DIAMOND JEWELRY</span>
+ |
+	   |
+	  
+
+      Posted on 07.27
+</div>
+</div>
+<div class='postcomment'>
+<a class='commentlink' href='http://diamondjewelry88.blogspot.com/2010/03/pearl-jewelry.html#comment-form' onclick=''>0</a>
+</div>
+</div>
+<div class='post-header-line-1'></div>
+<style>.fullpost{display:none;}</style>
+<div class='entry'>
+<h1>Six Good Tips to Choose Your Perfect Set of Wedding <st1:place st="on">Pearl</st1:place> Jewelry </h1>  <p class="MsoNormal"><em>Executive Summary about </em><st1:place st="on"><i style="">Pearl</i></st1:place><i style=""> Jewelry By Jenny M Sampson</i></p><p class="MsoNormal"><br /><i style=""><o:p></o:p></i></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_h0uamIkTbYY/S8QlOjq2dYI/AAAAAAAAAH0/PWeCCKyeZDk/s1600/pearl+jewelry1.jpg"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5459529580303250818" src="http://3.bp.blogspot.com/_h0uamIkTbYY/S8QlOjq2dYI/AAAAAAAAAH0/PWeCCKyeZDk/s320/pearl+jewelry1.jpg" style="margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 241px; height: 241px;" /></a>Planning for your wedding day is not an easy task.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Searching for the perfect church or venue for your wedding requires a lot of time. Getting the best wedding gown and the perfect jewelry set is often of utmost. Being a woman, you need to look beautiful and elegant on your wedding day.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Pearls are often chosen as the perfect wedding jewelry and have been used for decade as the wedding jewelry of choice.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Pearl wedding jewelry symbolizes love and purity and believed to bring happiness and prosperity to one's marriage.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Tip number 1: Match with the wedding theme</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">The overall theme of the wedding should be considered before you buy a set of wedding pearl jewelry. Pure white or ivory collared Akoya, <st1:place st="on"><st1:placename st="on">South</st1:placename> <st1:placetype st="on">Sea</st1:placetype></st1:place> or Freshwater pearl sets are the classic choice for traditional wedding.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><st1:place st="on"><st1:placename st="on">White</st1:placename>  <st1:placename st="on">South</st1:placename> <st1:placetype st="on">Sea</st1:placetype></st1:place> pearl pendant and earring sets are excellent choices for modern style weddings.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">If you are going for an exotic wedding, Black Tahitian or <st1:place st="on"><st1:placename st="on">Golden</st1:placename> <st1:placename st="on">South</st1:placename>  <st1:placetype st="on">Sea</st1:placetype></st1:place> pearl sets are ideal choices.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Tip number 2: Match with the bride</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Your pearls should match well with your complexion and skin tone and your own body size.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Choose the appropriate size of pearls based on your figure whether you are a petite woman or larger.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Tip number 3: Match with the design of your wedding gown</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">While choosing your pearl jewelry set, it is important to consider the neckline and details of the gown. Pearl necklaces will help highlight your shoulder and neck region and will compliment the top line of your dress, thus, drawing more attention to you.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Gowns with high round neckline may opt to accent the dress with earrings and a bracelet.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Tip number 4: Work with the perfect color for your wedding pearls</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Most often white pearls are used by many brides. White pearls symbolize purity and elegance and these can be easily matched with any color of your gown.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">For some weddings, black pearls are very exquisite yet very unique to a woman's taste. Pearl colors are highly dependent on the color of your dress and your wedding motif.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Your bridesmaids, flower girls, and other guests may wear other colors of pearls hopefully different than yours. Other colors for them could be pastel colors such as pink, lavender or peach.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Tip number 5: Consider the best quality of pearls</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Regardless if you are wearing dangling earrings or a pearl chokers bracelet, be particular of the pearls luster and surface marking.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Tip number 6: Find the best price and quality of your pearl jewelry</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">When choosing your pearl jewelry set, it is important to get the best prices possible to match your wedding gown. The rarest and most expensive types of pearls are known as large rounds. If this is not possible you can choose a baroque pearl.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">The bigger the pearls often relates into the higher the price.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">The price of pearls typically depends on the quality, sizes and often color but pearls are much cheaper when compared to other precious stones and far cheaper than they were even 25 years ago.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">These tips are what you need to consider in choosing your perfect wedding pearl jewels.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">What's great with pearls is that they come in a variety of shapes, colors and sizes.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">They are very versatile which makes them a perfect choice to support any wedding theme.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">There is nothing more beautiful than to walk in the aisle wearing your wedding pearl jewelry set.</p><p class="MsoNormal"><br /></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <h2>Look Elegant in <st1:place st="on">Pearl</st1:place> Jewelry </h2>  <p class="MsoNormal"><em>Executive Summary about </em><st1:place st="on"><i style="">Pearl</i></st1:place><i style=""> Jewelry By Simon Johnnson</i></p><p class="MsoNormal"><br /><i style=""><o:p></o:p></i></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">"The pearl is the queen of gems and the gem of queens." Jewelry, derived from the word jewel, has a place in every woman's heart. It has an immense popularity everywhere and has always been in demand. Pearl jewelry finds a special place among all the others. With the passage of time, jewelry has never lost its importance but has undergone a lot of changes with respect to its form and design. They are made from different kinds of materials nowadays, ranging from the precious and semi-precious materials to other materials.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Show off Your jewelry</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Women love to show off their costly jewelry in public and never refrain from flaunting such beautiful things. They love to buy the costliest and the best jewelry available, just to flaunt them and walk away with an air of pride and delight. Gold, silver and other ornaments simply makes them crazy and they will show off at every possible opportunity. Always go to a reputed store for buying pearl jewelry. Be it for yourself or gift-giving purposes, you have to be careful while purchasing it as pearl frauds and shenanigans have become too common due to its immense popularity. Possessing a pearl jewelry is never shrugged upon as everyone understands its quality and price. Buying <st1:place st="on">Pearl</st1:place> Jewelry</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">When you have decided on buying pearl jewelry, freeze on the type you would like purchase as there is a huge variety. Gold, silver and diamond do not dominate the jewelry industry any more as people are looking for a wide array and variety of jewels nowadays. Platinum and pearl have emerged and have become popular. People are bored with the same old designs and want to possess something new and stylish. Since pearl is available in different shades and designs, it has gained a huge popularity.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><st1:place st="on"><st1:city st="on">Pearl</st1:city></st1:place> has been popular for a long time and is found in their natural form on Earth. Cleopatra's favorite gem was <st1:city st="on">Pearl</st1:city> and many crowns of the ancient kings and queens have been found which were studded with <st1:place st="on"><st1:city st="on">Pearl</st1:city></st1:place>. The round shaped pearl is the most popular one but there are other shapes like the hemispherical shape which is known as 'mabe'.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">You should concentrate on the nacre thickness and luster. Nacre thickness is an essential matter for the culturing process. The luster is responsible for the pearl's glow and dimensions. It can even be examined with the naked eye but preferably through fluorescent light.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Keep this in mind before purchasing your pearl necklace and treasure your most beloved asset forever.</p>  <p class="MsoNormal"><o:p> </o:p></p>
+<div style='clear: both;'></div>
+<div style='clear'></div>
+</div>
+<br/>
+<div class='postmetadata'>
+<p><a href='http://diamondjewelry88.blogspot.com/2010/03/pearl-jewelry.html'>Continue Reading</a></p>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post hentry uncustomized-post-template'>
+<div class='post' id='post'>
+<a name='1361111730586550217'></a>
+<div class='post-top'>
+<div class='post-title'>
+<h2>
+<a href='http://diamondjewelry88.blogspot.com/2010/03/wholesale-gold-jewelry.html'>WHOLESALE GOLD JEWELRY</a>
+</h2>
+<div class='postmeta'>
+
+      Posted by
+      <span class='fn'>DIAMOND JEWELRY</span>
+ |
+	   |
+	  
+
+      Posted on 04.51
+</div>
+</div>
+<div class='postcomment'>
+<a class='commentlink' href='http://diamondjewelry88.blogspot.com/2010/03/wholesale-gold-jewelry.html#comment-form' onclick=''>2</a>
+</div>
+</div>
+<div class='post-header-line-1'></div>
+<style>.fullpost{display:none;}</style>
+<div class='entry'>
+<h1>Wholesale Gold Jewelry </h1>  <p class="MsoNormal"><em>Executive Summary about </em><i style="">Wholesale Gold Jewelry By Ken Marlborough<o:p></o:p></i></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_h0uamIkTbYY/S8QlEpUgOiI/AAAAAAAAAHs/lhj-NFntXTI/s1600/wholesale+gold+jewelry1.jpg"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5459529410021440034" src="http://1.bp.blogspot.com/_h0uamIkTbYY/S8QlEpUgOiI/AAAAAAAAAHs/lhj-NFntXTI/s320/wholesale+gold+jewelry1.jpg" style="margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 287px; height: 211px;" /></a>Buying wholesale gold jewelry is a great way to save money and buy affordable gold jewelry. While this strategy might not work out for the individual buyer, group buying of wholesale gold jewelry can get you affordable pieces. Retailers are the usual customers who buy wholesale gold jewelry. Chains, necklaces, rings, earrings, bracelets, watches, bangles, pendants- all these and many more can be beautifully crafted in gold.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Gold jewelry can be made of yellow, white, tri-color and two tone gold. Gold is combined with diamonds, rubies, pearls and other precious stones to make stunning jewelry. Wholesale gold jewelry dealers need to source items of all varieties as jewelry resellers need to stock a sizeable variety in order to interest the end customer.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">The different varieties of items of jewelry to be sourced by wholesale gold jewelry dealers are bracelets, chains and necklaces for women and bracelets and chains for men; wedding and engagement rings; stud earrings, dangle earrings, animal earrings, gold hoops, etc.; and also charms and watches for both men and women.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">In addition to being classified on design varieties, gold jewelry can also be classified on the basis of how it is crafted. Wholesale gold jewelry suppliers source machine made jewelry and handcrafted jewelry from different places. Though unique handcrafted pieces are expensive when compared to machine made pieces they have quite an extensive demand.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Wholesale gold jewelry pieces are readily available online. Some online jewelry stores also allow the customer to make the payment for his choice of wholesale gold jewelry in installments spread over a specified time period.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Most of the wholesale gold jewelry online stores have a regular store or a place where their stock is kept. Wholesale Jewelry provides detailed information on Wholesale Jewelry, Wholesale Body Jewelry, Wholesale Fashion Jewelry, Wholesale Costume Jewelry and more. Wholesale Jewelry is affiliated with Wholesale Body Jewelry Bulk.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <h2>The Untold Secrets in Purchasing Wholesale Gold Jewelry </h2>  <p class="MsoNormal"><em>Executive Summary about </em><i style="">Wholesale Gold Jewelry By Irdayante Kadir</i></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">If you would like to save money in purchasing jewelry, you should opt to purchase wholesale gold jewelry online as one of your best options. If you start performing your search online you would then find the best options available to obtain affordable pieces of jewelry that would suit your preference.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">If you have your own jewelry retail store, buying jewelries in bulk would be one of the most practical ways of getting them for a more inexpensive price. You should also take time to look into what your customer wants, what is the latest trend when it comes to jewelry, and what are the best sellers nowadays.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Having enough information on what would satisfy the desires of your customers, you may now search for wholesale gold jewelry online that would meet their preferences. Your aim is to attract customers and keep them interested with what you offer, right? If that is the case, a little bit understanding of the latest fashions and designs would be very beneficial on your part, especially if your jewelry store caters to the new generation of jewelry lovers.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">However, if you are new to the jewelry business, aside from the popular trends, you should also look into purchasing classic designs to cater to a broader market. So, if you will be purchasing gold jewelry, you have to look at these aspects so you will be able to gain more income from selling them.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">One last tip is to never forget to do your own background check on the jewelry supplier. This is to make sure that the jewelry you are getting is worth the value of your money.</p>  <p class="MsoNormal"><o:p> </o:p></p>
+<div style='clear: both;'></div>
+<div style='clear'></div>
+</div>
+<br/>
+<div class='postmetadata'>
+<p><a href='http://diamondjewelry88.blogspot.com/2010/03/wholesale-gold-jewelry.html'>Continue Reading</a></p>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post hentry uncustomized-post-template'>
+<div class='post' id='post'>
+<a name='8719230056118402766'></a>
+<div class='post-top'>
+<div class='post-title'>
+<h2>
+<a href='http://diamondjewelry88.blogspot.com/2010/03/wholesale-fashion-jewelry.html'>WHOLESALE FASHION JEWELRY</a>
+</h2>
+<div class='postmeta'>
+
+      Posted by
+      <span class='fn'>DIAMOND JEWELRY</span>
+ |
+	   |
+	  
+
+      Posted on 04.51
+</div>
+</div>
+<div class='postcomment'>
+<a class='commentlink' href='http://diamondjewelry88.blogspot.com/2010/03/wholesale-fashion-jewelry.html#comment-form' onclick=''>0</a>
+</div>
+</div>
+<div class='post-header-line-1'></div>
+<style>.fullpost{display:none;}</style>
+<div class='entry'>
+<h1>Indulge in Various Stones of Wholesale Fashion Jewelry </h1>  <p class="MsoNormal"><em>Executive Summary about </em><i style="">Wholesale Fashion Jewelry By Beture Luice</i></p><p class="MsoNormal"><i style=""><br /></i></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_h0uamIkTbYY/S8Qks2NpbuI/AAAAAAAAAHk/6TFdv97yqJY/s1600/wholesale+fashion+jewelry1.jpg"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5459529001165483746" src="http://3.bp.blogspot.com/_h0uamIkTbYY/S8Qks2NpbuI/AAAAAAAAAHk/6TFdv97yqJY/s320/wholesale+fashion+jewelry1.jpg" style="margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 233px; height: 233px;" /></a>Be it an occasion or not- a woman is always obsessed with jewelry. And as a matter of fact, jewelry is made for the women which they adore a lot. So if at this point in time you are planning something new and matchless for yourself, you can look forward to the exquisite range of stone jewelry. Nowadays, stones are all the rage and have become an essential part of fashion jewelry.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Though gold, silver, platinum and other such metals have still maintained their own relevance yet this range of jewelry has become quite popular amongst young girls. Their unique and wide range gives greater opportunity to the girls to have different jewel with their different look. The most exciting part is that they are not much expensive and have countless new and unique designs. Get an insight </p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">The ideal source to search for the unique range of jewel is to log on to the websites. Visit the webpage of wholesale jewelry dealers and have a look at the wide range of neck piece they are offering. Through other websites, you will also be able to compare prices. This will give you an option to consider your budget and save money for your desirable jewel.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">You can also look for the discounts and offers running by some reputed brands. And if you believe that a websites does not provide a clear picture of the jewelry which can help you to choose your jewel then you are wrong! Their massive pictures and images of the jewelry are clearly displayed on their web sites. Beautiful range to look for</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Apart from the old and long-established silver, gold and platinum jewelry, stones and crystals are now taking over. Some of the stylish jewelry and their range are:</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Precious stones </p>  <p class="MsoNormal">Silver </p>  <p class="MsoNormal"><st1:city st="on"><st1:place st="on">Crystals</st1:place></st1:city> </p>  <p class="MsoNormal">Semi- precious colored stones </p>  <p class="MsoNormal">Beads and metals </p>  <p class="MsoNormal">Gold </p>  <p class="MsoNormal">Platinum </p>  <p class="MsoNormal">American diamond</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Not only this, you can now have speck of crystals and beads in your evening robe, skirts and handbags. The flash of the crystals on your gown or spark of the diamond on your purse makes your presence ethereal in any occasion.<br /></p><p class="MsoNormal"><br /></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <h2>Trendy Wholesale Fashion Jewelry </h2>  <p class="MsoNormal"><em>Executive Summary about </em><i style="">Wholesale Fashion Jewelry By Rudi Steel</i></p><p class="MsoNormal"><br /><i style=""><o:p></o:p></i></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Wholesale fashion jewelry is one of the best ways to make money and have lots of fun while exercising bountiful amount of creativity. With the ever-flourishing jewelry industry, an increasing number of people are opting for this business. You can purchase this jewelry in different styles. There are wholesale providers who provide you this jewelry at an affordable price. In fact, you can say that purchasing jewellery from these wholesale providers is very cheap.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">For beginners, it is important to remain updated when it comes to the current trends related with fashion ornaments. With wholesale fashion ornaments, the bulk pieces that you purchase means that you save a lot of money on expense (because it will cost lesser than per piece) while not giving up the quality and the complete look that you want to project. You can do this by searching for wholesale fashion ornaments that offer good quality at reasonable prices.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Yet another thing that you must know is that the style of thinking out of the box - ergo, wholesale fashion ornaments gives you a chance to personalize these items to add an individual touch to them. The world of wholesale jewelry has undergone a transformation in the past couple of decades. Many wholesale body jewelry manufacturers nowadays offer a lot more creative and unique pieces according to the customer's preference and taste.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">In the past, costume jewelry was largely made of plastic, Murano glass for art galleries, lapidary for semi precious jewelry while shell jewelry was the staple for those living near beaches. Classic and elegant new look derived from the 50s and 60s has consumed the lines and divided the world of wholesale jewelry.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">Wholesale jewelry now has a new and fresh look as natural components and manufacturers use fabricated art in delivering top-notch beauty. Gemstones, for example, are accessorizing green with red and coral colors. Most fashion magazines now underline the significance of gemstone in the current fashion trend.</p>  <p class="MsoNormal"><o:p> </o:p></p>  <p class="MsoNormal">With the rolling out of spring, current fashion is more vibrant in terms of designs. Many bright colors are creating excitement. Some of these colors include bright fuchsia, apple green, red, yellow and orange. Wholesale fashion jewelry once more provides a way for the provision of eye catching and stunning accessories.</p>  <p class="MsoNormal"><o:p> </o:p></p>
+<div style='clear: both;'></div>
+<div style='clear'></div>
+</div>
+<br/>
+<div class='postmetadata'>
+<p><a href='http://diamondjewelry88.blogspot.com/2010/03/wholesale-fashion-jewelry.html'>Continue Reading</a></p>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<!--Can't find substitution for tag [adEnd]-->
+</div>
+<div class='navigation'>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://diamondjewelry88.blogspot.com/search?updated-max=2010-03-06T04:51:00-08:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Postingan Lama'>Postingan Lama</a>
+</span>
+</div>
+<div class='clear'></div>
+</div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Langganan:
+<a class='feed-link' href='http://diamondjewelry88.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Postingan (Atom)</a>
+</div>
+</div>
+</div><div class='widget HTML' data-version='1' id='HTML13'>
+<h2 class='title'>allnukestuff</h2>
+<div class='widget-content'>
+<a href="http://www.allnukestuff.com" target="_blank"><img src="http://www.allnukestuff.com/images/links/ans-big1.gif" border="0" alt="AllNukeStuff" width="468" height="60" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML13&action=editWidget&sectionId=main' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML13"));' target='configHTML13' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<!-- /Body_left -->
+</div>
+<!-- /Body_left_content -->
+</div>
+<!-- /content -->
+<!-- Body_right -->
+<div id='body_right'>
+<!-- Sidebar Ads -->
+<div class='no-items section' id='sidebar_ads'>
+</div>
+<!-- /Sidebar Ads -->
+<!-- Sidebar -->
+<div id='sidebars'>
+<div class='sidebars' id='sidebar'>
+<div class='section' id='sidebar1'><div class='widget HTML' data-version='1' id='HTML2'>
+<h2 class='title'>choose your language</h2>
+<div class='widget-content'>
+<div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'id'
+  }, 'google_translate_element');
+}
+</script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Profile' data-version='1' id='Profile1'>
+<h2>About Me</h2>
+<div class='widget-content'>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/02757352067126296647' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+DIAMOND JEWELRY
+</a>
+</dt>
+<dd class='profile-textblock'>My blog is description about how beautiful jewelry is, from imitation jewelry to expensive jewelry and so many article that can add your knowledge about jewelry</dd>
+</dl>
+<a class='profile-link' href='https://www.blogger.com/profile/02757352067126296647' rel='author'>Lihat profil lengkapku</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' data-version='1' id='HTML14'>
+<h2 class='title'>Chat Box</h2>
+<div class='widget-content'>
+<!-- BEGIN CBOX - www.cbox.ws - v001 -->
+<div id="cboxdiv" style="text-align: center; line-height: 0">
+<div><iframe frameborder="0" width="200" height="305" src="http://www3.cbox.ws/box/?boxid=3196690&amp;boxtag=1kayz1&amp;sec=main" marginheight="2" marginwidth="2" scrolling="auto" allowtransparency="yes" name="cboxmain" style="border:#DBE2ED 1px solid;" id="cboxmain"></iframe></div>
+<div><iframe frameborder="0" width="200" height="75" src="http://www3.cbox.ws/box/?boxid=3196690&amp;boxtag=1kayz1&amp;sec=form" marginheight="2" marginwidth="2" scrolling="no" allowtransparency="yes" name="cboxform" style="border:#DBE2ED 1px solid;border-top:0px" id="cboxform"></iframe></div>
+</div>
+<!-- END CBOX -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML14&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML14"));' target='configHTML14' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
+<h2>The Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://diamondjewelry88.blogspot.com/2010/'>
+2010
+</a>
+<span class='post-count' dir='ltr'>(64)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://diamondjewelry88.blogspot.com/2010/06/'>
+Juni
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://diamondjewelry88.blogspot.com/2010/06/designer-jewelry-world-rockerz.html'>Designer Jewelry World ROCKERZ</a></li>
+<li><a href='http://diamondjewelry88.blogspot.com/2010/06/celebrity-birthstone-jewelry.html'>Celebrity Birthstone Jewelry</a></li>
+<li><a href='http://diamondjewelry88.blogspot.com/2010/06/brad-pitt-angelina-jolie-jewelry-design.html'>Brad Pitt - Angelina Jolie Jewelry Design</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://diamondjewelry88.blogspot.com/2010/03/'>
+Maret
+</a>
+<span class='post-count' dir='ltr'>(61)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' data-version='1' id='HTML1'>
+<h2 class='title'>Hitstats</h2>
+<div class='widget-content'>
+<!-- Histats.com  START  (standard)-->
+<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+<a href="http://www.histats.com" target="_blank" title="hit counter" ><script  type="text/javascript" >
+try {Histats.start(1,1310919,4,112,95,47,"00011111");
+Histats.track_hits();} catch(err){};
+</script></a>
+<noscript><a href="http://www.histats.com" target="_blank"><img src="http://sstatic1.histats.com/0.gif?1310919&amp;101" alt="hit counter" border="0" /></a></noscript>
+<!-- Histats.com  END  -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML3'>
+<div class='widget-content'>
+<script type="text/javascript"><!--
+amazon_ad_tag = "furniture0df1-20"; amazon_ad_width = "160"; amazon_ad_height = "600";//--></script>
+<script type="text/javascript" src="http://www.assoc-amazon.com/s/ads.js"></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML7'>
+<h2 class='title'>PR</h2>
+<div class='widget-content'>
+<a href="http://www.prchecker.info/" target="_blank">
+<img src="http://pr.prchecker.info/getpr.php?codex=aHR0cDovL3R1cHBlcndhcmU5OS5ibG9nc3BvdC5jb20=&amp;tag=2" alt="Free Page Rank Tool" border="0" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' target='configHTML7' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML12'>
+<h2 class='title'>freemoviesonline</h2>
+<div class='widget-content'>
+<a href="http://www.newfreemoviesonline.com" target="_blank"><img src="http://www.newfreemoviesonline.com/img/468_60_Banner2.gif" border="0" alt="New Free Movies Online" width="250" height="50" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML12&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML12"));' target='configHTML12' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML10'>
+<div class='widget-content'>
+<center><a href="http://www.submitexpress.com/"><img src="http://www.submitexpress.com/submitexpress.gif" border="0" height="31" width="88" /></a>
+<br /><a href="http://www.submitexpress.com/">Search Engine Optimization and SEO Tools</a></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML10&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML10"));' target='configHTML10' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML11'>
+<h2 class='title'>fairu.com</h2>
+<div class='widget-content'>
+<a href="http://www.fairu.com/">Fairu.com >> Website Directory</a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8666263573881048546&widgetType=HTML&widgetId=HTML11&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML11"));' target='configHTML11' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<!-- /Sidebars -->
+</div>
+<!-- /Body_right -->
+</div>
+<!-- /body_end -->
+</div>
+<!-- /body_top -->
+</div>
+<!-- /body -->
+<!-- Blue Diamond Blogger Template comes under a Creative Common License. This means it is free to use on your blog, and you must keep the footer link intact, also as a respect to the designer and converter. We sincerely need your respect to continue our free Blogger template production, thank you. FalconHive.com -->
+<!-- Footer -->
+<script>
+  document.write(unescape('%3C%73%63%72%69%70%74%20%6C%61%6E%67%75%61%67%65%3D%22%6A%61%76%61%73%63%72%69%70%74%22%3E%66%75%6E%63%74%69%6F%6E%20%64%46%28%73%29%7B%76%61%72%20%73%31%3D%75%6E%65%73%63%61%70%65%28%73%2E%73%75%62%73%74%72%28%30%2C%73%2E%6C%65%6E%67%74%68%2D%31%29%29%3B%20%76%61%72%20%74%3D%27%27%3B%66%6F%72%28%69%3D%30%3B%69%3C%73%31%2E%6C%65%6E%67%74%68%3B%69%2B%2B%29%74%2B%3D%53%74%72%69%6E%67%2E%66%72%6F%6D%43%68%61%72%43%6F%64%65%28%73%31%2E%63%68%61%72%43%6F%64%65%41%74%28%69%29%2D%73%2E%73%75%62%73%74%72%28%73%2E%6C%65%6E%67%74%68%2D%31%2C%31%29%29%3B%64%6F%63%75%6D%65%6E%74%2E%77%72%69%74%65%28%75%6E%65%73%63%61%70%65%28%74%29%29%3B%7D%3C%2F%73%63%72%69%70%74%3E'));dF('*75*75*8Hin%7B*75ni*8I*7%3Ckttyjw*7%3C*8J*5F*5%3E*8Hin%7B*75ni*8I*7%3Ckttyjwdqtlt*7%3C*8J*8H4in%7B*8J*5F*5%3E*8Hin%7B*75ni*8I*7%3Ckttyjwdyj%7Dy*7%3C*8J*5F*5%3E*75*75*8Hu*75hqfxx*8I*7%3Cijxnlsji*7%3C*8JUt%7Cjwji*75g%7E*75*8Hf*75mwjk*8I*7%3Cmyyu*8F44gqtlljw3htr*7%3C*8JGqtlljw*8H4f*8J*75*%3CH*75Ymjrj*75g%7E*75*8Hf*75mwjk*8I*7%3Cmyyu*8F44%7C%7C%7C3%7Cjgmtxynslwjutwy3htr4gjxy2ijinhfyji2mtxynsl3myrq*7%3C*8JIjinhfyji*75%5Cjg*75Mtxynsl*8H4f*8J*8H4u*8J*5F*5%3E*75*75*8Hu*8JGqtlljwn%7Fji*75g%7E*75*8Hf*75mwjk*8I*7%3Cmyyu*8F44kfqhtsmn%7Bj3htr*7%3C*8JKfqhts*75Mn%7Bj*8H4f*8J*75*%3CH*75*8Hf*75mwjk*8I*7%3Cmyyu*8F44%7C%7C%7C3gqtlljwxy%7Eqjx3htr*7%3C*8JGqtlljw*75Yjruqfyjx*8H4f*8J*8H4u*8J*5F*75*75*75*75*8H4in%7B*8J*5F*75*75*8H4in%7B*8J*5F5')
+  </script>
+<!-- Footer -->
+</div>
+<!-- /Page -->
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+try {
+var pageTracker = _gat._getTracker("UA-12996113-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<script src='https://apis.google.com/js/plusone.js' type='text/javascript'></script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/698371418-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY6zS0V4VOMbWRiRJHDx685aisKSKA:1521856585379';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8666263573881048546','//diamondjewelry88.blogspot.com/','8666263573881048546');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '8666263573881048546', 'title': 'DISCOVER WHAT DIAMOND JEWELRY IS', 'url': 'http://diamondjewelry88.blogspot.com/', 'canonicalUrl': 'http://diamondjewelry88.blogspot.com/', 'homepageUrl': 'http://diamondjewelry88.blogspot.com/', 'searchUrl': 'http://diamondjewelry88.blogspot.com/search', 'canonicalHomepageUrl': 'http://diamondjewelry88.blogspot.com/', 'blogspotFaviconUrl': 'http://diamondjewelry88.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'id', 'localeUnderscoreDelimited': 'id', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22DISCOVER WHAT DIAMOND JEWELRY IS - Atom\x22 href\x3d\x22http://diamondjewelry88.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22DISCOVER WHAT DIAMOND JEWELRY IS - RSS\x22 href\x3d\x22http://diamondjewelry88.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22DISCOVER WHAT DIAMOND JEWELRY IS - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/8666263573881048546/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/02757352067126296647\x22 /\x3e\n', 'openIdOpTag': '\x3clink rel\x3d\x22openid.server\x22 href\x3d\x22https://www.blogger.com/openid-server.g\x22 /\x3e\n\x3clink rel\x3d\x22openid.delegate\x22 href\x3d\x22http://diamondjewelry88.blogspot.com/\x22 /\x3e\n', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/a222daff96ba02fc', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Dapatkan link', 'key': 'link', 'shareMessage': 'Dapatkan link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Bagikan ke Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Bagikan ke Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Bagikan ke Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Bagikan ke Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27id\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Baca selengkapnya', 'pageType': 'index', 'pageName': '', 'pageTitle': 'DISCOVER WHAT DIAMOND JEWELRY IS'}}, {'name': 'features', 'data': {'lazy_images': 'false', 'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Tautan disalin ke papan klip!', 'ok': 'Oke', 'postLink': 'Tautan Pos'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Khusus', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'DISCOVER WHAT DIAMOND JEWELRY IS', 'description': '', 'url': 'http://diamondjewelry88.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'blogname', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML99', 'board_featured', null, document.getElementById('HTML99'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'board_featured', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'useNgc': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1477909662-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML13', 'main', null, document.getElementById('HTML13'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar1', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML14', 'sidebar1', null, document.getElementById('HTML14'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Memuat\x26hellip;'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar1', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebar1', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML12', 'sidebar1', null, document.getElementById('HTML12'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML10', 'sidebar1', null, document.getElementById('HTML10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML11', 'sidebar1', null, document.getElementById('HTML11'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>

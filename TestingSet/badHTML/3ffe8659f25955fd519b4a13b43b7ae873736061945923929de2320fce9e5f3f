@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><SCRIPT language=javascript author=luxiaoqing><!--
+function initArray(){for(i=0;i<initArray.arguments.length;i++)
+this[i]=initArray.arguments[i];}var isnMonths=new initArray("1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月");var isnDays=new initArray("星期日","星期一","星期二","星期三","星期四","星期五","星期六","星期日");today=new Date();hrs=today.getHours();min=today.getMinutes();sec=today.getSeconds();clckh=""+((hrs>12)?hrs-12:hrs);
+clckm=((min<10)?"0":"")+min;clcks=((sec<10)?"0":"")+sec;clck=(hrs>=12)?"下午":"上午";var stnr="";var ns="0123456789";var a="";
+
+//-->
+
+</SCRIPT>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+<title>崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第二次出让结果公示 - 崇义,崇义县,崇义县公共资源交易中心,招标投标中心,招标,崇义招标投标中心 - 崇义县公共资源交易中心</title>
+<meta name="keywords" content="崇义,崇义县,崇义县公共资源交易中心,招标投标中心,招标,崇义招标投标中心" />
+<meta name="description" content="崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第二次出让结果公示 崇义,崇义县,崇义县公共资源交易中心,招标投标中心,招标,崇义招标投标中心" />
+<meta http-equiv="Expires" Content="0"/>
+<meta http-equiv="Cache-Control" Content="no-cache"/>
+<meta http-equiv="Pragma" Content="no-cache"/>
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<link href="/skins/default/style.css" type="text/css" rel="stylesheet"/>
+<script src="/js/main.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="headleft"><div id="headright">
+	<div id="headbody">
+<div id="headmid">
+</div>
+		<div id="headstrap">
+			<div id="hd_strapleft"><SCRIPT language=javascript><!--
+function getFullYear(d){//d is a date object
+yr=d.getYear();if(yr<1000)
+yr+=1900;return yr;};//don't delete this line
+
+/* 每一段代表一种风格,不需要的删除即可*/
+
+document.write("<font color='#FFFFFF'>今天是："
++isnDays[today.getDay()]+","+isnMonths[today.getMonth()]+""
++today.getDate()+"日,"+getFullYear(today)+"年 "+clckh+":"+clckm+":"
++clcks+""+clck+"</font>"); // don't delete this line
+//-->
+</SCRIPT></div><div id="hd_strapright">&nbsp;<a href="http://www.cyztbzx.com/guest"><b><u><在线答疑></u></b></a>&nbsp;|&nbsp;<a href="/users/login.asp">用户登录</a> &nbsp;|&nbsp; <img src="/skins/default/hd_arrowDown.gif" height="7" width="5" alt="" /> <a href="/users/reg.asp" target="_blank">用户注册</a></div><table border="0" width="970" id="table1" cellspacing="0" cellpadding="0" height="180" background="/adfile/UploadPic/2011-7/20117180135285474.jpg">
+	<tr>
+	<td></td>
+	</tr>
+</table>
+			<div id="hd_strapright"><a href="/">首 页</a> ┆
+			<a href="/ask/" title="新云问吧">新云问吧</a> ┆
+			<a href="/flash/" title="动画频道">动画频道</a></div>
+		</div>
+		<div style="clear:both"></div>
+	</div>
+	<div id="globalNavArea">
+		<ul id="globalNavUL">
+			<li class="navdark"><a href="/">首 页</a></li>
+			<li id="tabmenu1"><a href="/Article/list.asp?classid=1" title="新闻中心"><span>新闻中心</span></a></li>
+<li id="tabmenu2"><a href="/Article/list.asp?classid=2" title="建设工程"><span>建设工程</span></a></li>
+<li id="tabmenu3"><a href="/Article/list.asp?classid=3" title="政府采购"><span>政府采购</span></a></li>
+<li id="tabmenu4"><a href="/Article/list.asp?classid=33" title="土地产权"><span>土地产权</span></a></li>
+<li id="tabmenu5"><a href="/Article/list.asp?classid=21" title="开标预告"><span>开标预告</span></a></li>
+<li id="tabmenu6"><a href="http://cyzjcs.cyztbzx.com" target="_blank" title="行政审批中介服务超市"><span>行政审批中介服务超市</span></a></li>
+<li id="tabmenu7"><a href="/Article/list.asp?classid=6" title="文件下载"><span>文件下载</span></a></li>
+<li id="tabmenu8"><a href="/Article/list.asp?classid=5" title="办事指南"><span>办事指南</span></a></li>
+<li id="tabmenu9"><a href="/Article/list.asp?classid=4" title="法律法规"><span>法律法规</span></a></li>
+<li id="tabmenu10"><a href="/Article/list.asp?classid=8" title="学习园地"><span>学习园地</span></a></li>
+
+		</ul>
+		<div style="clear:both"></div>
+		<div id="globalNavmid">
+				<form name="searchform" method="get" action="/search.asp">
+			<div id="sht"><input class="searchtext" type="text" id="sh" name="word" maxlength="150" size="35" value="" /></div>
+			<input type="hidden" name="m" value="1" />
+			<input type="hidden" name="s" value="1" />
+			<!--div id="selsearch">
+				<select name="m" size="1" class="selsearch">
+					<option value="1">文章资料</option>
+				</select>
+			</div-->
+			</div-->
+			<div id="sbox"><input class="Search" type="image" src="/skins/default/ico_search.jpg" value="Search"></div>
+			</form>
+		</div>
+		<div style="clear:both" id="midbanner"><script language="javascript" src="/js/top.js"></script></div>
+		<div id="globalNavbot"></div>
+	</div>
+</div></div>
+<script src="/js/ajax_code.js" type="text/javascript"></script>
+<script language="javascript">
+var articleid=7869;
+var channelPath='/Article/';
+ajax_installdir='/';
+</script>
+<div class="leftshad"><div class="rightshad">
+	<div id="pageMain">
+		<div id="mainBody">
+			<div class="crumb"><span class="crumbleft"><b>当前位置：</b><a href="/">崇义县公共资源交易中心</a> → <a href="/Article/">文章</a> → <a href="/Article/list.asp?classid=33">土地产权</a> → <a href="/Article/list.asp?classid=20">转让结果</a></span></div>
+			<div class="crumbot"><div class="crumbotm"></div></div>
+			<div style="clear:both"></div>
+			<div class="contentbox">
+			<div id="mainNewsTitles"><h1>崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第二次出让结果公示</h1></div>
+			<div class="mainNewsInfo"><span id="mainFontSize"><a style="CURSOR: hand; POSITION: relative" onclick="newasp_fontsize(0,'mainNewsContent')" title="减小字体"><img src="/images/1.gif" border="0" width="15" height="15"><font color="#FF6600">减小字体</font></a> 
+                    			<a style="CURSOR: hand; POSITION: relative" onclick="newasp_fontsize(1,'mainNewsContent')" title="增大字体"><img src="/images/2.gif" border="0" width="15" height="15"><font color="#FF6600">增大字体</font></a>
+			</span>作者：本站&nbsp;&nbsp;来源：本站整理&nbsp;&nbsp;发布时间：2015-09-18 10:45:36</div>
+			<div class="mainNewsContent NewsContent" id="mainNewsContent"><p>&nbsp;&nbsp;&nbsp; 定于2015年9月18日上午9：30在崇义县公共资源交易中心举行的崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权现场竞价出让项目，因有效时间内无人报名，流标。</p></div>
+			
+			<div class="textTags">
+				<h3>Tags：</h3><span>作者：本站</span> 
+			</div>
+			<div style="clear:both"></div>
+			<div class="mainNewsCount">
+				[<span id="NewAsp_Hits"><script language="JavaScript" src="/Article/hits.asp?id=7869&type=0"></script></span>]
+				[<a href="javascript:history.go(-1)">返回上一页</a>]
+				[<a href="javascript:window.print()">打 印</a>]
+			</div>
+			</div>
+			<script type="text/javascript">
+<!--
+var submitPJend = false;
+var PJ_CookieName = 'MyPingJia_1_7869';
+function submitPingJia(sid,t,m){
+	if (getCookie(PJ_CookieName)){
+		alert('友情提示\n\n您已经对此文章进行过评价！');
+		return;
+	}
+
+	if(!submitPJend){
+		var postUrl='/Article/ajaxpost.asp?id='+sid+'&t='+t+'&m='+m+'&s=0';
+		ajaxPostAppraised(postUrl)
+		setCookie(PJ_CookieName,true)
+	}else{
+		alert('友情提示\n\n你已提交过用户评价，请不要重复提交数据！');
+	}
+	submitPJend = true;
+}
+setTimeout('ajaxPostAppraised("/Article/ajaxpost.asp?id=7869&s=1")',1000)
+//-->
+</script>
+<div class="mainstory">
+	<div id="totalscore" style="display:none;">0</div>
+	<ul id="pingjia">
+		<li><img src="/skins/icons/logo_good.gif" width="33" height="33" /></li>
+		<li class="info"><em>好的评价</em>　如果您觉得此文章好，就请您<br/>
+		<span id="PercentBar1" style="width:1px;"></span>&nbsp;&nbsp;<i><span id="showPercent1">0%</span>(<span id="showscore1">0</span>)</i></li>
+		<li><a href="javascript:"><img onclick="submitPingJia(7869,1,130);" src="/skins/icons/btn_good.gif" width="37" height="39" border="0" /></a></li>
+		<li><img src="/skins/icons/logo_bad.gif" width="33" height="33" /></li>
+		<li class="info"><em>差的评价</em>　如果您觉得此文章差，就请您<br/>
+		<span id="PercentBar2" style="width:1px;" ></span>&nbsp;&nbsp;<i><span id="showPercent2">0%</span>(<span id="showscore2">0</span>)</i></li>
+		<li><a href="javascript:"><img onclick="submitPingJia(7869,0,130);" src="/skins/icons/btn_bad.gif" border="0" /></a></li>
+	</ul>
+	<div style="clear:both"></div>
+</div>
+			<div class="mainstory">
+				<div id="mainNextArticle" class="story">
+					<ul>
+					<li><a onclick='window.open("http://www1.baidu.com/baidu?word=崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第二次出让结果公示")' href="javascript:"><img src="/skins/icons/icon_baidu.gif" align="absmiddle" border="0" />中查找“崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第二次出让结果公示”更多相关内容</a></li>
+					<li><a onclick='window.open("http://www.google.cn/search?q=崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第二次出让结果公示&client=pub-7181357378968076&forid=1&prog=aff&ie=GB2312&oe=GB2312&hl=zh-CN")' href="javascript:"><img src="/skins/icons/icon_google.gif" align="absmiddle" border="0" />中查找“崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第二次出让结果公示”更多相关内容</a></li>
+					<li>·上一篇文章：<a href="show.asp?id=7868">崇义县国有资产挂牌出让（新泰昇51%股权）的补充公告</a></li>
+					<li>·下一篇文章：<a href="show.asp?id=7870">赣州市公路管理局崇义分局、崇义县防震减灾局、崇义县公安局办公设备、警用摩托车项目（项目编号：GZJD2015-CY-X126-1）的询价公告</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="mainstory">
+				<h2><span class="boxhead  col-icon12">文章评论</span><span class="headLinks"><a href="/Article/comment.asp?id=7869">评论内容只代表网友观点，与本站立场无关！</a> <input type="button" name="postBtn2" id="postBtn2" value="发表评论" onclick="showElement('postComment2')"  />  </span></h2>
+				<div class="story" style="padding:3px;">&nbsp; &nbsp;评论摘要(共 <font color="red">0</font> 条，得分 <font color="red">0</font> 分，平均 <font color="red">0</font> 分)
+	<a href="/Article/comment.asp?id=7869">查看完整评论</a>
+<hr align="center" width="96%" color="#eeeeee" noShade="noShade" size="1" class="HRcomt" />
+</div>
+			</div>
+			<div class="mainstory" id="postComment2" style="display:none;">
+				<div class="story postComment" style="padding:3px;">
+<script type="text/javascript">
+<!--
+var show_checkcode = false;
+function get_checkcode() {
+	var chkCodeFile = "/common/getcode.asp";
+	if(!show_checkcode){
+		if(document.getElementById("img_checkcode"))
+			document.getElementById("img_checkcode").innerHTML = '<img  id="checkcodeimg" src="'+chkCodeFile+'?t='+Math.random()+'" alt="点击刷新验证码" style="cursor:pointer;border:0;vertical-align:middle;height:18px;" onclick="this.src=\''+chkCodeFile+'?t=\'+Math.random()" />'
+			show_checkcode = true;
+
+		if(document.getElementById("isok_checkcode"))
+			document.getElementById("isok_checkcode").innerHTML = '<a href="javascript://" onclick="setTimeout(function(){ document.getElementById(\'checkcodeimg\').src=\''+chkCodeFile+'?t=\'+Math.random()},100);">看不清<\/a>';
+	}
+}
+//-->
+</script>
+			<a name="comment"></a><iframe style="display:none;" name="_blankframe"></iframe>
+			<form name="commentform" method="post" action="/common/comment.asp" target="_blankframe">
+				<input type="hidden" name="postid" value="7869" />
+				<input type="hidden" name="channelid" value="1" />
+				<input type="hidden" name="modules" value="1" />
+				<input type="hidden" name="action" value="save" />
+				<input type="hidden" name="history" value="1" />
+				<p>用户名：<input type="text" name="username" maxlength="15" size="28" /> <font color="#ff0000">！</font> <a href="/Article/comment.asp?id=7869" target="_blank">查看更多评论</a></p>
+				<p>分　值：<input type="radio" name="grade" value="100" />100分
+				<input type="radio" name="grade" value="85" checked="true" />85分
+				<input type="radio" name="grade" value="70" />70分
+				<input type="radio" name="grade" value="55" />55分 
+				<input type="radio" name="grade" value="40" />40分
+				<input type="radio" name="grade" value="25" />25分
+				<input type="radio" name="grade" value="10" />10分
+				<input type="radio" name="grade" value="1" />1分</p>
+				<p>内　容：<textarea name="content" cols="70" rows="5" title="请注意用语文明且合法，不要发布带有攻击性的言论，谢谢合作！"></textarea> <font color="#ff0000">！</font></p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="submit_button" value="提交" class="button" /> 
+				<input type="reset" name="reset_button" value="重设" class="button" />
+				<font color="#FF0000">通知管理员</font> <input type="checkbox" name="apprize" value="1"  /> 
+				验证码：<input name="checkcode" type="text" class="logininput" id="checkcode" size="5" maxlength="4" onfocus="get_checkcode();this.onfocus=null;" onkeyup="ajaxcheckcode('check_code','checkcode');" />
+				<span id="img_checkcode"><label style="cursor:pointer;" onclick="get_checkcode();">点击获取验证码</label></span><span id="isok_checkcode"></span></p>
+			</form></div>
+			</div>
+		</div><!--End #mainBody -->
+		<div id="leftBody">
+			<div class="sideContainer">
+				<h2><span class="boxhead">栏目导航</span></h2>
+				<ul id="leftCatalog">
+					<li id="tabmenu1"><a href="/Article/list.asp?classid=18" title="公 告"><span>公 告</span></a></li>
+<li id="tabmenu2"><a href="/Article/list.asp?classid=38" title="挂牌报价"><span>挂牌报价</span></a></li>
+<li id="tabmenu3"><a href="/Article/list.asp?classid=20" title="转让结果"><span>转让结果</span></a></li>
+<li id="tabmenu4"><a href="/sitemap.html" target="_blank" title="更多分类"><span>更多分类</span></a></li>
+<li class="finally"></li></ul>
+			</div>
+			<div class="sideContainer">
+				<h2><span class="boxhead">本类热门阅览</span></h2>
+				<ul>
+					<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=383" title="崇义县国有土地使用权崇国土资告字[2007]3号拍卖结果公示">崇义县国有土地使用权崇国土资告字...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=556" title="崇义县国有土地使用权崇国土资告字[2007]5号崇义宾馆挂牌结果公示">崇义县国有土地使用权崇国土资告字...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=6169" title="崇义县土地出让结果公示">崇义县土地出让结果公示</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=5973" title="崇义县原719矿房产及公务用车出让结果公示">崇义县原719矿房产及公务用车出让结...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=7129" title="崇义县公务用车挂牌(庆铃普通货车)出让结果公示">崇义县公务用车挂牌(庆铃普通货车)...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=535" title="崇义县国有土地使用权崇国土资告字[2007]5号拍卖结果公示">崇义县国有土地使用权崇国土资告字...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=711" title="崇义县文英河木贤钾长石矿采矿权挂牌报价信息">崇义县文英河木贤钾长石矿采矿权挂...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=329" title="崇义县国有土地使用权崇国土资告字[2007]1号拍卖结果公示">崇义县国有土地使用权崇国土资告字...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=4575" title="崇义县国有建设用地使用权（崇国土资告字[2010]3号）拍卖结果公示">崇义县国有建设用地使用权（崇国土...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=835" title="崇义县公务用车拍卖成交公示">崇义县公务用车拍卖成交公示</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=353" title="崇义县国有土地使用权崇国土资告字[2007]2号挂牌结果公示">崇义县国有土地使用权崇国土资告字...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=2534" title="崇义县旧公务用车挂牌结果公示([2009]4号)">崇义县旧公务用车挂牌结果公示([20...</a></li>
+</ul>
+			</div>
+			<div class="sideContainer">
+				<h2><span class="boxhead">相关文章</span></h2>
+				<ul>
+					<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=8064" title="崇义林业股份有限公司电脑、GPS采购的询价公告">崇义林业股份有限公司电脑、GPS采购...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=8031" title="崇义林业股份有限公司打印机采购的询价中标公告">崇义林业股份有限公司打印机采购的...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=7985" title="崇义林业股份有限公司电脑、打印机采购的询价公告">崇义林业股份有限公司电脑、打印机...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=7984" title="崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第五次出让结果公示">崇义林业股份有限公司和过埠镇石路...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=7967" title="崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第五次转让公告">崇义林业股份有限公司和过埠镇石路...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=7922" title="崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第四次出让结果公示">崇义林业股份有限公司和过埠镇石路...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=7915" title="崇义林业股份有限公司电脑采购的询价中标公告">崇义林业股份有限公司电脑采购的询...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=7904" title="崇义林业股份有限公司电脑采购的询价公告">崇义林业股份有限公司电脑采购的询...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=7897" title="崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第三次出让结果公示">崇义林业股份有限公司和过埠镇石路...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=7880" title="崇义林业股份有限公司复合肥采购的询价中标公告">崇义林业股份有限公司复合肥采购的...</a></li>
+<li class="list1"> &rsaquo; <a href="/Article/show.asp?id=7869" title="崇义林业股份有限公司和过埠镇石路村栏棚下小组共有人工杉木林生产销售经营权第二次出让结果公示">崇义林业股份有限公司和过埠镇石路...</a></li>
+<li class="list2"> &rsaquo; <a href="/Article/show.asp?id=7861" title="崇义林业股份有限公司复合肥采购的询价公告">崇义林业股份有限公司复合肥采购的...</a></li>
+</ul>
+			</div>
+		</div><!--End #leftBody -->
+	</div><!-- End #pageMain -->
+</div></div>
+<div id="bottomshad">
+	<div id="blcorner"><img src="/skins/default/bg/blcorner.gif"/></div>
+	<div id="brcorner"><img src="/skins/default/bg/brcorner.gif"/></div>
+</div>
+<div id="sitefooter">
+	<div id="footerbody">
+	<a href="/support/about.asp">崇义招标投标中心简介</a> - 
+    <a href="/admin/admin_login.asp" target="_blank" class="navmenu">管理登录</a> - 
+您是第<script src="/count/count.asp"></script>访问者<div align="center">
+</div>
+<br/>
+Copyright&copy;2006-2013 All Rights Reserved.江西省崇义县公共资源交易中心<br>主办单位：崇义县公共资源交易中心 地址：崇义县阳岭大道政务大楼一楼<br>电话/传真：0797-3817880 邮编：341300 Email:cyztbzx@126.com<br>电子备案号:赣ICP备07001473号.   赣公网安备36072502000006<br/>
+</div>
+</div>
+<div align="center">
+<table border="0" width="50%" id="table1" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+		<p align="right"><script type="text/javascript">document.getElementById("lit"+"li" + "nk").style.display="n" +  "one";</script><script language="javascript" src="http://www.xanet110.com/include.js"></script>
+</td>
+		<td>
+		<p align="left"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='http://dcs.conac.cn/js/15/231/0873/40747376/CA152310873407473760001.js' type='text/javascript'%3E%3C/script%3E"));</script></td>
+	</tr>
+</table>
+</div>
+</body>
+</html>    

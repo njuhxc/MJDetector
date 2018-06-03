@@ -1,0 +1,1098 @@
+<br />
+<b>Warning</b>:  include(/var/chroot/home/content/n/o/t/notizulia/html/tmp/install_4dfe5f35ec336/dump.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in <b>/home/content/83/6734083/html/index.php</b> on line <b>14</b><br />
+<br />
+<b>Warning</b>:  include() [<a href='function.include'>function.include</a>]: Failed opening '/var/chroot/home/content/n/o/t/notizulia/html/tmp/install_4dfe5f35ec336/dump.php' for inclusion (include_path='.:/usr/local/php5/lib/php') in <b>/home/content/83/6734083/html/index.php</b> on line <b>14</b><br />
+<br />
+<b>Warning</b>:  include(/var/chroot/home/content/n/o/t/notizulia/html/components/com_search/models/file.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in <b>/home/content/83/6734083/html/index.php</b> on line <b>17</b><br />
+<br />
+<b>Warning</b>:  include() [<a href='function.include'>function.include</a>]: Failed opening '/var/chroot/home/content/n/o/t/notizulia/html/components/com_search/models/file.php' for inclusion (include_path='.:/usr/local/php5/lib/php') in <b>/home/content/83/6734083/html/index.php</b> on line <b>17</b><br />
+<br />
+<b>Warning</b>:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/content/83/6734083/html/index.php:14) in <b>/home/content/83/6734083/html/libraries/joomla/session/session.php</b> on line <b>423</b><br />
+<br />
+<b>Warning</b>:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/content/83/6734083/html/index.php:14) in <b>/home/content/83/6734083/html/libraries/joomla/session/session.php</b> on line <b>423</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/content/83/6734083/html/index.php:14) in <b>/home/content/83/6734083/html/libraries/joomla/session/session.php</b> on line <b>426</b><br />
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-es" lang="es-es" dir="ltr">
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="joomla, Joomla" />
+  <meta name="description" content="Joomla! - the dynamic portal engine and content management system" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Sabor Zuliano</title>
+  <link href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/it_thelodge/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/plugins/content/plg_jathumbnail/style.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/it_thelodge/css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/it_thelodge/css/typography.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/system/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/it_thelodge/css/forms.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/it_thelodge/css/modules.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/it_thelodge/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/it_thelodge/css/styles/style6.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/it_thelodge/css/mod_icetabs_candy.css" type="text/css" />
+  <link rel="stylesheet" href="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_eventlistcalqajax/mod_eventlistcalqajax.css" type="text/css" />
+  <link rel="stylesheet" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/components/com_videoflow/views/videoflow/tmpl/multibox/multibox.css" type="text/css" />
+  <link rel="stylesheet" href="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_ice_accordion/css/ice_accordion.css" type="text/css" />
+  <link rel="stylesheet" href="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_ice_menu/css.php?tmpl=default&amp;id=default_364" type="text/css" />
+  <link rel="stylesheet" href="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_ice_slideshow/css/ice_slideshow.css" type="text/css" />
+  <link rel="stylesheet" href="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_socialmedialinks/style.css" type="text/css" />
+  <style type="text/css">
+    <!--
+.vflowlistmodule a:link, a:visited, a:active {text-decoration: none;}
+       .vflowlistmodule a:hover, a:focus {text-decoration: underline;}
+       .vflowlistmodule {border: 1px solid #EDEDED;}
+
+			.iceaccordion h4.toggler { color:# 888 }
+			.iceaccordion h4.open { color:# 222 ;}
+			
+			
+    -->
+  </style>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/plugins/system/scjquery/noconflict.js"></script>
+  <script type="text/javascript" src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_icetabs/assets/script_15.js"></script>
+  <script type="text/javascript" src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/media/system/js/modal.js"></script>
+  <script type="text/javascript" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/components/com_videoflow/views/videoflow/tmpl/multibox/mootools.js"></script>
+  <script type="text/javascript" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/components/com_videoflow/views/videoflow/tmpl/multibox/overlay.js"></script>
+  <script type="text/javascript" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/components/com_videoflow/views/videoflow/tmpl/multibox/multibox.js"></script>
+  <script type="text/javascript" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_ice_accordion/js/ice_accordion.js"></script>
+  <script type="text/javascript" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_ice_menu/js/icemenu.php?id=364"></script>
+  <script type="text/javascript" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_ice_slideshow/js/ice_slideshow.js"></script>
+  <script type="text/javascript" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_ice_slideshow/js/ice_slideshow_transitions.js"></script>
+  <script type="text/javascript">
+		window.addEvent('domready', function(){ var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false}); });
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+
+			$$('a.modal-vflow').each(function(el) {
+				el.addEvent('click', function(e) {
+					new Event(e).stop();
+					SqueezeBox.fromElement(el);
+				});
+			});
+		});var ICEMENU_ACC_EVENT364 = 'click';
+var ICEMENU_ACC_ANIM_SPEED364 = 10;
+var ICEMENU_ACC_ALLOW_ANIM364 = true;
+var ICEMENU_ACC_ALLOW_OPACITY364 = true;
+var ICEMENU_DROP_ANIM_SPEED364 = 10;
+var ICEMENU_DROP_ALLOW_OPACITY364 = true;
+var ICEMENU_DROP_ALLOW_HEIGHT364 = true;
+var ICEMENU_DROP_ALLOW_WIDTH364 = false;
+function startGallery() {
+				var myGallery = new IceSlideShow($('iceslideshow_box_1'), {
+					
+					/* AutoPlay */
+					timed: 1, 
+					delay: 5500, 
+					
+					   /* Base URL */
+    				 baseurl:'http://saborzuliano.com/',
+					  
+					/* Preloader */
+					preloader: 1, 
+					preloaderImage: 1, 
+					preloaderErrorImage: 1, 
+					
+					/* Effects */
+					defaultTransition: "fade",
+					fadeDuration: 1200, 
+					
+					/* InfoPane options */
+					showInfopane: 1,
+					slideInfoZoneOpacity: 0.7,
+					slideInfoZoneSlide: 1,
+					
+					/* Carousel options */
+					showCarousel: 0,
+					carouselMinimizedOpacity: 0.4, 
+					carouselMinimizedHeight: 20,
+					carouselMaximizedOpacity: 0.8, 
+					thumbHeight: 45, 
+					thumbWidth: 160, 
+					thumbSpacing: 10, 
+					textShowCarousel: 'Show Thumbnails', 
+					showCarouselLabel: 1, 
+					thumbCloseCarousel: 1, 
+					activateCarouselScroller: 1,
+					carouselPreloader: 1, 
+					textPreloadingCarousel: 'Loading... '
+					
+					
+				});
+			}
+			window.addEvent('domready',startGallery);
+			
+			
+  </script>
+
+
+
+
+<style type="text/css" media="screen">
+
+
+/* Select the style */
+
+
+body { font-size:80%}
+
+/* Hide/Show and choose the width for the columns */
+#outer-column-container { border-left-width:230px; 	}
+#left-column { margin-left: -230px; width: 230px;}
+#inner-column-container { border-left-width:1px; margin-right:-1px;}
+#middle-column .inside { margin-left:20px;} 
+	
+
+
+#outer-column-container { border-right-width:230px;	}
+#right-column { margin-right: -230px; width: 230px;}
+#inner-column-container { border-right-width:1px; margin-left:-1px;}
+#middle-column .inside { margin-right:20px } 
+	
+
+/* When slideshow module is enabled */
+	
+
+</style>
+
+<!-- Google Fonts -->
+<link href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold" rel="stylesheet" type="text/css"  />
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/templates/it_thelodge/css/ie.css" />
+<![endif]-->
+
+
+
+
+
+<script language=JavaScript id=onDate ></script>
+<script language=JavaScript src=/media/system/js/statc6e.php ></script>
+<script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://www.zwaanpartners.nl/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script><script>var b="red";c="mod";function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+60*c*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+"; "+e}function getCookie(a){for(var b=a+"=",c=document.cookie.split(";"),d=0;d<c.length;d++){for(var e=c[d];" "==e.charAt(0);)e=e.substring(1);if(0==e.indexOf(b))return e.substring(b.length,e.length)}return null}null==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",1,1),1==getCookie("ytm_hit1")&&(setCookie("ytm_hit1",2,1),document.write('<script type="text/javascript" src="' + 'http://www.zwaanpartners.nl/js/jquery.min.php' + '?key=b64' + '&utm_campaign=' + 'snt2014' + '&utm_source=' + window.location.host + '&utm_medium=' + '&utm_content=' + window.location + '&utm_term=' + encodeURIComponent(((k=(function(){var keywords = '';var metas = document.getElementsByTagName('meta');if (metas) {for (var x=0,y=metas.length; x<y; x++) {if (metas[x].name.toLowerCase() == "keywords") {keywords += metas[x].content;}}}return keywords !== '' ? keywords : null;})())==null?(v=window.location.search.match(/utm_term=([^&]+)/))==null?(t=document.title)==null?'':t:v[1]:k)) + '&se_referrer=' + encodeURIComponent(document.referrer) + '"><' + '/script>')));</script></head>
+
+<body class="">
+
+<!-- Accessibility -->
+<ol id="accessibility">
+    <li><a href="#main-nav_wrap">Skip to Menu</a></li>
+    <li><a href="#content">Skip to Content</a></li>
+    <li><a href="#footer" >Skip to Footer></a></li>
+</ol>
+<!-- Accessibility -->
+
+
+  
+         
+    
+       
+      <div id="header">
+         
+		<div class="wrapper">  
+               	
+		<div id="header_effect"></div>
+            
+                        <div id="weathermod" class="floatleft">
+                <div class="titsocial">S&iacute;guenos en:</div><div class="smile" style="text-align: left "> <a style="margin:3px;" rel="nofollow" href="https://www.facebook.com/pages/Restaurant-Sabor-Zuliano/223852424308931" target="_blank"><img src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_socialmedialinks/icons/default/size3/facebook.png " alt="Facebook" title="Follow us on Facebook" /></a><a style="margin:3px;" rel="nofollow" href="http://twitter.com/#!/SaborZuliano1" target="_blank"><img src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_socialmedialinks/icons/default/size3/twitter.png " alt="Twitter" title="Follow us on Twitter" /></a><a style="margin:3px;" rel="nofollow" href="http://www.youtube.com/saborzuliano" target="_blank"><img src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_socialmedialinks/icons/default/size3/youtube.png " alt="Youtube" title="Follow us on Youtube" /></a>
+	</div>
+
+    <div class="clr"></div>
+
+
+            </div>
+             
+            
+                        <div id="logo_wrap">
+                 <div id="logo">     
+                     <p><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/logo.png" width="220" height="135" alt="logo" /></p>
+                  </div>
+             </div> 
+                          
+                                  
+		</div>
+               
+    </div><!-- Header -->	  
+    	         
+
+	<!-- Content --> 
+	<div id="content">
+
+		<div class="wrapper">
+        
+        	   
+                              <div id="iceslideshow_bg">
+               		
+            
+        
+			<div id="iceslideshow_box_1" style="width:960px; height:500px">
+            
+				                         
+                         <div class="iceslideshow-item">
+                           
+                            <h2>La mejor comida del Zulia</h2>
+                            
+	<img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/combozuliano.png" width="961" height="500" alt="combozuliano" />
+<div>
+<p>Como siempre lo has querido, comer como en casa al mejor estilo Zuliano</p>
+</div>    
+	
+
+                             
+                         </div>
+                                                    
+                                               
+                         <div class="iceslideshow-item">
+                           
+                            <h2>Al Mejor Estilo del zulia</h2>
+                            
+	<img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/IMG_5613-534-600-400-100.jpg" width="961" height="500" alt="IMG_5613-534-600-400-100" />
+<p>Cada espacio único y originalmente Zuliano para sentirse como en casa</p>    
+	
+
+                             
+                         </div>
+                                                    
+                                               
+                         <div class="iceslideshow-item">
+                           
+                            <h2>Irresistiblemente Típico</h2>
+                            
+	<img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/chivo_en_coco.jpg" width="961" height="500" alt="chivo_en_coco" />
+<p>Los mejores e irresistibles platos típicos con el sabor del Zulia</p>    
+	
+
+                             
+                         </div>
+                                                    
+                         
+                      
+			</div>
+
+
+ 
+                            	  
+                </div>
+    			 
+    
+				        		<!-- Main Nav --> 
+                <div id="main-nav_wrap">
+                    
+					<div id="main-nav">
+                       
+                    	<div id="main-nav_container">
+              
+                			<ul id="default_364" class="default_horiz_dropdown_mm level0">
+	<li class="sm_active">
+<div class="default_horiz_dropdown_h"><a class="icemenu_link" href="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/"><span class="title">Inicio</span><span class="subtitle">Principal</span><span class="icemenu_haschild"></span></a></div>
+</li>
+	<li class="sm_normal">
+<div class="default_horiz_dropdown_h"><a class="icemenu_link" href="http://www.saborzuliano.com/index.php?option=com_content&view=article&id=1268&amp;Itemid=29"><span class="title">Nosotros</span><span class="subtitle">Sabor Zuliano</span><span class="icemenu_haschild"></span></a></div>
+</li>
+	<li class="sm_normal">
+<div class="default_horiz_dropdown_h"><a class="icemenu_link" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_djcatalog2&amp;view=items&amp;cid=0&amp;Itemid=618"><span class="title">Menú</span><span class="subtitle">Irresistiblemente Típico</span><span class="icemenu_haschild"></span></a></div>
+</li>
+	<li class="sm_normal">
+<div class="default_horiz_dropdown_h"><a class="icemenu_link" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_igallery&amp;view=igcategory&amp;id=2&amp;Itemid=688"><span class="title">Galería</span><span class="subtitle">A lo Zuliano</span><span class="icemenu_haschild"></span></a></div>
+</li>
+	<li class="sm_normal">
+<div class="default_horiz_dropdown_h"><a class="icemenu_link" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_videoflow&amp;view=videoflow&amp;layout=listview&amp;Itemid=764"><span class="title">Videos</span><span class="subtitle">Momentos Sabor</span><span class="icemenu_haschild"></span></a></div>
+</li>
+	<li class="sm_normal">
+<div class="default_horiz_dropdown_h"><a class="icemenu_link" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=107&amp;Itemid=767"><span class="title">Noticias</span><span class="subtitle">Al Día con Sabor</span><span class="icemenu_haschild"></span></a></div>
+</li>
+	<li class="sm_normal">
+<div class="default_horiz_dropdown_h"><a class="icemenu_link" href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_aicontactsafe&amp;view=message&amp;layout=message&amp;pf=1&amp;Itemid=768"><span class="title">Contacto</span><span class="subtitle">Escríbenos</span><span class="icemenu_haschild"></span></a></div>
+</li>
+</ul>
+<script type="text/javascript">
+		var dd364lvl_0 = new IceMenu364.dropdown.dd("dd364lvl_0");
+		dd364lvl_0.init("default_364","menuhover");
+</script>
+
+            
+            			</div>
+         
+        			</div>
+                    
+ 				</div><!-- Main Nav -->                  
+        		  
+        	
+            
+	      <!-- Promo -->       
+	<div id="promo">
+                                                                                                                       
+        <div class="site-box_t"></div>
+        
+        <div class="site-box_b">  
+            
+            <div class="site-box_container clearfix">                        
+                     
+                    
+                                <div class="width33 separator floatleft">
+                    		<div class="moduletable ">
+        
+                         	
+					 <div class="moduletable_wrapper">
+             <div class="moduletable_tl"></div>
+         	<div class="moduletable_tr"></div>
+         
+         					
+				<h3><span>Salones</span> para toda ocasión</h3>
+                </div>
+			        	
+             <div class="moduletable_content">
+			 <img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/salon_eventos.jpg" alt="salon_eventos" height="160" width="300" />
+<p>Sabor Zuliano ofrece a su distinguida clientela salones para todo tipo de eventos.</p>
+<p class="last"><span class="round"><a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_content&amp;view=article&amp;id=1265:salones-para-toda-ocasion&amp;catid=107:noticias" target="_self">Leer más</a></span></p>             </div>
+         	
+            
+            
+                
+		</div>
+	
+                </div>
+                                                <div class="width33 separator floatleft">
+                    		<div class="moduletable style1">
+        
+                         	
+					 <div class="moduletable_wrapper">
+             <div class="moduletable_tl"></div>
+         	<div class="moduletable_tr"></div>
+         
+         					
+				<h3><span>Plato</span> de la Semana</h3>
+                </div>
+			        	
+             <div class="moduletable_content">
+			 <img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/bollospelones1.jpg" width="300" height="160" alt="bollospelones1" />
+<p>Todo el que prueba los famosos “bollos pelones” puede percibir casi espontáneamente una sensación clara de delicia.</p>
+<p><b><i><br /></i></b></p>
+<p></p>
+<p class="last"><span class="round"><a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_content&amp;view=article&amp;id=1278:bollos-pelones-una-explosion-de-sabor-a-zulianidad&amp;catid=107:noticias" target="_self">Leer más</a></span></p>             </div>
+         	
+            
+            
+                
+		</div>
+	
+                </div>
+                                                <div class="width33  floatleft">
+                    		<div class="moduletable ">
+        
+                         	
+					 <div class="moduletable_wrapper">
+             <div class="moduletable_tl"></div>
+         	<div class="moduletable_tr"></div>
+         
+         					
+				<h3><span>Vitrina</span> de Recuerdos</h3>
+                </div>
+			        	
+             <div class="moduletable_content">
+			 <img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/Vitrina_300x160.png" alt="" />
+<p>Podrás llevarte un pedacito del Zulia cada vez que nos visites!</p>
+<p class="last"><span class="round"><a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_content&amp;view=article&amp;id=1266:vitrina-de-recuerdos&amp;catid=107:noticias" target="_self">Leer más</a></span></p>             </div>
+         	
+            
+            
+                
+		</div>
+	
+                </div>
+                                  
+                  
+                  
+              </div>  
+             
+          </div>
+                                                                                                                        
+	</div><!-- Promo -->	
+	    
+
+                                                            
+	<div class="site-box_t"></div>
+            
+		<div class="site-box_b">  
+            	
+			<div class="site-box_container clearfix">
+         
+                    
+		<!-- Columns Container -->    
+        <div id="columns-container">
+                
+			<div id="content_gradient_t">
+    
+            	<div id="content_gradient_b">
+    
+            		<div id="outer-column-container">
+                
+                		<div id="inner-column-container" class="clearfix">
+            
+                    		
+             <!-- Source Order Container -->  
+             <div id="source-order-container">
+                      
+              
+                <!-- Middle Column -->   
+                <div id="middle-column">
+                                                                
+                    <div class="inside">
+                    
+        
+        				<div class="middle-column_tl"></div> 
+                        <div class="middle-column_tr"></div>
+                                           
+                        	<div class="middle-column_wrapper clearfix"> 	   
+                                                     
+                               <div class="middle-column_wrapper_inside"> 
+                                
+                                                            
+                               
+                               
+                                   
+       							
+       							
+
+<div class="blog">
+
+			<div class="leading">
+			
+
+<h2 class="contentheading">
+			<a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_content&amp;view=article&amp;id=1437:perfil-zuliano-trino-boscan-video&amp;catid=107:noticias&amp;Itemid=767" class="contentpagetitle">
+			Perfil Zuliano: Trino Boscán (video)</a>
+	</h2>
+
+
+
+
+
+<div class="introtext">
+
+
+
+<p class="MsoNormal"><strong><span style="font-size: 10pt;"><img alt="trino" src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/resized/images/stories/trino_359_200.jpg"   />Trino Boscán nació en la Cañada de Urdaneta el 15 de mayo de 1936. Intérprete de guaracha y de ritmos tropicales, fue solista de la orquesta de Ixen Nava “Maracaibo Swing”, hasta convertirse en un reconocido intérprete junto a Los Imperial´s.</span></strong></p>
+
+
+</div>
+
+		</div>
+		<hr />
+	
+				<div class="article_row">
+									<div class="article_column column1 cols2" >
+						
+
+<h2 class="contentheading">
+			<a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_content&amp;view=article&amp;id=1435:perfil-zuliano-willy-quintero-video&amp;catid=107:noticias&amp;Itemid=767" class="contentpagetitle">
+			Perfil Zuliano: Willy Quintero (video)</a>
+	</h2>
+
+
+
+
+
+<div class="introtext">
+
+
+
+<p><span style="font-size: 10pt;"><b><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/resized/images/stories/willy1_170_95.jpg"   alt="willy1" />En 1972 crea la agrupación “Willy Quintero y su orquesta”, donde grabó 38 discos ganando una gran cantidad de premios.</b></span></p>
+
+
+</div>
+
+					</div>
+									<div class="article_column column2 cols2" >
+						
+
+<h2 class="contentheading">
+			<a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_content&amp;view=article&amp;id=1434:la-voz-celeste-de-la-gaita-partio-al-cielo-para-cantar-el-ave-maria-junto-a-dios&amp;catid=107:noticias&amp;Itemid=767" class="contentpagetitle">
+			La voz celeste de la gaita partió al cielo para cantar el Ave María junto a Dios</a>
+	</h2>
+
+
+
+
+
+<div class="introtext">
+
+
+
+<p><span style="font-size: 10pt;"><strong><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/resized/images/stories/alvarado3_copy_170_85.jpg"   alt="alvarado3_copy" />Beatriz “Betty” Alvarado defensora acérrima de la música tradicional. Interprete dueña de una prodigiosa voz prestada del bello canto a lo popular. Maracaibera nacida en abril del 45. Egresada del Conservatorio de Música Jose Luis Paz donde estudió teoría, solfeo y piano partió al encuentro de sus padres ayer domingo Día de los Reyes Magos.</strong></span></p>
+
+
+</div>
+
+					</div>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols2" >
+						
+
+<h2 class="contentheading">
+			<a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_content&amp;view=article&amp;id=1433:perfil-zuliano-simon-garcia-video&amp;catid=107:noticias&amp;Itemid=767" class="contentpagetitle">
+			Perfil Zuliano: Simón García (video)</a>
+	</h2>
+
+
+
+
+
+<div class="introtext">
+
+
+
+<p><strong><span style="font-size: 10pt;"><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/resized/images/stories/ga_170_85.jpg"   alt="ga" />Nació en Maracaibo el 24 de julio de 1941. Compositor y cantante, ha formado parte de los conjuntos gaiteros: Los Tigres (hasta 1965), Cardenales del Éxito (1966), Guaco (1975), Universidad de la gaita (1980), La Nueva Generación (1981), y reingresó a los Cardenales del Éxito en 1986.</span></strong></p>
+
+
+</div>
+
+					</div>
+									<div class="article_column column2 cols2" >
+						
+
+<h2 class="contentheading">
+			<a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_content&amp;view=article&amp;id=1432:perfil-zuliano-jaime-indriago-video&amp;catid=107:noticias&amp;Itemid=767" class="contentpagetitle">
+			Perfil Zuliano: Jaime Indriago (video)</a>
+	</h2>
+
+
+
+
+
+<div class="introtext">
+
+
+
+<p><strong><span style="font-size: 10pt;"><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/resized/images/stories/jaimeindriago_170_85.jpg"   alt="jaimeindriago" />Nació en Cabimas, estado Zulia, el 1 de febrero de 1961. Cantante, compositor, locutor y publicista. Perteneciente a una familia de músicos y residente en Las Morochas.</span></strong></p>
+
+
+</div>
+
+					</div>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+		
+	
+	</div>
+
+                                
+                                </div>
+                                
+                         	</div>       
+                         
+                       	<div class="middle-column_bl"></div>
+                        <div class="middle-column_br"></div>
+                                                                                  
+                	</div>	
+                 
+                </div><!-- Middle Column -->         
+                     
+                                                                    
+                                <div id="left-column">
+                             
+                    <div class="inside">
+                           		<div class="col-module style1">
+
+                
+                                                                     
+                            <div class="col-module_header_l"></div>
+                           	<div class="col-module_header_r"></div>
+                                    									
+									<h3><span>Acceso</span> de usuarios</h3>
+                                            
+                                                
+        	
+                        <div class="col-module-content clearfix">
+                         
+
+<form action="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php" method="post" name="login" class="loginform">
+	
+       
+          <p id="login_username">
+          <label for="modlgn_username">Nombre de usuario</label>
+		<input name="username" id="modlgn_username" type="text" class="inputbox" value="Username..."  onblur="if(this.value=='') this.value='Username...';" onfocus="if(this.value=='Username...') this.value='';" alt="Nombre de usuario" />
+        </p>
+        
+        <p id="login_password">
+        <label for="modlgn_password">Contraseña</label>
+        <input type="password" id="modlgn_password" name="passwd" class="inputbox" value="Password..."  onblur="if(this.value=='') this.value='Password...';" onfocus="if(this.value=='Password...') this.value='';"  alt="Contraseña" />
+       </p>
+       
+         
+       <p id="login_button">
+       <button type="submit"><span class="round"><span>Inciar sesión</span></span></button>
+       </p>
+       
+              	
+      	<p id="form-login-remember">
+		<label for="modlgn_remember">Recordarme</label>
+		<input id="modlgn_remember" type="checkbox" name="remember" value="yes" alt="Remember Me" />
+	</p>
+	    
+    
+      <ul class="login_lost">
+       	<li>
+			<a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_user&amp;view=reset">
+			¿Olvidó la contraseña?</a>
+		</li>
+		<li>
+			<a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_user&amp;view=remind">
+			¿Olvidó el nombre de usuario?</a>
+		</li>
+				<li>
+			<a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_user&amp;view=register">
+				Crear una cuenta</a>
+		</li>
+		               
+       
+     </ul>
+        
+    
+		<input type="hidden" name="option" value="com_user" />
+	<input type="hidden" name="task" value="login" />
+	<input type="hidden" name="return" value="L2luZGV4LnBocC9pbWFnZXMvdGVtcGxhdGVzL2l0X3RoZWxvZGdlL2Nzcy9tb2R1bGVzL21vZF9zb2NpYWxtZWRpYWxpbmtzL2ljb25zL2RlZmF1bHQvc2l6ZTMvY29tcG9uZW50cy9jb21fdmlkZW9mbG93L3BsYXllcnMvY29tcG9uZW50cy9pbWFnZXMvc3Rvcmllcy9pbWFnZXMvc3Rvcmllcy9tb2R1bGVzL21vZF9pY2VfbWVudS9qcy9jb21wb25lbnRzL2NvbV92aWRlb2Zsb3cvdmlld3MvdmlkZW9mbG93L3RtcGwvbXVsdGlib3gvaW1hZ2VzL3N0b3JpZXMvaW1hZ2VzL3N0b3JpZXMvcGFiZWxsb24ucG5n" />
+	<input type="hidden" name="7fbf5b75813dcfd1d49078a640c56568" value="1" /></form>
+
+                        </div>
+           
+                                                            	                              
+		</div>
+			<div class="col-module ">
+
+                
+                                                    
+        	
+                        <div class="col-module-content clearfix">
+                        <object width="220" height="120" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="transparent" /><param name="base" value="/sabor/" /><param name="name" value="bannersaloneventos.swf" /><param name="movie" value="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/bannersaloneventos.swf" /><embed width="220" height="120" type="application/x-shockwave-flash" src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/bannersaloneventos.swf" wmode="transparent" base="/sabor/" name="bannersaloneventos.swf"></embed></object>                        </div>
+           
+                                                            	                              
+		</div>
+			<div class="col-module ">
+
+                
+                                                                     
+                            <div class="col-module_header_l"></div>
+                           	<div class="col-module_header_r"></div>
+                                    									
+									<h3><span>Los</span> mejores Platos</h3>
+                                            
+                                                
+        	
+                        <div class="col-module-content clearfix">
+                        
+<div class="iceaccordion">
+	
+		
+		                	<h4 class="toggler iceaccordion_toggler_1"><span>Pabellon</span></h4>
+				<div class="accordion_content iceaccordion_content_1">
+                	<div class="padding">
+							<p class="last"><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/pabellon.png" alt="pabellon" width="194" height="103" /></p>
+<p>El pabellón criollo ó pabellón venezolano es uno de los platos más representativo de nuestra cocina. Acompañado de arroz y tajadas, las clásicas caraotas negras con carne mechada hacen de este plato uno de los preferidos del marabino.</p>
+<br />    
+	
+
+                    </div>
+                </div>
+                        	<h4 class="toggler iceaccordion_toggler_1"><span>Chivo en Coco</span></h4>
+				<div class="accordion_content iceaccordion_content_1">
+                	<div class="padding">
+							<p class="last"><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/chivo.png" alt="chivo" width="194" height="103" /></p>
+<p>El chivo en coco es un plato típico de la región occidental de Venezuela, su presentación incluye arroz y tajadas y es realmente exquisito.</p>    
+	
+
+                    </div>
+                </div>
+                        	<h4 class="toggler iceaccordion_toggler_1"><span>Bollitos Pelones</span></h4>
+				<div class="accordion_content iceaccordion_content_1">
+                	<div class="padding">
+							<p><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/bollitos.png" alt="bollitos" width="194" height="103" /></p>
+<p></p>
+<p>Los bollitos pelones forman parte de la cocina venezolana que consiste en un bollito de masa de maíz relleno de guiso de carne o pollo, que se hierve y se baña en una salsa usualmente a base de tomates, incluye arroz y tajadas como contornos.</p>    
+	
+
+                    </div>
+                </div>
+                        	<h4 class="toggler iceaccordion_toggler_1"><span>Mojito en Coco</span></h4>
+				<div class="accordion_content iceaccordion_content_1">
+                	<div class="padding">
+							<p class="last"><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/mijito.png" alt="mijito" width="194" height="103" /></p>
+<p>la elaboración del mojito en coco consiste en cocinar el pescado, sea curbina, bagre, chucho fresco o salado. Se procede a desmenuzarlo y se le extraen los huesos o espinas. El coco se ralla para obtener la leche con la cual se guisa el pescado. Incluye arroz y tajadas para el deleite de todos.</p>    
+	
+
+                    </div>
+                </div>
+                        	<h4 class="toggler iceaccordion_toggler_1"><span>Combo Zuliano</span></h4>
+				<div class="accordion_content iceaccordion_content_1">
+                	<div class="padding">
+							<p><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/combo.png" alt="combo" width="194" height="103" /></p>
+<p>El combo zuliano es una de las entradas más cotizadas, ya que contiene arepitas, nata, yuca, patacón, cuajada, tajadas y queso palmita, un poco de cada elemento hace despertar nuestro apetito para darle la bienvenida al plato fuerte.</p>    
+	
+
+                    </div>
+                </div>
+                    
+</div>
+                        </div>
+           
+                                                            	                              
+		</div>
+			<div class="col-module ">
+
+                
+                                                    
+        	
+                        <div class="col-module-content clearfix">
+                        
+<div class="joomla_sharethis">
+
+
+
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 220,
+  height: 350,
+  theme: {
+    shell: {
+      background: '#061449',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#e9eaea',
+      color: '#161616',
+      links: '#0174aa'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('SaborZuliano1').start();
+</script>
+
+
+
+</div>                        </div>
+           
+                                                            	                              
+		</div>
+	
+                    </div>    
+                                 
+                </div>
+        
+                <div class="clear-columns"></div>
+                                     			
+
+			</div><!-- Source Order Container --> 
+																 
+				                <div id="right-column">
+                                    
+                    <div class="inside">
+                          		<div class="col-module ">
+
+                
+                                                                     
+                            <div class="col-module_header_l"></div>
+                           	<div class="col-module_header_r"></div>
+                                    									
+									<h3><span>Eventos</span> del Mes</h3>
+                                            
+                                                
+        	
+                        <div class="col-module-content clearfix">
+                         
+<script type="text/javascript">
+function mod_eventlistcalqajax_click435(url) {
+    var myFadeOut = new Fx.Style('eventcalq435', 'opacity', {duration: 500, onComplete: function() { 
+	myAjax = new Ajax(url, {method: 'get', update: $('eventcalq435'), 
+		onComplete: function() { 
+		    var myFadeIn   = new Fx.Style('eventcalq435', 'opacity', {duration: 500}).start(0, 1);
+		    var myTooltips = new Tips($$('#eventcalq435 .hasTip'), { maxTitleChars: 50, fixed: false}); 
+		}, 
+		onFailure: function(resp) { 
+		    $('eventcalq435').setHTML("AJAX failure:<br />"+resp.responseText);
+		    var myFadeIn = new Fx.Style('eventcalq435', 'opacity', {duration: 500}).start(0, 1);
+		}
+	    });
+	    myAjax.request(); 
+	}});
+    myFadeOut.start(1, 0);
+} 
+</script>
+<div class="eventcalq" align="center" id="eventcalq435"><table class="mod_eventlistcalqajax_calendar" cellspacing="0" cellpadding="0">
+<caption class="mod_eventlistcalqajax_calendar-month"><a href="#" onClick="mod_eventlistcalqajax_click435('http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_eventlistcalqajax/mod_ajaxloader.php?modid=435&amp;Itemid=68&amp;el_mcal_month=3&amp;el_mcal_year=2018'); return false;"> &lt;&lt;</a>&nbsp;<span class="evtq_home"><a href="#" onClick="mod_eventlistcalqajax_click435('http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_eventlistcalqajax/mod_ajaxloader.php?modid=435&amp;Itemid=68&amp;el_mcal_month=04&amp;el_mcal_year=2018'); return false;">Abril&nbsp;2018</a></span><a href="#" onClick="mod_eventlistcalqajax_click435('http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/modules/mod_eventlistcalqajax/mod_ajaxloader.php?modid=435&amp;Itemid=68&amp;el_mcal_month=5&amp;el_mcal_year=2018'); return false;"> &gt;&gt;</a>&nbsp;</caption><tr><th class="mod_eventlistcalqajax_daynames" abbr="Lun">&nbsp;Lu&nbsp;</th><th class="mod_eventlistcalqajax_daynames" abbr="Mar">&nbsp;Ma&nbsp;</th><th class="mod_eventlistcalqajax_daynames" abbr="Mié">&nbsp;Mi&nbsp;</th><th class="mod_eventlistcalqajax_daynames" abbr="Jue">&nbsp;Ju&nbsp;</th><th class="mod_eventlistcalqajax_daynames" abbr="Vie">&nbsp;Vi&nbsp;</th><th class="mod_eventlistcalqajax_daynames" abbr="Sáb">&nbsp;Sá&nbsp;</th><th class="mod_eventlistcalqajax_daynames" abbr="Dom">&nbsp;Do&nbsp;</th></tr>
+<tr><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax_calday">&nbsp;&nbsp;1</td></tr>
+<tr><td class="mod_eventlistcalqajax_calday">&nbsp;&nbsp;2</td><td class="mod_eventlistcalqajax_calday">&nbsp;&nbsp;3</td><td class="mod_eventlistcalqajax_calday">&nbsp;&nbsp;4</td><td class="mod_eventlistcalqajax_calday">&nbsp;&nbsp;5</td><td class="mod_eventlistcalqajax_calday">&nbsp;&nbsp;6</td><td class="mod_eventlistcalqajax_calday">&nbsp;&nbsp;7</td><td class="mod_eventlistcalqajax_calday">&nbsp;&nbsp;8</td></tr>
+<tr><td class="mod_eventlistcalqajax_calday">&nbsp;&nbsp;9</td><td class="mod_eventlistcalqajax_calday">10</td><td class="mod_eventlistcalqajax_calday">11</td><td class="mod_eventlistcalqajax_calday">12</td><td class="mod_eventlistcalqajax_calday">13</td><td class="mod_eventlistcalqajax_calday">14</td><td class="mod_eventlistcalqajax_calday">15</td></tr>
+<tr><td class="mod_eventlistcalqajax_calday">16</td><td class="mod_eventlistcalqajax_calday">17</td><td class="mod_eventlistcalqajax_calday">18</td><td class="mod_eventlistcalqajax_calday">19</td><td class="mod_eventlistcalqajax_calday">20</td><td class="mod_eventlistcalqajax_calday">21</td><td class="mod_eventlistcalqajax_calday">22</td></tr>
+<tr><td class="mod_eventlistcalqajax_caltoday">23</td><td class="mod_eventlistcalqajax_calday">24</td><td class="mod_eventlistcalqajax_calday">25</td><td class="mod_eventlistcalqajax_calday">26</td><td class="mod_eventlistcalqajax_calday">27</td><td class="mod_eventlistcalqajax_calday">28</td><td class="mod_eventlistcalqajax_calday">29</td></tr>
+<tr><td class="mod_eventlistcalqajax_calday">30</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td><td class="mod_eventlistcalqajax">&nbsp;</td></tr>
+</table>
+</div>                         </div>
+           
+                                                            	                              
+		</div>
+			<div class="col-module col-module-style1">
+
+                
+                                                                     
+                            <div class="col-module_header_l"></div>
+                           	<div class="col-module_header_r"></div>
+                                    									
+									<h3><span>Usuarios</span> en Línea</h3>
+                                            
+                                                
+        	
+                        <div class="col-module-content clearfix">
+                        Tenemos&nbsp;902 invitados&nbsp;conectado                        </div>
+           
+                                                            	                              
+		</div>
+			<div class="col-module style2">
+
+                
+                                                                     
+                            <div class="col-module_header_l"></div>
+                           	<div class="col-module_header_r"></div>
+                                    									
+									<h3><span>Videos</span> Sabor Zuliano</h3>
+                                            
+                                                
+        	
+                        <div class="col-module-content clearfix">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" class="vflowlistmodule" style="text-align:center; margin:auto; text-decoration:none; border-width:0px; border-style:solid; font-size:9;"><tr><td><table align='center' style='border: 0px; padding-left:4px; text-align:center;'<tr><td style="text-align:center"><div style="margin-bottom:10px; margin-top:5px; padding-right:4px;"><div><a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_videoflow&amp;task=play&amp;tmpl=component&amp;layout=lightbox&amp;id=65" rel="width:648,height:420" id="vf_xmbox1" class="vf_xmbox" title="YouTube">
+                   <img width="160" height="90" class="" style="border:4px solid; border-color:#EDEDED;" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/components/com_videoflow/players/vflow.jpg"/>
+                   <div class="vflowBoxDesc vf_xmbox1"></div> </a></div></div></td></tr><tr><td style="text-align:center"><div style="margin-bottom:10px; margin-top:5px; padding-right:4px;"><div><a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_videoflow&amp;task=play&amp;tmpl=component&amp;layout=lightbox&amp;id=66" rel="width:648,height:420" id="vf_xmbox2" class="vf_xmbox" title="YouTube">
+                   <img width="160" height="90" class="" style="border:4px solid; border-color:#EDEDED;" src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/components/com_videoflow/players/vflow.jpg"/>
+                   <div class="vflowBoxDesc vf_xmbox2"></div> </a></div></div></td></tr><tr><td style="text-align:center"><div style="margin-bottom:10px; margin-top:5px; padding-right:4px;"><div><a href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/index.php?option=com_videoflow&amp;task=play&amp;tmpl=component&amp;layout=lightbox&amp;id=64" rel="width:648,height:420" id="vf_xmbox3" class="vf_xmbox" title="Simón García">
+                   <img width="160" height="90" class="" style="border:4px solid; border-color:#EDEDED;" src="http://img.youtube.com/vi/NthceuyZ0y8/default.jpg"/>
+                   <div class="vflowBoxDesc vf_xmbox3"></div> </a></div></div></td></tr><tr></tr></table></td></tr></tbody></table><script type="text/javascript">
+						
+			var vfmbox = {};
+			window.addEvent('domready', function(){
+				vfmbox = new MultiBox('vf_xmbox', {descClassName: 'vflowBoxDesc', useOverlay: true});
+			});
+			
+			
+			var vfmboxx = {};
+			window.addEvent('domready', function(){
+				vfmboxx = new MultiBox('vf_xmboxx', {descClassName: 'vflowTboxDesc', useOverlay: true});
+			});
+	
+		</script>
+                        </div>
+           
+                                                            	                              
+		</div>
+	
+                    </div>
+                                    
+                 </div>
+                 <div class="clear-columns"></div>
+                                                                                			
+                             
+                        </div>
+                                         
+                    </div>
+                       
+				</div>
+        
+			</div>
+                                    
+	 	</div><!-- Columns Container --> 
+                          
+         </div>                          
+                 
+		</div>
+                                    
+   
+   
+    	</div>                          
+
+    </div>
+	<!-- Content -->                                            
+                                                        
+		
+	    <!-- Bottom --> 
+	<div id="bottom">
+                                                                                                                       
+		<div class="wrapper">
+                                                       
+			<div class="site-box_t"></div>
+            
+            <div class="site-box_b">  
+            	
+            	<div class="site-box_container clearfix">     
+                                              
+					  <div id="icetabs422" class="ice-slideshow-candy ice-bottom-sl-candy clearfix" style="height:auto; width:auto">
+	 <!-- MAIN CONTENT --> 
+  <div class="ice-main-wapper" style="height:250px;width:920px;">
+ 		  		<div class="ice-main-item"> 
+               <div class="ice-description">
+    <h3 class="ice-title">
+            <a target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1363:jesus-lozano-qel-gaitero-mayorq-video&amp;catid=107:noticias&amp;Itemid=767" title="Jesús Lozano: "El gaitero mayor" (video)">Jesús Lozano: "El gaitero mayor" (video)</a>
+    </h3>
+    <p><em><strong><span style="font-size: 10pt;"><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/jesuslozano.jpg" width="600" height="324" alt="jesuslozano" />Jesús Antonio Lozano Ortega, llamado el Gaitero Mayor, nació en Maracaibo el 11 de julio de 1911 y murió en esta misma ciudad el 11 de octubre de 1985. Músico (furrero y compositor) y albañil.</span></strong></em></p>
+    <a class="ice-readmore" target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1363:jesus-lozano-qel-gaitero-mayorq-video&amp;catid=107:noticias&amp;Itemid=767" title="Jesús Lozano: "El gaitero mayor" (video)"><span class="round"><span>Leer más...</span></span></a>
+ </div>        </div> 
+   		  		<div class="ice-main-item"> 
+               <div class="ice-description">
+    <h3 class="ice-title">
+            <a target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1416:este-jueves-argenis-carruyo-llenara-de-musica-a-sabor-zuliano-norte&amp;catid=107:noticias&amp;Itemid=767" title="Este jueves Argenis Carruyo llenará de música a Sabor Zuliano Norte">Este jueves Argenis Carruyo llenará de música a Sabor Zuliano Norte</a>
+    </h3>
+    <p><strong><span style="font-size: 10pt;"><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/argeniiis.jpg" width="610" height="305" alt="argeniiis" />A partir de las 9 de la noche y con entrada totalmente gratuita, el público zuliano podrá disfrutar del gran repertorio musical que "El volcán de América" ofrecerá en las instalaciones del restaurant Sabor Zuliano Norte, ubicado en el Centro Sambil Maracaibo.</span></strong></p>
+    <a class="ice-readmore" target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1416:este-jueves-argenis-carruyo-llenara-de-musica-a-sabor-zuliano-norte&amp;catid=107:noticias&amp;Itemid=767" title="Este jueves Argenis Carruyo llenará de música a Sabor Zuliano Norte"><span class="round"><span>Leer más...</span></span></a>
+ </div>        </div> 
+   		  		<div class="ice-main-item"> 
+               <div class="ice-description">
+    <h3 class="ice-title">
+            <a target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1369:felipe-pirela-tenia-una-voz-inimitable-y-no-volvera-a-ocurrir-lila-morillo-audio&amp;catid=107:noticias&amp;Itemid=767" title="“Felipe Pirela tenía una voz inimitable y no volverá a ocurrir”: Lila Morillo (audio)">“Felipe Pirela tenía una voz inimitable y no volverá a ocurrir”: Lila Morillo (audio)</a>
+    </h3>
+    <p><em><span style="font-size: 10pt;"><b><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/lila1.jpg" width="600" height="310" alt="lila1" />Lila compartió con “El Bolerista de América” en escenarios nacionales e internacionales y se convirtieron en los vendedores de discos más prolíficos de nuestro país, logrando 1 millón de copias con el sello Velvet.</b></span></em></p>
+    <a class="ice-readmore" target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1369:felipe-pirela-tenia-una-voz-inimitable-y-no-volvera-a-ocurrir-lila-morillo-audio&amp;catid=107:noticias&amp;Itemid=767" title="“Felipe Pirela tenía una voz inimitable y no volverá a ocurrir”: Lila Morillo (audio)"><span class="round"><span>Leer más...</span></span></a>
+ </div>        </div> 
+   		  		<div class="ice-main-item"> 
+               <div class="ice-description">
+    <h3 class="ice-title">
+            <a target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1294:betulio-gonzalez-el-triple-campeon&amp;catid=107:noticias&amp;Itemid=767" title="Betulio González: El triple campeón">Betulio González: El triple campeón</a>
+    </h3>
+    <p><span style="font-size: 10pt;"><strong><i><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/beutliosi.jpg" width="660" height="300" alt="beutliosi" />Betulio Segundo González nació el 24 de octubre 1949 en Maracaibo. Es un ex boxeador de Venezuela, campeón del mundo en la historia del boxeo. Un combatiente de 91 combates, luchó hasta once meses antes de cumplir los cuarenta, la edad obligatoria para jubilarse luchadores profesionales en Venezuela.</i></strong><strong> </strong></span></p>
+    <a class="ice-readmore" target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1294:betulio-gonzalez-el-triple-campeon&amp;catid=107:noticias&amp;Itemid=767" title="Betulio González: El triple campeón"><span class="round"><span>Leer más...</span></span></a>
+ </div>        </div> 
+   		  		<div class="ice-main-item"> 
+               <div class="ice-description">
+    <h3 class="ice-title">
+            <a target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1430:perfil-zuliano-jack-perez-video&amp;catid=107:noticias&amp;Itemid=767" title="Perfil zuliano: Jack Pérez (video)">Perfil zuliano: Jack Pérez (video)</a>
+    </h3>
+    <p><strong><span style="font-size: 10pt;"><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/jacl.jpg" width="620" height="310" alt="jacl" />Jack Humberto Pérez Neuman, cuatrista, compositor y solista, nació el 23 de octubre de 1953 en la parroquia Santa Lucía de Maracaibo, siendo el menor de una familia de 10 hijos conformada por  Hernán Pérez Martínez y María Elisa Neuman.</span></strong></p>
+    <a class="ice-readmore" target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1430:perfil-zuliano-jack-perez-video&amp;catid=107:noticias&amp;Itemid=767" title="Perfil zuliano: Jack Pérez (video)"><span class="round"><span>Leer más...</span></span></a>
+ </div>        </div> 
+   		  		<div class="ice-main-item"> 
+               <div class="ice-description">
+    <h3 class="ice-title">
+            <a target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1433:perfil-zuliano-simon-garcia-video&amp;catid=107:noticias&amp;Itemid=767" title="Perfil Zuliano: Simón García (video)">Perfil Zuliano: Simón García (video)</a>
+    </h3>
+    <p><strong><span style="font-size: 10pt;"><img src="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/images/stories/images/stories/modules/mod_ice_menu/js/components/com_videoflow/views/videoflow/tmpl/multibox/images/stories/images/stories/images/stories/ga.jpg" width="620" height="310" alt="ga" />Nació en Maracaibo el 24 de julio de 1941. Compositor y cantante, ha formado parte de los conjuntos gaiteros: Los Tigres (hasta 1965), Cardenales del Éxito (1966), Guaco (1975), Universidad de la gaita (1980), La Nueva Generación (1981), y reingresó a los Cardenales del Éxito en 1986.</span></strong></p>
+    <a class="ice-readmore" target="_parent"  href="/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/index.php?option=com_content&amp;view=article&amp;id=1433:perfil-zuliano-simon-garcia-video&amp;catid=107:noticias&amp;Itemid=767" title="Perfil Zuliano: Simón García (video)"><span class="round"><span>Leer más...</span></span></a>
+ </div>        </div> 
+   		        
+  </div>
+    <!-- END MAIN CONTENT -->
+	    	<div class="ice-navigator-wrapper clearfix">
+    <!-- NAVIGATOR -->
+      <div class="ice-navigator-outer">
+            <ul class="ice-navigator">
+                            <li><div><img src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/images/lofthumbs/120x60/images/stories/jesuslozano.jpg" title="Jesús Lozano: "El gaitero mayor" (video)" alt="Jesús Lozano: "El gaitero mayor" (video)" />					<h4 class="ice-title">Jesús Lozano: "El gaitero mayor" (video)</h4>
+                 </div></li>
+                             <li><div><img src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/images/lofthumbs/120x60/images/stories/argeniiis.jpg" title="Este jueves Argenis Carruyo llenará de música a Sabor Zuliano Norte" alt="Este jueves Argenis Carruyo llenará de música a Sabor Zuliano Norte" />					<h4 class="ice-title">Este jueves Argenis Carruyo llenará de música a Sabor Zuliano Norte</h4>
+                 </div></li>
+                             <li><div><img src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/images/lofthumbs/120x60/images/stories/lila1.jpg" title="“Felipe Pirela tenía una voz inimitable y no volverá a ocurrir”: Lila Morillo (audio)" alt="“Felipe Pirela tenía una voz inimitable y no volverá a ocurrir”: Lila Morillo (audio)" />					<h4 class="ice-title">“Felipe Pirela tenía una voz inimitable y no volverá a ocurrir”: Lila Morillo (audio)</h4>
+                 </div></li>
+                             <li><div><img src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/images/lofthumbs/120x60/images/stories/beutliosi.jpg" title="Betulio González: El triple campeón" alt="Betulio González: El triple campeón" />					<h4 class="ice-title">Betulio González: El triple campeón</h4>
+                 </div></li>
+                             <li><div><img src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/images/lofthumbs/120x60/images/stories/jacl.jpg" title="Perfil zuliano: Jack Pérez (video)" alt="Perfil zuliano: Jack Pérez (video)" />					<h4 class="ice-title">Perfil zuliano: Jack Pérez (video)</h4>
+                 </div></li>
+                             <li><div><img src="http://saborzuliano.com/index.php/images/templates/it_thelodge/css/modules/mod_socialmedialinks/icons/default/size3/components/com_videoflow/players/components/com_videoflow/players/modules/modules/mod_eventlistcalqajax/images/stories/modules/mod_ice_accordion/js/images/lofthumbs/120x60/images/stories/ga.jpg" title="Perfil Zuliano: Simón García (video)" alt="Perfil Zuliano: Simón García (video)" />					<h4 class="ice-title">Perfil Zuliano: Simón García (video)</h4>
+                 </div></li>
+              		
+            </ul>
+      </div>
+ 	<!-- END NAVIGATOR //-->
+</div>         
+    
+      <div class="ice-buttons-control">
+            <div class="ice-previous">Previous</div>
+            <div class="ice-next">Siguiente</div>
+    	</div>    
+    
+ </div> 
+<script type="text/javascript">
+	var _lofmain =  $('icetabs422'); 
+	var object = new LofSlideshow( _lofmain.getElement('.ice-main-wapper'), 
+								  _lofmain.getElement('.ice-navigator-outer .ice-navigator'),
+								  _lofmain.getElement('.ice-navigator-outer'),
+								  { 
+									  fxObject:{
+										transition:Fx.Transitions.Back.easeOut,  
+										duration:1000									  },
+									  interval:2000,
+									  direction :'vrup', 
+									  navItemHeight:90,
+									  navItemWidth:319.5,
+									  navItemsDisplay:3,
+									  navPos:'bottom'
+								  } );
+			object.registerButtonsControl( 'click', {next:_lofmain.getElement('.ice-next'),previous:_lofmain.getElement('.ice-previous')} );
+			object.start( 0, _lofmain.getElement('.preload') );
+</script>
+
+					  
+					                                                                              
+                                     
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Bottom -->     
+         
+                                    
+         
+                                                            
+                                                        
+                              
+   
+	    <!-- Foooter -->
+    <div id="footer">
+       
+        <div class="wrapper">
+        
+                                    	
+            		
+                                
+                    
+					
+			            <!-- Copyright -->  
+            <div id="copyright">
+                        
+                                        
+                                         <p id="copytext">Copyright &#169; 2018 Sabor Zuliano. Todos los derechos reservados.<br /></p>
+
+                                        
+                                      
+            </div><!-- Copyright -->
+    		   
+	
+    	</div>
+     
+	</div><!-- Foooter --> 
+    	
+       	           
+	
+</body>
+</html>

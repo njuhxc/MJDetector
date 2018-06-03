@@ -1,0 +1,9 @@
+var OX_ce5beb1d = '';
+OX_ce5beb1d += "<"+"a href=\'http://banners.sagainteractive.com/www/delivery/ck.php?oaparams=2__bannerid=12239__zoneid=2108__cb=41d0a6a860__oadest=https%3A%2F%2Fgoo.gl%2Fn3ksVz\' target=\'_blank\'><"+"img src=\'http://banners.sagainteractive.com/images/94e20d3f478dbfaf0e01be9da732ca02.jpg\' width=\'234\' height=\'60\' alt=\'\' title=\'\' border=\'0\' /><"+"/a><"+"div id=\'beacon_41d0a6a860\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://banners.sagainteractive.com/www/delivery/lg.php?bannerid=12239&amp;campaignid=7953&amp;zoneid=2108&amp;loc=http%3A&amp;cb=41d0a6a860\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div><"+"script type=\'text/javascript\'>document.context=\'YjoxMjIzOXw=\'; <"+"/script>\n";
+document.write(OX_ce5beb1d);
+
+if (document.OA_used) document.OA__used += 'bannerid:12239,';
+
+if (document.MAX_used) document.MAX_used += 'bannerid:12239,';
+
+if (document.phpAds_used) document.phpAds_used += 'bannerid:12239,';

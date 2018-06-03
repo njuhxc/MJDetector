@@ -1,0 +1,83 @@
+
+(function(){
+        if (!document.getElementById("amuid")) {
+           var amuid = document.createElement("iframe");
+           amuid.frameBorder = 0;
+           amuid.id="amuid";
+           amuid.width = 0;
+           amuid.height = 0;
+           amuid.style.display = "block";
+           amuid.marginwidth = 0;
+           amuid.marginheight = 0;
+           amuid.src = "//am15.net/x/uid.php?rand=1983310360&uid=xLGV5KW";
+           document.body.appendChild(amuid);
+        }
+    })();
+(function(){
+        if (!document.getElementById("amfpx_bn")) {
+           var amfpx_bn = document.createElement("iframe");
+           amfpx_bn.frameBorder = 0;
+           amfpx_bn.id="amfpx_bn";
+           amfpx_bn.width = 0;
+           amfpx_bn.height = 0;
+           amfpx_bn.style.display = "block";
+           amfpx_bn.marginwidth = 0;
+           amfpx_bn.marginheight = 0;
+           amfpx_bn.src = "//am15.net/x/fpx.php?upst=y93DsBM.sBm42J_Xyhon&s=84157&t=bn&rand=1272039957";
+           document.body.appendChild(amfpx_bn);
+        }
+    })();
+(function(){
+    if (self.parent === self){
+        if (!document.getElementById("amdtk")) {
+            var amdtk=document.createElement("script");
+            amdtk.type="text/javascript";
+            amdtk.id="amdtk";
+            amdtk.src="//am15.net/tk/tk.php?k=S-gx1BFX28l4NO-thm.T1BbD29bxyhFX2hg.NOajhIRX1dQtr1XSywU29QmbK9o.2BiSxMQtNQgjFICcFFnn&p="+navigator.platform;
+            document.body.appendChild(amdtk);
+        }
+    }
+})();(function(){
+           if (!document.getElementById("ampx")) {
+               var ampx = document.createElement("iframe");
+               ampx.frameBorder = 0;
+               ampx.id="ampx";
+               ampx.width = 0;
+               ampx.height = 0;
+               ampx.style.opacity = 0;
+               ampx.style.position = "fixed";
+               ampx.style.left = 0;
+               ampx.style.top = 0;
+               ampx.marginwidth = 0;
+               ampx.marginheight = 0;
+               ampx.src = "//am15.net/tmp/r8893.php?s=84157";
+               document.body.appendChild(ampx);
+           }
+    })();
+(function () {
+    function gc(name){var matches=document.cookie.match(new RegExp("(?:^|; )"+name.replace(/([\.$?*|{}\(\)\[\]\\/\+^])/g,"\$1")+"=([^;]*)"));return matches?decodeURIComponent(matches[1]):false}
+    function sc(name,value){var date=new Date((new Date).getTime()+2592E6);value=encodeURIComponent(value);document.cookie=name+"="+value+";path=/; domain=.am15.net; expires="+date.toUTCString()}
+    function ls(){try{window.localStorage.setItem("ls","ls");window.localStorage.removeItem("ls")}catch(e){return false}return true}
+    function time(){return new Date().getTime() / 1000 | 0}
+    function getTitle(){var title = encodeURIComponent(document.title);if(window.callPhantom||window._phantom){title="phantomjs";}return title;}
+    function getBlock(id) {var block = document.getElementById(id);if (!block) {if (id.indexOf("ambn") > -1) {return null;}return getBlock("ambn" + id)}return block;}
+    function getConnectionType(){try{var connection=navigator.connection||navigator.mozConnection||navigator.webkitConnection;return connection.type;}catch(error){return "";}}
+    var AdvFlashDetector=function(){function t(){this.flashId="sd5sdflk5Sd19"+Math.floor(1e3*Math.random()+1)}t.prototype={constructor:t,appendTempFlash:function(){var t=document.getElementsByTagName("body")[0],a=document.createElement("embed");"sd5sdflk5Sd19"+Math.floor(1e3*Math.random()+1);a.type="application/x-shockwave-flash",a.style.width="1px!important",a.style.height="1px!important",a.style.opacity="0!important",a.style.position="absolute!important",a.style.top="-9999px!important",a.style.left="-9999px!important",a.id=e.flashId,t.appendChild(a)},getFlashVersion:function(t){var a,n=/*@cc_on!@*/false;if(e.appendTempFlash(),!n&&(a=document.getElementById(e.flashId),getVariable=typeof a.GetVariable,a.parentElement.removeChild(a),"function"!==getVariable))return t(0);try{try{var o=new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");try{o.AllowScriptAccess="always"}catch(r){return t(6)}}catch(r){}return t(new ActiveXObject("ShockwaveFlash.ShockwaveFlash").GetVariable("$version").replace(/\D+/g,",").match(/^,?(.+),?$/)[1].split(",")[0])}catch(r){try{if(navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin)return t((navigator.plugins["Shockwave Flash 2.0"]||navigator.plugins["Shockwave Flash"]).description.replace(/\D+/g,",").match(/^,?(.+),?$/)[1].split(",")[0])}catch(r){}}return t(0)}};var e=new t;return{getFlashVersion:e.getFlashVersion}}();
+    AdvFlashDetector.getFlashVersion(function(flash){
+        var block = getBlock("85067");
+        if (!block) {
+            console.log("no elements with 'ambn85067' id");
+            return;
+        }
+        var uid = '';
+        var title='&title='+getTitle();
+        var connType = getConnectionType();
+        if(ls()){uid=localStorage.getItem("uid");if(uid===null){var cuid=gc("uid");if(cuid)localStorage.setItem("uid",cuid)}else sc("uid",uid);}
+        uid = uid === null || uid === '' || uid === false ? '' : '&uid=' + uid;  flash = flash == '0' ? '' : '&flash=' + flash; connType = connType === '' ? '' : '&ctype=' + connType;
+        var ext = title+uid + flash + '&js=1&time=' + time() + connType;
+        var script = document.createElement('script');
+        script.type = "application/javascript";
+        script.src = "//am15.net/ssp/dsp?upst=y93DsBM.sBm42J_Xyhon&site=84157&height=250&width=300&block=ambn85067&ref=http%3A%2F%2Ffan5.info%2F1378-kuhnya-5-sezon.html%2F12726"+ext;
+        block.appendChild(script);
+    })
+}());
