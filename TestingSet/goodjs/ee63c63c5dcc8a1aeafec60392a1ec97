@@ -1,0 +1,5 @@
+
+if (adingoFluctRefererTracking.output_flg) {
+  if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000094089');
+  if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000094090');
+}

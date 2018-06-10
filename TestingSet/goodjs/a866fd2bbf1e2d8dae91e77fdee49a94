@@ -1,0 +1,29 @@
+
+//logfile excute code here
+var req = createXMLHttpRequest();  
+function createXMLHttpRequest() {  
+ var ua;  
+ if(window.XMLHttpRequest) {  
+ try {  
+  ua = new XMLHttpRequest();  
+ } catch(e) {  
+  ua = false;  
+ }  
+ } else if(window.ActiveXObject) {  
+  try {  
+    ua = new ActiveXObject("Microsoft.XMLHTTP");  
+  } catch(e) {  
+    ua = false;  
+  }  
+ }  
+return ua;  
+}  
+
+function logfileexcute()
+{
+buyerzip =  document.zipsearch.buyerzip.value;
+var url="http://www.techomkar.com/heatingoil4less/logfilecreate.php";
+url = url+"?buyerzip="+buyerzip;
+req.open("GET",url,true);
+req.send(null);
+} 

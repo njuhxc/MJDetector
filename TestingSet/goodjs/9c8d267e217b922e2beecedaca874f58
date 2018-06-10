@@ -1,0 +1,9 @@
+
+//<![CDATA[
+if ( (0 <= navigator.userAgent.indexOf('iPad')) || (0 <= navigator.userAgent.indexOf('iPod')) || (0 <= navigator.userAgent.indexOf('iPhone')) || (0 <= navigator.userAgent.indexOf('Android')) ) { // smartphone, tablet : hide.
+document.getElementById('seesaa-bnr').style.display = 'none';
+} else { // ads script here.
+var adstir_vars = {ver: "4.0", app_id: "MEDIA-162b72a7", ad_spot: 2, center: false};
+document.write('<scr'+'ipt type="text/javascript" src="http://js.ad-stir.com/js/adstir.js?20130527"></scr'+'ipt>');
+}
+//]]>

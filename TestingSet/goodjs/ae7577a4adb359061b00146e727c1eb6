@@ -1,0 +1,8 @@
+
+var posts_no = 3;
+var showpoststhumbs = true;
+var readmorelink = true;
+var showcommentslink = true;
+var posts_date = true;
+var post_summary = true;
+var summary_chars = 40;

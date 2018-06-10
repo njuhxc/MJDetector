@@ -1,0 +1,3 @@
+
+try {Histats.start(1,1310919,4,112,95,47,"00011111");
+Histats.track_hits();} catch(err){};

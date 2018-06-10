@@ -1,0 +1,11 @@
+
+<!--
+//¶¥²¿µÇÂ¼
+function __onLoad()
+{
+$.get("./member/state/?key=."+Math.random(), {Action:"get",Name:"lulu"}, function (data, textStatus){
+this;
+document.getElementById("default_Login_State").innerHTML = (data);
+});
+}
+//-->

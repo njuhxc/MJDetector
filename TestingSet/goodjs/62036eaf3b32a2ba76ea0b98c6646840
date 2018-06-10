@@ -1,0 +1,17 @@
+
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "message": "A weboldalon cookie-kat haszn¨¢lunk, hogy biztons¨¢gos b?ng¨¦sz¨¦s mellett a legjobb felhaszn¨¢l¨®i ¨¦lm¨¦nyt ny¨²jthassunk.",
+    "dismiss": "Meg¨¦rtettem!",
+    "href": "https://www.google.com/policies/technologies/cookies/"
+  }
+})});

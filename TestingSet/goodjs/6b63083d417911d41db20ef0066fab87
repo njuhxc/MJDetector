@@ -1,0 +1,3 @@
+<script  type="text/csq-def">
+        {"queue": "cfg-ready-queue", "modname": "SoftcubeAnalyticsController", "args": [], "type": "csm", "singleton": true}
+        </script>

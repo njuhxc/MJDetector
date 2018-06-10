@@ -1,0 +1,20 @@
+
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode4496').value;
+        if(keyword==null||keyword==""){
+            alert("????????????????????");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkeyword4496").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkeyword4496").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkeyword4496").value = base64.encode(document.getElementById("lucenenewssearchkeyword4496").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode4496"));
+        return true;
+    } 

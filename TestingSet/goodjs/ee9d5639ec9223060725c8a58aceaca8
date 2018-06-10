@@ -1,0 +1,3 @@
+
+var chost= ((document.location.protocol=="https:") ? "https://" : "http://");
+document.write("<img height=1 width=1 border=0 src='" + chost + "www.hugedomains.com/Metrics/stat.aspx?r="+Math.floor(Math.random()*5000)+"&s=w36&u=" +escape(window.location.href) + "&rf=' />");

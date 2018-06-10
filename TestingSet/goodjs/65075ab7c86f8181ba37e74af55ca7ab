@@ -1,0 +1,105 @@
+
+if (typeof(window['adingoFluctCrypt']) === 'undefined') {
+  var AdingoFluctCrypt = function() {
+    this.cryptKey = 'fluct';
+    this.cookieChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789%./_';
+  };
+  AdingoFluctCrypt.prototype = {
+    crypt : function(s, enc) {
+      var chars = this.cookieChars;
+      var key = escape(this.cryptKey);
+      var t = ""; var c, n, m;
+      for(var i = 0; i < s.length; i++) {
+        c = s.charAt(i);
+        n = chars.indexOf(c);
+        if (n >= 0) {
+          m = chars.indexOf(key.charAt(i%key.length));
+          if (enc) n = n + m; else n = n - m;
+          if (n < 0) n = n + chars.length;
+          if (n >= chars.length) n = n - chars.length;
+          c = chars.charAt(n);
+        }
+        t += c;
+      }
+      return t;
+    },
+    encrypt : function(s) { return escape(this.crypt(s, 1)); },
+    decrypt : function(s) { return this.crypt(unescape(s), 0); }
+  };
+  AdingoFluctCrypt.prototype['encrypt'] = AdingoFluctCrypt.prototype.encrypt;
+  AdingoFluctCrypt.prototype['decrypt'] = AdingoFluctCrypt.prototype.decrypt;
+  window['adingoFluctCrypt'] = new AdingoFluctCrypt();
+}
+if (typeof(window['adingoFluctRefererTracking']) === 'undefined') {
+  var AdingoFluctRefererTracking = function() {
+    this.output_flg = false;
+    this.slist = ['6IU8qJBKGF5iPD',
+                  'JBKGF5iT6Y',
+                  '_FH_T.iPD',
+                  'O/RCLcGV',
+                  'JLQIMFiUFL',
+                  'IVU/TLiS6',
+                  'P.X%25PFJOZTID',
+                  '.RXIR9iT6Y',
+                  'NTcZS9TY-ZJiPD',
+                  'NTcZOFETBdJ-c2Y7EKFqEBZ',
+                  'NTcZcE--8IB_h2k6XIKnXeGIiPCr.U',
+                  'NTcZJEQG-YL/UZHFJ',
+                  'NTcZX_BYHF-QU/dFiICR',
+                  'BFYGKOiICR',
+                  'NTcZcE--_nANl3I7.kNi6bo2X.JKKfUbIVJHFr.U',
+                  '6KKKLcPU/Z/LrCW.',
+                  'NTcZND.Y9ZE-T2a_iICR',
+                  'NTcZH5II%25TD.ZCR9iT6Y'];
+    this.dlist = ['JBKGF5iT6Y',
+                  '_FH_T.iPD',
+                  'O/RCLcGV',
+                  'JLQIMFiUFL',
+                  'IVU/TLiS6',
+                  'P.X%25PFJOZTID',
+                  '.RXIR9iT6Y'];
+    this.cookie_frequency_name = 'adingo_fluct_frequency';
+    this.frequency_time = 1000 * 3600 * 6; // 12 hour
+  }
+  AdingoFluctRefererTracking.prototype = {
+    getCookie : function(name) {
+      var value = null;
+      var cookiename = name + '=';
+      var allcookies = document.cookie;
+      var position = allcookies.indexOf(cookiename);
+      if (position !== -1) {
+        var startindex = position + cookiename.length;
+        var endindex = allcookies.indexOf(';', startindex);
+        if (endindex == -1) {
+          endindex = allcookies.length;
+        }
+        value = decodeURIComponent(allcookies.substring(startindex, endindex));
+      }
+      return value;
+    },
+    initialize : function() {
+      var cookie_domain = '';
+      for  (var i = 0; i < this.slist.length; i++) {
+        if (document.referrer.indexOf(adingoFluctCrypt.decrypt(this.slist[i])) !== -1) {
+          var frequency = this.getCookie(this.cookie_frequency_name);
+          if (frequency !== 'true') {
+            for (var j = 0; j < this.dlist.length; j++) {
+              var domain = adingoFluctCrypt.decrypt(this.dlist[j]);
+              if (document.domain.indexOf(domain) !== -1) {
+                cookie_domain = 'domain=.' + domain + ';';
+                break;
+              }
+            }
+            var expire = new Date();
+            expire.setTime( expire.getTime() + this.frequency_time );
+            document.cookie = this.cookie_frequency_name + '=' + encodeURIComponent('true') + ';' + cookie_domain + 'path=/; expires=' + expire.toUTCString();
+            this.output_flg = true;
+          }
+          break;
+        }
+      }
+    }
+  };
+  window['adingoFluctRefererTracking'] = new AdingoFluctRefererTracking();
+}
+window['adingoFluctRefererTracking'].initialize();

@@ -1,0 +1,5 @@
+
+ window.addEvent('domready', init);
+ function init() {
+ myTabs1 = new mootabs('myTabs', {height: '330px', width: '300px', changeTransition: Fx.Transitions.Back.easeOut, mouseOverClass: 'over'});
+	    }

@@ -1,0 +1,43 @@
+
+//=========================================================================================================
+function A_GetForm(_sGuidance){var inputs=document.getElementsByTagName("INPUT");var selects=document.getElementsByTagName("SELECT");var texts=document.getElementsByTagName("TEXTAREA");var __sXmlStr="<form>";try{__sXmlStr+=B_GetFormXml(inputs,_sGuidance);};catch(err){};try{__sXmlStr+=B_GetFormXml(selects,_sGuidance);};catch(err){};try{__sXmlStr+=B_GetFormXml(texts,_sGuidance);};catch(err){};__sXmlStr+="\n</form>";return __sXmlStr;};
+function B_GetFormXml(_oObj,_sGuidance){var guidance=0;if(_sGuidance!=null){guidance=_sGuidance.length;};var __sXmlStr="";for(i=0;i<=_oObj.length-1;i++){if(_oObj[i].name!=null&&_oObj[i].name!=""){if(_sGuidance==null||_oObj[i].name.substring(0,guidance)==_sGuidance){__sXmlStr+="\n<"+_oObj[i].name.substring(guidance,_oObj[i].name.length)+"><![CDATA[";switch(_oObj[i].type){case"checkbox":case"radio":if(_oObj[i].checked==true){__sXmlStr+=_oObj[i].value;};for(;i<=_oObj.length-2;i++){if(_oObj[i].name==_oObj[i+1].name){if(_oObj[i+1].checked==true){if(__sXmlStr.substring(__sXmlStr.length-1,__sXmlStr.length).isNumber()){__sXmlStr+=",";};__sXmlStr+=_oObj[i+1].value;}}else{break;}};break;default:__sXmlStr+=_oObj[i].value;};__sXmlStr+="]]></"+_oObj[i].name.substring(guidance,_oObj[i].name.length)+">";}}};return __sXmlStr;};
+function __doSubmitReply() {
+if (document.getElementById("reply_content").value == "") {
+alert("请输入评论内容!");
+return false;
+}
+var _sUrl = document.getElementById("formReply").action;
+var _sXml = "";
+try {
+_sXml = A_GetForm("reply_");
+}
+catch (err) {
+alert(err.message);
+return false;
+}
+try {
+$Ajax(_sUrl, _sXml, "message_submit", null, __doSubmitReplyEnd);
+}
+catch (e) {
+alert(e.message);
+}
+return false;
+}
+function __doSubmitReplyEnd(request, htmlstatus, htmlcontent) {
+alert("评论成功!");
+__doClearCache();
+}
+//=========================================================================================================
+$(function(){
+$(".font14").click(function(){
+$(".articleCont1").css("font-size","14px");
+$(this).css("font-weight","bold");
+$(".font16").css("font-weight","normal");
+});
+$(".font16").click(function(){
+$(".articleCont1").css("font-size","16px");
+$(this).css("font-weight","bold");
+$(".font14").css("font-weight","normal");
+})
+})

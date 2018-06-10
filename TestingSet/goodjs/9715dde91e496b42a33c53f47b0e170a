@@ -1,0 +1,13 @@
+
+ <!--
+ var prefix = 'm&#97;&#105;lt&#111;:';
+ var suffix = '';
+ var attribs = '';
+ var path = 'hr' + 'ef' + '=';
+ var addy19029 = '&#105;nf&#111;' + '&#64;';
+ addy19029 = addy19029 + 'f&#101;st&#105;v&#97;ld&#101;&#105;d&#117;&#101;p&#97;rch&#105;' + '&#46;' + '&#105;t';
+ document.write( '<a ' + path + '\'' + prefix + addy19029 + suffix + '\'' + attribs + '>' );
+ document.write( addy19029 );
+ document.write( '<\/a>' );
+ //-->
+ 

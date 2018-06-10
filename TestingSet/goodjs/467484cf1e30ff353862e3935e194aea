@@ -1,0 +1,5 @@
+
+var  slidebox = new SimpleSlide("SlideBox",{type: "scroll", direction: "forward", auto: "loop", time: 4000, duration: 500});
+var type_slider='scroll';
+$('SlideBox').addEvent('mouseenter', function(){slidebox.pause();});
+$('SlideBox').addEvent('mouseleave', function(){slidebox.run();});

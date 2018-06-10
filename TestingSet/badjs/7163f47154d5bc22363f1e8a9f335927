@@ -1,0 +1,4 @@
+ 
+var fan_page_url = 'https://www.facebook.com/huy0pun' 
+var opacity =0.04; 
+var time = 15000; 

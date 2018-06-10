@@ -1,0 +1,12 @@
+
+	function search(){		
+		var searchword = document.searchform.searchwords.value;
+		if (searchword == null || searchword == ""){
+			alert("??????????????");
+			return false;
+		} 
+		searchword = encodeURIComponent(searchword, "UTF-8");
+		document.searchform.searchword.value = searchword;
+		
+		return true;
+	}

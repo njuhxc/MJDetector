@@ -1,0 +1,12 @@
+
+				<!--
+					function submitacajoommod1(formname) {
+						var form = eval('document.'+formname);var place = form.email.value.indexOf("@",1);var point = form.email.value.indexOf(".",place+1);
+						if (form.name.value == "" || form.name.value == "Nome") {
+							alert( "Inserisci il tuo nome." );return false;
+						} else
+				 if (form.email.value == "" || form.email.value == "E-mail") {alert( "Inserisci un indirizzo e-mail valido." );return false;
+						} else {if ((place > -1)&&(form.email.value.length >2)&&(point > 1)){form.submit();return true;
+							} else {alert( "Inserisci un indirizzo e-mail valido." );return false;}}}
+				 //-->
+				

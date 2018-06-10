@@ -1,0 +1,36 @@
+
+<!--
+function CloseAd(adname){
+document.getElementById(adname).style.display="none";
+}
+lastScrollY=0;
+function heartBeat(){
+var diffY;
+if (document.documentElement && document.documentElement.scrollTop)
+diffY = document.documentElement.scrollTop;
+else if (document.body)
+diffY = document.body.scrollTop
+else
+{/*Netscape stuff*/}
+percent=.1*(diffY-lastScrollY);
+if(percent>0)percent=Math.ceil(percent);
+else percent=Math.floor(percent);
+//手机版块
+document.getElementById("lovexin14").style.top=parseInt(document.getElementById("lovexin14").style.top)+percent+"px";
+//广告版块
+document.getElementById("allAd01").style.top=parseInt(document.getElementById("allAd01").style.top)+percent+"px";
+document.getElementById("allAd02").style.top=parseInt(document.getElementById("allAd02").style.top)+percent+"px";
+lastScrollY=lastScrollY+percent;
+}
+//手机版块
+duilianstr='<a href="/wap/default.aspx" target="_blank"><img src="/images/wap.jpg" style="width:150px;border:none;"></a>';
+suspendcode14='<DIV id="lovexin14" style="left:2px;POSITION:absolute;TOP:300px;z-index:1000;"><div style="margin-bottom:3px;">'+duilianstr+'</div><div style="text-align:center;"><a href="#" onclick=CloseAd("lovexin14")>[关闭]</a></div></div>'
+//广告版块
+duilianstr01='<a href="http://www.cqjzjzzx.com/" target="_blank"><img src="/130130100647619061900000.jpg" alt="首页对联广告" /></a>'
+suspendcode01='<div id="allAd01" style="left:2px;POSITION:absolute;TOP:70px;z-index:50;"><div style="margin-bottom:3px;">'+duilianstr01+'</div><div style="text-align:center;"><a href="#" onclick=CloseAd("allAd01")>[关闭]</a></div></div>'
+suspendcode02='<div id="allAd02" style="right:2px;POSITION:absolute;TOP:70px;z-index:50;"><div style="margin-bottom:3px;">'+duilianstr01+'</div><div style="text-align:center;"><a href="#" onclick=CloseAd("allAd02")>[关闭]</a></div></div>'
+document.write(suspendcode14);
+document.write(suspendcode01);
+document.write(suspendcode02);
+window.setInterval("heartBeat()",1);
+//-->

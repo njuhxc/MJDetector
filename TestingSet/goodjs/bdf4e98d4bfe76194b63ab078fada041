@@ -1,0 +1,21 @@
+
+
+function dialog1() {
+ new Window({url: "http://www.heatingoil4less.com/introduction.html", className: "alphacube",width:530,height:400,top:500, left:300 }).show()
+  WindowCloseKey.init();
+}
+
+function dialog2() {
+ new Window({url: "http://www.heatingoil4less.com/whytry.html", className: "alphacube",width:530,height:400,top:500, left:300 }).show()
+  WindowCloseKey.init();
+}
+
+function dialog3() {
+ new Window({url: "http://www.heatingoil4less.com/greatservice.html", className: "alphacube",width:530,height:400,top:500, left:300 }).show()
+  WindowCloseKey.init();
+}
+
+function howtoapply() {
+ new Window({url: "http://www.heatingoil4less.com/howtoorder.html", className: "alphacube",width:530,height:400,top:250, left:500 }).show()
+  WindowCloseKey.init();
+}

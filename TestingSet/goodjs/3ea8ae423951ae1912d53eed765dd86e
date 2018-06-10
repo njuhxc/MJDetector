@@ -1,0 +1,3 @@
+
+var pageTracker = _gat._getTracker("UA-5992665-1");
+pageTracker._trackPageview();

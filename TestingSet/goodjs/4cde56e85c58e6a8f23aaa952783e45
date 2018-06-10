@@ -1,0 +1,13 @@
+
+
+  var twttr = twttr || {};
+  twttr.tco = {
+    length: 23
+  };
+
+  using('tfw/intents/tweetbox', 'imports/jquery', function(Tweetbox, $) {
+    $('#status').each(function() {
+      new Tweetbox(this, 0, 26);
+    });
+  });
+

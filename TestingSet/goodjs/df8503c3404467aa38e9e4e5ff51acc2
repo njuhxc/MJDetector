@@ -1,0 +1,31 @@
+
+    $(document).foundation();
+
+    $(document).ready(function () {
+        movies_show.centerPanelElems();
+        
+        $("img.lazy").lazyload({
+            threshold : 200
+        });
+        
+        $('.fillImage').resizeToParent({
+            delay: 0
+        });
+        
+        $(".movie-holder .cover-surface").flowtype({
+            fontRatio: 13
+        });
+        
+        $('.marquee').marquee({
+            duration: 40000
+        }).mouseover(function() {
+            $(this).marquee('pause');
+        }).mouseout(function() {
+            $(this).marquee('resume');
+        });
+    });
+
+    $(window).resize(function () {
+        movies_show.centerPanelElems();
+    });
+

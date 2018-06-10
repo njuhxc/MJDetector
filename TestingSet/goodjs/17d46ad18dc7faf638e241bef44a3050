@@ -1,0 +1,20 @@
+
+function seeContenta8(contentid,size,displayid)
+{
+	document.getElementById(contentid).innerHTML = "[";
+	for(var i=0;i<=size;i++)
+	{
+		var allcontentid = contentid+(i+1);
+		if(allcontentid==displayid)
+		{
+			document.getElementById(contentid).innerHTML += " <span id='"+allcontentid+"' name='"+allcontentid+"' "+' class="wb_content" '+" >"+(i+1)+"</span> ";
+			document.getElementById(displayid).style.display = 'block';
+		}else
+		{
+			document.getElementById(contentid).innerHTML += " <span style='cursor:pointer' id='"+allcontentid+"' name='"+allcontentid+"' onclick=seeContenta8('"+contentid+"','"+size+"','"+allcontentid+"') "+' class="wb_content" '+" >"+(i+1)+"</span> ";
+			document.getElementById(allcontentid).style.display = "none";
+		}
+	}
+
+	document.getElementById(contentid).innerHTML += "]";
+}

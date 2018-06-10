@@ -1,0 +1,5 @@
+
+var birdSprite="http://1.bp.blogspot.com/-qsxd6A0vUFU/TqN5vZVI2-I/AAAAAAAAAG8/lb0Ol5Nbrvw/s1600/white+bird.png";
+var targetElems=new Array("img","hr","table","td","div","input","textarea","button","select","ul","ol","li","h1","h2","h3","h4","p","code","object","a","b","strong","span");
+var twitterAccount = "https://twitter.com/kencewblog";
+tripleflapInit();

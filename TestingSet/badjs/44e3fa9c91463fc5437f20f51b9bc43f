@@ -1,0 +1,30 @@
+<script >
+var myCenter = new google.maps.LatLng(38.903185, -77.05804);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:15,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+
+var infowindow = new google.maps.InfoWindow({
+  content:"<br><b>Craftmasters Of Dc Inc</b><br>1048 29th St Nw<br><a href='http://washington-dc.askyp.com/' style='text-decoration:none'>Washington</a>, <a href='http://dc.askyp.com/' style='text-decoration:none'>DC</a> <a href='http://20007.askyp.com/' style='text-decoration:none'>20007</a><br>Phone : (<a href='http://www.askyp.com/Areacode/202.htm' style='text-decoration:none'>202</a>) <a href='http://www.askyp.com/202944.html' style='text-decoration:none'>944</a>-9665<br>"
+  });
+
+google.maps.event.addListener(marker, 'click', function() {
+  infowindow.open(map,marker);
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>

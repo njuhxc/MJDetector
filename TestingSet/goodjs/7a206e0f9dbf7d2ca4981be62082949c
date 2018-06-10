@@ -1,0 +1,7 @@
+
+jQuery(document).ready(function($){
+	$('.form_sp select').change(function(e){
+		$('.form_sp').submit();
+	});
+
+});

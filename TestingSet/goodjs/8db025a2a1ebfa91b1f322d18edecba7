@@ -1,0 +1,7 @@
+
+var adstir_vars = {
+  ver: "4.0",
+  app_id: "MEDIA-162b72a7",
+  ad_spot: 1,
+  center: false
+};

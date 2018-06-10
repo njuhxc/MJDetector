@@ -1,0 +1,7 @@
+
+if(screen.width > 768) {
+document.write('<scr' + 'ipt type="text/javascript" src="http://sh.adingo.jp/?G=1000032261&guid=ON"></scr' + 'ipt>');
+} else {
+document.write('<scr' + 'ipt type="text/javascript" src="http://sh.adingo.jp/?G=1000032260&guid=ON"></scr' + 'ipt>');
+
+}

@@ -1,0 +1,16 @@
+
+// form fields description structure
+var a_fields = {
+
+	'username_forgot_password':{'l':'User Name','r':true,'t':'t_username_forgot_password'}
+	
+},
+
+o_config = {
+	'to_disable' : ['Submit'],
+	'alert' : 1
+}
+
+// validator constructor call
+var vforgotpassword = new validator('registration', a_fields, o_config);
+

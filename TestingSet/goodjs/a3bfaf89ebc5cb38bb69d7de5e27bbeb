@@ -1,0 +1,32 @@
+
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: 'kencewblog',
+  interval: 6000,
+  title: 'follow @kencewblog',
+  subject: '',
+  width: 290,
+  height: 250,
+  theme: {
+    shell: {
+      background: '#00ebf7',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#e60edb'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().start();

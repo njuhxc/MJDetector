@@ -1,0 +1,4 @@
+
+$(function(){
+    $("#KinSlideshow").KinSlideshow();
+})

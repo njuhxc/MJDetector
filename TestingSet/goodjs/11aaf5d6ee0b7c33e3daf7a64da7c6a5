@@ -1,0 +1,295 @@
+
+
+		function sellersorderdetails(){
+
+			gallons = document.zipcodedetails.gallons.value
+
+			var paymethodvalue = 0;
+
+			for (var i=0; i < document.zipcodedetails.paymethod.length; i++)
+			   {
+			   if (document.zipcodedetails.paymethod[i].checked)
+				  {
+				  var paymethod = document.zipcodedetails.paymethod[i].value;
+				   paymethodvalue = 1;
+				  }
+			   }
+ 		   zipcode = document.zipcodedetails.zipcode.value
+
+		   if(gallons==""){
+		   alert("Please Enter Apporximate # of gallons");
+		   return false;
+		   }
+
+		   if(gallons>5000){
+		   alert("Please Enter Gallons between   1 Gallons To 5000  Gallons");
+		   document.zipcodedetails.gallons.value ="";
+		   document.zipcodedetails.gallons.focus();
+		   return false;
+		   }
+
+	      if(isNaN(gallons)){
+		   alert("Please Enter Valid Apporximate # of gallons");
+		   document.zipcodedetails.gallons.value ="";
+		   document.zipcodedetails.gallons.focus();
+		   return false;
+		  }
+
+		   if(paymethodvalue==0){
+		   alert("Please Select Form of payment");
+		   return false;
+		   }
+
+		   if(zipcode==""){
+		   alert("Please Enter Zip Code");
+		   return false;
+		   }
+
+		    document.getElementById('demo_lin').style.display = 'none';
+		    
+		    document.getElementById('box_start').style.display = 'none';
+		    document.getElementById("leftCntr").setAttribute("style","width:225px;");
+
+	   if(paymethod=="cash"){
+		   showgrid(gallons,paymethod,zipcode);
+		   }else if(paymethod=="credit"){
+		   showgrid1(gallons,paymethod,zipcode);
+			}
+
+
+
+
+				}
+
+
+
+
+
+function showgrid(gallons,paymethod,zipcode)
+{
+if (gallons=="" || paymethod=="" || zipcode=="")
+  {
+  document.getElementById("orderBox").innerHTML="";
+  return;
+  }
+
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+
+  // code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("orderBox").innerHTML=xmlhttp.responseText;
+	 document.getElementById('orderboxvalues').style.display = 'block';
+    }
+  }
+
+
+xmlhttp.open("GET","sellersoilpricegrid.php?BuyerZip="+zipcode+"&gallons="+gallons+"&orderpaymethod="+paymethod,true);
+xmlhttp.send();
+
+
+
+}
+
+function showgrid1(gallons,paymethod,zipcode)
+{
+if (gallons=="" || paymethod=="" || zipcode=="")
+  {
+  document.getElementById("orderBox").innerHTML="";
+  return;
+  }
+
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+
+  // code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("orderBox").innerHTML=xmlhttp.responseText;
+
+	document.getElementById('orderboxvalues').style.display = 'block';
+    }
+  }
+
+
+xmlhttp.open("GET","sellersoilpricegrid1.php?BuyerZip="+zipcode+"&gallons="+gallons+"&orderpaymethod="+paymethod,true);
+xmlhttp.send();
+
+
+
+}
+
+
+			function refersorderbox(){
+
+			document.order.gallons.value  = "";
+			document.order.price.value  = "";
+			document.order.totalcostinput.value  = "";
+			document.order.maxprice.value  = "";
+			document.getElementById("selleriddiv").innerHTML = "";
+			document.order.localtax.selectedIndex = "select";
+
+
+			}
+
+			function orderbyheading(orderbyhere){
+
+			gallons = document.zipcodedetails.gallons.value
+
+			var paymethodvalue = 0;
+
+			for (var i=0; i < document.zipcodedetails.paymethod.length; i++)
+			   {
+			   if (document.zipcodedetails.paymethod[i].checked)
+				  {
+				  var paymethod = document.zipcodedetails.paymethod[i].value;
+				   paymethodvalue = 1;
+				  }
+			   }
+ 		   zipcode = document.zipcodedetails.zipcode.value
+
+		   if(gallons==""){
+		   alert("Please Enter Apporximate # of gallons");
+		   return false;
+		   }
+
+		   if(gallons>5000){
+		   alert("Please Enter Gallons between   1 Gallons To 5000  Gallons");
+		   document.zipcodedetails.gallons.value ="";
+		   document.zipcodedetails.gallons.focus();
+		   return false;
+		   }
+
+	      if(isNaN(gallons)){
+		   alert("Please Enter Valid Apporximate # of gallons");
+		   document.zipcodedetails.gallons.value ="";
+		   document.zipcodedetails.gallons.focus();
+		   return false;
+		  }
+
+		   if(paymethodvalue==0){
+		   alert("Please Select Form of payment");
+		   return false;
+		   }
+
+		   if(zipcode==""){
+		   alert("Please Enter Zip Code");
+		   return false;
+		   }
+
+	   if(paymethod=="cash"){
+		   showgrid3(gallons,paymethod,zipcode,orderbyhere);
+		   }else if(paymethod=="credit"){
+		   showgrid4(gallons,paymethod,zipcode,orderbyhere);
+			}
+
+
+
+
+
+
+		}
+
+		function showgrid3(gallons,paymethod,zipcode,orderbyhere)
+{
+if (gallons=="" || paymethod=="" || zipcode=="")
+  {
+  document.getElementById("orderBox").innerHTML="";
+  return;
+  }
+
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+
+  // code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("orderBox").innerHTML=xmlhttp.responseText;
+	 document.getElementById('orderboxvalues').style.display = 'block';
+    }
+  }
+
+
+xmlhttp.open("GET","sellersoilpricegrid.php?BuyerZip="+zipcode+"&gallons="+gallons+"&orderpaymethod="+paymethod+"&priceorderid="+orderbyhere,true);
+xmlhttp.send();
+
+}
+
+function showgrid4(gallons,paymethod,zipcode,orderbyhere)
+{
+if (gallons=="" || paymethod=="" || zipcode=="")
+  {
+  document.getElementById("orderBox").innerHTML="";
+  return;
+  }
+
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+
+  // code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("orderBox").innerHTML=xmlhttp.responseText;
+
+	document.getElementById('orderboxvalues').style.display = 'block';
+    }
+  }
+
+
+xmlhttp.open("GET","sellersoilpricegrid1.php?BuyerZip="+zipcode+"&gallons="+gallons+"&orderpaymethod="+paymethod+"&priceorderid="+orderbyhere,true);
+xmlhttp.send();
+
+
+
+}
+
+
+			function griddispalyenterbutton(e){
+					e = e || window.event;
+					var code = e.keyCode || e.which;
+					if(code == 13){
+							sellersorderdetails();
+							refersorderbox();
+							logfileexcute();
+					}
+   }
+
+
+			

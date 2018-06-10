@@ -1,0 +1,12 @@
+<!--
+function getFullYear(d){//d is a date object
+yr=d.getYear();if(yr<1000)
+yr+=1900;return yr;};//don't delete this line
+
+/* ???¦Ä????????,??????????????*/
+
+document.write("<font color='#FFFFFF'>???????"
++isnDays[today.getDay()]+","+isnMonths[today.getMonth()]+""
++today.getDate()+"??,"+getFullYear(today)+"?? "+clckh+":"+clckm+":"
++clcks+""+clck+"</font>"); // don't delete this line
+//-->

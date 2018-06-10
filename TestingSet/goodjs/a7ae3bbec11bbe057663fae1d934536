@@ -1,0 +1,7 @@
+
+    var thumbnail_mode = "float" ;
+    summary_noimg = 250;
+    summary_img = 250;
+    img_thumb_height = 120;
+    img_thumb_width = 120;
+    

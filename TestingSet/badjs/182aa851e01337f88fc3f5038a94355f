@@ -1,0 +1,1 @@
+<script  type="text/javascript">(function(d) { var f = d.createElement('iframe'); f.id = 'clerk_iframe'; f.src = 'https://my.bigl.ua/~clerk/iframe-legacy.html'; f.style.display = "none"; d.body.appendChild(f); })(document);</script>

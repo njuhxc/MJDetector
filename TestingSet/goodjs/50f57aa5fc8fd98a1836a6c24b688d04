@@ -1,0 +1,11 @@
+
+ 			//<![CDATA[
+  			jQuery(document).ready(function(){
+    			jQuery("body").append("<div id=\"tfmBox\"></div>");
+    			jQuery("#tfmBox").css({'position' : 'fixed', 'top' : '250px', 'width' : '30px', 'height' : '119px', 'z-index' : '1000', 'cursor' : 'pointer', 'background' : '#111111 url(http://blog.optimalupgrades.ca/wp-content/plugins/twitter-follow-me-box/follow-me.png) no-repeat scroll left top', 'right' : '0'});
+    			jQuery("#tfmBox").click(function () { 
+			      window.open('http://twitter.com/ekochman/');
+    			});
+    		});
+    		//]]>
+  		

@@ -1,0 +1,15 @@
+
+/*ËÑË÷ÇÐ»»*/
+function __doSearch(objId, postUrl) {
+var nameList = new Array("product", "member", "buy");
+for (var i = 0; i < nameList.length; i++) {
+if (nameList[i] == objId) {
+document.getElementById(nameList[i]).className = "searchChecked";
+}
+else {
+document.getElementById(nameList[i]).className = "";
+}
+}
+document.getElementById("searchForm").action = postUrl;
+return false;
+}

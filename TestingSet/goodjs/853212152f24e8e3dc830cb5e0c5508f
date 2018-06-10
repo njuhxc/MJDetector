@@ -1,0 +1,10 @@
+
+  var flashvars={};
+  var params = {
+  wmode: "transparent"
+  };
+  var attributes = {};
+  swfobject.embedSWF("http://www.nonsoloparole.com//modules/mod_ulti_clocks/clocks/clock19.swf",
+                         "mod_ulti_clocks","110","110","8",
+			 false, flashvars, params, attributes);		 
+			 

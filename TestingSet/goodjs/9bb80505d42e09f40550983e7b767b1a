@@ -1,0 +1,35 @@
+
+		//createPageHTML(27, 0, "index", "html");
+		var currentPage = 0;//???????0???
+		//var headPage = "index"+"."+"html";//???
+		//var tailPage = "index_" + (countPage-1) + ".html"//¦Â?
+		var prevPage = currentPage-1//????
+		var nextPage = currentPage+1//????
+		var countPage = 27//???????
+		document.write("<span class='yp_left'>????? " + (currentPage + 1) + "/" + countPage + " ?</span><span class='yp_right'>");
+
+		//????????????
+		if(countPage>1&&currentPage!=0&&currentPage!=1)
+			document.write("<a href=\"index.html\">???</a>&nbsp;|&nbsp;<em><a href=\"index"+"_" + prevPage + "."+"html\">????</a></em>&nbsp;");
+		else if(countPage>1&&currentPage!=0&&currentPage==1)
+			document.write("<a href=\"index.html\">???</a>&nbsp;|&nbsp;<em><a href=\"index.html\">????</a></em>&nbsp;");
+		else
+			document.write("???&nbsp;|&nbsp;<em>????</em>&nbsp;");
+			
+		//???
+		var num = 5;
+		for(var i=0+(currentPage-1-(currentPage-1)%num) ; i<=(num+(currentPage-1-(currentPage-1)%num))&&(i<countPage) ; i++){
+			if(currentPage==i)
+				document.write("<a href='#' class='now'>" + (i + 1) + "</a>&nbsp;");
+			else if(i==0){
+				document.write("<a href=\"index.html\">"+1+"</a>&nbsp;");
+			}else 
+				document.write("<a href=\"index"+"_" + i + "."+"html\">"+(i+1)+"</a>&nbsp;");
+		}
+
+		//???????????? 
+		if(countPage>1&&currentPage!=(countPage-1))
+			document.write("<i><a href=\"index"+"_" + nextPage + "."+"html\">????</a></i>&nbsp;|&nbsp;<a href=\"index_" + (countPage-1) + ".html\">¦Â?</a>");
+		else
+			document.write("<i>????</i>&nbsp;|&nbsp;¦Â?&nbsp;");
+	

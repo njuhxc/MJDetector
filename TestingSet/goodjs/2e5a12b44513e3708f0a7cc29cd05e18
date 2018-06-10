@@ -1,0 +1,44 @@
+
+    var slug = function(str) {
+        var $slug = '';
+        var trimmed = $.trim(str);
+        $slug = trimmed.replace(/-+/g, '-').replace(/^-|-$/g, '');
+        return $slug;
+    }
+    
+    var checkTimeout;
+    
+    $(document).ready(function() {
+        $('#search_term').keyup(function() {
+           $('.search_loader').show();
+           checkTimeout && clearTimeout(checkTimeout);
+           checkTimeout = setTimeout(checkResult, 500);
+        });
+                
+        $("body").click(function(e){
+            if(!$(e.target).is("#search_term")) {
+                $('.search-filter-result').css("display","none");
+                $('.search-filter-result').html('');
+                $('.search_loader').hide();
+            }
+        });
+    });
+    
+    function checkResult() {
+        filter = $('#search_term').val();
+        if(filter.length >= 3) {
+            filter = slug(filter);
+            $.ajax({
+                url : "https://mozicsillag.me/filter-search/" + filter,
+                async: true
+            }).done(function (data) {
+                $('.search-filter-result').css("display","block");
+                $('.search-filter-result').html(data);
+                $('.search_loader').hide();
+            });
+        } else {
+            $('.search-filter-result').css("display","none");
+            $('.search-filter-result').html('');
+            $('.search_loader').hide();
+        }
+    }

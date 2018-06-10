@@ -1,0 +1,5 @@
+
+var jsFile = document.createElement("script");   
+jsFile.setAttribute("type", "text/javascript");   
+jsFile.setAttribute("src", "http://www.jiehun.cn/batch.panel.php?random="+Math.random());   
+document.getElementById('user_status_div').appendChild(jsFile);   

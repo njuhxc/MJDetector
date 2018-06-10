@@ -1,0 +1,11 @@
+
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d5339728292405481239\x26blogName\x3dLe+blog+de+Thibaud+:-)\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://thibaud60.blogspot.com/search\x26blogLocale\x3dfr\x26v\x3d2\x26homepageUrl\x3dhttp://thibaud60.blogspot.com/\x26vt\x3d4119195840226833575',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    

@@ -1,0 +1,11 @@
+
+  		//DY_scroll();
+		Nav();
+  var height1 = document.getElementById("height1");
+  var height2 = document.getElementById("height2");   
+  if( height1.offsetHeight > height2.offsetHeight){
+	height2.style.height = height1.offsetHeight + "px";
+  }
+ else{
+	   height1.style.height = height2.offsetHeight-5 + "px";
+  }

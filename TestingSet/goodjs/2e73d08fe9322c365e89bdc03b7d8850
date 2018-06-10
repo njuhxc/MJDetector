@@ -1,0 +1,5 @@
+
+// pour l'instant marche pas bien, j'ai des bullets sur chaque ligne du fait
+// du style css g¨¦n¨¦ral ! il faut que trouve une astuce pour inhiber localement ce style.
+dp.SyntaxHighlighter.BloggerMode();
+dp.SyntaxHighlighter.HighlightAll('code');

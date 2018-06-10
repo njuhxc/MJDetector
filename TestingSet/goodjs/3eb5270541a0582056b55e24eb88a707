@@ -1,0 +1,183 @@
+
+/********************************************************************************************
+* PageEar advertising CornerAd by Webpicasso Media
+* Leave copyright notice.  
+*
+* @copyright www.webpicasso.de
+* @author    christian harz <pagepeel-at-webpicasso.de>
+*********************************************************************************************/
+/*
+ *  Konfiguration / Configuration
+ */ 
+
+//  URL to small image 
+var pagearSmallImg = 'modules/mod_pagepeel_banner/pagepeel_banner/-1'; 
+// URL to small pageear swf
+var pagearSmallSwf = 'modules/mod_pagepeel_banner/pagepeel_banner/pageear_s.swf'; 
+
+// URL to big image
+var pagearBigImg = 'modules/mod_pagepeel_banner/pagepeel_banner/-1'; 
+// URL to big pageear swf
+var pagearBigSwf = 'modules/mod_pagepeel_banner/pagepeel_banner/pageear_b.swf'; 
+
+// Movement speed of small pageear 1-4 (2=Standard)
+var speedSmall = 4; 
+// Mirror image ( true | false )
+var mirror = 'false'; 
+
+// Color of pagecorner if mirror is false
+var pageearColor = 'FFFFFF';  
+
+// URL to open on pageear click
+var jumpTo = 'http://www.' ;
+
+// Browser target  (new) or self (self)
+var openLink = 'self'; 
+
+// Opens pageear automaticly (false:deactivated | 0.1 - X seconds to open) 
+	var openOnLoad = false;
+ 
+
+// Second until pageear close after openOnLoad
+var closeOnLoad = 5; 
+
+// Set direction of pageear in left or right top browser corner (lt: left | rt: right )
+setDirection = 'rt';
+
+
+//add by remush
+var autoopen = 'disable';
+var behaviour = 'reload';
+
+ 
+
+/*
+ *  Do not change anything after this line
+ */ 
+
+// Flash check vars
+var requiredMajorVersion = 6;
+var requiredMinorVersion = 0;
+var requiredRevision = 0;
+
+// Copyright
+var copyright = 'Webpicasso Media, www.webpicasso.de';
+
+// Size small peel 
+var thumbWidth  = 100;
+var thumbHeight = 100;
+
+// Size big peel
+var bigWidth  = 500;
+var bigHeight = 500;
+
+// Css style default x-position
+var xPos = 'right';
+
+
+
+
+// GET - Params
+var queryParams = 'pagearSmallImg='+escape(pagearSmallImg); 
+queryParams += '&pagearBigImg='+escape(pagearBigImg); 
+queryParams += '&pageearColor='+pageearColor; 
+queryParams += '&jumpTo='+escape(jumpTo); 
+queryParams += '&openLink='+escape(openLink); 
+queryParams += '&mirror='+escape(mirror); 
+queryParams += '&copyright='+escape(copyright); 
+queryParams += '&speedSmall='+escape(speedSmall); 
+queryParams += '&openOnLoad='+escape(openOnLoad); 
+queryParams += '&closeOnLoad='+escape(closeOnLoad); 
+queryParams += '&setDirection='+escape(setDirection); 
+
+
+
+
+function openPeel(){	
+	document.getElementById('bigDiv').style.top = '0px'; 
+	document.getElementById('bigDiv').style[xPos] = '0px';
+	document.getElementById('thumbDiv').style.top = '-1000px';
+	
+		
+}
+
+function closePeel(){	
+	document.getElementById("thumbDiv").style.top = "0px";
+	document.getElementById("bigDiv").style.top = "-1000px";
+	
+}
+
+
+
+
+function writeObjects () {    	
+    // Get installed flashversion
+    var hasReqestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+    
+    // Check direction 
+    if(setDirection == 'lt') {
+        xPosBig = 'left:-1000px';  
+        xPos = 'left';      
+    } else {
+        xPosBig = 'right:1000px';
+        xPos = 'right';              
+    }
+    
+	
+    // Write div layer for big swf
+    document.write('<div id="bigDiv" style="position:absolute;width:'+ bigWidth +'px;height:'+ bigHeight +'px;z-index:9999;'+xPosBig+';top:-1000px;">');    	
+    
+    // Check if flash exists/ version matched
+    if (hasReqestedVersion) {    	
+    	AC_FL_RunContent(
+    				"src", pagearBigSwf+'?'+ queryParams,
+    				"width", bigWidth,
+    				"height", bigHeight,
+    				"align", "middle",
+    				"id", "bigSwf",
+    				"quality", "high",
+    				"bgcolor", "#FFFFFF",
+    				"name", "bigSwf",
+    				"wmode", "transparent",
+    				"allowScriptAccess","always",
+    				"type", "application/x-shockwave-flash",
+    				'codebase', 'http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab',
+    				"pluginspage", "http://www.adobe.com/go/getflashplayer"
+    	);
+    } else {  // otherwise do nothing or write message ...    	 
+    	document.write('no flash installed');  // non-flash content
+    } 
+    // Close div layer for big swf
+    document.write('</div>'); 
+    
+    // Write div layer for small swf
+    document.write('<div id="thumbDiv" style="position:absolute;width:'+ thumbWidth +'px;height:'+ thumbHeight +'px;z-index:9999;'+xPos+':0px;top:0px;">');
+    
+    // Check if flash exists/ version matched
+    if (hasReqestedVersion) {    	
+    	AC_FL_RunContent(
+    				"src", pagearSmallSwf+'?'+ queryParams,
+    				"width", thumbWidth,
+    				"height", thumbHeight,
+    				"align", "middle",
+    				"id", "bigSwf",
+    				"quality", "high",
+    				"bgcolor", "#FFFFFF",
+    				"name", "bigSwf",
+    				"wmode", "transparent",
+    				"allowScriptAccess","always",
+    				"type", "application/x-shockwave-flash",
+    				'codebase', 'http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab',
+    				"pluginspage", "http://www.adobe.com/go/getflashplayer"
+    	);
+    } else {  // otherwise do nothing or write message ...    	 
+    	document.write('no flash installed');  // non-flash content
+    } 
+    document.write('</div>');  
+   
+}
+
+
+//added by REMUSH
+//for Set cookies
+

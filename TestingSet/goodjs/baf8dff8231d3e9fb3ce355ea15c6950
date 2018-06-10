@@ -1,0 +1,56 @@
+ 
+    function scrollupMarqueejsu5js()
+    { 
+        try
+        {
+            var scrollup = document.getElementById("scrollupjsu5js");
+            var scrollup1 = document.getElementById("scrollup1jsu5js");
+    
+            //?????????????
+            if(scrollup.scrollTop + scrollup.clientHeight == scrollup.scrollHeight)
+            {
+                scrollup.scrollTop-=scrollup1.clientHeight-1; 
+            }
+            else
+            {
+                scrollup.scrollTop++;
+            }
+            
+        } 
+        catch(e)
+        {
+        }
+    } 
+    var scrollupMyMarjsu5js;
+    function scrollupfunjsu5js()
+    {
+        var speed = 30; 
+        var scrollup = document.getElementById("scrollupjsu5js");
+        var scrollup1 = document.getElementById("scrollup1jsu5js");
+        var scrollup2 = document.getElementById("scrollup2jsu5js");
+        
+        scrollup2.innerHTML=scrollup1.innerHTML;
+        
+        if(scrollup1.scrollHeight == 0 || scrollup1.scrollHeight < 200)
+        {
+            scrollup1.style.height="200px";
+        }
+        else
+        {
+            scrollup1.style.height=scrollup1.scrollHeight + "px";
+        }
+
+        if(scrollup2.scrollHeight == 0 || scrollup2.scrollHeight < 200)
+        {
+            scrollup2.style.height="200px";
+        }
+        else
+        {
+            scrollup2.style.height=scrollup2.scrollHeight + "px";
+        }
+    
+        scrollupMyMarjsu5js=setInterval(scrollupMarqueejsu5js,speed); 
+        scrollup.onmouseover=function() {clearInterval(scrollupMyMarjsu5js)} 
+        scrollup.onmouseout=function() {scrollupMyMarjsu5js=setInterval(scrollupMarqueejsu5js,speed)} 
+    }
+    window.setTimeout(scrollupfunjsu5js, 0);

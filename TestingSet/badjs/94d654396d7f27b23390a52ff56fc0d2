@@ -1,0 +1,15 @@
+<script >
+        document.addEventListener("DOMContentLoaded", function () {
+            var eventJsDwnldIframe = document.createElement('iframe');
+            eventJsDwnldIframe.src = "https://event.mackeeper.com/event.php?step=Landing_Loaded&substep=Hit&affid=mzb_281.22693024.1516614979.32.mzb&bundleid=29_34145663456&prodid=29&response=json";
+            eventJsDwnldIframe.style.display = "none";
+            document.body.appendChild(eventJsDwnldIframe);
+        });
+
+        window.onload =  function () {
+            var eventJsDwnldIframe = document.createElement('iframe');
+            eventJsDwnldIframe.src = "https://event.mackeeper.com/event.php?step=Landing_Loaded&substep=View&affid=mzb_281.22693024.1516614979.32.mzb&bundleid=29_34145663456&prodid=29&response=json";
+            eventJsDwnldIframe.style.display = "none";
+            document.body.appendChild(eventJsDwnldIframe);
+        };
+    </script>

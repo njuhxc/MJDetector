@@ -1,0 +1,4 @@
+
+var bookmark_services = "yahoo,livedoor,hatena,delicious,nifty,newsing,buzzurl,pookmark,choix,saaf,furl,reddit,blinklist,topicit,fc2,iza,pingking,digg,twitthis,bluedot,hthSP,twhSP,fbhSP,lihSP".split('-').join('').split(",");
+var seesaaBookmarks = new blBookmarks({bookmark_services:bookmark_services, blog_url:"http://blog.seesaa.jp"});
+seesaaBookmarks.exe();

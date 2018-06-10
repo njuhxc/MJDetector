@@ -1,0 +1,36 @@
+
+//????
+var c_Calendar58590EnDateString;
+
+var c_Calendar58590WeekDayString;
+
+//????
+var c_Calendar58590CnDateString;
+//????
+var c_Calendar58590JQString;
+//??
+var c_Calendar58590YearString;
+//??
+var c_Calendar58590MonthString;
+//??
+var c_Calendar58590DayString;
+//??
+var c_Calendar58590WeekString;
+function RunGLNL58590()
+{          
+    var  sc =new Simple_Calendar ();
+    sc.init();
+    c_Calendar58590CnDateString=sc.getCnDateString();
+    c_Calendar58590WeekDayString=sc.getCalendarWeekString();
+    c_Calendar58590JQString=sc.getJQString();
+    c_Calendar58590EnDateString=sc.getEnDateString();
+    c_Calendar58590YearString=sc.getYearString();
+    c_Calendar58590MonthString=sc.getMonthString();
+    c_Calendar58590DayString=sc.getDayString();
+    c_Calendar58590WeekString=sc.getWeekString();    
+}
+RunGLNL58590();
+document.write('<div id="c_lunar58590"   class="fontstyle58590"  >');       
+document.write(c_Calendar58590EnDateString);
+document.write("&nbsp;&nbsp;"+c_Calendar58590WeekDayString);
+document.write("&nbsp;&nbsp;"+c_Calendar58590CnDateString);document.write("</div>");

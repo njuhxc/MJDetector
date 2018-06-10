@@ -1,0 +1,48 @@
+
+function formloginvalidation(){
+if(document.loginheader.username.value=="username"){
+alert("Please Enter  Username")
+document.loginheader.username.focus();
+return false;
+}
+
+if(document.loginheader.password.value=="password"){
+alert("Please Enter  Password")
+document.loginheader.password.focus();
+return false;
+}
+return true;
+}
+
+
+function handleFieldbuyerzip(type){
+if(type == 'in' && document.zipsearch.buyerzip.value == 'Enter Zip Code'){
+	document.zipsearch.buyerzip.value = '';
+}
+
+if(type == 'out' && document.zipsearch.buyerzip.value == ''){
+	document.zipsearch.buyerzip.value = 'Enter Zip Code';
+}
+}
+
+// form fields description structure
+var a_fields = {
+	'buyerzip':{'l':'Zip','f':'integer','t':'t_buyerzip'}
+},
+
+o_config = {
+	'to_disable' : ['enter'],
+	'alert' : 1
+}
+
+var zipsearch = new validator('zipsearch', a_fields, o_config);
+function validate(){
+	if(document.zipsearch.buyerzip.value == 'Enter Zip Code' || document.zipsearch.buyerzip.value == ''	){
+		alert("Enter zip code");
+		document.zipsearch.buyerzip.focus();
+		return false;
+}else{
+logfileexcute();
+return true;
+}
+}

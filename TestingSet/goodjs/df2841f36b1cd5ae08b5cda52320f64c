@@ -1,0 +1,19 @@
+
+var skin = {};
+skin['BORDER_COLOR'] = 'transparent';
+skin['ENDCAP_BG_COLOR'] = 'transparent';
+skin['ENDCAP_TEXT_COLOR'] = '#333333';
+skin['ENDCAP_LINK_COLOR'] = '#0000cc';
+skin['ALTERNATE_BG_COLOR'] = 'transparent';
+skin['CONTENT_BG_COLOR'] = 'transparent';
+skin['CONTENT_LINK_COLOR'] = '#0000cc';
+skin['CONTENT_TEXT_COLOR'] = '#333333';
+skin['CONTENT_SECONDARY_LINK_COLOR'] = '#7777cc';
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = '#666666';
+skin['CONTENT_HEADLINE_COLOR'] = '#333333';
+skin['NUMBER_ROWS'] = '3';
+google.friendconnect.container.setParentUrl('/' /* location of rpc_relay.html and canvas.html */);
+google.friendconnect.container.renderMembersGadget(
+ { id: 'div-8467103437537107572',
+   site: '15568568388965415315' },
+  skin);

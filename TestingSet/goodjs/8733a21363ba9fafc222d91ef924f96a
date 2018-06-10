@@ -1,0 +1,12 @@
+
+var msg = document.title;
+msg = " " + msg + " ";
+var speed = 5;
+var pos = 0;
+function movingTitle(){
+ document.title = msg.substr(pos) + msg.substr(0, pos);
+ pos++;
+ if(pos == msg.length){pos = 0;}
+ setTimeout("movingTitle()", 1000/speed);
+}
+movingTitle();

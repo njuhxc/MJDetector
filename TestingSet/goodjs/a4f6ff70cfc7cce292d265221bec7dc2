@@ -1,0 +1,2 @@
+
+if (window.jstiming) window.jstiming.load.tick('headEnd');

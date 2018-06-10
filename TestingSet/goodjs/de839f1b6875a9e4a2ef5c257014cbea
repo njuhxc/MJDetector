@@ -1,0 +1,7 @@
+
+var postperpage=POSTPERPAGE_NUM;
+var numshowpage=3;
+var upPageWord='<i class="fa fa-angle-double-left"></i>';
+var downPageWord='<i class="fa fa-angle-double-right"></i>';
+var urlactivepage=location.href;
+var home_page="/";

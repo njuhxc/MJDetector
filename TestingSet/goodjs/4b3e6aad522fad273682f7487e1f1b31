@@ -1,0 +1,4 @@
+
+if (adingoFluctRefererTracking.output_flg) {
+  document.write('<scr' + 'ipt type="text/javascript" src="https://cdn-fluct.sh.adingo.jp/f.js?G=1000062764&guid=ON"></scr' + 'ipt>');
+}

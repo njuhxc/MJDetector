@@ -1,0 +1,21 @@
+
+jQuery(document).ready(function($){
+
+});
+function handleField(type){
+	if(type == 'in' && document.loginheader.username.value == 'username'){
+	document.loginheader.username.value = '';
+}
+if(type == 'out' && document.loginheader.username.value == ''){
+	document.loginheader.username.value = 'username';
+	}
+}
+
+function handleField1(type){
+	if(type == 'in' && document.loginheader.password.value == 'password'){
+	document.loginheader.password.value = '';
+}
+if(type == 'out' && document.loginheader.password.value == ''){
+	document.loginheader.password.value = 'password';
+}
+}

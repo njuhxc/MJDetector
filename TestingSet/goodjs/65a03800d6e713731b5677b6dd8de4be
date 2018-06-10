@@ -1,0 +1,6 @@
+
+//<![CDATA[
+
+Cufon.replace('#header h1, .title-area, #comments h4 , h3#response-title, .author-name, .sidebar .widget h2, #logo-footer');
+
+//]]>

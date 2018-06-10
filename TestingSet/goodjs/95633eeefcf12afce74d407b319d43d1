@@ -1,0 +1,11 @@
+
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d2169872342924440255\x26blogName\x3dkencew+blog\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://kencew.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://kencew.blogspot.com/\x26targetPostID\x3d8367667704604247671\x26blogPostOrPageUrl\x3dhttp://kencew.blogspot.com/2013/10/astronom-temukan-galaksi-terjauh.html\x26vt\x3d-6725378669170355336',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    

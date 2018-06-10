@@ -1,0 +1,4 @@
+
+document.write('<span class="index"><a href="/search/label/">See all Movies</a></span>');
+document.write('<h1><a href="/search/label/?max-results=8">Movie Category 3</a></h1>');	
+document.write("<script src=\"/feeds/posts/default/-/?max-results="+numposts2+"&orderby=published&alt=json-in-script&callback=showrecentposts1\"><\/script>");

@@ -1,0 +1,7 @@
+
+ try {
+ var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 18);
+ piwikTracker.trackPageView();
+ piwikTracker.enableLinkTracking();
+ } catch( err ) {}
+ 

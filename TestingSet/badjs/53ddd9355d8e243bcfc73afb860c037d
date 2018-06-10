@@ -1,0 +1,6 @@
+<script  type="text/javascript">
+		var doLocRed = false;
+		var jsLocRed = function() {window.location = "http://ww1.smartmediafinder.com/search/redirect.php?f=http%3A%2F%2Fuse.bravo-dog.com%2Fzcvisitor%2F46da14da-fec1-11e7-8b0c-06ebcfc63a5a%3Fcampaignid%3D481025f0-f5d0-11e7-947b-0e06c6fba698&amp;v=NTViNWM4MmRkNWE2ZjAwZDg1NTQ4YTJiMmExY2E4ZTMJMQl3dzEuc21hcnRtZWRpYWZpbmRlci5jb201YTY0YjQzNGIyYmFlOC4xNzQ3NzA0NQl3dzEuc21hcnRtZWRpYWZpbmRlci5jb201YTY0YjQzNGIyYmVhNi45MDM1MTQ3MAkxNTE2NTQ5MTczCWFkXzMxXzA=&amp;l=NglBRFMJMTkzZWQ4YWQ5YjNiM2JkOTgwYzFlNDEzMDViZGI1Y2YJMAkxMwkJMzEJMQkxCTAJMWNlNDljZDg0NmFlMmQ5ZDczYzk3NTZjZjExMDU3ZGIJCTI4MTYwNjc5MQljCTAJCXNtYXJ0bWVkaWFmaW5kZXIJMTEwMQkzMQk1CTU5CTE1MTY1NDkxNzMJMC4wMDAxNAlOCTAJMAkwCQkJCQkJd3cxLnNtYXJ0bWVkaWFmaW5kZXIuY29tNWE2NGI0MzRiMmJhZTguMTc0NzcwNDUJMAkJMQkwCTEyMDUJODAzMzkwNzkJCTM3LjcyLjE3NS42Nw%3D%3D"
+		}
+		if(doLocRed){jsLocRed();}
+		</script>

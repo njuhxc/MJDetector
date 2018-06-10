@@ -1,0 +1,3 @@
+<!--
+if ((0 <= navigator.userAgent.indexOf('iPhone')) || (0 <= navigator.userAgent.indexOf('Android'))) { document.getElementById('iphone-link').style.display = 'block'; }
+//-->

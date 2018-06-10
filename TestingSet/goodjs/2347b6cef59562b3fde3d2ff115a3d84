@@ -1,0 +1,11 @@
+
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d1571327124366531991\x26blogName\x3dkim+v%C4%83n+kim+l%C5%A9-ct11-12-hh1-2-3-4-linh...\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://chungcukimvankimluhh1234linhdam.blogspot.com/search\x26blogLocale\x3dvi\x26v\x3d2\x26homepageUrl\x3dhttp://chungcukimvankimluhh1234linhdam.blogspot.com/\x26targetPostID\x3d6054806527626682728\x26blogPostOrPageUrl\x3dhttp://chungcukimvankimluhh1234linhdam.blogspot.com/2014/12/cho-thue-can-ho-ep-nhat-re-nhat-hien.html\x26vt\x3d1594848316706250433',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    

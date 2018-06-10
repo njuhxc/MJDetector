@@ -1,0 +1,1 @@
+var creditsyear = new Date();document.write(creditsyear.getFullYear());

@@ -1,0 +1,7 @@
+
+      var twttr = twttr || {};
+      twttr.form_authenticity_token = '1d70824ccf81b70c6141cbc0dd34a569507e948b';
+      if (self == top) {
+        document.documentElement.style.display = 'block';
+      }
+    

@@ -1,0 +1,125 @@
+
+                $(document).ready(function() {
+            $('a.handle-vote').click(function (e) {
+                var href = $(this).attr('href');
+
+                if (href == '#') {
+                    $('#login-required').foundation('reveal', 'open');
+                } else {
+                    var form = $('form#vote-form');
+
+                    $.ajax({
+                        type: 'post',
+                        url: href,
+                        data: {'_token' : form.find('input[name=_token]').val(), 'value' : $('div.range-slider').data('slider')},
+                        success: function () {
+                            location.reload();
+                        }
+                    });
+                }
+
+                e.preventDefault();
+            });
+
+            $('a.handle-favorite').click(function (e) {
+                var href = $(this).attr('href');
+
+                if (href == '#') {
+                    $('#login-required').foundation('reveal', 'open');
+                } else {
+                    var form = $('form#favorite-form');
+
+                    $.ajax({
+                        type: 'post',
+                        url: href,
+                        data: {'_token' : form.find('input[name=_token]').val()},
+                        success: function () {
+                            location.reload();
+                        }
+                    });
+                }
+
+                e.preventDefault();
+            });
+
+            $('a.handle-seen').click(function (e) {
+                var href = $(this).attr('href');
+
+                if (href == '#') {
+                    $('#login-required').foundation('reveal', 'open');
+                } else {
+                    var form = $('form#seen-form');
+
+                    $.ajax({
+                        type: 'post',
+                        url: href,
+                        data: {'_token' : form.find('input[name=_token]').val()},
+                        success: function () {
+                            location.reload();
+                        }
+                    });
+                }
+
+                e.preventDefault();
+            });
+
+            
+            $('a.handle-like-comment').click(function (e) {
+                var link = $(this);
+                var href = link.attr('href');
+
+                if (href == '#') {
+                    $('#login-required').foundation('reveal', 'open');
+                } else {
+                    var form = $('form#rate-comment-form');
+
+                    $.ajax({
+                        type: 'post',
+                        url: href,
+                        data: {'_token' : form.find('input[name=_token]').val()},
+                        success: function (data) {
+                            if(data == 'true') {
+                                var count = parseInt(link.find('span#comment-like-count').html());
+                                count++;
+                                link.find('span#comment-like-count').html(' ' + count);
+                            } 
+                            link.attr('href', 'javascrit:void(0)');
+                            $('a.handle-dislike-comment').attr('href', 'javascrit:void(0)');
+                        }
+                    });
+                }
+
+                e.preventDefault();
+            });
+
+            $('a.handle-dislike-comment').click(function (e) {
+                var link = $(this);
+                var href = link.attr('href');
+
+                if (href == '#') {
+                    $('#login-required').foundation('reveal', 'open');
+                } else {
+                    var form = $('form#rate-comment-form');
+
+                    $.ajax({
+                        type: 'post',
+                        url: href,
+                        data: {'_token' : form.find('input[name=_token]').val()},
+                        success: function (data) {
+                            if(data == 'true') {
+                                var count = parseInt(link.find('span#comment-dislike-count').html());
+                                count++;
+                                link.find('span#comment-dislike-count').html(' ' + count);
+                            } 
+                            link.attr('href', 'javascrit:void(0)');
+                            $('a.handle-like-comment').attr('href', 'javascrit:void(0)');
+                        }
+                    });
+                }
+
+                e.preventDefault();
+            });
+
+             
+        });
+    

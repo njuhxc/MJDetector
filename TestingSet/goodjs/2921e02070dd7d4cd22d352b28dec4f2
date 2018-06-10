@@ -1,0 +1,14 @@
+
+//<![CDATA[
+
+if(screen.width > 768) {
+if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000050023');
+if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000050024');
+}
+
+else {
+if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000050021');
+if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000050022');
+
+}
+//]]>

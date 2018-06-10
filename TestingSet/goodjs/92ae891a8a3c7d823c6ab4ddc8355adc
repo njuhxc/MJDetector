@@ -1,0 +1,4 @@
+
+//<![CDATA[
+document.getElementById('seesaa-bnr-close').addEventListener('click', function(){ document.getElementById('seesaa-bnr').style.display = 'none'; });
+//]]>

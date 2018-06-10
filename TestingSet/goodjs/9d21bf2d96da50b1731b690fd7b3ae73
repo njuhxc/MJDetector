@@ -1,0 +1,11 @@
+
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d7891591860159409478\x26blogName\x3dK%C3%AAnh+Tin+T%E1%BB%A9c,+Gi%E1%BA%A3i+Tr%C3%AD++H%E1%BA%A3i+D%C6%B0%C6%A1ng+24H+\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://www.haiduong24h.net/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://www.haiduong24h.net/\x26targetPostID\x3d6035946009739183947\x26blogPostOrPageUrl\x3dhttp://www.haiduong24h.net/2014/01/tai-nan-giao-thong-tai-lo-son-ttphu-thu.html\x26vt\x3d6613185837915410230',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    
